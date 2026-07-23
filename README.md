@@ -28,30 +28,28 @@ has identically square discriminant. Specialisations at rational m produce infin
 
 The numerical lattice that supplies the seeds is the same ternary / resonant lattice that appears in the HQCC and “9 Maths of Unification” arithmetic (order-3 structure, three-generation data, Ad_SO(3) branching).
 
-## Verification status (23 July 2026)
+## Verification status
 
-Stage A + B arithmetic verification has been run and recorded:
+**Stages A + B** (identities, evenness, multi-k recovery) — computationally confirmed.  
+**Stage D** (density & height) — completed:
 
-- Discriminant identities and homogenisation lemma hold.
-- Catalogue seeds are pure-even and realise A₅.
-- Fixed-k slices show zero evenness failures in extensive samples.
-- Cross-k paths are multi-k and pure-even.
-- Explicit even A₆ examples exist.
-- Outsider-checkable rate tables are available.
+- D3 discriminant height asymptotics: **theorem**
+- D1 irreducibility density on the slices: conjecture + strong computational evidence
+- D2 Chebotarev cycle-type proxy: empirical histograms consistent with A₅
 
-See `RESONANT_NUMBER_THEORY.md` and `data/RNT_STAGE_B_SUMMARY.md`.
+See `STAGE_D_DENSITY.md` and `data/STAGE_D_SUMMARY.md`.
 
 ## What this is
 
 - A finished generative arithmetic construction of pure-even A₅ families over ℚ.
 - An organisation of those families by a simple rational invariant k.
 - Explicit multi-seed and multi-k pure-even paths.
-- Computational verification of the core identities and sample rates.
+- Computational verification of core identities, sample rates, and height asymptotics.
 - A carefully documented experimental pipeline that also produced A₆ polynomials.
 
 ## What this is not
 
-- Not a claim of priority for realising A₅ or A₆ (both groups have many known realisations).
+- Not a claim of priority for realising A₅ or A₆.
 - Not a general solution of the Inverse Galois Problem.
 - Not a conceptual theorem that the ternary structure *must* produce alternating monodromy.
 - Not a verification of any physical claims associated with the source arithmetic or with the larger S²-11DM²ET-X framework.
@@ -63,35 +61,22 @@ See `RESONANT_NUMBER_THEORY.md` and `data/RNT_STAGE_B_SUMMARY.md`.
 | Pure-even fixed-k slices | Finished + verified |
 | Multi-seed pure-even families | Finished + verified |
 | 2-parameter envelope + cross-k paths | Finished + verified |
-| Early matrix-template catalogues (A₅ / A₆) | Finished |
 | Stage A+B arithmetic verification | Recorded |
-| Geometric multi-k (Nielsen-labelled Hurwitz family) | Open |
+| Stage D density & height | Recorded (D3 theorem; D1–D2 conjecture + evidence) |
+| Geometric multi-k (Nielsen-labelled) | Open |
 | Structural necessity theorem | Open |
 
 ## Key files
 
-- `ARITHMETIC_MULTI_K.md` — fixed-k slices, envelope, cross-k paths, enlarged seed catalogue
+- `ARITHMETIC_MULTI_K.md` — fixed-k slices, envelope, cross-k paths
+- `STAGE_D_DENSITY.md` — density evidence and height theorem
 - `RESONANT_NUMBER_THEORY.md` — Stage A+B verification report
-- `data/RNT_STAGE_B_SUMMARY.md` — outsider-checkable rate and example summary
-- `CATALOGUE.md` — early matrix-template A₅ (36) and A₆ (4) lists
-- `FUSION_GAP.md` — precise statement of the remaining geometric fusion problem
-- `RESOLUTION.md` — three conceptual criteria that would turn the experiment into a theorem
-- `EVENNESS_OBSTRUCTION.md` — explicit counter-examples showing structural axioms alone do not force square discriminant
-- `RESONANT_ALGEBRA.md` — implications for resonant algebra and the generative use of the ternary lattice
-
-## Pipeline (arithmetic)
-
-```
-ternary / resonant lattice seeds
-        ↓
-Bring–Jerrard form x⁵ + α x + β
-        ↓
-ratio k = β/α
-        ↓
-pure-even 1-parameter family for each k
-        ↓
-envelope / cross-k paths → multi-k pure-even families over ℚ(t)
-```
+- `data/` — outsider-checkable summaries
+- `FUSION_GAP.md` — remaining geometric fusion problem
+- `RESOLUTION.md` — three conceptual criteria for a theorem
+- `EVENNESS_OBSTRUCTION.md` — explicit counter-examples
+- `RESONANT_ALGEBRA.md` — implications for resonant algebra
+- `CATALOGUE.md` — early matrix-template lists
 
 ## License
 

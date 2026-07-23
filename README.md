@@ -28,12 +28,26 @@ has identically square discriminant. Specialisations at rational m produce infin
 
 The numerical lattice that supplies the seeds is the same ternary / resonant lattice that appears in the HQCC and “9 Maths of Unification” arithmetic (order-3 structure, three-generation data, Ad_SO(3) branching).
 
+## Verification status (23 July 2026)
+
+Stage A + B arithmetic verification has been run and recorded:
+
+- Discriminant identities and homogenisation lemma hold.
+- Catalogue seeds are pure-even and realise A₅.
+- Fixed-k slices show zero evenness failures in extensive samples.
+- Cross-k paths are multi-k and pure-even.
+- Explicit even A₆ examples exist.
+- Outsider-checkable rate tables are available.
+
+See `RESONANT_NUMBER_THEORY.md` and `data/RNT_STAGE_B_SUMMARY.md`.
+
 ## What this is
 
 - A finished generative arithmetic construction of pure-even A₅ families over ℚ.
 - An organisation of those families by a simple rational invariant k.
 - Explicit multi-seed and multi-k pure-even paths.
-- A carefully documented experimental pipeline that also produced A₆ polynomials from 6×6 template enlargements.
+- Computational verification of the core identities and sample rates.
+- A carefully documented experimental pipeline that also produced A₆ polynomials.
 
 ## What this is not
 
@@ -42,20 +56,23 @@ The numerical lattice that supplies the seeds is the same ternary / resonant lat
 - Not a conceptual theorem that the ternary structure *must* produce alternating monodromy.
 - Not a verification of any physical claims associated with the source arithmetic or with the larger S²-11DM²ET-X framework.
 
-## Status (July 2026)
+## Status
 
 | Layer | Status |
 |-------|--------|
-| Pure-even fixed-k slices | Finished |
-| Multi-seed pure-even families | Finished (10 distinct k) |
-| 2-parameter envelope + cross-k paths | Finished |
+| Pure-even fixed-k slices | Finished + verified |
+| Multi-seed pure-even families | Finished + verified |
+| 2-parameter envelope + cross-k paths | Finished + verified |
 | Early matrix-template catalogues (A₅ / A₆) | Finished |
+| Stage A+B arithmetic verification | Recorded |
 | Geometric multi-k (Nielsen-labelled Hurwitz family) | Open |
 | Structural necessity theorem | Open |
 
 ## Key files
 
-- `ARITHMETIC_MULTI_K.md` — fixed-k slices, envelope, cross-k paths, and the enlarged seed catalogue
+- `ARITHMETIC_MULTI_K.md` — fixed-k slices, envelope, cross-k paths, enlarged seed catalogue
+- `RESONANT_NUMBER_THEORY.md` — Stage A+B verification report
+- `data/RNT_STAGE_B_SUMMARY.md` — outsider-checkable rate and example summary
 - `CATALOGUE.md` — early matrix-template A₅ (36) and A₆ (4) lists
 - `FUSION_GAP.md` — precise statement of the remaining geometric fusion problem
 - `RESOLUTION.md` — three conceptual criteria that would turn the experiment into a theorem

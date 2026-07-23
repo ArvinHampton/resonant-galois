@@ -1,54 +1,80 @@
 # resonant-galois
 
-**Constructive generation of explicit polynomials with Galois groups A₅ and A₆ from ternary-matrix templates**
+**Constructive arithmetic generation of pure-even A₅ families from a ternary / resonant lattice**
 
-This repository documents an experimental arithmetic construction in Inverse Galois theory.
+This repository documents an experimental but systematic contribution to constructive Inverse Galois theory.
+
+## Core result
+
+An explicit arithmetic theory of pure-even Bring–Jerrard quintics
+
+```
+x⁵ + α x + β ∈ ℚ[x]
+```
+
+organised by the ratio invariant
+
+```
+k = β / α.
+```
+
+For every fixed rational k ≠ 0 the family
+
+```
+α(m) = 256 m² - (3125 k⁴)/256 ,   β(m) = k · α(m)
+```
+
+has identically square discriminant. Specialisations at rational m produce infinitely many A₅ polynomials (and occasionally D₅). Several distinct values of k each carry multiple catalogue seeds, yielding multi-seed pure-even slices. A two-parameter envelope and explicit cross-k paths join seeds belonging to different ratio classes while remaining pure-even over ℚ(t).
+
+The numerical lattice that supplies the seeds is the same ternary / resonant lattice that appears in the HQCC and “9 Maths of Unification” arithmetic (order-3 structure, three-generation data, Ad_SO(3) branching).
 
 ## What this is
 
-A systematic method that produces monic irreducible polynomials over ℚ whose Galois groups are the alternating groups A₅ and A₆. The method uses matrix templates that embed an order-3 / ternary block structure, followed by classical filters (irreducibility, square discriminant, cycle-type census) and computational group identification.
-
-**Catalogues**
-- 36 unique polynomials with Gal = A₅
-- 4 unique polynomials with Gal = A₆
-
-The templates and numerical lattice are motivated by ternary arithmetic arising in the "9 Maths of Unification" / resonant algebra (HQCC qutrit structure, three-generation data, Ad_SO(3) branching).
+- A finished generative arithmetic construction of pure-even A₅ families over ℚ.
+- An organisation of those families by a simple rational invariant k.
+- Explicit multi-seed and multi-k pure-even paths.
+- A carefully documented experimental pipeline that also produced A₆ polynomials from 6×6 template enlargements.
 
 ## What this is not
 
-- Not a claim of priority for realizing A₅ or A₆ (both groups have many known realizations).
+- Not a claim of priority for realising A₅ or A₆ (both groups have many known realisations).
 - Not a general solution of the Inverse Galois Problem.
-- Not a verification of any physical claims associated with the source arithmetic.
-- Not a conceptual theorem that the ternary structure *must* produce alternating groups; it is a successful generative experiment whose evenness obstruction is documented.
+- Not a conceptual theorem that the ternary structure *must* produce alternating monodromy.
+- Not a verification of any physical claims associated with the source arithmetic or with the larger S²-11DM²ET-X framework.
 
-## Pipeline
+## Status (July 2026)
 
-```
-ternary / companion matrix template
-        ↓
-characteristic polynomial
-        ↓
-fast filters: irreducible?  disc square?  cycle types?
-        ↓
-survivors only → full Galois identification
-        ↓
-cross-check
-```
+| Layer | Status |
+|-------|--------|
+| Pure-even fixed-k slices | Finished |
+| Multi-seed pure-even families | Finished (10 distinct k) |
+| 2-parameter envelope + cross-k paths | Finished |
+| Early matrix-template catalogues (A₅ / A₆) | Finished |
+| Geometric multi-k (Nielsen-labelled Hurwitz family) | Open |
+| Structural necessity theorem | Open |
 
 ## Key files
 
-- `RESOLUTION.md` — status of the three conceptual criteria that would turn the experiment into a theorem
-- `CATALOGUE.md` — summary of the A₅ and A₆ polynomials
-- `EVENNESS_OBSTRUCTION.md` — explicit counter-examples (base matrices) showing structural axioms alone do not force square discriminant
+- `ARITHMETIC_MULTI_K.md` — fixed-k slices, envelope, cross-k paths, and the enlarged seed catalogue
+- `CATALOGUE.md` — early matrix-template A₅ (36) and A₆ (4) lists
+- `FUSION_GAP.md` — precise statement of the remaining geometric fusion problem
+- `RESOLUTION.md` — three conceptual criteria that would turn the experiment into a theorem
+- `EVENNESS_OBSTRUCTION.md` — explicit counter-examples showing structural axioms alone do not force square discriminant
+- `RESONANT_ALGEBRA.md` — implications for resonant algebra and the generative use of the ternary lattice
 
-## Status
+## Pipeline (arithmetic)
 
-| Layer                        | Status                          |
-|-----------------------------|---------------------------------|
-| Generative experiment       | Finished and documented         |
-| Catalogues                  | 36 A₅ + 4 A₆                    |
-| Evenness obstruction        | Explicit                        |
-| Conceptual theorem          | Open                            |
+```
+ternary / resonant lattice seeds
+        ↓
+Bring–Jerrard form x⁵ + α x + β
+        ↓
+ratio k = β/α
+        ↓
+pure-even 1-parameter family for each k
+        ↓
+envelope / cross-k paths → multi-k pure-even families over ℚ(t)
+```
 
 ## License
 

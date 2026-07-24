@@ -1,32 +1,42 @@
-# Fusion Gap
+# Fusion gap (locked status)
 
-## Statement
+## Settled
 
-The programme possesses:
+| Item | Status |
+|------|--------|
+| Arithmetic HQCC / pure-even seeds | Theorem-grade |
+| Homogenisation lemma | Proved |
+| Multi-k envelope + cross-k paths | Done |
+| Explicit rigid A₅ cover φ over ℚ | Done |
+| Rigid φ/ℚ even fibres | **Ruled out** (disc = 5·□) |
+| Explicit 3A⁴ model (eliminant, resolvent form) | In hand |
 
-1. A finished arithmetic theory of pure-even multi-k A₅ families over ℚ (fixed-k slices + envelope + cross-k paths).
-2. An explicit rigid geometric A₅ cover φ/ℚ of passport (3A,3A,5A) and several genus-0 Hurwitz classes (notably pure 3A⁴).
+## Still open
 
-It does **not** yet possess a single object that is simultaneously
+**Principal open fusion problem**
 
-- a pure geometric A₅ family (with independent branch-cycle / Nielsen data), and
-- recovers the HQCC / resonant lattice seeds (or multiple fixed-k arithmetic classes) by Hilbert specialisation over ℚ.
+A single object that is at once:
 
-That missing identification is the fusion gap.
+1. a pure geometric A₅ family (Nielsen-labelled, disc □ in the parameter), and  
+2. recovers the HQCC / pure-even seed lattice as Hilbert specialisations
 
-## Ruled-out routes
+— still missing.
 
-- Further surgery on the rigid cover φ/ℚ: fibre discriminant contains a permanent factor of 5, so no even irreducible specialisations over ℚ.
-- Low-degree Diophantine curves on the classical BJ even surface that pass through two or more distinct k-classes: exhaustive scans found none.
+| Track | Status |
+|-------|--------|
+| Arithmetic multi-k | **Done** |
+| Geometric multi-k (Nielsen-labelled) | **Open** |
+| Single-valued f_s ∈ ℚ(s)[y] for 3A⁴ | Open |
+| Rational parameterisation of P(q,w)=0 + BJ → multi-catalogue k | Open |
 
-## Still-open geometric avenues (ranked)
+## Do not conflate
 
-1. Rational resolvent for the pure 3A⁴ class (genus 0, infinitely many ℚ-points).
-2. Next shortlist genus-0 four-point classes (2A 3A³, 2A² 3A², …).
-3. Positive-dimensional pure-even A₅ Hurwitz strata that specialise onto several fixed-k slices.
-4. Base change to a small number field followed by descent (already probed for ℚ(√5); no rational descent recovered the ℤ-lattice).
-5. Higher-rank rigid local systems containing A₅ as a composition factor.
+Arithmetic multi-k (finished) ≠ geometric multi-k (still open).
 
-## Programme stance
+## Next productive directions
 
-Arithmetic multi-k is finished and publishable on its own merits. Geometric multi-k remains an open research problem. The repository records both facts without conflation.
+1. Genus of P(q,w)=0; if 0, global parameterisation → resolvent → k-values vs catalogue.
+2. Non-rigid positive-dimensional Hurwitz A₅ strata with pure-even fibres.
+3. Number-field base change only if leaving ℤ is acceptable.
+
+Updated: 2026-07-24.

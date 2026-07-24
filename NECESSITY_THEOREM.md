@@ -28,8 +28,10 @@ A natural class \(\mathcal{C}\) built only from HQCC / resonant axioms (ternary 
 | irr + disc □ + type (3,1,1) ⇒ \(A_5\) | Group theory |
 | Lattice produces many such fibres | Generative / empirical |
 | Rigid \(\varphi\) monodromy \(A_5\); fibres odd over \(\mathbb{Q}\) | Geometry + obstruction |
-
-These show the lattice *can* feed the classical even locus. They do **not** show HQCC rules *must* force alternating monodromy. The pure-even identity lives in \(\mathbb{Q}(m,k)\) and does not need 539, 4880, or the qutrit map.
+| Candidate C functors F1–F3 | Design mirror implemented; evenness imported or rate 0 |
+| F → T only, disc□ → 1 | **Failed** (rate 0) |
+| New identical-square subclass of T beyond known | **None found** |
+| Genus of P(q,w)=0 | Not 0; rational param blocked |
 
 ---
 
@@ -38,28 +40,20 @@ These show the lattice *can* feed the classical even locus. They do **not** show
 | Criterion | Demand | Current state |
 |-----------|--------|---------------|
 | **1 — Canonical object** | HQCC-defined cover / local system / Gal rep with proved alternating monodromy | Scaffold; no axiom-forced + alternating + native labelling |
-| **2 — Structural axioms** | Finite axioms ⇒ disc □ + 3-cycles always | Fails on current templates (\(M\to S_5\), \(T_6\to S_4\times C_2\)) |
+| **2 — Structural axioms** | Finite axioms ⇒ disc □ + 3-cycles always | Fails on current templates; no new identical-square cut found |
 | **3 — Sign character** | HQCC-invariant \(\chi\) with \(\mathrm{sgn}\circ\rho=\chi\) (or \(=1\)) | No such invariant established |
 
 ---
 
-## Obstructions (explicit)
+## Obstructions (explicit, reinforced)
 
 1. Ternary structural matrices do **not** force disc □.
 2. Ternary weight + \(\det=\pm 1\) do **not** force even monodromy at rate 1.
 3. Pure-even identity is classical BJ geometry, not HQCC-native necessity.
 4. Rigid covers: permanent odd disc factor and/or no HQCC lattice recovery.
-5. Geometric multi-\(k\) via 3A⁴ \(k(s)\): no ≥2 multi-seed catalogue hit.
-
----
-
-## Minimal next attack (if pursued)
-
-1. Smallest resonant matrix subclass with **identically** square disc.
-2. Prove forced 3-cycles on that subclass.
-3. Identify it with something the HQCC axioms actually define (not an extra pure-even ansatz).
-
-Until (3), necessity is unproved.
+5. Geometric multi-\(k\) via 3A⁴: P not genus 0; no strict multi-catalogue hit.
+6. Design-faithful functors F → T (no pure-even insert): disc□ rate 0.
+7. Binary-chosen k + pure-even: works only as composite with pure-even in the codomain.
 
 ---
 
@@ -67,4 +61,5 @@ Until (3), necessity is unproved.
 
 > **Necessity theorem = open research target.**  
 > **Pure-even multi-k arithmetic theory = finished.**  
-> **Generative success ≠ forced alternating monodromy from HQCC axioms.**
+> **Generative success ≠ forced alternating monodromy from HQCC axioms.**  
+> **Design mirror is implemented; it does not force evenness alone.**

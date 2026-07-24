@@ -4,46 +4,40 @@
 
 ## Citable centre
 
-**Pure-even multi-k arithmetic theory** — theorem-grade.
+**Pure-even multi-k arithmetic theory** — theorem-grade (`PURE_EVEN_MULTI_K.md`).
 
-See `PURE_EVEN_MULTI_K.md`:
-- BJ disc identity, operational A₅ criterion, homogenisation
-- Fixed-k slices, 2-parameter envelope, cross-k paths
-- Lattice specialisations and Stage D density/height
-- HQCC / ternary lattice as motivation and specialisation source only
+**Four-face organising principle** — mod-3 branching as dynamics / lattice / matrices / Galois aim.
 
-**Four-face organising principle** — structural reading: the same mod-3 branching appears as dynamics (T₃), lattice, matrix templates, and preferred Galois cycle types (3-cycles generating A_n).
+## Generative enlargements (2026-07-24)
+
+| Tool | Result |
+|------|--------|
+| **Mestre lifts** of HQCC BJ seeds | 1-param families, disc □ in ℚ(t), A₅ specialisations (`NEW_ALGEBRAIC_IDEAS.md`) |
+| **Non-BJ family** P_A = x⁵+75x³+A x²+3A | disc identically □; lattice A → A₅; T-embed with d≠0 |
+
+These enlarge the machine. They do **not** prove that HQCC axioms force alternating monodromy.
 
 ## Explicit non-claims
 
 | Claim | Status |
 |-------|--------|
-| Necessity theorem (HQCC axioms force Gal = A_n) | **Open research — not claimed** |
-| Geometric Nielsen multi-k fusion | Open |
-| Structural template T forces disc □ | False (base M = S₅) |
-| Physical S²-11DM²ET-X claims | Outside this repository |
+| Necessity theorem | **Open research — paused as centre deliverable** |
+| Crit 2: T forces disc □ | **False** (systematic negative) |
+| Geometric Nielsen multi-k | Open |
+| Physical S²-11DM²ET-X | Outside this repo |
 
-## Key results (locked)
+## Key docs
 
-| Item | Doc |
-|------|-----|
-| Pure-even multi-k centre | `PURE_EVEN_MULTI_K.md` |
-| Stage D density / height | `STAGE_D_DENSITY.md` |
-| Criterion 3 (no rate-1 sign character) | `CRITERION3_DEEPEN.md` |
-| Genus of P(q,w)=0 (= 1, not 0) | `GENUS_P_BLOWUP.md` |
-| Arboreal T₃ | `ARBOREAL_T3.md` |
-| Necessity paused | `NECESSITY_THEOREM.md` |
-| Matrix templates / obstruction | `HQCC_MATRIX_TEMPLATES.md` |
-| Candidate C functors | `CANDIDATE_C_FUNCTOR.md` |
-| Resonant algebraic closure | `RESONANT_ALGEBRAIC_CLOSURE.md` |
-| Research roadmap | `RESEARCH_ROADMAP.md` |
-
-## Optional next (non-blocking)
-
-- Catalogue secondary invariants (height, 3-adic valuation, disc primes)
-- Outsider verification README + Magma/Sage scripts
-- Deeper arboreal polynomial models
-- Other Nielsen genus-0 hunts
+| Doc | Role |
+|-----|------|
+| `PURE_EVEN_MULTI_K.md` | Theorem-grade arithmetic centre |
+| `NEW_ALGEBRAIC_IDEAS.md` | Mestre + non-BJ + embed results |
+| `NECESSITY_THEOREM.md` | Paused open research |
+| `STAGE_D_DENSITY.md` | Density / height |
+| `HQCC_MATRIX_TEMPLATES.md` | T, base M = S₅, BJ-embed |
+| `CRITERION3_DEEPEN.md` | No rate-1 sign character |
+| `GENUS_P_BLOWUP.md` | P has g=1 |
+| `RESEARCH_ROADMAP.md` | Current priorities |
 
 ## License
 

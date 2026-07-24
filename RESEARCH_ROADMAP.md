@@ -1,56 +1,38 @@
-# Research roadmap — priority lock (2026-07-24)
+# Research roadmap — post-pause lock (2026-07-24)
 
-## Finished centre (do not reopen)
+## Citable package (centre)
 
-| Layer | Status |
+1. Pure-even multi-k arithmetic — **finished** (`PURE_EVEN_MULTI_K.md`)
+2. Four-face organising principle — structural reading
+
+Necessity theorem: **paused as open research**, not a centre deliverable.
+
+---
+
+## Completed probes
+
+| Track | Outcome |
 |-------|--------|
-| Pure-even multi-k arithmetic | **Finished** |
-| Stage D density / height | Locked |
-| Candidate C functors F1–F3 | Done |
-| Sharp next A/B/C | Done (no necessity fragment) |
-| Genus of P(q,w)=0 | Done (g ≈ 1, not 0) |
-| Tier 1.1 deepen | **Done — no Crit-2 fragment** |
-
-Arithmetic multi-k = **citable centre**. Nielsen fusion = open research.
+| 1.1 Identical-square subclass of T | No Crit-2 fragment |
+| 1.2 Candidate C functors + sharp next | Design mirror yes; force evenness no |
+| 1.3 / blowup genus of P | g = 1, not 0 |
+| Criterion 3 sign characters | No rate-1 character on T |
+| Arboreal T₃ | Evenness from pure-even, not dynamics alone |
 
 ---
 
-## Tier 1 status
-
-| Track | Status | Priority |
-|-------|--------|----------|
-| 1.1 Identical-square subclass of T | **Exhausted at current ideas** (ceiling = pure-even envelope dim 2; beyond BJ dim 1 only; none HQCC-native) | Further only with new algebraic idea |
-| 1.2 Functor C | Done + sharp next done | — |
-| 1.3 Genus of P | Done (g>0) | Non-blocking / optional |
-
----
-
-## Default priority now: Tier 2
+## Optional next (non-blocking)
 
 | Item | Goal |
 |------|------|
-| **2.1 Publish pure-even multi-k paper** | Theorem-grade core; HQCC as lattice motivation only |
-| **2.2 Catalogue invariants** | Height, 3-adic valuation, disc primes beyond k |
-| **2.3 Verification package** | Magma/Sage scripts for outsider reproduction |
-
----
-
-## Open but not current default
-
-| Track | Note |
-|-------|------|
-| Criterion 3 (sign character) | No invariant yet |
-| Criterion 1 (canonical object) | Scaffold only |
-| Further 1.1 | Needs new algebraic input |
-| Geometric blowup / other Nielsen | Non-blocking |
-| Arboreal Gal of T₃ | Optional |
-| Physical S²-11DM²ET-X | Separate proposed framework |
-
----
+| Catalogue secondary invariants | Height, 3-adic val, disc primes beyond k |
+| Outsider verification package | Magma/Sage + README |
+| Deeper arboreal polynomial model | Optional statistics |
+| Other Nielsen genus-0 hunts | Low priority |
+| New algebraic ideas (Mestre, non-BJ families, new matrix avatar) | Only if returning to necessity |
 
 ## Slogan
 
-> Necessity theorem = open research target.  
-> Pure-even multi-k arithmetic theory = finished.  
-> Criterion 2 via T-subclasses = no fragment found at current ideas.  
-> Generative success ≠ forced alternating monodromy from HQCC axioms.
+> Pure-even multi-k = finished.  
+> Four-face principle = organising reading.  
+> Necessity = open research, not centre deliverable.

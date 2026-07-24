@@ -4,23 +4,23 @@
 
 1. Pure-even multi-k arithmetic centre — **finished**
 2. Stage D (density / height) — locked
-3. Rigid t=3 negative control — locked (S₅, disc = 5·□)
+3. Rigid t=3 negative control — locked (S₅)
 4. Pure-even specialisations positive control — locked
 5. Non-classical R_n track — scaffolded
-6. Explicit 3A⁴ resolvent model — in hand; geometric multi-k still open
-7. Necessity theorem — **locked as open research target**
-8. HQCC matrix templates — **explored and documented** (base M = S₅; T(a..f); BJ-embed)
+6. Explicit 3A⁴ resolvent model — in hand; geometric multi-k open
+7. Necessity theorem — **open research target**
+8. HQCC matrix templates — documented (base M = S₅; T; BJ-embed)
+9. Resonant algebraic closure — **locked** (A = multi-k machine; C = design mirror; B/D no necessity)
 
 ## Repo map
 
 ```
 README.md
 NECESSITY_THEOREM.md
-HQCC_MATRIX_TEMPLATES.md     ← base M, T(a..f), BJ-embed, T₆
+RESONANT_ALGEBRAIC_CLOSURE.md
+HQCC_MATRIX_TEMPLATES.md
 ARITHMETIC_MULTI_K.md
 STAGE_D_DENSITY.md
-STAGE_A_B_VERIFICATION.md
-RESONANT_NUMBER_THEORY.md
 RIGID_FIBRE_T3.md
 PURE_EVEN_SPECIALISATIONS.md
 EXPLICIT_3A4_EQUATION.md
@@ -30,6 +30,7 @@ RESOLUTION.md
 RESONANT_ALGEBRA.md
 EVENNESS_OBSTRUCTION.md
 CATALOGUE.md
+RESONANT_NUMBER_THEORY.md
 data/
 STATUS_LOCK_2026-07-24.md
 ```
@@ -38,6 +39,8 @@ STATUS_LOCK_2026-07-24.md
 
 > Necessity theorem = open research target.  
 > Pure-even multi-k arithmetic theory = finished.  
+> Resonant algebraic closure (operational) = Candidate A.  
+> Mirror of binary = Candidate C (design only).  
 > Generative success ≠ forced alternating monodromy from HQCC axioms.
 
 ## Physical framework note

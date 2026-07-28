@@ -1,0 +1,601 @@
+{
+  "elapsed_s": 2.72,
+  "verdict": "Arboreal T3 (2.72s). Path monodromy encodings: 4 cycle types on 63 seeds (design-dependent 3-cycle generators). Layer B (pure-even m from T3/model): n=42, disc\u25a1=42, A5=12. Layer C (static m lattice): irr=30, disc\u25a1=30. Frob TV distance B vs C: 0.0368. Preimage-tree polys: typically reducible / not A5 sources. Conclusion: dynamical T3 and static catalogue share pure-even evenness when m is fed into the classical envelope; path monodromy stats are encoding-dependent and do not by themselves prove arboreal necessity. Statistics consistent with design, not a new Galois theorem.",
+  "path_monodromy": {
+    "histogram": {
+      "(1, 1, 1, 1, 1)": 4,
+      "(5,)": 23,
+      "(3, 1, 1)": 24,
+      "(2, 2, 1)": 12
+    },
+    "samples": [
+      {
+        "n0": 1,
+        "path_len": 24,
+        "cycles": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "n0": 2,
+        "path_len": 24,
+        "cycles": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "n0": 3,
+        "path_len": 24,
+        "cycles": [
+          5
+        ]
+      },
+      {
+        "n0": 9,
+        "path_len": 24,
+        "cycles": [
+          5
+        ]
+      },
+      {
+        "n0": 27,
+        "path_len": 24,
+        "cycles": [
+          3,
+          1,
+          1
+        ]
+      },
+      {
+        "n0": 61,
+        "path_len": 24,
+        "cycles": [
+          5
+        ]
+      },
+      {
+        "n0": 80,
+        "path_len": 24,
+        "cycles": [
+          2,
+          2,
+          1
+        ]
+      },
+      {
+        "n0": 243,
+        "path_len": 24,
+        "cycles": [
+          5
+        ]
+      },
+      {
+        "n0": 539,
+        "path_len": 24,
+        "cycles": [
+          5
+        ]
+      },
+      {
+        "n0": 4880,
+        "path_len": 24,
+        "cycles": [
+          5
+        ]
+      },
+      {
+        "n0": 55,
+        "path_len": 24,
+        "cycles": [
+          5
+        ]
+      },
+      {
+        "n0": 88,
+        "path_len": 24,
+        "cycles": [
+          2,
+          2,
+          1
+        ]
+      },
+      {
+        "n0": 95,
+        "path_len": 24,
+        "cycles": [
+          3,
+          1,
+          1
+        ]
+      },
+      {
+        "n0": 100,
+        "path_len": 24,
+        "cycles": [
+          3,
+          1,
+          1
+        ]
+      },
+      {
+        "n0": 1,
+        "path_len": 24,
+        "cycles": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "n0": 2,
+        "path_len": 24,
+        "cycles": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "n0": 3,
+        "path_len": 24,
+        "cycles": [
+          5
+        ]
+      },
+      {
+        "n0": 4,
+        "path_len": 24,
+        "cycles": [
+          5
+        ]
+      },
+      {
+        "n0": 5,
+        "path_len": 24,
+        "cycles": [
+          5
+        ]
+      },
+      {
+        "n0": 6,
+        "path_len": 24,
+        "cycles": [
+          3,
+          1,
+          1
+        ]
+      }
+    ],
+    "encoding": "g0,g1,g2 3-cycles"
+  },
+  "layer_B": {
+    "k": "-8/5",
+    "n_fibres": 42,
+    "n_disc_sq": 42,
+    "n_A5": 12,
+    "frob_histogram": {
+      "(5,)": 325,
+      "(3, 1, 1)": 291,
+      "(2, 2, 1)": 172,
+      "(1, 1, 1, 1, 1)": 2
+    },
+    "sample_rows": [
+      {
+        "n0": 1,
+        "m": "1/5",
+        "A": -17031250000,
+        "B": 3406250000000,
+        "disc_sq": true,
+        "status": "HIT_A5",
+        "galois": "S5TransitiveSubgroups.A5",
+        "frob_top": {
+          "(3, 1, 1)": 10,
+          "(5,)": 7,
+          "(2, 2, 1)": 3
+        }
+      },
+      {
+        "n0": 1,
+        "m": "1/8",
+        "A": -47500,
+        "B": 380000,
+        "disc_sq": true,
+        "status": "HIT_A5",
+        "galois": "S5TransitiveSubgroups.A5",
+        "frob_top": {
+          "(5,)": 11,
+          "(3, 1, 1)": 5,
+          "(2, 2, 1)": 3
+        }
+      },
+      {
+        "n0": 1,
+        "m": "1/16",
+        "A": -49375,
+        "B": 395000,
+        "disc_sq": true,
+        "status": "HIT_A5",
+        "galois": "S5TransitiveSubgroups.A5",
+        "frob_top": {
+          "(3, 1, 1)": 8,
+          "(5,)": 7,
+          "(2, 2, 1)": 4
+        }
+      },
+      {
+        "n0": 2,
+        "m": "2/5",
+        "A": -9531250000,
+        "B": 1906250000000,
+        "disc_sq": true,
+        "status": "HIT_A5",
+        "galois": "S5TransitiveSubgroups.A5",
+        "frob_top": {
+          "(3, 1, 1)": 10,
+          "(5,)": 7,
+          "(2, 2, 1)": 3
+        }
+      },
+      {
+        "n0": 2,
+        "m": "1/4",
+        "A": -40000,
+        "B": 320000,
+        "disc_sq": true,
+        "status": "HIT_A5",
+        "galois": "S5TransitiveSubgroups.A5",
+        "frob_top": {
+          "(5,)": 8,
+          "(3, 1, 1)": 6,
+          "(2, 2, 1)": 6
+        }
+      },
+      {
+        "n0": 2,
+        "m": "1/8",
+        "A": -47500,
+        "B": 380000,
+        "disc_sq": true,
+        "status": "HIT_A5",
+        "galois": "S5TransitiveSubgroups.A5",
+        "frob_top": {
+          "(5,)": 11,
+          "(3, 1, 1)": 5,
+          "(2, 2, 1)": 3
+        }
+      },
+      {
+        "n0": 3,
+        "m": "3/5",
+        "A": 2968750000,
+        "B": -593750000000,
+        "disc_sq": true,
+        "status": "HIT_A5",
+        "galois": "S5TransitiveSubgroups.A5",
+        "frob_top": {
+          "(3, 1, 1)": 8,
+          "(2, 2, 1)": 6,
+          "(5,)": 4
+        }
+      },
+      {
+        "n0": 3,
+        "m": "3/8",
+        "A": -27500,
+        "B": 220000,
+        "disc_sq": true,
+        "status": "HIT_A5",
+        "galois": "S5TransitiveSubgroups.A5",
+        "frob_top": {
+          "(5,)": 8,
+          "(3, 1, 1)": 7,
+          "(2, 2, 1)": 3
+        }
+      },
+      {
+        "n0": 3,
+        "m": "3/16",
+        "A": -44375,
+        "B": 355000,
+        "disc_sq": true,
+        "status": "HIT_A5",
+        "galois": "S5TransitiveSubgroups.A5",
+        "frob_top": {
+          "(3, 1, 1)": 7,
+          "(5,)": 6,
+          "(2, 2, 1)": 5
+        }
+      },
+      {
+        "n0": 9,
+        "m": "9/5",
+        "A": 182968750000,
+        "B": -36593750000000,
+        "disc_sq": true,
+        "status": "HIT_A5",
+        "galois": "S5TransitiveSubgroups.A5",
+        "frob_top": {
+          "(5,)": 7,
+          "(3, 1, 1)": 6,
+          "(2, 2, 1)": 6
+        }
+      },
+      {
+        "n0": 9,
+        "m": "9/8",
+        "A": 152500,
+        "B": -1220000,
+        "disc_sq": true,
+        "status": "HIT_A5",
+        "galois": "S5TransitiveSubgroups.A5",
+        "frob_top": {
+          "(5,)": 10,
+          "(3, 1, 1)": 5,
+          "(2, 2, 1)": 4
+        }
+      },
+      {
+        "n0": 9,
+        "m": "9/16",
+        "A": 625,
+        "B": -5000,
+        "disc_sq": true,
+        "status": "HIT_A5",
+        "galois": "S5TransitiveSubgroups.A5",
+        "frob_top": {
+          "(3, 1, 1)": 9,
+          "(5,)": 7,
+          "(2, 2, 1)": 3
+        }
+      },
+      {
+        "n0": 27,
+        "m": "27/5",
+        "A": 1802968750000,
+        "B": -360593750000000,
+        "disc_sq": true,
+        "status": null,
+        "frob_top": {
+          "(3, 1, 1)": 7,
+          "(5,)": 7,
+          "(2, 2, 1)": 4
+        }
+      },
+      {
+        "n0": 27,
+        "m": "27/8",
+        "A": 1772500,
+        "B": -14180000,
+        "disc_sq": true,
+        "status": null,
+        "frob_top": {
+          "(3, 1, 1)": 9,
+          "(5,)": 6,
+          "(2, 2, 1)": 4
+        }
+      },
+      {
+        "n0": 27,
+        "m": "27/16",
+        "A": 405625,
+        "B": -3245000,
+        "disc_sq": true,
+        "status": null,
+        "frob_top": {
+          "(5,)": 7,
+          "(3, 1, 1)": 5,
+          "(2, 2, 1)": 5
+        }
+      },
+      {
+        "n0": 61,
+        "m": "61/5",
+        "A": 9282968750000,
+        "B": -1856593750000000,
+        "disc_sq": true,
+        "status": null,
+        "frob_top": {
+          "(5,)": 9,
+          "(3, 1, 1)": 7,
+          "(2, 2, 1)": 3
+        }
+      },
+      {
+        "n0": 61,
+        "m": "61/8",
+        "A": 9252500,
+        "B": -74020000,
+        "disc_sq": true,
+        "status": null,
+        "frob_top": {
+          "(3, 1, 1)": 8,
+          "(5,)": 7,
+          "(2, 2, 1)": 5
+        }
+      },
+      {
+        "n0": 61,
+        "m": "61/16",
+        "A": 2275625,
+        "B": -18205000,
+        "disc_sq": true,
+        "status": null,
+        "frob_top": {
+          "(3, 1, 1)": 7,
+          "(2, 2, 1)": 7,
+          "(5,)": 5
+        }
+      },
+      {
+        "n0": 80,
+        "m": "16",
+        "A": 40910000,
+        "B": -327280000,
+        "disc_sq": true,
+        "status": null,
+        "frob_top": {
+          "(5,)": 8,
+          "(3, 1, 1)": 8,
+          "(2, 2, 1)": 4
+        }
+      },
+      {
+        "n0": 80,
+        "m": "10",
+        "A": 25520,
+        "B": -40832,
+        "disc_sq": true,
+        "status": null,
+        "frob_top": {
+          "(3, 1, 1)": 8,
+          "(5,)": 5,
+          "(2, 2, 1)": 5
+        }
+      },
+      {
+        "n0": 80,
+        "m": "5",
+        "A": 6320,
+        "B": -10112,
+        "disc_sq": true,
+        "status": null,
+        "frob_top": {
+          "(3, 1, 1)": 7,
+          "(5,)": 6,
+          "(2, 2, 1)": 6
+        }
+      },
+      {
+        "n0": 243,
+        "m": "243/5",
+        "A": 147602968750000,
+        "B": -29520593750000000,
+        "disc_sq": true,
+        "status": null,
+        "frob_top": {
+          "(5,)": 11,
+          "(2, 2, 1)": 4,
+          "(3, 1, 1)": 4
+        }
+      },
+      {
+        "n0": 243,
+        "m": "243/8",
+        "A": 147572500,
+        "B": -1180580000,
+        "disc_sq": true,
+        "status": null,
+        "frob_top": {
+          "(3, 1, 1)": 10,
+          "(2, 2, 1)": 5,
+          "(5,)": 4
+        }
+      },
+      {
+        "n0": 243,
+        "m": "243/16",
+        "A": 36855625,
+        "B": -294845000,
+        "disc_sq": true,
+        "status": null,
+        "frob_top": {
+          "(5,)": 10,
+          "(2, 2, 1)": 5,
+          "(3, 1, 1)": 4
+        }
+      }
+    ]
+  },
+  "layer_C": {
+    "n_irr": 30,
+    "n_disc_sq": 30,
+    "frob_histogram": {
+      "(5,)": 252,
+      "(3, 1, 1)": 198,
+      "(2, 2, 1)": 114,
+      "(1, 1, 1, 1, 1)": 4
+    },
+    "empirical_rates": {
+      "(3, 1, 1)": 0.3486,
+      "(5,)": 0.4437,
+      "(2, 2, 1)": 0.2007,
+      "(1, 1, 1, 1, 1)": 0.007
+    },
+    "a5_expected_rates": {
+      "(1,1,1,1,1)": 0.0167,
+      "(2,2,1)": 0.25,
+      "(3,1,1)": 0.3333,
+      "(5,)": 0.4
+    },
+    "statuses": {
+      "disc_sq": 30
+    }
+  },
+  "compare_BC": {
+    "tv_distance": 0.0368,
+    "shared_keys": [
+      "(1, 1, 1, 1, 1)",
+      "(2, 2, 1)",
+      "(3, 1, 1)",
+      "(5,)"
+    ]
+  },
+  "tree": {
+    "rows": [
+      {
+        "root": 1,
+        "depth": 3,
+        "n_nodes": 4,
+        "degree": 4,
+        "irreducible": false,
+        "disc_square": true,
+        "factor_degs": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "root": 3,
+        "depth": 3,
+        "n_nodes": 4,
+        "degree": 4,
+        "irreducible": false,
+        "disc_square": true,
+        "factor_degs": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "root": 61,
+        "depth": 3,
+        "n_nodes": 4,
+        "degree": 4,
+        "irreducible": false,
+        "disc_square": true,
+        "factor_degs": [
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+# Other rigid triples + mild A5-preserving deformations
+
+_Elapsed: 7.93s_
+
+## Goal
+
+Systematically examine rigid triples beyond preferred (3A,3A,5A) and mild
+moves that preserve geometric monodromy \(A_5\), focusing on **even**
+arithmetic specialisations (necessary for BJ/HQCC fusion).
+
+**Verdict:** Dense even search on preferred (3A,3A,5A) cover: 0 even irr fibres (stats {'tested': 899, 'odd': 892, 'red': 7}). Base transforms (1-φ etc.): 0 even. Pull-backs: 0 even across 6 maps. (2A,3A,5A) numeric disc hints: 0. No even irreducible arithmetic specialisations found on dense rational grids for the preferred Q-cover and its polynomial transforms/pull-backs. Improving even-specialisation rate likely needs a different rigid triple over a number field with more rational points on the even locus, or a non-rigid A5 family.
+
+**Rigidity note:** Absolute rigidity of each triple implies the Hurwitz space is 0-dimensional: there is no continuous family of covers with the same conjugacy classes. Mild deformations that preserve geometric monodromy A5 are discrete (other triples, Galois conjugates, base pull-backs / PGL2), not a positive-dim moduli deformation of a single rigid triple.
+
+---
+
+## Rigid triples (from Step 1)
+
+| Signature | Realization used | Field |
+|-----------|------------------|-------|
+| (3A,3A,5A) | \(\varphi=6y^5-15y^4+10y^3\) | \(\mathbb{Q}\) |
+| (3A,3A,5B) | \(1-\varphi\) / label swap (same types) | \(\mathbb{Q}\) |
+| (2A,3A,5A) | \(y^5+ay^4+by^3\) radical coeffs | \(\mathbb{Q}(2^{1/5},3^{1/5})\) |
+| (2A,3A,5B) | conjugate 5-class (same map up to labeling) | same |
+
+---
+
+## Preferred (3A,3A,5A) — dense even locus
+
+- stats: `{'tested': 899, 'odd': 892, 'red': 7}`
+- even count: **0**
+
+_No even irreducible fibres on the dense rational grid._
+
+### Discriminant structure of monic(φ−t)
+
+- disc expr (preview): `3125*t**2*(t**2 - 2*t + 1)/1296`
+- num factored (preview): `3125*t**2*(t - 1)**2`
+
+---
+
+## Base transforms (3A,3A,5B labeling / S3 on {0,1,∞})
+
+### phi_335A
+- stats: `{'tested': 80, 'odd': 77, 'red': 3}`
+- _no even fibres_
+
+### one_minus_phi
+- stats: `{'tested': 80, 'odd': 77, 'red': 3}`
+- _no even fibres_
+
+---
+
+## (2A,3A,5A) radical cover
+
+- a = `5*2**(4/5)*3**(2/5)/12`
+- b = `5*2**(3/5)*3**(4/5)/9`
+- field: Q(2**(1/5), 3**(1/5))
+- stats: `{'tested': 107}`
+- note: Full even-locus for (2A,3A,5A) needs disc square in Q(2^{1/5},3^{1/5}); numeric scan only flags near-integer-square hints.
+- even hints: []
+
+---
+
+## Mild pull-backs (geometric monodromy ≤ A5)
+
+### `id_t` — r=t
+- standard
+- stats: `{'tested': 33, 'odd': 31, 'red_or_bad': 2}`
+- _no even fibres on lattice sample_
+
+### `t2` — r=t**2
+- deg 2 pullback; monodromy ≤ A5
+- stats: `{'tested': 33, 'odd': 30, 'red_or_bad': 3}`
+- _no even fibres on lattice sample_
+
+### `t3` — r=t**3
+- deg 3 pullback
+- stats: `{'tested': 33, 'odd': 29, 'red_or_bad': 4}`
+- _no even fibres on lattice sample_
+
+### `mobius_361539` — r=(717 - 239*t)/(29*t - 15631)
+- resonant base chart
+- stats: `{'tested': 33, 'odd': 31, 'red_or_bad': 2}`
+- _no even fibres on lattice sample_
+
+### `t_plus_1_over_t` — r=t + 1/t
+- Laurent pullback
+- stats: `{'tested': 33, 'odd': 32, 'pole': 1}`
+- _no even fibres on lattice sample_
+
+### `3t_61` — r=3*t + 61
+- affine lattice
+- stats: `{'tested': 33, 'odd': 33}`
+- _no even fibres on lattice sample_
+
+---
+
+
+### Discriminant structure of monic(φ−t) — theorem-level obstruction
+
+For monic(φ(y)-t) over Q(t):
+
+    disc = 3125/1296 * t^2 (t-1)^2 = 5 * (25 t (t-1)/36)^2
+
+For rational t not in {0,1}, disc is **5 times a square**, hence **never a square in Q**.
+Irreducible arithmetic specialisations therefore always have **odd** monodromy (in S5, not A5).
+At t=0,1 the discriminant vanishes (critical/reducible fibres).
+
+This proves the dense scan result (0 even irr fibres) is structural for the preferred Q-model of (3A,3A,5A).
+
+
+## Conclusions
+
+1. **No continuous rigid deformation** of a single triple exists (absolute rigidity).
+2. **Other rigid triples** realized: (3A,3A,5*) via \(\varphi\) and \(1-\varphi\);
+   (2A,3A,5*) via radical Belyi over \(K=\mathbb{Q}(2^{1/5},3^{1/5})\).
+3. **Even arithmetic specialisations** of the preferred \(\mathbb{Q}\)-cover remain
+   extremely rare / absent on large rational grids (0 hits).
+4. Pull-backs and base transforms did **not** materially improve even rates
+   on the sampled lattices (pull even total 0).
+5. Therefore: improving even specialisations likely requires either
+   - working over number fields with more even fibres (e.g. 235 over \(K\)), or
+   - **non-rigid** A5 families (positive-dim Hurwitz) with denser rational even loci,
+   - not further low-degree surgery on the single rigid \(\varphi/\mathbb{Q}\).
+
+### Link to fusion
+
+Geometric monodromy \(A_5\) is settled for these rigid objects. The bottleneck for
+fusion with HQCC BJ seeds remains **even arithmetic specialisations + BJ form**,
+which these rigid Q-covers do not supply on rational base points in the scans.
+
+_Generated by geometric_rigid_deform.py_

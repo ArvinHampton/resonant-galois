@@ -1,30 +1,72 @@
-# Direction 3 — PE ↔ B first cut (locked)
+# Direction 3 — Unify PE \(\leftrightarrow\) B on \(L_0\) (first cut)
 
-Runner: `l0_monoid_pe_b.py`
+_Elapsed (job): 15.74s_
 
----
-
-## Candidate maps Φ
-
-| Candidate Φ | even rate | A₅ (sample) |
-|-------------|-----------|-------------|
-| A = k_num / k_den | 1.00 | 15 |
-| A = ±α | 1.00 | 14 |
-| A = ±β | 1.00 | 12 |
-| A = α ± β | ~0.97 | 12 |
+**Verdict:** L0 monoid + PE↔B (15.74s). Monoid |M0|=32 |M2|=4504 resonant-smooth=32. B irr rate on monoid sample=0.99; A5 checked=11. PE |α| in M2: 19/42. mod9 empty irr classes=[]. Dir3 best maps=[('A=k_num*k_den', 15, 1.0), ('A=alpha', 14, 1.0), ('A=-alpha', 14, 1.0)]; reverse overlap n=6. No canonical Φ yet; monoid is a well-defined arithmetic object.
 
 ---
 
-## Findings
+## Two evenness avatars
 
-1. **No canonical rate-1 lattice map** preserving A₅ bijectively between PE data and B-embed data.
-2. Reverse: monoid-A appearing in PE coefficients — n = 6.
-3. Disc square-free kernels show **kinship** (shared ramification style) without a polynomial identity equating the two families.
+| Avatar | Parameter | Beyond BJ? | Identity |
+|--------|-----------|:----------:|----------|
+| PE | \(k=\beta/\alpha\), \(m\) | No | \(\mathrm{disc}=(256\alpha^2 m)^2\) |
+| B | \(A\) | Yes | \(\mathrm{disc}=324 A^2(A^2+84375)^2\) |
 
----
+## Candidate maps \(\Phi:\mathrm{PE}\to A\)
 
-## Reading
+| map | n try | irr+even | A5 | even rate |
+|-----|------:|---------:|---:|----------:|
+| `A=k_num*k_den` | 70 | 70 | 15 | 1.000 |
+| `A=alpha` | 63 | 63 | 14 | 1.000 |
+| `A=-alpha` | 63 | 63 | 14 | 1.000 |
+| `A=gcd` | 63 | 59 | 14 | 0.937 |
+| `A=round(alpha/k)` | 63 | 63 | 14 | 1.000 |
+| `A=beta` | 58 | 58 | 12 | 1.000 |
+| `A=-beta` | 58 | 58 | 12 | 1.000 |
+| `A=alpha+beta` | 59 | 57 | 12 | 0.966 |
+| `A=alpha-beta` | 58 | 56 | 12 | 0.966 |
+| `A=beta-alpha` | 58 | 56 | 12 | 0.966 |
 
-PE and B are two evenness geometries that both specialise well on L₀ / M₀ / M₂, with thin explicit overlap and no unique Φ yet. Direction 3 remains open for a deeper geometric correspondence; the first cut rules out naive coefficient identifications as a bijective lattice map.
+### Best maps (by A5 count)
 
-See also: `EVENNESS_AVATAR.md`, `B_EMBED_LATTICE.md`, `PURE_EVEN_MULTI_K.md`.
+`[('A=k_num*k_den', 15, 1.0), ('A=alpha', 14, 1.0), ('A=-alpha', 14, 1.0), ('A=round(alpha/k)', 14, 1.0), ('A=gcd', 14, 0.9365079365079365)]`
+
+### Sample hits (top map)
+
+Map `A=k_num*k_den` samples:
+
+| PE | \(k\) | \(A\) | Gal |
+|----|------|----:|-----|
+| flagship:m=1/8 | -8/5 | -40 | A5 |
+| flagship:m=5/8 | -8/5 | -40 | A5 |
+| flagship:m=5/4 | -8/5 | -40 | A5 |
+| flagship:m=1/5 | -8/5 | -40 | A5 |
+| flagship:m=1/4 | -8/5 | -40 | A5 |
+| flagship:m=3/8 | -8/5 | -40 | A5 |
+| flagship:m=1 | -8/5 | -40 | A5 |
+| flagship:m=-1/8 | -8/5 | -40 | A5 |
+| flagship:m=-5/8 | -8/5 | -40 | A5 |
+| flagship:m=-5/4 | -8/5 | -40 | A5 |
+
+## Reverse: monoid \(A\) in PE coefficient set
+
+- Count: **6**
+- Sample: `[{'A': 5, 'in_PE_coeffs': True, 'B_irr': True}, {'A': 12, 'in_PE_coeffs': True, 'B_irr': True}, {'A': 20, 'in_PE_coeffs': True, 'B_irr': True}, {'A': 32, 'in_PE_coeffs': True, 'B_irr': True}, {'A': 76, 'in_PE_coeffs': True, 'B_irr': True}, {'A': 95, 'in_PE_coeffs': True, 'B_irr': True}]`
+
+## Disc square-free kernel matches
+
+`[{'A': 3, 'kernel': 1, 'PE_names': ['flagship', 'flagship', 'flagship', 'flagship', 'classical']}, {'A': 9, 'kernel': 1, 'PE_names': ['flagship', 'flagship', 'flagship', 'flagship', 'classical']}, {'A': 27, 'kernel': 1, 'PE_names': ['flagship', 'flagship', 'flagship', 'flagship', 'classical']}, {'A': 61, 'kernel': 1, 'PE_names': ['flagship', 'flagship', 'flagship', 'flagship', 'classical']}, {'A': 80, 'kernel': 1, 'PE_names': ['flagship', 'flagship', 'flagship', 'flagship', 'classical']}, {'A': 243, 'kernel': 1, 'PE_names': ['flagship', 'flagship', 'flagship', 'flagship', 'classical']}, {'A': 539, 'kernel': 1, 'PE_names': ['flagship', 'flagship', 'flagship', 'flagship', 'classical']}, {'A': 88, 'kernel': 1, 'PE_names': ['flagship', 'flagship', 'flagship', 'flagship', 'classical']}, {'A': 55, 'kernel': 1, 'PE_names': ['flagship', 'flagship', 'flagship', 'flagship', 'classical']}, {'A': -3, 'kernel': 1, 'PE_names': ['flagship', 'flagship', 'flagship', 'flagship', 'classical']}, {'A': -61, 'kernel': 1, 'PE_names': ['flagship', 'flagship', 'flagship', 'flagship', 'classical']}]`
+
+Shared kernels indicate common ramification data without polynomial identity.
+
+## Conclusion (Dir 3 first cut)
+
+No single elementary Φ: PE→A with rate-1 A5. Best maps by A5 count listed; reverse overlap remains sparse. Disc square-free kernel matches suggest arithmetic kinship without identity of polys.
+
+**Not found:** a bijective or rate-1 lattice map \(\Phi\) preserving \(A_5\).
+**Found:** ranked elementary maps with partial A5 yield; sparse reverse overlap; kernel-level arithmetic kinship.
+
+**Next for Dir 3:** Tschirnhaus / resolvent relating \(P_A\) to a pure-even BJ form over \(\mathbb{Q}(A)\), or a 2-param family interpolating both avatars.
+
+_Generated by l0_monoid_pe_b.py_

@@ -1,0 +1,772 @@
+{
+  "verdict": "G3 envelope monodromy (13.38s). Envelope disc\u25a1 identity=True. Multi-k paths: ['path_flag_classical', 'path_flag_lsw', 'homog_classical']. Nielsen names found: []. Signatures: {'path_flag_classical': '5A/5B\u00d74', 'path_flag_lsw': '5A/5B\u00d74', 'ray_lsw_k_m4': '2A+5A/5B\u00d72', 'homog_flagship': '', 'homog_classical': ''}. Geometric multi-k named=False.",
+  "elapsed_s": 13.38,
+  "envelope": {
+    "dimension": 2,
+    "parameters": [
+      "m",
+      "k"
+    ],
+    "disc_identical_square": true,
+    "branch_divisor": "\u03b1(m,k)=0 (and m=0 degenerate)",
+    "branch_equation": "(-3125*k**4 + 65536*m**2)/256 = 0",
+    "foliation": "fixed-k rays are pure-even 1-param; cross-k paths join multi-seed ratios",
+    "note": "The envelope is a rational surface of pure-even BJ polynomials. Geometric monodromy is well-defined on 1-param slices (paths/rays). A full Nielsen ID is an ID of those slices' monodromy types."
+  },
+  "families": [
+    {
+      "id": "path_flag_classical",
+      "note": "same-m linear-k; arithmetic multi-k flagship\u2194classical",
+      "locus": {
+        "disc_degree": 16,
+        "disc_leading": "172186884000000",
+        "sqf_factors": [
+          [
+            "81*t**4 - 216*t**3 + 216*t**2 - 96*t + 11",
+            4
+          ]
+        ],
+        "all_mult_even": true,
+        "n_finite_branch_sf": 4,
+        "branch_roots": [
+          {
+            "root": "2/3 - 5**(1/4)*I/3",
+            "root_N": "(0.6666666666666666-0.49844959374040687j)",
+            "mult_in_sf": 1
+          },
+          {
+            "root": "2/3 + 5**(1/4)*I/3",
+            "root_N": "(0.6666666666666666+0.49844959374040687j)",
+            "mult_in_sf": 1
+          },
+          {
+            "root": "2/3 - 5**(1/4)/3",
+            "root_N": "(0.16821707292625981+0j)",
+            "mult_in_sf": 1
+          },
+          {
+            "root": "5**(1/4)/3 + 2/3",
+            "root_N": "(1.1651162604070735+0j)",
+            "mult_in_sf": 1
+          }
+        ],
+        "alpha_zeros_N": [
+          "(0.16821707292625981+0j)",
+          "(1.1651162604070735+0j)",
+          "(0.6666666666666666-0.49844959374040687j)",
+          "(0.6666666666666666+0.49844959374040687j)"
+        ],
+        "disc_expr_head": "172186884000000*t**16 - 1836660096000000*t**15 + 9183300480000000*t**14 - 28570268160000000*t**13 + 61859732400000000*t**12 - 98703474048000000*t**11 + 119806169472000000*t**10 - 112517475840000000*t*"
+      },
+      "local_monodromy": [
+        {
+          "center": "(0.16821707292625981+0j)",
+          "cycle_type": [
+            5
+          ],
+          "class": "5A/5B",
+          "tracking_error": 2.886579864025407e-15,
+          "error": null
+        },
+        {
+          "center": "(0.6666666666666666-0.49844959374040687j)",
+          "cycle_type": [
+            5
+          ],
+          "class": "5A/5B",
+          "tracking_error": 5.7902148899581444e-15,
+          "error": null
+        },
+        {
+          "center": "(0.6666666666666666+0.49844959374040687j)",
+          "cycle_type": [
+            5
+          ],
+          "class": "5A/5B",
+          "tracking_error": 0.0,
+          "error": null
+        },
+        {
+          "center": "(1.1651162604070735+0j)",
+          "cycle_type": [
+            5
+          ],
+          "class": "5A/5B",
+          "tracking_error": 4.441239029644353e-15,
+          "error": null
+        }
+      ],
+      "monodromy_infinity": {
+        "cycle_type": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "class": "1",
+        "tracking_error": 1.7563101230182143e-07,
+        "error": null
+      },
+      "class_signature_finite": {
+        "signature": "5A/5B\u00d74",
+        "counter": {
+          "5A/5B": 4
+        },
+        "matches": [],
+        "raw_classes": [
+          "5A/5B",
+          "5A/5B",
+          "5A/5B",
+          "5A/5B"
+        ]
+      },
+      "class_signature_with_inf": {
+        "signature": "5A/5B\u00d74",
+        "counter": {
+          "5A/5B": 4
+        },
+        "matches": [],
+        "raw_classes": [
+          "5A/5B",
+          "5A/5B",
+          "5A/5B",
+          "5A/5B"
+        ]
+      },
+      "group_from_finite": {
+        "order": 5,
+        "is_A5": false,
+        "is_S5": false,
+        "all_even": true,
+        "n_generators": 4
+      },
+      "group_from_finite_and_inf": {
+        "order": 5,
+        "is_A5": false,
+        "is_S5": false,
+        "all_even": true,
+        "n_generators": 5
+      },
+      "catalogue_hits": [
+        {
+          "tag": "flagship",
+          "k": "-8/5",
+          "t": "0",
+          "alpha": -55,
+          "beta": 88
+        },
+        {
+          "tag": "classical",
+          "k": "4/5",
+          "t": "1",
+          "alpha": 20,
+          "beta": 16
+        },
+        {
+          "tag": "classical_m",
+          "k": "-4/5",
+          "t": "1/3",
+          "alpha": 20,
+          "beta": -16
+        },
+        {
+          "tag": "flagship",
+          "k": "-8/5",
+          "t": "0",
+          "alpha": -55,
+          "beta": 88
+        },
+        {
+          "tag": "classical",
+          "k": "4/5",
+          "t": "1",
+          "alpha": 20,
+          "beta": 16
+        }
+      ],
+      "catalogue_k": [
+        "-4/5",
+        "-8/5",
+        "4/5"
+      ],
+      "multi_k": true,
+      "sample_gal": {
+        "t": "2",
+        "alpha": -1255,
+        "beta": -4016,
+        "status": "HIT_A5",
+        "gal": "S5TransitiveSubgroups.A5"
+      },
+      "nielsen_id": null
+    },
+    {
+      "id": "path_flag_lsw",
+      "note": "linear (m,k) flagship\u2192LSW",
+      "locus": {
+        "disc_degree": 18,
+        "disc_leading": "17218688400000000",
+        "sqf_factors": [
+          [
+            "10*t + 1",
+            2
+          ],
+          [
+            "81*t**4 + 216*t**3 - 284*t**2 - 4*t + 11",
+            4
+          ]
+        ],
+        "all_mult_even": true,
+        "n_finite_branch_sf": 5,
+        "branch_roots": [
+          {
+            "root": "-1/10",
+            "root_N": "(-0.1+0j)",
+            "mult_in_sf": 1
+          },
+          {
+            "root": "-2/3 - sqrt(125 - 51*sqrt(5))/9 + 5*sqrt(5)/9",
+            "root_N": "(0.20774114394235957+0j)",
+            "mult_in_sf": 1
+          },
+          {
+            "root": "-sqrt(51*sqrt(5) + 125)/9 - 5*sqrt(5)/9 - 2/3",
+            "root_N": "(-3.6268045686421617+0j)",
+            "mult_in_sf": 1
+          },
+          {
+            "root": "-5*sqrt(5)/9 - 2/3 + sqrt(51*sqrt(5) + 125)/9",
+            "root_N": "(-0.19104873969093802+0j)",
+            "mult_in_sf": 1
+          },
+          {
+            "root": "-2/3 + sqrt(125 - 51*sqrt(5))/9 + 5*sqrt(5)/9",
+            "root_N": "(0.9434454977240734+0j)",
+            "mult_in_sf": 1
+          }
+        ],
+        "alpha_zeros_N": [
+          "(-3.6268045686421617+0j)",
+          "(-0.19104873969093802+0j)",
+          "(0.20774114394235957+0j)",
+          "(0.9434454977240734+0j)"
+        ],
+        "disc_expr_head": "17218688400000000*t**18 + 187109747280000000*t**17 + 530082636804000000*t**16 - 528754034304000000*t**15 - 3149733496320000000*t**14 + 1620237375360000000*t**13 + 6706634675760000000*t**12 - 685441985"
+      },
+      "local_monodromy": [
+        {
+          "center": "(-0.1+0j)",
+          "cycle_type": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "class": "1",
+          "tracking_error": 5.617333549722722e-15,
+          "error": null
+        },
+        {
+          "center": "(-0.19104873969093802+0j)",
+          "cycle_type": [
+            5
+          ],
+          "class": "5A/5B",
+          "tracking_error": 3.953391794989626e-15,
+          "error": null
+        },
+        {
+          "center": "(0.20774114394235957+0j)",
+          "cycle_type": [
+            5
+          ],
+          "class": "5A/5B",
+          "tracking_error": 6.358389842764979e-15,
+          "error": null
+        },
+        {
+          "center": "(0.9434454977240734+0j)",
+          "cycle_type": [
+            5
+          ],
+          "class": "5A/5B",
+          "tracking_error": 6.52013858905055e-15,
+          "error": null
+        },
+        {
+          "center": "(-3.6268045686421617+0j)",
+          "cycle_type": [
+            5
+          ],
+          "class": "5A/5B",
+          "tracking_error": 1.9560100690747752e-14,
+          "error": null
+        }
+      ],
+      "monodromy_infinity": {
+        "cycle_type": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "class": "1",
+        "tracking_error": 2.6236815868147128e-11,
+        "error": null
+      },
+      "class_signature_finite": {
+        "signature": "5A/5B\u00d74",
+        "counter": {
+          "5A/5B": 4
+        },
+        "matches": [],
+        "raw_classes": [
+          "5A/5B",
+          "5A/5B",
+          "5A/5B",
+          "5A/5B"
+        ]
+      },
+      "class_signature_with_inf": {
+        "signature": "5A/5B\u00d74",
+        "counter": {
+          "5A/5B": 4
+        },
+        "matches": [],
+        "raw_classes": [
+          "5A/5B",
+          "5A/5B",
+          "5A/5B",
+          "5A/5B"
+        ]
+      },
+      "group_from_finite": {
+        "order": 60,
+        "is_A5": true,
+        "is_S5": false,
+        "all_even": true,
+        "n_generators": 5
+      },
+      "group_from_finite_and_inf": {
+        "order": 60,
+        "is_A5": true,
+        "is_S5": false,
+        "all_even": true,
+        "n_generators": 6
+      },
+      "catalogue_hits": [
+        {
+          "tag": "flagship",
+          "k": "-8/5",
+          "t": "0",
+          "alpha": -55,
+          "beta": 88
+        },
+        {
+          "tag": "lsw_m100",
+          "k": "-4",
+          "t": "1",
+          "alpha": -100,
+          "beta": 400
+        },
+        {
+          "tag": "flagship",
+          "k": "-8/5",
+          "t": "0",
+          "alpha": -55,
+          "beta": 88
+        },
+        {
+          "tag": "lsw_m100",
+          "k": "-4",
+          "t": "1",
+          "alpha": -100,
+          "beta": 400
+        }
+      ],
+      "catalogue_k": [
+        "-4",
+        "-8/5"
+      ],
+      "multi_k": true,
+      "sample_gal": {
+        "t": "2",
+        "alpha": -9455,
+        "beta": 60512,
+        "status": "HIT_A5",
+        "gal": "S5TransitiveSubgroups.A5"
+      },
+      "nielsen_id": null
+    },
+    {
+      "id": "ray_lsw_k_m4",
+      "note": "fixed-k pure-even ray (single k)",
+      "locus": {
+        "disc_degree": 10,
+        "disc_leading": "281474976710656",
+        "sqf_factors": [
+          [
+            "t",
+            2
+          ],
+          [
+            "256*t**2 - 3125",
+            4
+          ]
+        ],
+        "all_mult_even": true,
+        "n_finite_branch_sf": 3,
+        "branch_roots": [
+          {
+            "root": "-25*sqrt(5)/16",
+            "root_N": "(-3.4938562148434213+0j)",
+            "mult_in_sf": 1
+          },
+          {
+            "root": "25*sqrt(5)/16",
+            "root_N": "(3.4938562148434213+0j)",
+            "mult_in_sf": 1
+          },
+          {
+            "root": "0",
+            "root_N": "0j",
+            "mult_in_sf": 1
+          }
+        ],
+        "alpha_zeros_N": [
+          "(-3.4938562148434213+0j)",
+          "(3.4938562148434213+0j)"
+        ],
+        "disc_expr_head": "281474976710656*t**10 - 13743895347200000*t**8 + 251658240000000000*t**6 - 2048000000000000000*t**4 + 6250000000000000000*t**2"
+      },
+      "local_monodromy": [
+        {
+          "center": "0j",
+          "cycle_type": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "class": "1",
+          "tracking_error": 7.628290615314396e-15,
+          "error": null
+        },
+        {
+          "center": "(-3.4938562148434213+0j)",
+          "cycle_type": [
+            5
+          ],
+          "class": "5A/5B",
+          "tracking_error": 1.3877787807814457e-14,
+          "error": null
+        },
+        {
+          "center": "(3.4938562148434213+0j)",
+          "cycle_type": [
+            5
+          ],
+          "class": "5A/5B",
+          "tracking_error": 7.944109290391274e-15,
+          "error": null
+        }
+      ],
+      "monodromy_infinity": {
+        "cycle_type": [
+          2,
+          2,
+          1
+        ],
+        "class": "2A",
+        "tracking_error": 1.5583418786108402e-13,
+        "error": null
+      },
+      "class_signature_finite": {
+        "signature": "5A/5B\u00d72",
+        "counter": {
+          "5A/5B": 2
+        },
+        "matches": [],
+        "raw_classes": [
+          "5A/5B",
+          "5A/5B"
+        ]
+      },
+      "class_signature_with_inf": {
+        "signature": "2A+5A/5B\u00d72",
+        "counter": {
+          "5A/5B": 2,
+          "2A": 1
+        },
+        "matches": [],
+        "raw_classes": [
+          "5A/5B",
+          "5A/5B",
+          "2A"
+        ]
+      },
+      "group_from_finite": {
+        "order": 5,
+        "is_A5": false,
+        "is_S5": false,
+        "all_even": true,
+        "n_generators": 3
+      },
+      "group_from_finite_and_inf": {
+        "order": 60,
+        "is_A5": true,
+        "is_S5": false,
+        "all_even": true,
+        "n_generators": 4
+      },
+      "catalogue_hits": [],
+      "catalogue_k": [],
+      "multi_k": false,
+      "sample_gal": {
+        "t": "1/2",
+        "alpha": -3061,
+        "beta": 12244,
+        "status": "HIT_A5",
+        "gal": "S5TransitiveSubgroups.A5"
+      },
+      "nielsen_id": null
+    },
+    {
+      "id": "homog_flagship",
+      "note": "homogenised flagship ray (Theorem 3); single seed k=-8/5",
+      "locus": {
+        "disc_degree": 20,
+        "disc_leading": "58564000000",
+        "sqf_factors": [
+          [
+            "t",
+            20
+          ]
+        ],
+        "all_mult_even": true,
+        "n_finite_branch_sf": 1,
+        "branch_roots": [
+          {
+            "root": "0",
+            "root_N": "0j",
+            "mult_in_sf": 1
+          }
+        ],
+        "alpha_zeros_N": [],
+        "disc_expr_head": "58564000000*t**20"
+      },
+      "local_monodromy": [
+        {
+          "center": "0j",
+          "cycle_type": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "class": "1",
+          "tracking_error": 1.153297605929378e-16,
+          "error": null
+        }
+      ],
+      "monodromy_infinity": {
+        "cycle_type": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "class": "1",
+        "tracking_error": 3.0926163410039053e-12,
+        "error": null
+      },
+      "class_signature_finite": {
+        "signature": "",
+        "counter": {},
+        "matches": [],
+        "raw_classes": []
+      },
+      "class_signature_with_inf": {
+        "signature": "",
+        "counter": {},
+        "matches": [],
+        "raw_classes": []
+      },
+      "group_from_finite": {
+        "order": 1,
+        "is_A5": false,
+        "is_S5": false,
+        "all_even": true,
+        "n_generators": 1
+      },
+      "group_from_finite_and_inf": {
+        "order": 1,
+        "is_A5": false,
+        "is_S5": false,
+        "all_even": true,
+        "n_generators": 2
+      },
+      "catalogue_hits": [
+        {
+          "tag": "flagship",
+          "k": "-8/5",
+          "t": "1",
+          "alpha": -55,
+          "beta": 88
+        },
+        {
+          "tag": "flagship",
+          "k": "-8/5",
+          "t": "1",
+          "alpha": -55,
+          "beta": 88
+        }
+      ],
+      "catalogue_k": [
+        "-8/5"
+      ],
+      "multi_k": false,
+      "sample_gal": {
+        "t": "2",
+        "alpha": -880,
+        "beta": 2816,
+        "status": "HIT_A5",
+        "gal": "S5TransitiveSubgroups.A5"
+      },
+      "nielsen_id": null
+    },
+    {
+      "id": "homog_classical",
+      "note": "homogenised classical; k=4/5",
+      "locus": {
+        "disc_degree": 20,
+        "disc_leading": "1024000000",
+        "sqf_factors": [
+          [
+            "t",
+            20
+          ]
+        ],
+        "all_mult_even": true,
+        "n_finite_branch_sf": 1,
+        "branch_roots": [
+          {
+            "root": "0",
+            "root_N": "0j",
+            "mult_in_sf": 1
+          }
+        ],
+        "alpha_zeros_N": [],
+        "disc_expr_head": "1024000000*t**20"
+      },
+      "local_monodromy": [
+        {
+          "center": "0j",
+          "cycle_type": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "class": "1",
+          "tracking_error": 1.8670653977139892e-16,
+          "error": null
+        }
+      ],
+      "monodromy_infinity": {
+        "cycle_type": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "class": "1",
+        "tracking_error": 2.7754494148515964e-12,
+        "error": null
+      },
+      "class_signature_finite": {
+        "signature": "",
+        "counter": {},
+        "matches": [],
+        "raw_classes": []
+      },
+      "class_signature_with_inf": {
+        "signature": "",
+        "counter": {},
+        "matches": [],
+        "raw_classes": []
+      },
+      "group_from_finite": {
+        "order": 1,
+        "is_A5": false,
+        "is_S5": false,
+        "all_even": true,
+        "n_generators": 1
+      },
+      "group_from_finite_and_inf": {
+        "order": 1,
+        "is_A5": false,
+        "is_S5": false,
+        "all_even": true,
+        "n_generators": 2
+      },
+      "catalogue_hits": [
+        {
+          "tag": "classical",
+          "k": "4/5",
+          "t": "1",
+          "alpha": 20,
+          "beta": 16
+        },
+        {
+          "tag": "classical_m",
+          "k": "-4/5",
+          "t": "-1",
+          "alpha": 20,
+          "beta": -16
+        },
+        {
+          "tag": "classical",
+          "k": "4/5",
+          "t": "1",
+          "alpha": 20,
+          "beta": 16
+        }
+      ],
+      "catalogue_k": [
+        "-4/5",
+        "4/5"
+      ],
+      "multi_k": true,
+      "sample_gal": {
+        "t": "2",
+        "alpha": 320,
+        "beta": 512,
+        "status": "HIT_A5",
+        "gal": "S5TransitiveSubgroups.A5"
+      },
+      "nielsen_id": null
+    }
+  ],
+  "nielsen_ids": [],
+  "multi_k_paths": [
+    "path_flag_classical",
+    "path_flag_lsw",
+    "homog_classical"
+  ],
+  "signatures": {
+    "path_flag_classical": "5A/5B\u00d74",
+    "path_flag_lsw": "5A/5B\u00d74",
+    "ray_lsw_k_m4": "2A+5A/5B\u00d72",
+    "homog_flagship": "",
+    "homog_classical": ""
+  },
+  "geometric_multi_k_named": false
+}

@@ -1,0 +1,359 @@
+{
+  "elapsed_s": 6.56,
+  "answer": "NO",
+  "verdict": "NO \u2014 multi-k paths (arithmetic envelope) are not unions of cosine orbits. Gal(R_n/Q) fixes Q-points (catalogue k are singletons). Cosine orbits are finite/discrete; non-constant paths have infinite rational image. Weaker true facts: (i) Q-paths are Gal-invariant as schemes; (ii) finite geometric specialisation sets over R_n can be unions of cosine orbits; (iii) Gal acts on path parameters so conjugate u hit conjugate cosine k when the path crosses the cosine locus.",
+  "gal_structures": {
+    "5": {
+      "n": 5,
+      "phi_n": 4,
+      "degree_Rn": 2,
+      "gal_order": 2,
+      "isomorphism": "(Z/nZ)*/{\u00b11}",
+      "action": "\u03c3_a: 2cos(2\u03c0/n) \u21a6 2cos(2\u03c0 a/n)",
+      "representatives_a": [
+        1,
+        2
+      ],
+      "n_classes": 2
+    },
+    "7": {
+      "n": 7,
+      "phi_n": 6,
+      "degree_Rn": 3,
+      "gal_order": 3,
+      "isomorphism": "(Z/nZ)*/{\u00b11}",
+      "action": "\u03c3_a: 2cos(2\u03c0/n) \u21a6 2cos(2\u03c0 a/n)",
+      "representatives_a": [
+        1,
+        2,
+        3
+      ],
+      "n_classes": 3
+    },
+    "11": {
+      "n": 11,
+      "phi_n": 10,
+      "degree_Rn": 5,
+      "gal_order": 5,
+      "isomorphism": "(Z/nZ)*/{\u00b11}",
+      "action": "\u03c3_a: 2cos(2\u03c0/n) \u21a6 2cos(2\u03c0 a/n)",
+      "representatives_a": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "n_classes": 5
+    },
+    "15": {
+      "n": 15,
+      "phi_n": 8,
+      "degree_Rn": 4,
+      "gal_order": 4,
+      "isomorphism": "(Z/nZ)*/{\u00b11}",
+      "action": "\u03c3_a: 2cos(2\u03c0/n) \u21a6 2cos(2\u03c0 a/n)",
+      "representatives_a": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "n_classes": 4
+    }
+  },
+  "rational_fixed": {
+    "theorem": "For every n, Gal(R_n/Q) acts trivially on Q. Hence every catalogue / rational pure-even ratio k \u2208 Q is a Gal(R_n/Q)-fixed point: its orbit is {k}.",
+    "corollary": "A multi-k path whose image lies in Q (e.g. linear k(u)\u2208Q(u) with rational endpoints) is a union of Gal-orbits, but each orbit is a singleton rational \u2014 not a cosine orbit of size >1."
+  },
+  "paths": {
+    "paths": [
+      {
+        "id": "flag_classical",
+        "k_path": "-8/5 + u\u00b7(4/5--8/5)",
+        "k_path_in_Q_u": true,
+        "endpoints": [
+          "-8/5",
+          "4/5"
+        ],
+        "samples": [
+          {
+            "u": "0",
+            "k": "-8/5",
+            "k_in_Q": true
+          },
+          {
+            "u": "1/6",
+            "k": "-6/5",
+            "k_in_Q": true
+          },
+          {
+            "u": "1/3",
+            "k": "-4/5",
+            "k_in_Q": true
+          },
+          {
+            "u": "1/2",
+            "k": "-2/5",
+            "k_in_Q": true
+          },
+          {
+            "u": "2/3",
+            "k": "0",
+            "k_in_Q": true
+          },
+          {
+            "u": "5/6",
+            "k": "2/5",
+            "k_in_Q": true
+          },
+          {
+            "u": "1",
+            "k": "4/5",
+            "k_in_Q": true
+          }
+        ],
+        "all_sample_k_in_Q": true,
+        "gal_orbits_of_samples": "each k\u2208Q has orbit {k} \u2014 path = disjoint union of singletons",
+        "is_cosine_orbit": false,
+        "is_union_of_cosine_orbits": false,
+        "reason": "Image of the path over Q is an infinite set of rationals (or a line segment in P\u00b9(Q)), while every cosine orbit is finite of size \u2264 \u03c6(n)/2. An infinite set of rationals cannot be a finite union of finite cosine orbits unless the path image is finite \u2014 which a non-constant rational path is not when evaluated on infinitely many u."
+      },
+      {
+        "id": "flag_lsw",
+        "k_path": "-8/5 + u\u00b7(-4--8/5)",
+        "k_path_in_Q_u": true,
+        "endpoints": [
+          "-8/5",
+          "-4"
+        ],
+        "samples": [
+          {
+            "u": "0",
+            "k": "-8/5",
+            "k_in_Q": true
+          },
+          {
+            "u": "1/6",
+            "k": "-2",
+            "k_in_Q": true
+          },
+          {
+            "u": "1/3",
+            "k": "-12/5",
+            "k_in_Q": true
+          },
+          {
+            "u": "1/2",
+            "k": "-14/5",
+            "k_in_Q": true
+          },
+          {
+            "u": "2/3",
+            "k": "-16/5",
+            "k_in_Q": true
+          },
+          {
+            "u": "5/6",
+            "k": "-18/5",
+            "k_in_Q": true
+          },
+          {
+            "u": "1",
+            "k": "-4",
+            "k_in_Q": true
+          }
+        ],
+        "all_sample_k_in_Q": true,
+        "gal_orbits_of_samples": "each k\u2208Q has orbit {k} \u2014 path = disjoint union of singletons",
+        "is_cosine_orbit": false,
+        "is_union_of_cosine_orbits": false,
+        "reason": "Image of the path over Q is an infinite set of rationals (or a line segment in P\u00b9(Q)), while every cosine orbit is finite of size \u2264 \u03c6(n)/2. An infinite set of rationals cannot be a finite union of finite cosine orbits unless the path image is finite \u2014 which a non-constant rational path is not when evaluated on infinitely many u."
+      },
+      {
+        "id": "classical_lsw",
+        "k_path": "4/5 + u\u00b7(-4-4/5)",
+        "k_path_in_Q_u": true,
+        "endpoints": [
+          "4/5",
+          "-4"
+        ],
+        "samples": [
+          {
+            "u": "0",
+            "k": "4/5",
+            "k_in_Q": true
+          },
+          {
+            "u": "1/6",
+            "k": "0",
+            "k_in_Q": true
+          },
+          {
+            "u": "1/3",
+            "k": "-4/5",
+            "k_in_Q": true
+          },
+          {
+            "u": "1/2",
+            "k": "-8/5",
+            "k_in_Q": true
+          },
+          {
+            "u": "2/3",
+            "k": "-12/5",
+            "k_in_Q": true
+          },
+          {
+            "u": "5/6",
+            "k": "-16/5",
+            "k_in_Q": true
+          },
+          {
+            "u": "1",
+            "k": "-4",
+            "k_in_Q": true
+          }
+        ],
+        "all_sample_k_in_Q": true,
+        "gal_orbits_of_samples": "each k\u2208Q has orbit {k} \u2014 path = disjoint union of singletons",
+        "is_cosine_orbit": false,
+        "is_union_of_cosine_orbits": false,
+        "reason": "Image of the path over Q is an infinite set of rationals (or a line segment in P\u00b9(Q)), while every cosine orbit is finite of size \u2264 \u03c6(n)/2. An infinite set of rationals cannot be a finite union of finite cosine orbits unless the path image is finite \u2014 which a non-constant rational path is not when evaluated on infinitely many u."
+      }
+    ]
+  },
+  "obstructions": {
+    "obstruction_infinite_vs_finite": "A non-constant multi-k path k: P\u00b9 \u21e2 P\u00b9 over Q has infinitely many distinct values k(u) for u \u2208 Q (or u \u2208 R\u0304). Each cosine orbit is finite. A finite union of cosine orbits is finite. Therefore a non-constant path image cannot equal a union of cosine orbits as sets of field elements.",
+    "obstruction_rational_vs_cosine": "Catalogue multi-k paths take values in Q. Non-rational cosine values 2cos(2\u03c0 p/n) \u2209 Q for n>2 (except degenerate cases). So path values are not cosine elements, and cosine orbits of size >1 consist of irrationals not hit by Q-paths.",
+    "gal_invariance_weaker": "Weaker true statement: if a set S \u2282 P\u00b9 of k-values is defined over Q (stable under Gal(Q\u0304/Q), hence under Gal(R_n/Q) after embedding), then S is a union of Gal(Q\u0304/Q)-orbits. For S \u2282 Q this is a union of singletons. This is Galois descent, not a cosine constraint.",
+    "geometric_scenario_where_cosine_appears": "If the geometric multi-k locus is a finite Gal(R_n/Q)-stable set of special fibres (not a positive-dimensional path over Q), and those k are forced into the cyclotomic real locus by branch geometry, then that finite set can be a union of cosine orbits. That is a discrete specialisation set, not an arithmetic multi-k path in the envelope.",
+    "action_on_paths": "Gal(R_n/Q) acts on R_n-points of the envelope. For a path defined over Q, \u03c3\u00b7(m(u),k(u)) = (m(u),k(u)) when m,k \u2208 Q(u). The path is fixed as a scheme over Q. Gal does not permute distinct rational k along the path into each other (each is fixed)."
+  },
+  "worked_example_R5": {
+    "cosine_orbit": {
+      "2cos(2\u03c0/5)": "-1/2 + sqrt(5)/2",
+      "2cos(4\u03c0/5)": "-sqrt(5)/2 - 1/2",
+      "orbit_size": 2
+    },
+    "path": "k(u) = -8/5 + (12/5)u",
+    "u_hits": {
+      "u_for_2cos(2\u03c0/5)": "11/24 + 5*sqrt(5)/24",
+      "u_for_2cos(4\u03c0/5)": "11/24 - 5*sqrt(5)/24",
+      "are_gal_conjugates": "True"
+    },
+    "interpretation": "The arithmetic path (over Q) can pass through a cosine value at a non-rational u \u2208 R_5. The Gal-conjugate cosine is hit at the conjugate u. So: the path is NOT a union of cosine orbits; rather, the pair {u, \u03c3u} of parameters maps to a cosine orbit {k, \u03c3k}. That is Gal acting on the parameter of the path, not the path being made of cosine orbits."
+  },
+  "cosine_vs_catalogue": {
+    "5": {
+      "n": 5,
+      "orbit_size_seed_p1": 2,
+      "catalogue_cosine_hits": [],
+      "any_hit": false
+    },
+    "7": {
+      "n": 7,
+      "orbit_size_seed_p1": 3,
+      "catalogue_cosine_hits": [],
+      "any_hit": false
+    },
+    "11": {
+      "n": 11,
+      "orbit_size_seed_p1": 5,
+      "catalogue_cosine_hits": [],
+      "any_hit": false
+    },
+    "15": {
+      "n": 15,
+      "orbit_size_seed_p1": 4,
+      "catalogue_cosine_hits": [],
+      "any_hit": false
+    }
+  },
+  "orbits_sample": {
+    "5": {
+      "n": 5,
+      "seed": "2cos(2\u03c0\u00b71/5)",
+      "orbit_size": 2,
+      "orbit": [
+        {
+          "form": "2cos(2\u03c0\u00b71/5)",
+          "numeric": 0.6180339887498949,
+          "minpoly": "x**2 + x - 1",
+          "degree": 2
+        },
+        {
+          "form": "2cos(2\u03c0\u00b72/5)",
+          "numeric": -1.618033988749895,
+          "minpoly": "x**2 + x - 1",
+          "degree": 2
+        }
+      ],
+      "finite_discrete": true
+    },
+    "7": {
+      "n": 7,
+      "seed": "2cos(2\u03c0\u00b71/7)",
+      "orbit_size": 3,
+      "orbit": [
+        {
+          "form": "2cos(2\u03c0\u00b71/7)",
+          "numeric": 1.246979603717467,
+          "minpoly": "x**3 + x**2 - 2*x - 1",
+          "degree": 3
+        },
+        {
+          "form": "2cos(2\u03c0\u00b72/7)",
+          "numeric": -0.4450418679126288,
+          "minpoly": "x**3 + x**2 - 2*x - 1",
+          "degree": 3
+        },
+        {
+          "form": "2cos(2\u03c0\u00b73/7)",
+          "numeric": -1.8019377358048383,
+          "minpoly": "x**3 + x**2 - 2*x - 1",
+          "degree": 3
+        }
+      ],
+      "finite_discrete": true
+    },
+    "11": {
+      "n": 11,
+      "seed": "2cos(2\u03c0\u00b71/11)",
+      "orbit_size": 5,
+      "orbit": [
+        {
+          "form": "2cos(2\u03c0\u00b71/11)",
+          "numeric": 1.6825070656623624,
+          "minpoly": "x**5 + x**4 - 4*x**3 - 3*x**2 + 3*x + 1",
+          "degree": 5
+        },
+        {
+          "form": "2cos(2\u03c0\u00b72/11)",
+          "numeric": 0.8308300260037729,
+          "minpoly": "x**5 + x**4 - 4*x**3 - 3*x**2 + 3*x + 1",
+          "degree": 5
+        },
+        {
+          "form": "2cos(2\u03c0\u00b73/11)",
+          "numeric": -0.2846296765465703,
+          "minpoly": "x**5 + x**4 - 4*x**3 - 3*x**2 + 3*x + 1",
+          "degree": 5
+        },
+        {
+          "form": "2cos(2\u03c0\u00b74/11)",
+          "numeric": -1.3097214678905702,
+          "minpoly": "x**5 + x**4 - 4*x**3 - 3*x**2 + 3*x + 1",
+          "degree": 5
+        },
+        {
+          "form": "2cos(2\u03c0\u00b75/11)",
+          "numeric": -1.9189859472289947,
+          "minpoly": "x**5 + x**4 - 4*x**3 - 3*x**2 + 3*x + 1",
+          "degree": 5
+        }
+      ],
+      "finite_discrete": true
+    }
+  }
+}

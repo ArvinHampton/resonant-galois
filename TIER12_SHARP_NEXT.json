@@ -1,0 +1,363 @@
+{
+  "elapsed_s": 0.46,
+  "verdict": "Sharp next A/B/C (0.46s). A: under H_core disc\u25a1 rate=1.000 (Z-rate=1.000); H\u21d2disc\u25a1 via pure-even when Z exists. B: best T-only disc\u25a1 rate=0.000 (crit2_signal=False). C: no new identical-square subclass beyond known homogenisation/envelope. Necessity fragment: not obtained.",
+  "A_binary_k_pure_even": {
+    "description": "k = (-1)^{pop}(2*odd+1) / (2^{min(v2,4)}+1+(len mod 4)); then pure-even search for Z \u03b1,\u03b2",
+    "lemma_shape": "If pure-even Z-coeffs exist for k=k(n), then disc\u25a1 always (classical). H \u21d2 disc\u25a1 reduces to H \u21d2 Z-coeff existence for that k.",
+    "by_hypothesis": {
+      "H_all": {
+        "n": 70,
+        "z_coeff_rate": 1.0,
+        "disc_square_rate": 1.0,
+        "A5_rate_among_all": 0.0,
+        "implies_disc_sq": true,
+        "disc_sq_given_Z": 1.0
+      },
+      "H_small_v2": {
+        "n": 68,
+        "z_coeff_rate": 1.0,
+        "disc_square_rate": 1.0,
+        "A5_rate_among_all": 0.0,
+        "implies_disc_sq": true,
+        "disc_sq_given_Z": 1.0
+      },
+      "H_short_collatz": {
+        "n": 46,
+        "z_coeff_rate": 1.0,
+        "disc_square_rate": 1.0,
+        "A5_rate_among_all": 0.0,
+        "implies_disc_sq": true,
+        "disc_sq_given_Z": 1.0
+      },
+      "H_bounded_odd": {
+        "n": 66,
+        "z_coeff_rate": 1.0,
+        "disc_square_rate": 1.0,
+        "A5_rate_among_all": 0.0,
+        "implies_disc_sq": true,
+        "disc_sq_given_Z": 1.0
+      },
+      "H_core": {
+        "n": 44,
+        "z_coeff_rate": 1.0,
+        "disc_square_rate": 1.0,
+        "A5_rate_among_all": 0.0,
+        "implies_disc_sq": true,
+        "disc_sq_given_Z": 1.0
+      }
+    },
+    "sample": [
+      {
+        "n": 1,
+        "k": "3/2",
+        "in_H": {
+          "H_all": true,
+          "H_small_v2": true,
+          "H_short_collatz": true,
+          "H_bounded_odd": true,
+          "H_core": true
+        },
+        "z_coeffs": true,
+        "disc_square": true,
+        "status": "disc_sq_skip_gal",
+        "alpha": -206256286742872064,
+        "beta": -2534477251496411922432
+      },
+      {
+        "n": 2,
+        "k": "3/4",
+        "in_H": {
+          "H_all": true,
+          "H_small_v2": true,
+          "H_short_collatz": true,
+          "H_bounded_odd": true,
+          "H_core": true
+        },
+        "z_coeffs": true,
+        "disc_square": true,
+        "status": "disc_sq_skip_gal",
+        "alpha": 1190686241123778665906176,
+        "beta": 234098440494863875946481451008
+      },
+      {
+        "n": 3,
+        "k": "7/5",
+        "in_H": {
+          "H_all": true,
+          "H_small_v2": true,
+          "H_short_collatz": true,
+          "H_bounded_odd": true,
+          "H_core": true
+        },
+        "z_coeffs": true,
+        "disc_square": true,
+        "status": "disc_sq_skip_gal",
+        "alpha": 2482944081920,
+        "beta": 889887158960128
+      },
+      {
+        "n": 4,
+        "k": "3/7",
+        "in_H": {
+          "H_all": true,
+          "H_small_v2": true,
+          "H_short_collatz": true,
+          "H_bounded_odd": true,
+          "H_core": true
+        },
+        "z_coeffs": true,
+        "disc_square": true,
+        "status": "disc_sq_skip_gal",
+        "alpha": 822693991930651632558665629696,
+        "beta": 1517021394912379829585937543859273728
+      },
+      {
+        "n": 5,
+        "k": "-11/3",
+        "in_H": {
+          "H_all": true,
+          "H_small_v2": true,
+          "H_short_collatz": true,
+          "H_bounded_odd": true,
+          "H_core": true
+        },
+        "z_coeffs": true,
+        "disc_square": true,
+        "status": "disc_sq_skip_gal",
+        "alpha": -31830070501440302874624,
+        "beta": 7260311761096527324490235904
+      },
+      {
+        "n": 6,
+        "k": "7/3",
+        "in_H": {
+          "H_all": true,
+          "H_small_v2": true,
+          "H_short_collatz": true,
+          "H_bounded_odd": true,
+          "H_core": true
+        },
+        "z_coeffs": true,
+        "disc_square": true,
+        "status": "disc_sq_skip_gal",
+        "alpha": -4205762287631150874624,
+        "beta": -610474807574236811753422848
+      },
+      {
+        "n": 7,
+        "k": "-15/2",
+        "in_H": {
+          "H_all": true,
+          "H_small_v2": true,
+          "H_short_collatz": true,
+          "H_bounded_odd": true,
+          "H_core": true
+        },
+        "z_coeffs": true,
+        "disc_square": true,
+        "status": "disc_sq_skip_gal",
+        "alpha": -173874117893962072064,
+        "beta": 10682825803405029707612160
+      },
+      {
+        "n": 8,
+        "k": "1/4",
+        "in_H": {
+          "H_all": true,
+          "H_small_v2": true,
+          "H_short_collatz": true,
+          "H_bounded_odd": true,
+          "H_core": true
+        },
+        "z_coeffs": true,
+        "disc_square": true,
+        "status": "disc_sq_skip_gal",
+        "alpha": 1208700639633260649906176,
+        "beta": 79213405119005369952251150336
+      },
+      {
+        "n": 9,
+        "k": "19/5",
+        "in_H": {
+          "H_all": true,
+          "H_small_v2": true,
+          "H_short_collatz": true,
+          "H_bounded_odd": true,
+          "H_core": true
+        },
+        "z_coeffs": true,
+        "disc_square": true,
+        "status": "disc_sq_skip_gal",
+        "alpha": -8247763271680,
+        "beta": -8023424110690304
+      },
+      {
+        "n": 10,
+        "k": "-11/5",
+        "in_H": {
+          "H_all": true,
+          "H_small_v2": true,
+          "H_short_collatz": true,
+          "H_bounded_odd": true,
+          "H_core": true
+        },
+        "z_coeffs": true,
+        "disc_square": true,
+        "status": "disc_sq_skip_gal",
+        "alpha": 1456178462720,
+        "beta": -820119710203904
+      },
+      {
+        "n": 11,
+        "k": "23/4",
+        "in_H": {
+          "H_all": true,
+          "H_small_v2": true,
+          "H_short_collatz": true,
+          "H_bounded_odd": true,
+          "H_core": true
+        },
+        "z_coeffs": true,
+        "disc_square": true,
+        "status": "disc_sq_skip_gal",
+        "alpha": -61805665346534719382093824,
+        "beta": -93161409935461485496772719542272
+      },
+      {
+        "n": 12,
+        "k": "7/6",
+        "in_H": {
+          "H_all": true,
+          "H_small_v2": true,
+          "H_short_collatz": true,
+          "H_bounded_odd": true,
+          "H_core": true
+        },
+        "z_coeffs": true,
+        "disc_square": true,
+        "status": "disc_sq_skip_gal",
+        "alpha": 19996067199582470150308233216,
+        "beta": 46439506338460715316120650684301312
+      }
+    ],
+    "n_seeds": 70
+  },
+  "B_T_only_hunt": {
+    "description": "Binary\u2192T(a..f) only, no pure-even envelope insert",
+    "variants": {
+      "B1_M_deform_f": {
+        "n": 70,
+        "disc_square_rate": 0.0,
+        "A5_rate": 0.0,
+        "err": 0,
+        "crit2_signal": false
+      },
+      "B2_a_power3": {
+        "n": 70,
+        "disc_square_rate": 0.0,
+        "A5_rate": 0.0,
+        "err": 0,
+        "crit2_signal": false
+      },
+      "B3_embed_shape": {
+        "n": 70,
+        "disc_square_rate": 0.0,
+        "A5_rate": 0.0,
+        "err": 0,
+        "crit2_signal": false
+      },
+      "B4_full_mix": {
+        "n": 70,
+        "disc_square_rate": 0.0,
+        "A5_rate": 0.0,
+        "err": 0,
+        "crit2_signal": false
+      },
+      "B5_homog_binary_seed": {
+        "n": 70,
+        "disc_square_rate": 0.0,
+        "A5_rate": 0.0,
+        "err": 0,
+        "crit2_signal": false
+      },
+      "B6_ef0": {
+        "n": 70,
+        "disc_square_rate": 0.0,
+        "A5_rate": 0.0,
+        "err": 0,
+        "crit2_signal": false
+      },
+      "B7_embed_ell": {
+        "n": 70,
+        "disc_square_rate": 0.0,
+        "A5_rate": 0.0,
+        "err": 0,
+        "crit2_signal": false
+      }
+    },
+    "best_disc_sq_rate": 0.0,
+    "any_crit2_signal": false,
+    "samples_square": []
+  },
+  "C_tier11_return": {
+    "findings": [
+      {
+        "name": "homogenised_no_x2 (known)",
+        "beyond_BJ_embed": true,
+        "identical_square_in": "t (iff disc(seed) constant square)",
+        "disc_identity": true,
+        "free_continuous_params": 1
+      },
+      {
+        "name": "a=-ef, ce=-bf, d=b^2/e^2",
+        "beyond_BJ_embed": true,
+        "identical_square": true,
+        "info": "0",
+        "note": "reduces to -108 d^5 e^2 type factor \u2014 not square in free params"
+      },
+      {
+        "name": "full weighted homogenisation in T",
+        "beyond_BJ_embed": "when p or q nonzero",
+        "identical_square_in": "t iff disc(seed) square",
+        "realizable": "Yes when parameters solve the 4 coupling equations as polys in t; no-x2 (q=0,a=e=0) and BJ (p=q=0,d=0,a=-ef) are the clean cases. Generic (p,q,r,s) may need non-polynomial (rational) T-params.",
+        "free_continuous_params": 1
+      },
+      {
+        "name": "pure-even envelope (m,k)",
+        "beyond_BJ_embed": false,
+        "identical_square": true,
+        "free_continuous_params": 2,
+        "note": "Largest known identical-square family overall; not beyond BJ-embed"
+      }
+    ],
+    "bilinear_hits": [
+      {
+        "name": "a=3,d=-3,f=1 free b,c,e",
+        "identical_square": false,
+        "info": "odd:256*b**5 - 3125*b**4*c**4 - 6000*b**4*c**2 - 320*b**4*c"
+      },
+      {
+        "name": "a=-ef,f=1,d=e free b,c,e",
+        "identical_square": false,
+        "info": "odd:256*b**5 - 3125*b**4*c**4 + 2000*b**4*c**2*e + 1280*b**"
+      },
+      {
+        "name": "a=-ef,f=1,d=e**2 free b,c,e",
+        "identical_square": false,
+        "info": "odd:256*b**5 - 3125*b**4*c**4 + 2000*b**4*c**2*e**2 + 1280*"
+      },
+      {
+        "name": "b=c,e=f,d=0 free a,b,e",
+        "identical_square": false,
+        "info": "odd:108*a**5 + 432*a**4*f**2 + 648*a**3*f**4 - 4500*a**2*c*"
+      },
+      {
+        "name": "e=f,a=-e**2,d=0 free b,c,e",
+        "identical_square": false,
+        "info": "odd:256*b**5*f**5 - 3125*b**4*c**4 + 1280*b**4*c*f**5 + 256"
+      }
+    ],
+    "any_new_beyond_BJ_identical_square": false,
+    "conclusion": "No new multi-parameter identical-square subclass beyond the known homogenisation (1-param) and pure-even envelope (2-param, BJ-embed). Bilinear cuts tested still fail. Crit-2 necessity fragment not found."
+  }
+}

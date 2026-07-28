@@ -1,0 +1,174 @@
+{
+  "elapsed_s": 2.29,
+  "verdict": "Math integrity review (2.29s): 30 PASS, 0 FAIL of 30 checks.",
+  "n_pass": 30,
+  "n_fail": 0,
+  "sections": {
+    "A_BJ": [
+      {
+        "name": "A1 BJ symbolic disc = 256 aa^5 + 3125 bb^4",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "A2 BJ numeric random match",
+        "pass": true,
+        "detail": "{'bj_numeric_ok': 39, 'bj_numeric_fail': [], 'bj_symbolic_identity': True, 'bj_formula': '256*a**5 + 3125*b**4', 'icosa_formula': '3125*(4*m**5 + n**2)**2', 'icosa_numeric_ok': 40, 'icosa_numeric_fail': [], 'operational_A5': 'For irreducible monic f in Z[x] of degree 5: disc(f) square and some unramified p with factorization type (3,1,1) implies Gal(f/Q) = A5 (only transitive subgroup of A5 containing a 3-cycle).'}"
+      },
+      {
+        "name": "A3 flagship disc square",
+        "pass": true,
+        "detail": "disc=58564000000"
+      }
+    ],
+    "B_pure_even": [
+      {
+        "name": "B1 pure-even disc identity in Q(m,k)",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "B2 LSW disc identity",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "B3 flagship-ray cleared disc square",
+        "pass": true,
+        "detail": "alpha=320 beta=-512 disc=1073741824000000"
+      }
+    ],
+    "C_flagship_Mestre": [
+      {
+        "name": "C1 Mestre condition rem=0",
+        "pass": true,
+        "detail": "Poly(0, x, domain='ZZ')"
+      },
+      {
+        "name": "C2 monic deg 5",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "C3 t=0 recovers seed",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "C4 expanded coefficient table",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "C5 factored coefficient table",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "C6 disc_z(P_t) square in Q[t]",
+        "pass": true,
+        "detail": "content=58564000000 odds=[]"
+      },
+      {
+        "name": "C7 disc content equals disc(seed)",
+        "pass": true,
+        "detail": "content=58564000000 discP=58564000000"
+      },
+      {
+        "name": "C8 Gal A5 sample table",
+        "pass": true,
+        "detail": "[{'t': 0, 'status': 'HIT_A5', 'ok': True}, {'t': 1, 'status': 'HIT_A5', 'ok': True}, {'t': -1, 'status': 'HIT_A5', 'ok': True}, {'t': 2, 'status': 'HIT_A5', 'ok': True}, {'t': 3, 'status': 'HIT_A5', 'ok': True}, {'t': 5, 'status': 'HIT_A5', 'ok': True}, {'t': 9, 'status': 'HIT_A5', 'ok': True}, {'t': 27, 'status': 'HIT_A5', 'ok': True}, {'t': 61, 'status': 'HIT_A5', 'ok': True}, {'t': 80, 'status': 'HIT_A5', 'ok': True}]"
+      }
+    ],
+    "D_B_embed": [
+      {
+        "name": "D1 B disc identity",
+        "pass": true,
+        "detail": "324*A**2*(A**2 + 84375)**2"
+      },
+      {
+        "name": "D2 chi_T = P_A under embed",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "D3 beyond BJ (d=-75 recorded)",
+        "pass": true,
+        "detail": "d=-75 structural"
+      },
+      {
+        "name": "D4 lattice A disc\u25a1 + model A5",
+        "pass": true,
+        "detail": ""
+      }
+    ],
+    "E_avatars": [
+      {
+        "name": "E1 PE avatar disc identity",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "E2 B avatar same as D1",
+        "pass": true,
+        "detail": "see D1"
+      }
+    ],
+    "F_homogenisation": [
+      {
+        "name": "F1 homogenisation exponent n(n-1)=20",
+        "pass": true,
+        "detail": "classical: disc(f_u)=u^{20} disc(seed)"
+      },
+      {
+        "name": "F2 homog numeric u=2",
+        "pass": true,
+        "detail": "got=61408804864000000 expect=61408804864000000"
+      },
+      {
+        "name": "F2 homog numeric u=3",
+        "pass": true,
+        "detail": "got=204200041660164000000 expect=204200041660164000000"
+      },
+      {
+        "name": "F2 homog numeric u=5",
+        "pass": true,
+        "detail": "got=5585098266601562500000000 expect=5585098266601562500000000"
+      }
+    ],
+    "G_seed_A5": [
+      {
+        "name": "G seed flagship A5",
+        "pass": true,
+        "detail": "HIT_A5"
+      },
+      {
+        "name": "G seed classical A5",
+        "pass": true,
+        "detail": "HIT_A5"
+      },
+      {
+        "name": "G seed classical_95 A5",
+        "pass": true,
+        "detail": "HIT_A5"
+      },
+      {
+        "name": "G seed lsw A5",
+        "pass": true,
+        "detail": "HIT_A5"
+      }
+    ],
+    "H_controls": [
+      {
+        "name": "H1 base M not disc square (S5 control)",
+        "pass": true,
+        "detail": "odd_monodromy"
+      },
+      {
+        "name": "H2 necessity paused / not claimed by review package",
+        "pass": true,
+        "detail": "documentation stance"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1654 @@
+{
+  "elapsed_s": 25.19,
+  "verdict": "Non-classical resonant field probes (25.19s). R_539 deg=210; proxies n=5,7,11,15. N1 samples ok; N2 split-Frob labels on flagship; N3 pure-even identity over generic fields=PASS. Scaffold LOCKED \u2014 research open, not classical closure.",
+  "scaffold_ok": true,
+  "R_definition": {
+    "definition": "R := real subfield Q(2 cos(2\u03c0/N)) for N the HQCC period (N=539), or a computable proxy R_n along the divisor tower.",
+    "N_period": 539,
+    "G4_model_float": 539.9,
+    "factorisation_539": {
+      "7": 2,
+      "11": 1
+    },
+    "degree_R_539": 210,
+    "tower": [
+      {
+        "n": 3,
+        "xi": "2*cos(2\u03c0/3)",
+        "degree_predicted": 1,
+        "phi_n": 2,
+        "minpoly": "x + 1",
+        "minpoly_degree": 1,
+        "error": null,
+        "hqcc_tag": "ternary/generations"
+      },
+      {
+        "n": 5,
+        "xi": "2*cos(2\u03c0/5)",
+        "degree_predicted": 2,
+        "phi_n": 4,
+        "minpoly": "x**2 + x - 1",
+        "minpoly_degree": 2,
+        "error": null,
+        "hqcc_tag": null
+      },
+      {
+        "n": 7,
+        "xi": "2*cos(2\u03c0/7)",
+        "degree_predicted": 3,
+        "phi_n": 6,
+        "minpoly": "x**3 + x**2 - 2*x - 1",
+        "minpoly_degree": 3,
+        "error": null,
+        "hqcc_tag": "period_factor"
+      },
+      {
+        "n": 11,
+        "xi": "2*cos(2\u03c0/11)",
+        "degree_predicted": 5,
+        "phi_n": 10,
+        "minpoly": "x**5 + x**4 - 4*x**3 - 3*x**2 + 3*x + 1",
+        "minpoly_degree": 5,
+        "error": null,
+        "hqcc_tag": "period_factor"
+      },
+      {
+        "n": 15,
+        "xi": "2*cos(2\u03c0/15)",
+        "degree_predicted": 4,
+        "phi_n": 8,
+        "minpoly": "x**4 - x**3 - 4*x**2 + 4*x + 1",
+        "minpoly_degree": 4,
+        "error": null,
+        "hqcc_tag": null
+      },
+      {
+        "n": 33,
+        "xi": "2*cos(2\u03c0/33)",
+        "degree_predicted": 10,
+        "phi_n": 20,
+        "minpoly": "x**10 - x**9 - 10*x**8 + 10*x**7 + 34*x**6 - 34*x**5 - 43*x**4 + 43*x**3 + 12*x**2 - 12*x + 1",
+        "minpoly_degree": 10,
+        "error": null,
+        "hqcc_tag": null
+      },
+      {
+        "n": 35,
+        "xi": "2*cos(2\u03c0/35)",
+        "degree_predicted": 12,
+        "phi_n": 24,
+        "minpoly": "x**12 - x**11 - 12*x**10 + 11*x**9 + 54*x**8 - 43*x**7 - 113*x**6 + 71*x**5 + 110*x**4 - 46*x**3 - 40*x**2 + 8*x + 1",
+        "minpoly_degree": 12,
+        "error": null,
+        "hqcc_tag": null
+      },
+      {
+        "n": 55,
+        "xi": "2*cos(2\u03c0/55)",
+        "degree_predicted": 20,
+        "phi_n": 40,
+        "minpoly": null,
+        "minpoly_degree": null,
+        "error": null,
+        "hqcc_tag": null
+      },
+      {
+        "n": 77,
+        "xi": "2*cos(2\u03c0/77)",
+        "degree_predicted": 30,
+        "phi_n": 60,
+        "minpoly": null,
+        "minpoly_degree": null,
+        "error": null,
+        "hqcc_tag": null
+      },
+      {
+        "n": 105,
+        "xi": "2*cos(2\u03c0/105)",
+        "degree_predicted": 24,
+        "phi_n": 48,
+        "minpoly": null,
+        "minpoly_degree": null,
+        "error": null,
+        "hqcc_tag": null
+      },
+      {
+        "n": 539,
+        "xi": "2*cos(2\u03c0/539)",
+        "degree_predicted": 210,
+        "phi_n": 420,
+        "minpoly": null,
+        "minpoly_degree": null,
+        "error": null,
+        "hqcc_tag": "period"
+      }
+    ],
+    "computable_now": [
+      {
+        "n": 3,
+        "xi": "2*cos(2\u03c0/3)",
+        "degree_predicted": 1,
+        "phi_n": 2,
+        "minpoly": "x + 1",
+        "minpoly_degree": 1,
+        "error": null,
+        "hqcc_tag": "ternary/generations"
+      },
+      {
+        "n": 5,
+        "xi": "2*cos(2\u03c0/5)",
+        "degree_predicted": 2,
+        "phi_n": 4,
+        "minpoly": "x**2 + x - 1",
+        "minpoly_degree": 2,
+        "error": null,
+        "hqcc_tag": null
+      },
+      {
+        "n": 7,
+        "xi": "2*cos(2\u03c0/7)",
+        "degree_predicted": 3,
+        "phi_n": 6,
+        "minpoly": "x**3 + x**2 - 2*x - 1",
+        "minpoly_degree": 3,
+        "error": null,
+        "hqcc_tag": "period_factor"
+      },
+      {
+        "n": 11,
+        "xi": "2*cos(2\u03c0/11)",
+        "degree_predicted": 5,
+        "phi_n": 10,
+        "minpoly": "x**5 + x**4 - 4*x**3 - 3*x**2 + 3*x + 1",
+        "minpoly_degree": 5,
+        "error": null,
+        "hqcc_tag": "period_factor"
+      },
+      {
+        "n": 15,
+        "xi": "2*cos(2\u03c0/15)",
+        "degree_predicted": 4,
+        "phi_n": 8,
+        "minpoly": "x**4 - x**3 - 4*x**2 + 4*x + 1",
+        "minpoly_degree": 4,
+        "error": null,
+        "hqcc_tag": null
+      }
+    ],
+    "model_core_integers": {
+      "3": "ternary/generations",
+      "9": "3^2",
+      "18": "visible_digits",
+      "61": "punctures",
+      "80": "flux/61",
+      "243": "3^5_towers",
+      "520": "tower_res",
+      "539": "period",
+      "4880": "flux_budget"
+    },
+    "stance": "Classical HQCC seeds remain in Z[x]. Non-classical work studies f\u2208R[x] and Gal(f/R), with Z-seeds as specialisations under embeddings R\u2192R or traces/norms R\u2192Q."
+  },
+  "N1_polys_over_R": {
+    "5": {
+      "n": 5,
+      "status": "ok",
+      "field": {
+        "n": 5,
+        "xi": "2*cos(2\u03c0/5)",
+        "degree_predicted": 2,
+        "phi_n": 4,
+        "minpoly": "x**2 + x - 1",
+        "minpoly_degree": 2,
+        "error": null,
+        "hqcc_tag": null
+      },
+      "samples": [
+        {
+          "tag": "flagship_descended",
+          "alpha": "-55",
+          "beta": "88",
+          "disc_in_R": "58564000000",
+          "coeffs_in_Q": true,
+          "disc_square_in_Q": true,
+          "gal_over_Q_if_classical": "HIT_A5",
+          "irr_Q": true,
+          "embeddings_sample": [
+            {
+              "k": 1,
+              "xi_num": 0.6180339887498949,
+              "alpha": -55.0,
+              "beta": 88.0,
+              "disc_num": 58564000000.0,
+              "disc_positive": true
+            },
+            {
+              "k": 2,
+              "xi_num": -1.618033988749895,
+              "alpha": -55.0,
+              "beta": 88.0,
+              "disc_num": 58564000000.0,
+              "disc_positive": true
+            },
+            {
+              "k": 3,
+              "xi_num": -1.618033988749895,
+              "alpha": -55.0,
+              "beta": 88.0,
+              "disc_num": 58564000000.0,
+              "disc_positive": true
+            }
+          ]
+        },
+        {
+          "tag": "flag_plus_ternary_xi",
+          "alpha": "3*xi - 55",
+          "beta": "88 - xi",
+          "disc_in_R": "30741464865*xi + 54656346826",
+          "coeffs_in_Q": false,
+          "disc_square_in_Q": null,
+          "gal_over_Q_if_classical": null,
+          "irr_Q": null,
+          "embeddings_sample": [
+            {
+              "k": 1,
+              "xi_num": 0.6180339887498949,
+              "alpha": -53.14589803375031,
+              "beta": 87.3819660112501,
+              "disc_num": 73655616976.53067,
+              "disc_positive": true
+            },
+            {
+              "k": 2,
+              "xi_num": -1.618033988749895,
+              "alpha": -59.85410196624969,
+              "beta": 89.6180339887499,
+              "disc_num": 4915611810.469299,
+              "disc_positive": true
+            },
+            {
+              "k": 3,
+              "xi_num": -1.618033988749895,
+              "alpha": -59.85410196624969,
+              "beta": 89.6180339887499,
+              "disc_num": 4915611810.469299,
+              "disc_positive": true
+            }
+          ]
+        },
+        {
+          "tag": "classical_plus_xi",
+          "alpha": "xi + 20",
+          "beta": "16 - 3*xi",
+          "disc_in_R": "1092612682 - 22066895*xi",
+          "coeffs_in_Q": false,
+          "disc_square_in_Q": null,
+          "gal_over_Q_if_classical": null,
+          "irr_Q": null,
+          "embeddings_sample": [
+            {
+              "k": 1,
+              "xi_num": 0.6180339887498949,
+              "alpha": 20.618033988749893,
+              "beta": 14.145898033750315,
+              "disc_num": 1078974590.8638246,
+              "disc_positive": true
+            },
+            {
+              "k": 2,
+              "xi_num": -1.618033988749895,
+              "alpha": 18.381966011250107,
+              "beta": 20.854101966249686,
+              "disc_num": 1128317668.1361756,
+              "disc_positive": true
+            },
+            {
+              "k": 3,
+              "xi_num": -1.618033988749895,
+              "alpha": 18.381966011250107,
+              "beta": 20.854101966249686,
+              "disc_num": 1128317668.1361756,
+              "disc_positive": true
+            }
+          ]
+        },
+        {
+          "tag": "LSW_plus_powers3_xi",
+          "alpha": "9*xi - 100",
+          "beta": "400 - 27*xi",
+          "disc_in_R": "79500989140618 - 22589532452655*xi",
+          "coeffs_in_Q": false,
+          "disc_square_in_Q": null,
+          "gal_over_Q_if_classical": null,
+          "irr_Q": null,
+          "embeddings_sample": [
+            {
+              "k": 1,
+              "xi_num": 0.6180339887498949,
+              "alpha": -94.43769410125094,
+              "beta": 383.3130823037528,
+              "disc_num": 65539890294908.414,
+              "disc_positive": true
+            },
+            {
+              "k": 2,
+              "xi_num": -1.618033988749895,
+              "alpha": -114.56230589874906,
+              "beta": 443.6869176962472,
+              "disc_num": 116051620438982.58,
+              "disc_positive": true
+            },
+            {
+              "k": 3,
+              "xi_num": -1.618033988749895,
+              "alpha": -114.56230589874906,
+              "beta": 443.6869176962472,
+              "disc_num": 116051620438982.58,
+              "disc_positive": true
+            }
+          ]
+        },
+        {
+          "tag": "model_core_linear",
+          "alpha": "61*xi",
+          "beta": "80*xi + 3",
+          "disc_in_R": "734430265280*xi - 410769706043",
+          "coeffs_in_Q": false,
+          "disc_square_in_Q": null,
+          "gal_over_Q_if_classical": null,
+          "irr_Q": null,
+          "embeddings_sample": [
+            {
+              "k": 1,
+              "xi_num": 0.6180339887498949,
+              "alpha": 37.70007331374359,
+              "beta": 52.44271909999159,
+              "disc_num": 43133160266.64182,
+              "disc_positive": true
+            },
+            {
+              "k": 2,
+              "xi_num": -1.618033988749895,
+              "alpha": -98.70007331374359,
+              "beta": -126.44271909999159,
+              "disc_num": -1599102837632.6418,
+              "disc_positive": false
+            },
+            {
+              "k": 3,
+              "xi_num": -1.618033988749895,
+              "alpha": -98.70007331374359,
+              "beta": -126.44271909999159,
+              "disc_num": -1599102837632.6418,
+              "disc_positive": false
+            }
+          ]
+        },
+        {
+          "tag": "chebyshev_adjacent",
+          "alpha": "-xi - 4",
+          "beta": "2*xi",
+          "disc_in_R": "-381680*xi - 294496",
+          "coeffs_in_Q": false,
+          "disc_square_in_Q": null,
+          "gal_over_Q_if_classical": null,
+          "irr_Q": null,
+          "embeddings_sample": [
+            {
+              "k": 1,
+              "xi_num": 0.6180339887498949,
+              "alpha": -4.618033988749895,
+              "beta": 1.2360679774997898,
+              "disc_num": -530387.2128260599,
+              "disc_positive": false
+            },
+            {
+              "k": 2,
+              "xi_num": -1.618033988749895,
+              "alpha": -2.381966011250105,
+              "beta": -3.23606797749979,
+              "disc_num": 323075.2128260599,
+              "disc_positive": true
+            },
+            {
+              "k": 3,
+              "xi_num": -1.618033988749895,
+              "alpha": -2.381966011250105,
+              "beta": -3.23606797749979,
+              "disc_num": 323075.2128260599,
+              "disc_positive": true
+            }
+          ]
+        }
+      ],
+      "remark": "Gal(f/R) for f\u2208R[x] is the decomposition group picture relative to R; when coeffs \u2208 Q this recovers classical Gal(f/Q). Non-rational samples need relative resolvents / norm forms for a full Gal computation."
+    },
+    "7": {
+      "n": 7,
+      "status": "ok",
+      "field": {
+        "n": 7,
+        "xi": "2*cos(2\u03c0/7)",
+        "degree_predicted": 3,
+        "phi_n": 6,
+        "minpoly": "x**3 + x**2 - 2*x - 1",
+        "minpoly_degree": 3,
+        "error": null,
+        "hqcc_tag": "period_factor"
+      },
+      "samples": [
+        {
+          "tag": "flagship_descended",
+          "alpha": "-55",
+          "beta": "88",
+          "disc_in_R": "58564000000",
+          "coeffs_in_Q": true,
+          "disc_square_in_Q": true,
+          "gal_over_Q_if_classical": "HIT_A5",
+          "irr_Q": true,
+          "embeddings_sample": [
+            {
+              "k": 1,
+              "xi_num": 1.246979603717467,
+              "alpha": -55.0,
+              "beta": 88.0,
+              "disc_num": 58564000000.0,
+              "disc_positive": true
+            },
+            {
+              "k": 2,
+              "xi_num": -0.4450418679126288,
+              "alpha": -55.0,
+              "beta": 88.0,
+              "disc_num": 58564000000.0,
+              "disc_positive": true
+            },
+            {
+              "k": 3,
+              "xi_num": -1.8019377358048383,
+              "alpha": -55.0,
+              "beta": 88.0,
+              "disc_num": 58564000000.0,
+              "disc_positive": true
+            }
+          ]
+        },
+        {
+          "tag": "flag_plus_ternary_xi",
+          "alpha": "3*xi - 55",
+          "beta": "88 - xi",
+          "disc_in_R": "-3913414657*xi**2 + 27041986315*xi + 58777873899",
+          "coeffs_in_Q": false,
+          "disc_square_in_Q": null,
+          "gal_over_Q_if_classical": null,
+          "irr_Q": null,
+          "embeddings_sample": [
+            {
+              "k": 1,
+              "xi_num": 1.246979603717467,
+              "alpha": -51.259061188847596,
+              "beta": 86.75302039628254,
+              "disc_num": 86413483332.67987,
+              "disc_positive": true
+            },
+            {
+              "k": 2,
+              "xi_num": -0.4450418679126288,
+              "alpha": -56.335125603737886,
+              "beta": 88.44504186791264,
+              "disc_num": 45967958029.60477,
+              "disc_positive": true
+            },
+            {
+              "k": 3,
+              "xi_num": -1.8019377358048383,
+              "alpha": -60.40581320741452,
+              "beta": 89.80193773580484,
+              "disc_num": -2656879265.2845154,
+              "disc_positive": false
+            }
+          ]
+        },
+        {
+          "tag": "classical_plus_xi",
+          "alpha": "xi + 20",
+          "beta": "16 - 3*xi",
+          "disc_in_R": "68891151*xi**2 + 42170555*xi + 1019346043",
+          "coeffs_in_Q": false,
+          "disc_square_in_Q": null,
+          "gal_over_Q_if_classical": null,
+          "irr_Q": null,
+          "embeddings_sample": [
+            {
+              "k": 1,
+              "xi_num": 1.246979603717467,
+              "alpha": 21.246979603717467,
+              "beta": 12.2590611888476,
+              "disc_num": 1179054720.4387546,
+              "disc_positive": true
+            },
+            {
+              "k": 2,
+              "xi_num": -0.4450418679126288,
+              "alpha": 19.55495813208737,
+              "beta": 17.335125603737886,
+              "disc_num": 1014223117.7819586,
+              "disc_positive": true
+            },
+            {
+              "k": 3,
+              "xi_num": -1.8019377358048383,
+              "alpha": 18.198062264195162,
+              "beta": 21.405813207414514,
+              "disc_num": 1167045490.7792869,
+              "disc_positive": true
+            }
+          ]
+        },
+        {
+          "tag": "LSW_plus_powers3_xi",
+          "alpha": "9*xi - 100",
+          "beta": "400 - 27*xi",
+          "disc_in_R": "2061794969199*xi**2 - 20608250562405*xi + 77359471804507",
+          "coeffs_in_Q": false,
+          "disc_square_in_Q": null,
+          "gal_over_Q_if_classical": null,
+          "irr_Q": null,
+          "embeddings_sample": [
+            {
+              "k": 1,
+              "xi_num": 1.246979603717467,
+              "alpha": -88.7771835665428,
+              "beta": 366.3315506996284,
+              "disc_num": 54867408538941.76,
+              "disc_positive": true
+            },
+            {
+              "k": 2,
+              "xi_num": -0.4450418679126288,
+              "alpha": -104.00537681121367,
+              "beta": 412.01613043364097,
+              "disc_num": 86939369909116.94,
+              "disc_positive": true
+            },
+            {
+              "k": 3,
+              "xi_num": -1.8019377358048383,
+              "alpha": -116.21743962224355,
+              "beta": 448.65231886673064,
+              "disc_num": 121188862373862.3,
+              "disc_positive": true
+            }
+          ]
+        },
+        {
+          "tag": "model_core_linear",
+          "alpha": "61*xi",
+          "beta": "80*xi + 3",
+          "disc_in_R": "-498986612224*xi**2 + 991510265280*xi + 539850212293",
+          "coeffs_in_Q": false,
+          "disc_square_in_Q": null,
+          "gal_over_Q_if_classical": null,
+          "irr_Q": null,
+          "embeddings_sample": [
+            {
+              "k": 1,
+              "xi_num": 1.246979603717467,
+              "alpha": 76.06575582676548,
+              "beta": 102.75836829739735,
+              "disc_num": 1000339999493.218,
+              "disc_positive": true
+            },
+            {
+              "k": 2,
+              "xi_num": -0.4450418679126288,
+              "alpha": -27.147553942670356,
+              "beta": -32.6033494330103,
+              "disc_num": -243786441.91592503,
+              "disc_positive": false
+            },
+            {
+              "k": 3,
+              "xi_num": -1.8019377358048383,
+              "alpha": -109.91820188409514,
+              "beta": -141.15501886438707,
+              "disc_num": -2866988902572.3037,
+              "disc_positive": false
+            }
+          ]
+        },
+        {
+          "tag": "chebyshev_adjacent",
+          "alpha": "xi**2 - 5",
+          "beta": "2*xi",
+          "disc_in_R": "409584*xi**2 + 54704*xi - 708432",
+          "coeffs_in_Q": false,
+          "disc_square_in_Q": null,
+          "gal_over_Q_if_classical": null,
+          "irr_Q": null,
+          "embeddings_sample": [
+            {
+              "k": 1,
+              "xi_num": 1.246979603717467,
+              "alpha": -3.445041867912629,
+              "beta": 2.493959207434934,
+              "disc_num": -3331.256185365928,
+              "disc_positive": false
+            },
+            {
+              "k": 2,
+              "xi_num": -0.4450418679126288,
+              "alpha": -4.801937735804838,
+              "beta": -0.8900837358252576,
+              "disc_num": -651654.4359241811,
+              "disc_positive": false
+            },
+            {
+              "k": 3,
+              "xi_num": -1.8019377358048383,
+              "alpha": -1.7530203962825328,
+              "beta": -3.6038754716096766,
+              "disc_num": 522905.69210954715,
+              "disc_positive": true
+            }
+          ]
+        }
+      ],
+      "remark": "Gal(f/R) for f\u2208R[x] is the decomposition group picture relative to R; when coeffs \u2208 Q this recovers classical Gal(f/Q). Non-rational samples need relative resolvents / norm forms for a full Gal computation."
+    },
+    "11": {
+      "n": 11,
+      "status": "ok",
+      "field": {
+        "n": 11,
+        "xi": "2*cos(2\u03c0/11)",
+        "degree_predicted": 5,
+        "phi_n": 10,
+        "minpoly": "x**5 + x**4 - 4*x**3 - 3*x**2 + 3*x + 1",
+        "minpoly_degree": 5,
+        "error": null,
+        "hqcc_tag": "period_factor"
+      },
+      "samples": [
+        {
+          "tag": "flagship_descended",
+          "alpha": "-55",
+          "beta": "88",
+          "disc_in_R": "58564000000",
+          "coeffs_in_Q": true,
+          "disc_square_in_Q": true,
+          "gal_over_Q_if_classical": "HIT_A5",
+          "irr_Q": true,
+          "embeddings_sample": [
+            {
+              "k": 1,
+              "xi_num": 1.6825070656623624,
+              "alpha": -55.0,
+              "beta": 88.0,
+              "disc_num": 58564000000.0,
+              "disc_positive": true
+            },
+            {
+              "k": 2,
+              "xi_num": 0.8308300260037729,
+              "alpha": -55.0,
+              "beta": 88.0,
+              "disc_num": 58564000000.0,
+              "disc_positive": true
+            },
+            {
+              "k": 3,
+              "xi_num": -0.2846296765465703,
+              "alpha": -55.0,
+              "beta": 88.0,
+              "disc_num": 58564000000.0,
+              "disc_positive": true
+            }
+          ]
+        },
+        {
+          "tag": "flag_plus_ternary_xi",
+          "alpha": "3*xi - 55",
+          "beta": "88 - xi",
+          "disc_in_R": "-5761483*xi**4 + 208236832*xi**3 - 3687893376*xi**2 + 26619813376*xi + 58563937792",
+          "coeffs_in_Q": false,
+          "disc_square_in_Q": null,
+          "gal_over_Q_if_classical": null,
+          "irr_Q": null,
+          "embeddings_sample": [
+            {
+              "k": 1,
+              "xi_num": 1.6825070656623624,
+              "alpha": -49.95247880301291,
+              "beta": 86.31749293433764,
+              "disc_num": 93857801811.31761,
+              "disc_positive": true
+            },
+            {
+              "k": 2,
+              "xi_num": 0.8308300260037729,
+              "alpha": -52.507509921988685,
+              "beta": 87.16916997399623,
+              "disc_num": 78251483831.49998,
+              "disc_positive": true
+            },
+            {
+              "k": 3,
+              "xi_num": -0.2846296765465703,
+              "alpha": -55.85388902963971,
+              "beta": 88.28462967654657,
+              "disc_num": 50683538184.408356,
+              "disc_positive": true
+            }
+          ]
+        },
+        {
+          "tag": "classical_plus_xi",
+          "alpha": "xi + 20",
+          "beta": "16 - 3*xi",
+          "disc_in_R": "278469*xi**4 - 4374976*xi**3 + 63680768*xi**2 + 51199232*xi + 1023999744",
+          "coeffs_in_Q": false,
+          "disc_square_in_Q": null,
+          "gal_over_Q_if_classical": null,
+          "irr_Q": null,
+          "embeddings_sample": [
+            {
+              "k": 1,
+              "xi_num": 1.6825070656623624,
+              "alpha": 21.682507065662364,
+              "beta": 10.952478803012912,
+              "disc_num": 1271806246.4359393,
+              "disc_positive": true
+            },
+            {
+              "k": 2,
+              "xi_num": 0.8308300260037729,
+              "alpha": 20.830830026003774,
+              "beta": 13.507509921988682,
+              "disc_num": 1108118689.6533349,
+              "disc_positive": true
+            },
+            {
+              "k": 3,
+              "xi_num": -0.2846296765465703,
+              "alpha": 19.71537032345343,
+              "beta": 16.85388902963971,
+              "disc_num": 1014688670.5122609,
+              "disc_positive": true
+            }
+          ]
+        },
+        {
+          "tag": "LSW_plus_powers3_xi",
+          "alpha": "9*xi - 100",
+          "beta": "400 - 27*xi",
+          "disc_in_R": "805828581*xi**4 - 79692133824*xi**3 + 1979685349632*xi**2 - 20448045349632*xi + 77439984883456",
+          "coeffs_in_Q": false,
+          "disc_square_in_Q": null,
+          "gal_over_Q_if_classical": null,
+          "irr_Q": null,
+          "embeddings_sample": [
+            {
+              "k": 1,
+              "xi_num": 1.6825070656623624,
+              "alpha": -84.85743640903874,
+              "beta": 354.5723092271162,
+              "disc_num": 48267049431875.29,
+              "disc_positive": true
+            },
+            {
+              "k": 2,
+              "xi_num": 0.8308300260037729,
+              "alpha": -92.52252976596604,
+              "beta": 377.5675892978981,
+              "disc_num": 61772349327928.24,
+              "disc_positive": true
+            },
+            {
+              "k": 3,
+              "xi_num": -0.2846296765465703,
+              "alpha": -102.56166708891914,
+              "beta": 407.6850012667574,
+              "disc_num": 83422330660796.03,
+              "disc_positive": true
+            }
+          ]
+        },
+        {
+          "tag": "model_core_linear",
+          "alpha": "61*xi",
+          "beta": "80*xi + 3",
+          "disc_in_R": "-88216653056*xi**4 + 884066612224*xi**3 + 649729959168*xi**2 - 648622959168*xi - 216216399931",
+          "coeffs_in_Q": false,
+          "disc_square_in_Q": null,
+          "gal_over_Q_if_classical": null,
+          "irr_Q": null,
+          "embeddings_sample": [
+            {
+              "k": 1,
+              "xi_num": 1.6825070656623624,
+              "alpha": 102.6329310054041,
+              "beta": 137.60056525298899,
+              "disc_num": 4035526485778.222,
+              "disc_positive": true
+            },
+            {
+              "k": 2,
+              "xi_num": 0.8308300260037729,
+              "alpha": 50.68063158623014,
+              "beta": 69.46640208030183,
+              "disc_num": 158364802936.95227,
+              "disc_positive": true
+            },
+            {
+              "k": 3,
+              "xi_num": -0.2846296765465703,
+              "alpha": -17.36241026934079,
+              "beta": -19.770374123725624,
+              "disc_num": 73514803.27572215,
+              "disc_positive": true
+            }
+          ]
+        },
+        {
+          "tag": "chebyshev_adjacent",
+          "alpha": "xi**2 - 5",
+          "beta": "2*xi",
+          "disc_in_R": "-58800*xi**4 - 28160*xi**3 + 586240*xi**2 + 60416*xi - 767488",
+          "coeffs_in_Q": false,
+          "disc_square_in_Q": null,
+          "gal_over_Q_if_classical": null,
+          "irr_Q": null,
+          "embeddings_sample": [
+            {
+              "k": 1,
+              "xi_num": 1.6825070656623624,
+              "alpha": -2.169169973996227,
+              "beta": 3.365014131324725,
+              "disc_num": 388385.5163037823,
+              "disc_positive": true
+            },
+            {
+              "k": 2,
+              "xi_num": 0.8308300260037729,
+              "alpha": -4.30972146789057,
+              "beta": 1.6616600520075457,
+              "disc_num": -356790.8485791538,
+              "disc_positive": false
+            },
+            {
+              "k": 3,
+              "xi_num": -0.2846296765465703,
+              "alpha": -4.918985947228995,
+              "beta": -0.5692593530931406,
+              "disc_num": -736927.087372063,
+              "disc_positive": false
+            }
+          ]
+        }
+      ],
+      "remark": "Gal(f/R) for f\u2208R[x] is the decomposition group picture relative to R; when coeffs \u2208 Q this recovers classical Gal(f/Q). Non-rational samples need relative resolvents / norm forms for a full Gal computation."
+    },
+    "15": {
+      "n": 15,
+      "status": "ok",
+      "field": {
+        "n": 15,
+        "xi": "2*cos(2\u03c0/15)",
+        "degree_predicted": 4,
+        "phi_n": 8,
+        "minpoly": "x**4 - x**3 - 4*x**2 + 4*x + 1",
+        "minpoly_degree": 4,
+        "error": null,
+        "hqcc_tag": null
+      },
+      "samples": [
+        {
+          "tag": "flagship_descended",
+          "alpha": "-55",
+          "beta": "88",
+          "disc_in_R": "58564000000",
+          "coeffs_in_Q": true,
+          "disc_square_in_Q": true,
+          "gal_over_Q_if_classical": "HIT_A5",
+          "irr_Q": true,
+          "embeddings_sample": [
+            {
+              "k": 1,
+              "xi_num": 1.8270909152852017,
+              "alpha": -55.0,
+              "beta": 88.0,
+              "disc_num": 58564000000.0,
+              "disc_positive": true
+            },
+            {
+              "k": 2,
+              "xi_num": 1.3382612127177165,
+              "alpha": -55.0,
+              "beta": 88.0,
+              "disc_num": 58564000000.0,
+              "disc_positive": true
+            },
+            {
+              "k": 4,
+              "xi_num": -0.20905692653530694,
+              "alpha": -55.0,
+              "beta": 88.0,
+              "disc_num": 58564000000.0,
+              "disc_positive": true
+            }
+          ]
+        },
+        {
+          "tag": "flag_plus_ternary_xi",
+          "alpha": "3*xi - 55",
+          "beta": "88 - xi",
+          "disc_in_R": "202599765*xi**3 - 3710877100*xi**2 + 26642486060*xi + 58569637067",
+          "coeffs_in_Q": false,
+          "disc_square_in_Q": null,
+          "gal_over_Q_if_classical": null,
+          "irr_Q": null,
+          "embeddings_sample": [
+            {
+              "k": 1,
+              "xi_num": 1.8270909152852017,
+              "alpha": -49.518727254144395,
+              "beta": 86.1729090847148,
+              "disc_num": 96095722330.84027,
+              "disc_positive": true
+            },
+            {
+              "k": 2,
+              "xi_num": 1.3382612127177165,
+              "alpha": -50.98521636184685,
+              "beta": 86.66173878728229,
+              "disc_num": 88063854048.47968,
+              "disc_positive": true
+            },
+            {
+              "k": 4,
+              "xi_num": -0.20905692653530694,
+              "alpha": -55.62717077960592,
+              "beta": 88.20905692653531,
+              "disc_num": 52835806568.32245,
+              "disc_positive": true
+            }
+          ]
+        },
+        {
+          "tag": "classical_plus_xi",
+          "alpha": "xi + 20",
+          "beta": "16 - 3*xi",
+          "disc_in_R": "-4095995*xi**3 + 64794900*xi**2 + 50083820*xi + 1023721019",
+          "coeffs_in_Q": false,
+          "disc_square_in_Q": null,
+          "gal_over_Q_if_classical": null,
+          "irr_Q": null,
+          "embeddings_sample": [
+            {
+              "k": 1,
+              "xi_num": 1.8270909152852017,
+              "alpha": 21.8270909152852,
+              "beta": 10.518727254144395,
+              "disc_num": 1306548283.0882916,
+              "disc_positive": true
+            },
+            {
+              "k": 2,
+              "xi_num": 1.3382612127177165,
+              "alpha": 21.33826121271772,
+              "beta": 11.98521636184685,
+              "disc_num": 1196973155.4613662,
+              "disc_positive": true
+            },
+            {
+              "k": 4,
+              "xi_num": -0.20905692653530694,
+              "alpha": 19.790943073464693,
+              "beta": 16.627170779605922,
+              "disc_num": 1016119921.8217411,
+              "disc_positive": true
+            }
+          ]
+        },
+        {
+          "tag": "LSW_plus_powers3_xi",
+          "alpha": "9*xi - 100",
+          "beta": "400 - 27*xi",
+          "disc_in_R": "-78856072155*xi**3 + 1982923780500*xi**2 - 20451359363220*xi + 77439163938331",
+          "coeffs_in_Q": false,
+          "disc_square_in_Q": null,
+          "gal_over_Q_if_classical": null,
+          "irr_Q": null,
+          "embeddings_sample": [
+            {
+              "k": 1,
+              "xi_num": 1.8270909152852017,
+              "alpha": -83.55618176243318,
+              "beta": 350.66854528729954,
+              "disc_num": 46211221212817.984,
+              "disc_positive": true
+            },
+            {
+              "k": 2,
+              "xi_num": 1.3382612127177165,
+              "alpha": -87.95564908554056,
+              "beta": 363.86694725662164,
+              "disc_num": 53432208301786.45,
+              "disc_positive": true
+            },
+            {
+              "k": 4,
+              "xi_num": -0.20905692653530694,
+              "alpha": -101.88151233881776,
+              "beta": 405.6445370164533,
+              "disc_num": 81802046046045.69,
+              "disc_positive": true
+            }
+          ]
+        },
+        {
+          "tag": "model_core_linear",
+          "alpha": "61*xi",
+          "beta": "80*xi + 3",
+          "disc_in_R": "1228283265280*xi**3 + 513080000000*xi**2 - 1593056265280*xi - 344216399931",
+          "coeffs_in_Q": false,
+          "disc_square_in_Q": null,
+          "gal_over_Q_if_classical": null,
+          "irr_Q": null,
+          "embeddings_sample": [
+            {
+              "k": 1,
+              "xi_num": 1.8270909152852017,
+              "alpha": 111.4525458323973,
+              "beta": 149.16727322281614,
+              "disc_num": 5949596425184.482,
+              "disc_positive": true
+            },
+            {
+              "k": 2,
+              "xi_num": 1.3382612127177165,
+              "alpha": 81.6339339757807,
+              "beta": 110.06089701741732,
+              "disc_num": 1386642748128.8208,
+              "disc_positive": true
+            },
+            {
+              "k": 4,
+              "xi_num": -0.20905692653530694,
+              "alpha": -12.752472518653724,
+              "beta": -13.724554122824557,
+              "disc_num": 24537410.42937766,
+              "disc_positive": true
+            }
+          ]
+        },
+        {
+          "tag": "chebyshev_adjacent",
+          "alpha": "xi**2 - 5",
+          "beta": "2*xi",
+          "disc_in_R": "-54960*xi**3 + 379200*xi**2 + 199360*xi - 740944",
+          "coeffs_in_Q": false,
+          "disc_square_in_Q": null,
+          "gal_over_Q_if_classical": null,
+          "irr_Q": null,
+          "embeddings_sample": [
+            {
+              "k": 1,
+              "xi_num": 1.8270909152852017,
+              "alpha": -1.661738787282284,
+              "beta": 3.6541818305704035,
+              "disc_num": 553955.5985998975,
+              "disc_positive": true
+            },
+            {
+              "k": 2,
+              "xi_num": 1.3382612127177165,
+              "alpha": -3.2090569265353066,
+              "beta": 2.676522425435433,
+              "disc_num": 73252.00809401275,
+              "disc_positive": true
+            },
+            {
+              "k": 4,
+              "xi_num": -0.20905692653530694,
+              "alpha": -4.956295201467611,
+              "beta": -0.4181138530706139,
+              "disc_num": -765546.57124515,
+              "disc_positive": false
+            }
+          ]
+        }
+      ],
+      "remark": "Gal(f/R) for f\u2208R[x] is the decomposition group picture relative to R; when coeffs \u2208 Q this recovers classical Gal(f/Q). Non-rational samples need relative resolvents / norm forms for a full Gal computation."
+    }
+  },
+  "N2_split_frobenius": {
+    "5": {
+      "n": 5,
+      "field_degree": 2,
+      "minpoly": "x**2 + x - 1",
+      "n_split_complete_Rn_below_max": 17,
+      "split_primes_sample": [
+        11,
+        19,
+        29,
+        31,
+        41,
+        59,
+        61,
+        71,
+        79,
+        89,
+        101,
+        109,
+        131,
+        139,
+        149,
+        151,
+        179
+      ],
+      "non_split_sample": [
+        {
+          "p": 3,
+          "degs": [
+            2
+          ]
+        },
+        {
+          "p": 7,
+          "degs": [
+            2
+          ]
+        },
+        {
+          "p": 13,
+          "degs": [
+            2
+          ]
+        },
+        {
+          "p": 17,
+          "degs": [
+            2
+          ]
+        },
+        {
+          "p": 23,
+          "degs": [
+            2
+          ]
+        },
+        {
+          "p": 37,
+          "degs": [
+            2
+          ]
+        },
+        {
+          "p": 43,
+          "degs": [
+            2
+          ]
+        },
+        {
+          "p": 47,
+          "degs": [
+            2
+          ]
+        }
+      ],
+      "artin_heuristic": "For R_n=Q(2cos(2\u03c0/5)), complete split of p checked by minpoly factoring into linears mod p (deg\u22648).",
+      "frobenius_labelling_demo": {
+        "seed": "x^5 + (-55)x + (88)",
+        "at_split_in_R": {
+          "primes_used": 16,
+          "patterns": {
+            "(5,)": 7,
+            "(1, 1, 3)": 5,
+            "(1, 2, 2)": 4
+          }
+        },
+        "at_control_primes": {
+          "primes_used": 20,
+          "patterns": {
+            "(5,)": 8,
+            "(1, 1, 3)": 7,
+            "(1, 2, 2)": 4,
+            "(1, 1, 1, 1, 1)": 1
+          }
+        },
+        "interpretation": "Same Gal=A5 seed; restricted Chebotarev density along split primes still samples conjugacy classes, but only those Frob that act trivially on R. Densities may differ from absolute Chebotarev."
+      },
+      "programme_use": "Conjugacy classes in Gal(f/Q) acquire an extra label: Frob_p for p split in R, vs inert/ramified. Classes that appear only at split primes are 'R-visible'; this refines Chebotarev histograms (Stage D2) without changing the group."
+    },
+    "7": {
+      "n": 7,
+      "field_degree": 3,
+      "minpoly": "x**3 + x**2 - 2*x - 1",
+      "n_split_complete_Rn_below_max": 11,
+      "split_primes_sample": [
+        13,
+        29,
+        41,
+        43,
+        71,
+        83,
+        97,
+        113,
+        127,
+        139,
+        167
+      ],
+      "non_split_sample": [
+        {
+          "p": 3,
+          "degs": [
+            3
+          ]
+        },
+        {
+          "p": 5,
+          "degs": [
+            3
+          ]
+        },
+        {
+          "p": 11,
+          "degs": [
+            3
+          ]
+        },
+        {
+          "p": 17,
+          "degs": [
+            3
+          ]
+        },
+        {
+          "p": 19,
+          "degs": [
+            3
+          ]
+        },
+        {
+          "p": 23,
+          "degs": [
+            3
+          ]
+        },
+        {
+          "p": 31,
+          "degs": [
+            3
+          ]
+        },
+        {
+          "p": 37,
+          "degs": [
+            3
+          ]
+        }
+      ],
+      "artin_heuristic": "For R_n=Q(2cos(2\u03c0/7)), complete split of p checked by minpoly factoring into linears mod p (deg\u22648).",
+      "frobenius_labelling_demo": {
+        "seed": "x^5 + (-55)x + (88)",
+        "at_split_in_R": {
+          "primes_used": 11,
+          "patterns": {
+            "(1, 1, 3)": 4,
+            "(5,)": 4,
+            "(1, 2, 2)": 2,
+            "(1, 1, 1, 1, 1)": 1
+          }
+        },
+        "at_control_primes": {
+          "primes_used": 20,
+          "patterns": {
+            "(5,)": 10,
+            "(1, 2, 2)": 5,
+            "(1, 1, 3)": 5
+          }
+        },
+        "interpretation": "Same Gal=A5 seed; restricted Chebotarev density along split primes still samples conjugacy classes, but only those Frob that act trivially on R. Densities may differ from absolute Chebotarev."
+      },
+      "programme_use": "Conjugacy classes in Gal(f/Q) acquire an extra label: Frob_p for p split in R, vs inert/ramified. Classes that appear only at split primes are 'R-visible'; this refines Chebotarev histograms (Stage D2) without changing the group."
+    },
+    "11": {
+      "n": 11,
+      "field_degree": 5,
+      "minpoly": "x**5 + x**4 - 4*x**3 - 3*x**2 + 3*x + 1",
+      "n_split_complete_Rn_below_max": 6,
+      "split_primes_sample": [
+        23,
+        43,
+        67,
+        89,
+        109,
+        131
+      ],
+      "non_split_sample": [
+        {
+          "p": 3,
+          "degs": [
+            5
+          ]
+        },
+        {
+          "p": 5,
+          "degs": [
+            5
+          ]
+        },
+        {
+          "p": 7,
+          "degs": [
+            5
+          ]
+        },
+        {
+          "p": 13,
+          "degs": [
+            5
+          ]
+        },
+        {
+          "p": 17,
+          "degs": [
+            5
+          ]
+        },
+        {
+          "p": 19,
+          "degs": [
+            5
+          ]
+        },
+        {
+          "p": 29,
+          "degs": [
+            5
+          ]
+        },
+        {
+          "p": 31,
+          "degs": [
+            5
+          ]
+        }
+      ],
+      "artin_heuristic": "For R_n=Q(2cos(2\u03c0/11)), complete split of p checked by minpoly factoring into linears mod p (deg\u22648).",
+      "frobenius_labelling_demo": {
+        "seed": "x^5 + (-55)x + (88)",
+        "at_split_in_R": {
+          "primes_used": 6,
+          "patterns": {
+            "(1, 2, 2)": 3,
+            "(1, 1, 3)": 2,
+            "(5,)": 1
+          }
+        },
+        "at_control_primes": {
+          "primes_used": 20,
+          "patterns": {
+            "(5,)": 12,
+            "(1, 1, 3)": 5,
+            "(1, 2, 2)": 2,
+            "(1, 1, 1, 1, 1)": 1
+          }
+        },
+        "interpretation": "Same Gal=A5 seed; restricted Chebotarev density along split primes still samples conjugacy classes, but only those Frob that act trivially on R. Densities may differ from absolute Chebotarev."
+      },
+      "programme_use": "Conjugacy classes in Gal(f/Q) acquire an extra label: Frob_p for p split in R, vs inert/ramified. Classes that appear only at split primes are 'R-visible'; this refines Chebotarev histograms (Stage D2) without changing the group."
+    },
+    "15": {
+      "n": 15,
+      "field_degree": 4,
+      "minpoly": "x**4 - x**3 - 4*x**2 + 4*x + 1",
+      "n_split_complete_Rn_below_max": 8,
+      "split_primes_sample": [
+        29,
+        31,
+        59,
+        61,
+        89,
+        149,
+        151,
+        179
+      ],
+      "non_split_sample": [
+        {
+          "p": 7,
+          "degs": [
+            4
+          ]
+        },
+        {
+          "p": 11,
+          "degs": [
+            2,
+            2
+          ]
+        },
+        {
+          "p": 13,
+          "degs": [
+            4
+          ]
+        },
+        {
+          "p": 17,
+          "degs": [
+            4
+          ]
+        },
+        {
+          "p": 19,
+          "degs": [
+            2,
+            2
+          ]
+        },
+        {
+          "p": 23,
+          "degs": [
+            4
+          ]
+        },
+        {
+          "p": 37,
+          "degs": [
+            4
+          ]
+        },
+        {
+          "p": 41,
+          "degs": [
+            2,
+            2
+          ]
+        }
+      ],
+      "artin_heuristic": "For R_n=Q(2cos(2\u03c0/15)), complete split of p checked by minpoly factoring into linears mod p (deg\u22648).",
+      "frobenius_labelling_demo": {
+        "seed": "x^5 + (-55)x + (88)",
+        "at_split_in_R": {
+          "primes_used": 8,
+          "patterns": {
+            "(5,)": 4,
+            "(1, 1, 3)": 3,
+            "(1, 2, 2)": 1
+          }
+        },
+        "at_control_primes": {
+          "primes_used": 20,
+          "patterns": {
+            "(5,)": 10,
+            "(1, 2, 2)": 5,
+            "(1, 1, 3)": 4,
+            "(1, 1, 1, 1, 1)": 1
+          }
+        },
+        "interpretation": "Same Gal=A5 seed; restricted Chebotarev density along split primes still samples conjugacy classes, but only those Frob that act trivially on R. Densities may differ from absolute Chebotarev."
+      },
+      "programme_use": "Conjugacy classes in Gal(f/Q) acquire an extra label: Frob_p for p split in R, vs inert/ramified. Classes that appear only at split primes are 'R-visible'; this refines Chebotarev histograms (Stage D2) without changing the group."
+    }
+  },
+  "N3_pure_even_cosine": {
+    "pure_even_identity_over_generic_field": true,
+    "statement": "Theorem (field-agnostic pure-even). Over any field F with char\u2209{2,5}, the formulae \u03b1=256m\u00b2\u22123125k\u2074/256, \u03b2=k\u03b1 give disc(x\u2075+\u03b1x+\u03b2)=(256 \u03b1\u00b2 m)\u00b2 in F(m,k). Hence pure-even is not special to Q.",
+    "cosine_k_trials": [
+      {
+        "n": 5,
+        "p": 1,
+        "k_form": "2cos(2\u03c0\u00b71/5)",
+        "m": "1",
+        "alpha": "9375*sqrt(5)/512 + 109197/512",
+        "beta": "-31161/512 + 49911*sqrt(5)/512",
+        "disc_is_square_expr": true,
+        "alpha_simplified": "9375*sqrt(5)/512 + 109197/512",
+        "beta_simplified": "-31161/512 + 49911*sqrt(5)/512",
+        "over_Q_sqrt5": true,
+        "alpha_in_Q": false,
+        "beta_in_Q": false
+      },
+      {
+        "n": 5,
+        "p": 1,
+        "k_form": "2cos(2\u03c0\u00b71/5)",
+        "m": "5/16",
+        "alpha": "-9075/512 + 9375*sqrt(5)/512",
+        "beta": "27975/512 - 9225*sqrt(5)/512",
+        "disc_is_square_expr": true,
+        "alpha_simplified": "-9075/512 + 9375*sqrt(5)/512",
+        "beta_simplified": "27975/512 - 9225*sqrt(5)/512",
+        "over_Q_sqrt5": true,
+        "alpha_in_Q": false,
+        "beta_in_Q": false
+      },
+      {
+        "n": 5,
+        "p": 1,
+        "k_form": "2cos(2\u03c0\u00b71/5)",
+        "m": "5/4",
+        "alpha": "9375*sqrt(5)/512 + 182925/512",
+        "beta": "-68025/512 + 86775*sqrt(5)/512",
+        "disc_is_square_expr": true,
+        "alpha_simplified": "9375*sqrt(5)/512 + 182925/512",
+        "beta_simplified": "-68025/512 + 86775*sqrt(5)/512",
+        "over_Q_sqrt5": true,
+        "alpha_in_Q": false,
+        "beta_in_Q": false
+      },
+      {
+        "n": 5,
+        "p": 2,
+        "k_form": "2cos(2\u03c0\u00b72/5)",
+        "m": "1",
+        "alpha": "109197/512 - 9375*sqrt(5)/512",
+        "beta": "-49911*sqrt(5)/512 - 31161/512",
+        "disc_is_square_expr": true,
+        "alpha_simplified": "109197/512 - 9375*sqrt(5)/512",
+        "beta_simplified": "-49911*sqrt(5)/512 - 31161/512",
+        "over_Q_sqrt5": true,
+        "alpha_in_Q": false,
+        "beta_in_Q": false
+      },
+      {
+        "n": 5,
+        "p": 2,
+        "k_form": "2cos(2\u03c0\u00b72/5)",
+        "m": "5/16",
+        "alpha": "-9375*sqrt(5)/512 - 9075/512",
+        "beta": "9225*sqrt(5)/512 + 27975/512",
+        "disc_is_square_expr": true,
+        "alpha_simplified": "-9375*sqrt(5)/512 - 9075/512",
+        "beta_simplified": "9225*sqrt(5)/512 + 27975/512",
+        "over_Q_sqrt5": true,
+        "alpha_in_Q": false,
+        "beta_in_Q": false
+      },
+      {
+        "n": 5,
+        "p": 2,
+        "k_form": "2cos(2\u03c0\u00b72/5)",
+        "m": "5/4",
+        "alpha": "182925/512 - 9375*sqrt(5)/512",
+        "beta": "-86775*sqrt(5)/512 - 68025/512",
+        "disc_is_square_expr": true,
+        "alpha_simplified": "182925/512 - 9375*sqrt(5)/512",
+        "beta_simplified": "-86775*sqrt(5)/512 - 68025/512",
+        "over_Q_sqrt5": true,
+        "alpha_in_Q": false,
+        "beta_in_Q": false
+      },
+      {
+        "n": 15,
+        "p": 1,
+        "k_form": "2cos(2\u03c0\u00b71/15)",
+        "m": "1",
+        "alpha": "256 - 3125*(1 + sqrt(5) + sqrt(6)*sqrt(5 - sqrt(5)))**4/65536",
+        "beta": "759*sqrt(5)/256 + 19509/256 + 17143*sqrt(30 - 6*sqrt(5))/512",
+        "disc_is_square_expr": true
+      },
+      {
+        "n": 15,
+        "p": 1,
+        "k_form": "2cos(2\u03c0\u00b71/15)",
+        "m": "5/16",
+        "alpha": "25 - 3125*(1 + sqrt(5) + sqrt(6)*sqrt(5 - sqrt(5)))**4/65536",
+        "beta": "-14025*sqrt(5)/256 - 12425*sqrt(30 - 6*sqrt(5))/512 + 4725/256",
+        "disc_is_square_expr": true
+      },
+      {
+        "n": 15,
+        "p": 1,
+        "k_form": "2cos(2\u03c0\u00b71/15)",
+        "m": "5/4",
+        "alpha": "400 - 3125*(1 + sqrt(5) + sqrt(6)*sqrt(5 - sqrt(5)))**4/65536",
+        "beta": "9975*sqrt(5)/256 + 28725/256 + 35575*sqrt(30 - 6*sqrt(5))/512",
+        "disc_is_square_expr": true
+      },
+      {
+        "n": 15,
+        "p": 2,
+        "k_form": "2cos(2\u03c0\u00b72/15)",
+        "m": "1",
+        "alpha": "256 - 3125*(-sqrt(5) + 1 + sqrt(6)*sqrt(sqrt(5) + 5))**4/65536",
+        "beta": "-759*sqrt(5)/256 + 19509/256 + 17143*sqrt(6*sqrt(5) + 30)/512",
+        "disc_is_square_expr": true
+      },
+      {
+        "n": 15,
+        "p": 2,
+        "k_form": "2cos(2\u03c0\u00b72/15)",
+        "m": "5/16",
+        "alpha": "25 - 3125*(-sqrt(5) + 1 + sqrt(6)*sqrt(sqrt(5) + 5))**4/65536",
+        "beta": "-12425*sqrt(6*sqrt(5) + 30)/512 + 4725/256 + 14025*sqrt(5)/256",
+        "disc_is_square_expr": true
+      },
+      {
+        "n": 15,
+        "p": 2,
+        "k_form": "2cos(2\u03c0\u00b72/15)",
+        "m": "5/4",
+        "alpha": "400 - 3125*(-sqrt(5) + 1 + sqrt(6)*sqrt(sqrt(5) + 5))**4/65536",
+        "beta": "-9975*sqrt(5)/256 + 28725/256 + 35575*sqrt(6*sqrt(5) + 30)/512",
+        "disc_is_square_expr": true
+      }
+    ],
+    "R5_model": {
+      "k": "2cos(2\u03c0/5)=(-1+\u221a5)/2",
+      "m": "5/16",
+      "alpha": "-9075/512 + 9375*sqrt(5)/512",
+      "beta": "27975/512 - 9225*sqrt(5)/512",
+      "note": "Model over Q(\u221a5); recovers evenness over R_5. Links to K=Q(\u221a5) base-change side route for \u03c6 (K_SQRT5_EVEN) but does not force descent to even-over-Q."
+    },
+    "chebyshev_monodromy_question": "If branch coordinates or ratio k are required to lie among {2 cos(2\u03c0 a/n)}, Chebyshev recurrences T_r constrain which k-slices can appear as geometric specialisations of a cover defined over R_n. Pure-even arithmetic still holds for any k\u2208R; cosine selection is a geometric filter, not an evenness condition.",
+    "open_questions": [
+      "Q1. Which pure-even k\u2208R_n arise as cross-ratios of a cover defined over R_n?",
+      "Q2. Does Gal(R_n/Q) act on the parameter space so that multi-k paths are unions of Galois orbits of cosine-special k?",
+      "Q3. Can Nielsen labels be valued in conjugacy classes of Gal(f/R_n) with Frob at split primes as the arithmetic side of the dictionary?",
+      "Q4. Is there f\u2208R_539[x] with monodromy A5 whose reduction at split primes recovers the HQCC Z-lattice seeds?"
+    ]
+  }
+}

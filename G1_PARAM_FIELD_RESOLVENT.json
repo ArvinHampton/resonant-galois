@@ -1,0 +1,543 @@
+{
+  "verdict": "G1 param-field resolvent (22.72s). s=-1: f\u2208Q(\u221a5)(t)[y], Norm deg 10 over Q(t). R1 seed|norm exact hits=0/15 (common-root signals=0). R2 forward cat=0 BJ=0 even5=0. R3 multi-sheet cat=0 multi_k=False. max_sheets\u22482. geometric_catalogue_hit=False.",
+  "elapsed_s": 22.72,
+  "R0": {
+    "field_K": "Q(sqrt(5))",
+    "degree_K_over_Q": 2,
+    "s": -1,
+    "params": {
+      "p2": -1,
+      "c": "-sqrt(5)",
+      "sigma": 0,
+      "pi": "-1/25",
+      "q": "1/sqrt(5)",
+      "w": "-1/sqrt(5)"
+    },
+    "f_over_K_t": "sqrt(5)*t*y**2/5 - sqrt(5)*t/125 + y**5 - y**3",
+    "norm_over_Q_t": "-t**2*y**4 + 2*t**2*y**2/25 - t**2/625 + 5*y**10 - 10*y**8 + 5*y**6",
+    "norm_cleared": "-625*t**2*y**4 + 50*t**2*y**2 - t**2 + 3125*y**10 - 6250*y**8 + 3125*y**6",
+    "norm_degree_y": 10,
+    "note": "Norm degree = 5 * [K:Q] = 10"
+  },
+  "R1": [
+    {
+      "ok": false,
+      "alpha": -55,
+      "beta": 88,
+      "n_exact_t": 0,
+      "t_values": [],
+      "common_root_candidates": [],
+      "gcd_deg": 0,
+      "rem_coeffs_sample": [
+        "24200000 - t**2",
+        "-30525000",
+        "50*t**2 + 9625000"
+      ],
+      "tag": "flagship",
+      "k": "-8/5"
+    },
+    {
+      "ok": false,
+      "alpha": 145,
+      "beta": -232,
+      "n_exact_t": 0,
+      "t_values": [],
+      "common_root_candidates": [],
+      "gcd_deg": 0,
+      "rem_coeffs_sample": [
+        "168200000 - t**2",
+        "-209525000",
+        "50*t**2 + 65250000"
+      ],
+      "tag": "flag_145",
+      "k": "-8/5"
+    },
+    {
+      "ok": false,
+      "alpha": 320,
+      "beta": -512,
+      "n_exact_t": 0,
+      "t_values": [],
+      "common_root_candidates": [],
+      "gcd_deg": 0,
+      "rem_coeffs_sample": [
+        "819200000 - t**2",
+        "-1022400000",
+        "50*t**2 + 319000000"
+      ],
+      "tag": "flag_320",
+      "k": "-8/5"
+    },
+    {
+      "ok": false,
+      "alpha": 20,
+      "beta": 16,
+      "n_exact_t": 0,
+      "t_values": [],
+      "common_root_candidates": [],
+      "gcd_deg": 0,
+      "rem_coeffs_sample": [
+        "800000 - t**2",
+        "1950000",
+        "50*t**2 + 1187500"
+      ],
+      "tag": "classical",
+      "k": "4/5"
+    },
+    {
+      "ok": false,
+      "alpha": 95,
+      "beta": 76,
+      "n_exact_t": 0,
+      "t_values": [],
+      "common_root_candidates": [],
+      "gcd_deg": 0,
+      "rem_coeffs_sample": [
+        "18050000 - t**2",
+        "44887500",
+        "50*t**2 + 27906250"
+      ],
+      "tag": "s95_76",
+      "k": "4/5"
+    },
+    {
+      "ok": false,
+      "alpha": 220,
+      "beta": 176,
+      "n_exact_t": 0,
+      "t_values": [],
+      "common_root_candidates": [],
+      "gcd_deg": 0,
+      "rem_coeffs_sample": [
+        "96800000 - t**2",
+        "241450000",
+        "50*t**2 + 150562500"
+      ],
+      "tag": "s220_176",
+      "k": "4/5"
+    },
+    {
+      "ok": false,
+      "alpha": -100,
+      "beta": 400,
+      "n_exact_t": 0,
+      "t_values": [],
+      "common_root_candidates": [],
+      "gcd_deg": 0,
+      "rem_coeffs_sample": [
+        "500000000 - t**2",
+        "-251250000",
+        "50*t**2 + 31562500"
+      ],
+      "tag": "lsw_m100",
+      "k": "-4"
+    },
+    {
+      "ok": false,
+      "alpha": 124,
+      "beta": -496,
+      "n_exact_t": 0,
+      "t_values": [],
+      "common_root_candidates": [],
+      "gcd_deg": 0,
+      "rem_coeffs_sample": [
+        "768800000 - t**2",
+        "-382850000",
+        "50*t**2 + 47662500"
+      ],
+      "tag": "lsw_124m",
+      "k": "-4"
+    },
+    {
+      "ok": false,
+      "alpha": -209,
+      "beta": 836,
+      "n_exact_t": 0,
+      "t_values": [],
+      "common_root_candidates": [],
+      "gcd_deg": 0,
+      "rem_coeffs_sample": [
+        "2184050000 - t**2",
+        "-1094637500",
+        "50*t**2 + 137156250"
+      ],
+      "tag": "lsw_m209",
+      "k": "-4"
+    },
+    {
+      "ok": false,
+      "alpha": -180,
+      "beta": 432,
+      "n_exact_t": 0,
+      "t_values": [],
+      "common_root_candidates": [],
+      "gcd_deg": 0,
+      "rem_coeffs_sample": [
+        "583200000 - t**2",
+        "-487350000",
+        "50*t**2 + 101812500"
+      ],
+      "tag": "s180",
+      "k": "-12/5"
+    },
+    {
+      "ok": false,
+      "alpha": 220,
+      "beta": -528,
+      "n_exact_t": 0,
+      "t_values": [],
+      "common_root_candidates": [],
+      "gcd_deg": 0,
+      "rem_coeffs_sample": [
+        "871200000 - t**2",
+        "-724350000",
+        "50*t**2 + 150562500"
+      ],
+      "tag": "s220m",
+      "k": "-12/5"
+    },
+    {
+      "ok": false,
+      "alpha": -55,
+      "beta": 176,
+      "n_exact_t": 0,
+      "t_values": [],
+      "common_root_candidates": [],
+      "gcd_deg": 0,
+      "rem_coeffs_sample": [
+        "96800000 - t**2",
+        "-61050000",
+        "50*t**2 + 9625000"
+      ],
+      "tag": "s55_176",
+      "k": "-16/5"
+    },
+    {
+      "ok": false,
+      "alpha": -55,
+      "beta": -88,
+      "n_exact_t": 0,
+      "t_values": [],
+      "common_root_candidates": [],
+      "gcd_deg": 0,
+      "rem_coeffs_sample": [
+        "24200000 - t**2",
+        "30525000",
+        "50*t**2 + 9625000"
+      ],
+      "tag": "flagship_m",
+      "k": "8/5"
+    },
+    {
+      "ok": false,
+      "alpha": 20,
+      "beta": -16,
+      "n_exact_t": 0,
+      "t_values": [],
+      "common_root_candidates": [],
+      "gcd_deg": 0,
+      "rem_coeffs_sample": [
+        "800000 - t**2",
+        "-1950000",
+        "50*t**2 + 1187500"
+      ],
+      "tag": "classical_m",
+      "k": "-4/5"
+    },
+    {
+      "ok": false,
+      "alpha": -100,
+      "beta": -400,
+      "n_exact_t": 0,
+      "t_values": [],
+      "common_root_candidates": [],
+      "gcd_deg": 0,
+      "rem_coeffs_sample": [
+        "500000000 - t**2",
+        "251250000",
+        "50*t**2 + 31562500"
+      ],
+      "tag": "lsw4_m100",
+      "k": "4"
+    }
+  ],
+  "R1_ok": 0,
+  "R2": {
+    "n_factor_rows": 0,
+    "factor_deg_hist": {
+      "10": 28,
+      "2": 6,
+      "1": 3
+    },
+    "n_even5": 0,
+    "n_bj": 0,
+    "n_a5": 0,
+    "catalogue_hits": [],
+    "k_ray_hits": [],
+    "sample": []
+  },
+  "R3": {
+    "sheet_counts": {
+      "-2": 1,
+      "-1": 2,
+      "0.5": 2,
+      "2": 1,
+      "3": 2,
+      "-0.5": 1,
+      "1.5": 1
+    },
+    "n_product_Z": 48,
+    "n_factor5": 0,
+    "n_bj": 0,
+    "catalogue_hits": [],
+    "catalogue_k": [],
+    "multi_k": false,
+    "n_pairs_tested": 112
+  },
+  "R4": {
+    "rows": [
+      {
+        "s": -3,
+        "n_sheets": 1,
+        "p2_sample": [
+          "-1.627701568"
+        ],
+        "c_sample": [
+          "-1.851042522"
+        ]
+      },
+      {
+        "s": -2,
+        "n_sheets": 1,
+        "p2_sample": [
+          "-1.361936268"
+        ],
+        "c_sample": [
+          "-1.983405207"
+        ]
+      },
+      {
+        "s": -1,
+        "n_sheets": 2,
+        "p2_sample": [
+          "-1.0",
+          "-0.999999999"
+        ],
+        "c_sample": [
+          "2.2360679774",
+          "-2.236067977"
+        ]
+      },
+      {
+        "s": -0.5,
+        "n_sheets": 2,
+        "p2_sample": [
+          "-0.734248748",
+          "-1.361936268"
+        ],
+        "c_sample": [
+          "-2.505254259",
+          "0.9917026036"
+        ]
+      },
+      {
+        "s": 0.5,
+        "n_sheets": 2,
+        "p2_sample": [
+          "0.3819660112",
+          "2.6180339887"
+        ],
+        "c_sample": [
+          "-4.736067977",
+          "-0.263932022"
+        ]
+      },
+      {
+        "s": 1.5,
+        "n_sheets": 1,
+        "p2_sample": [
+          "2.3946131691"
+        ],
+        "c_sample": [
+          "-0.506085753"
+        ]
+      },
+      {
+        "s": 2,
+        "n_sheets": 2,
+        "p2_sample": [
+          "2.6180339887",
+          "0.3819660112"
+        ],
+        "c_sample": [
+          "-0.527864045",
+          "-9.472135954"
+        ]
+      },
+      {
+        "s": 3,
+        "n_sheets": 2,
+        "p2_sample": [
+          "2.9443322840",
+          "0.3396355789"
+        ],
+        "c_sample": [
+          "-0.561918755",
+          "-14.34280158"
+        ]
+      },
+      {
+        "s": 4,
+        "n_sheets": 1,
+        "p2_sample": [
+          "3.1931442285"
+        ],
+        "c_sample": [
+          "-0.586834412"
+        ]
+      },
+      {
+        "s": 5,
+        "n_sheets": 2,
+        "p2_sample": [
+          "0.2941935157",
+          "3.3991231839"
+        ],
+        "c_sample": [
+          "-23.80638390",
+          "-0.606167603"
+        ]
+      },
+      {
+        "s": -1.5,
+        "n_sheets": 2,
+        "p2_sample": [
+          "-1.198547596",
+          "-0.834343169"
+        ],
+        "c_sample": [
+          "-2.084856718",
+          "3.5895670417"
+        ]
+      },
+      {
+        "s": 2.5,
+        "n_sheets": 1,
+        "p2_sample": [
+          "2.7947568553"
+        ],
+        "c_sample": [
+          "-0.546345753"
+        ]
+      }
+    ],
+    "max_sheets_observed": 2,
+    "exact_sm1_degree": 2,
+    "note": "Sheet count is a geometric upper bound on the number of covers of this normal form over C at fixed s; parameter field degree may be smaller after identifying Galois orbits. Exact [Q(\u221a5):Q]=2 at s=-1."
+  },
+  "R5": {
+    "n": 40,
+    "n_disc_square": 16,
+    "n_in_cat": 0,
+    "sample": [
+      {
+        "k": "4",
+        "m": "1",
+        "alpha": -2869,
+        "beta": -11476,
+        "disc_square": true,
+        "in_cat": false
+      },
+      {
+        "k": "4",
+        "m": "2",
+        "alpha": -2101,
+        "beta": -8404,
+        "disc_square": true,
+        "in_cat": false
+      },
+      {
+        "k": "4",
+        "m": "3",
+        "alpha": -821,
+        "beta": -3284,
+        "disc_square": true,
+        "in_cat": false
+      },
+      {
+        "k": "4",
+        "m": "5",
+        "alpha": 3275,
+        "beta": 13100,
+        "disc_square": true,
+        "in_cat": false
+      },
+      {
+        "k": "4",
+        "m": "9",
+        "alpha": 17611,
+        "beta": 70444,
+        "disc_square": true,
+        "in_cat": false
+      },
+      {
+        "k": "-4",
+        "m": "1",
+        "alpha": -2869,
+        "beta": 11476,
+        "disc_square": true,
+        "in_cat": false
+      },
+      {
+        "k": "-4",
+        "m": "2",
+        "alpha": -2101,
+        "beta": 8404,
+        "disc_square": true,
+        "in_cat": false
+      },
+      {
+        "k": "-4",
+        "m": "3",
+        "alpha": -821,
+        "beta": 3284,
+        "disc_square": true,
+        "in_cat": false
+      },
+      {
+        "k": "-4",
+        "m": "5",
+        "alpha": 3275,
+        "beta": -13100,
+        "disc_square": true,
+        "in_cat": false
+      },
+      {
+        "k": "-4",
+        "m": "9",
+        "alpha": 17611,
+        "beta": -70444,
+        "disc_square": true,
+        "in_cat": false
+      },
+      {
+        "k": "4/5",
+        "m": "1",
+        "alpha": 251,
+        "beta": 200,
+        "disc_square": false,
+        "in_cat": false
+      },
+      {
+        "k": "4/5",
+        "m": "2",
+        "alpha": 1019,
+        "beta": 815,
+        "disc_square": false,
+        "in_cat": false
+      }
+    ]
+  },
+  "geometric_hit": false,
+  "multi_k": false
+}

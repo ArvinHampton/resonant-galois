@@ -1,0 +1,285 @@
+{
+  "elapsed_s": 1.32,
+  "overall": "YES in the natural reading: every HQCC A5 seed f\u2208Z[x]\u2282R_539[x] has monodromy A5 (over Q, and over R_539 if K\u2229R_539=Q) and reduces at split primes to the HQCC Z-lattice (it is the lattice). NO for non-rational f reducing to a *fixed* seed at infinitely many split primes (congruence rigidity). OPEN for non-rational geometric lifts matching lattice only in Frob type or at finitely many primes.",
+  "field": {
+    "N": 539,
+    "factorisation": {
+      "7": 2,
+      "11": 1
+    },
+    "phi_N": 420,
+    "degree_R_N": 210,
+    "xi": "2*cos(2\u03c0/539)",
+    "gal_order": 210,
+    "computable": false,
+    "proxy_divisors": [
+      7,
+      11,
+      49,
+      77
+    ]
+  },
+  "trivial": {
+    "reading": "trivial",
+    "statement": "Any HQCC A5 seed f \u2208 Z[x] is automatically an element of R_539[x]. If the splitting field K is linearly disjoint from R_539 over Q (generic for these fields), Gal(f/R_539) \u2245 Gal(f/Q) = A5. At every prime p (including those that split in R_539), f mod p is exactly the reduction of the HQCC Z-lattice polynomial.",
+    "answer": "YES",
+    "examples": [
+      {
+        "name": "flagship",
+        "poly": "x^5+(-55)x+(88)",
+        "a": -55,
+        "b": 88,
+        "disc_square": true,
+        "status": "HIT_A5",
+        "in_R539": true,
+        "monodromy_A5": true
+      },
+      {
+        "name": "flagship_m",
+        "poly": "x^5+(145)x+(-232)",
+        "a": 145,
+        "b": -232,
+        "disc_square": true,
+        "status": "HIT_A5",
+        "in_R539": true,
+        "monodromy_A5": true
+      },
+      {
+        "name": "flagship_m2",
+        "poly": "x^5+(320)x+(-512)",
+        "a": 320,
+        "b": -512,
+        "disc_square": true,
+        "status": "HIT_A5",
+        "in_R539": true,
+        "monodromy_A5": true
+      },
+      {
+        "name": "classical",
+        "poly": "x^5+(20)x+(16)",
+        "a": 20,
+        "b": 16,
+        "disc_square": true,
+        "status": "HIT_A5",
+        "in_R539": true,
+        "monodromy_A5": true
+      },
+      {
+        "name": "classical_m",
+        "poly": "x^5+(95)x+(76)",
+        "a": 95,
+        "b": 76,
+        "disc_square": true,
+        "status": "HIT_A5",
+        "in_R539": true,
+        "monodromy_A5": true
+      },
+      {
+        "name": "lsw",
+        "poly": "x^5+(-100)x+(400)",
+        "a": -100,
+        "b": 400,
+        "disc_square": true,
+        "status": "HIT_A5",
+        "in_R539": true,
+        "monodromy_A5": true
+      },
+      {
+        "name": "lsw_m",
+        "poly": "x^5+(124)x+(-496)",
+        "a": 124,
+        "b": -496,
+        "disc_square": true,
+        "status": "HIT_A5",
+        "in_R539": true,
+        "monodromy_A5": true
+      },
+      {
+        "name": "s12",
+        "poly": "x^5+(-180)x+(432)",
+        "a": -180,
+        "b": 432,
+        "disc_square": true,
+        "status": "HIT_A5",
+        "in_R539": true,
+        "monodromy_A5": true
+      }
+    ],
+    "n_A5_examples": 8,
+    "caveat_disjointness": "If K \u2229 R_539 \u2260 Q, then Gal(f/R_539) \u2245 Gal(K/K\u2229R_539) may be proper subgroup of A5. For flagship-type A5 fields this is expected to fail only for special n dividing related conductors; not checked exhaustively for n=539 (deg 210)."
+  },
+  "compositum_heuristic": {
+    "flagship_disc": 58564000000,
+    "primes_dividing_disc_sample": [
+      2,
+      5,
+      11
+    ],
+    "R539_ramified_at": [
+      7,
+      11
+    ],
+    "shared_ramification_7_11": [
+      11
+    ],
+    "note": "Shared ramification at 7 or 11 does not force K \u2229 R_539 \u2260 Q, but is the first place to look for non-disjointness. Full check needs the A5 field's resolvent / number field database \u2014 not done here."
+  },
+  "nontrivial": {
+    "reading": "nontrivial",
+    "statement": "Does there exist f \u2208 R_539[x] \\ Q[x] with Gal(f/R_539)=A5 such that for a positive-density set of primes p that split completely in R_539, the reduction f mod P (P|p) is F_p-isomorphic to the reduction of some HQCC Z-lattice seed (same factorisation type / same poly up to F_p^\u00d7 scaling of variable), or recovers lattice coefficients via traces?",
+    "status": "OPEN \u2014 no construction; no obstruction ruling out all lifts",
+    "why_hard": [
+      "deg R_539 = 210 blocks direct symbolic Gal and minpoly work",
+      "no closed geometric f_s over R_539 producing BJ with lattice specialisations",
+      "reduction of non-rational coeffs requires integral model of O_{R_539}",
+      "matching infinitely many split reductions to a fixed Z-seed is a strong rigidity condition (likely forces f over Q by approximation / Krasner)"
+    ],
+    "plausible_constructions": [
+      {
+        "name": "constant family over R_539",
+        "idea": "f = HQCC seed \u2208 Z[x] \u2282 R_539[x]",
+        "nontrivial": false,
+        "works": true
+      },
+      {
+        "name": "Galois conjugate twist",
+        "idea": "Take \u03b1,\u03b2 \u2208 R_539 on a pure-even k-slice with k\u2208R_539, choose so that under all embeddings R_539\u2192R the specialised real polys relate to lattice; reduce at split p.",
+        "nontrivial": true,
+        "works": "unknown"
+      },
+      {
+        "name": "norm / Weil restriction of A5 cover over R_539",
+        "idea": "Cover over R_539 with monodromy A5; fibre f \u2208 R_539[x]; require specialisations at split primes match lattice Frobenius.",
+        "nontrivial": true,
+        "works": "open (geometric multi-k)"
+      },
+      {
+        "name": "interpolating poly with coeffs in Z[\u03be_539]",
+        "idea": "\u03b1 = \u03b10 + \u03b11 \u03be + \u2026 with \u03b1i \u2208 Z lattice-ish; force \u03b1\u2261-55, \u03b2\u226188 mod all split P in a density-zero or finite set \u2014 cannot match a fixed seed at infinitely many p unless \u03b1,\u03b2 \u2208 Z (approx. argument).",
+        "nontrivial": true,
+        "works": "Likely ONLY if f over Q: if f \u2261 f0 mod P for infinitely many split P and f0 \u2208 Z[x] fixed, then f=f0 by congruence."
+      }
+    ]
+  },
+  "rigidity": {
+    "lemma_sketch": "Let O be the ring of integers of R_539 (or Z[\u03be] order). Let f,f0 \u2208 O[x] be monic of degree d, f0 \u2208 Z[x]. Suppose f \u2261 f0 (mod P) for infinitely many prime ideals P of O. Then each coefficient a_i - a_i^{(0)} lies in infinitely many P, hence is 0. Thus f = f0 \u2208 Z[x].",
+    "consequence": "One cannot have a genuinely non-rational f \u2208 R_539[x]\\Q[x] whose reduction equals a *fixed* HQCC seed at infinitely many primes of R_539. Non-trivial lifts can only match lattice seeds at finitely many split primes, or match a *varying* family of lattice seeds, or match only Frobenius cycle types (not the polynomial itself).",
+    "weaker_nontrivial_goals": [
+      "Match Frob cycle-type statistics of HQCC A5 seeds at split primes",
+      "Match finitely many specified seeds at finitely many split P",
+      "Match lattice under one fixed embedding R_539\u2192Q_p or \u2192R, not all reductions",
+      "Have traces/norms of coeffs land in the HQCC Z-lattice"
+    ]
+  },
+  "answers": [
+    {
+      "reading": "(T) Trivial \u2014 f HQCC seed over Z \u2282 R_539",
+      "exists": "YES",
+      "status": "proved by example"
+    },
+    {
+      "reading": "(T') Same + Gal(f/R_539)=A5 (disjointness)",
+      "exists": "YES expected / conditional",
+      "status": "A5 over Q known; Gal over R_539 = A5 if K\u2229R_539=Q"
+    },
+    {
+      "reading": "(N1) Non-rational f reducing to a fixed seed at \u221e many split P",
+      "exists": "NO",
+      "status": "ruled out by congruence rigidity"
+    },
+    {
+      "reading": "(N2) Non-rational f matching Frob types of lattice at split p",
+      "exists": "plausible / open",
+      "status": "any A5 poly over R_539 with same Gal has same Chebotarev types"
+    },
+    {
+      "reading": "(N3) Geometric f over R_539 with lattice specialisations",
+      "exists": "open",
+      "status": "geometric multi-k / fusion problem"
+    }
+  ],
+  "proxies": {
+    "7": {
+      "proxy_n": 7,
+      "seed": "flagship",
+      "n_split": 10,
+      "primes_used": 10,
+      "frob_types": {
+        "(1, 1, 3)": 4,
+        "(5,)": 3,
+        "(1, 2, 2)": 2,
+        "(1, 1, 1, 1, 1)": 1
+      },
+      "interpretation": "Flagship reductions at split primes of R_n are exactly HQCC lattice reductions \u2014 trivial reading verified on proxy n|539."
+    },
+    "11": {
+      "proxy_n": 11,
+      "seed": "flagship",
+      "n_split": 6,
+      "primes_used": 6,
+      "frob_types": {
+        "(1, 2, 2)": 3,
+        "(1, 1, 3)": 2,
+        "(5,)": 1
+      },
+      "interpretation": "Flagship reductions at split primes of R_n are exactly HQCC lattice reductions \u2014 trivial reading verified on proxy n|539."
+    }
+  },
+  "lattice": {
+    "model_core": {
+      "3": "ternary/generations",
+      "9": "3^2",
+      "18": "visible_digits",
+      "61": "punctures",
+      "80": "flux/61",
+      "243": "3^5_towers",
+      "520": "tower_res",
+      "539": "period",
+      "4880": "flux_budget"
+    },
+    "hqcc_seed_coeffs_sample": [
+      [
+        -55,
+        88,
+        "flagship"
+      ],
+      [
+        145,
+        -232,
+        "flagship_m"
+      ],
+      [
+        320,
+        -512,
+        "flagship_m2"
+      ],
+      [
+        20,
+        16,
+        "classical"
+      ],
+      [
+        95,
+        76,
+        "classical_m"
+      ],
+      [
+        -100,
+        400,
+        "lsw"
+      ],
+      [
+        124,
+        -496,
+        "lsw_m"
+      ],
+      [
+        -180,
+        432,
+        "s12"
+      ]
+    ],
+    "period_N": 539,
+    "note": "HQCC Z-lattice = integer combinations of model numbers {3,9,27,61,80,243,539,\u2026} appearing in seeds; flagship 88=61+27."
+  }
+}

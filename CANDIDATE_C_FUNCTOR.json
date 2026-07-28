@@ -1,0 +1,3650 @@
+{
+  "elapsed_s": 96.29,
+  "verdict": "Candidate C functors F1\u2013F3 (96.29s). F1 BJ disc\u25a1=1.00 A5=1.00; F2 BJ disc\u25a1=0.00 A5=0.00; F3 BJ disc\u25a1=1.00 A5=1.00; random control disc\u25a1=0.00. Functor explicit; even monodromy on image is imported pure-even or partial \u2014 not a necessity theorem.",
+  "type_signature": {
+    "BinaryData": {
+      "n": "N>0",
+      "v2": "N_0 = v_2(n)",
+      "odd_part": "n/2^{v2}",
+      "collatz_itinerary": "{0,1}* truncated Collatz word",
+      "collatz_length": "N_0"
+    },
+    "TernaryOutput": {
+      "lattice": "TernaryLatticeElement",
+      "template": "TemplateParams | None  \u2192 T(a,b,c,d,e,f)",
+      "bj": "BJPair | None  \u2192 x^5+\u03b1x+\u03b2",
+      "functor_id": "F1|F2|F3"
+    },
+    "functors": {
+      "F1": "itinerary\u2192ternary base-3 + M-deform + LSW pure-even",
+      "F2": "v2\u21923^{v2}*residue + BJ-embed template",
+      "F3": "popcount\u2192catalogue k + pure-even envelope (disc\u25a1 by construction)"
+    }
+  },
+  "results": {
+    "F1": {
+      "functor_id": "F1",
+      "n_seeds": 92,
+      "n_bj_images": 92,
+      "n_tmpl_images": 92,
+      "bj_disc_square_rate": 1.0,
+      "bj_A5_rate": 1.0,
+      "tmpl_disc_square_rate": 0.0,
+      "tmpl_A5_rate": 0.0,
+      "status_counts": {
+        "bj_HIT_A5": 92,
+        "bj_disc_square": 92,
+        "bj_A5": 92,
+        "tmpl_odd_monodromy": 92
+      },
+      "sample_rows": [
+        {
+          "n": 1,
+          "v2": 0,
+          "odd": 1,
+          "itin_len": 0,
+          "lattice": 4,
+          "bj": {
+            "alpha": -3100,
+            "beta": 12400,
+            "k": "-4",
+            "construction": "F1: LSW pure-even m=5 from 3^v2+(\u2113 mod 16)"
+          },
+          "bj_gal": {
+            "status": "HIT_A5",
+            "galois": "S5TransitiveSubgroups.A5",
+            "disc": 591053440000000000,
+            "disc_square": true,
+            "irreducible": true
+          },
+          "template": {
+            "a": 3,
+            "b": 80,
+            "c": 61,
+            "d": -3,
+            "e": 0,
+            "f": 4,
+            "construction": "F1: M-deform f=\u2113 mod 243"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 1796058188541335616,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 2,
+          "v2": 1,
+          "odd": 1,
+          "itin_len": 1,
+          "lattice": 9,
+          "bj": {
+            "alpha": -2981,
+            "beta": 11924,
+            "k": "-4",
+            "construction": "F1: LSW pure-even m=12 from 3^v2+(\u2113 mod 16)"
+          },
+          "bj_gal": {
+            "status": "HIT_A5",
+            "galois": "S5TransitiveSubgroups.A5",
+            "disc": 2911054669418041344,
+            "disc_square": true,
+            "irreducible": true
+          },
+          "template": {
+            "a": 3,
+            "b": 80,
+            "c": 61,
+            "d": -3,
+            "e": 0,
+            "f": 9,
+            "construction": "F1: M-deform f=\u2113 mod 243"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 1814803929693617216,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 3,
+          "v2": 0,
+          "odd": 3,
+          "itin_len": 7,
+          "lattice": 22,
+          "bj": {
+            "alpha": -3076,
+            "beta": 12304,
+            "k": "-4",
+            "construction": "F1: LSW pure-even m=7 from 3^v2+(\u2113 mod 16)"
+          },
+          "bj_gal": {
+            "status": "HIT_A5",
+            "galois": "S5TransitiveSubgroups.A5",
+            "disc": 1123004172450463744,
+            "disc_square": true,
+            "irreducible": true
+          },
+          "template": {
+            "a": 3,
+            "b": 80,
+            "c": 61,
+            "d": -3,
+            "e": 0,
+            "f": 22,
+            "construction": "F1: M-deform f=\u2113 mod 243"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": -1980248660625561024,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 4,
+          "v2": 2,
+          "odd": 1,
+          "itin_len": 2,
+          "lattice": 18,
+          "bj": {
+            "alpha": -3004,
+            "beta": 12016,
+            "k": "-4",
+            "construction": "F1: LSW pure-even m=11 from 3^v2+(\u2113 mod 16)"
+          },
+          "bj_gal": {
+            "status": "HIT_A5",
+            "galois": "S5TransitiveSubgroups.A5",
+            "disc": 2522464419061497856,
+            "disc_square": true,
+            "irreducible": true
+          },
+          "template": {
+            "a": 3,
+            "b": 80,
+            "c": 61,
+            "d": -3,
+            "e": 0,
+            "f": 18,
+            "construction": "F1: M-deform f=\u2113 mod 243"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 559131784641490496,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 5,
+          "v2": 0,
+          "odd": 5,
+          "itin_len": 5,
+          "lattice": 4,
+          "bj": {
+            "alpha": -3100,
+            "beta": 12400,
+            "k": "-4",
+            "construction": "F1: LSW pure-even m=5 from 3^v2+(\u2113 mod 16)"
+          },
+          "bj_gal": {
+            "status": "HIT_A5",
+            "galois": "S5TransitiveSubgroups.A5",
+            "disc": 591053440000000000,
+            "disc_square": true,
+            "irreducible": true
+          },
+          "template": {
+            "a": 3,
+            "b": 80,
+            "c": 61,
+            "d": -3,
+            "e": 0,
+            "f": 4,
+            "construction": "F1: M-deform f=\u2113 mod 243"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 1796058188541335616,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 6,
+          "v2": 1,
+          "odd": 3,
+          "itin_len": 8,
+          "lattice": 66,
+          "bj": {
+            "alpha": -3100,
+            "beta": 12400,
+            "k": "-4",
+            "construction": "F1: LSW pure-even m=5 from 3^v2+(\u2113 mod 16)"
+          },
+          "bj_gal": {
+            "status": "HIT_A5",
+            "galois": "S5TransitiveSubgroups.A5",
+            "disc": 591053440000000000,
+            "disc_square": true,
+            "irreducible": true
+          },
+          "template": {
+            "a": 3,
+            "b": 80,
+            "c": 61,
+            "d": -3,
+            "e": 0,
+            "f": 66,
+            "construction": "F1: M-deform f=\u2113 mod 243"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": -1042192325600134250944,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 7,
+          "v2": 0,
+          "odd": 7,
+          "itin_len": 16,
+          "lattice": 181624,
+          "bj": {
+            "alpha": -3044,
+            "beta": 12176,
+            "k": "-4",
+            "construction": "F1: LSW pure-even m=9 from 3^v2+(\u2113 mod 16)"
+          },
+          "bj_gal": {
+            "status": "HIT_A5",
+            "galois": "S5TransitiveSubgroups.A5",
+            "disc": 1780342570609606656,
+            "disc_square": true,
+            "irreducible": true
+          },
+          "template": {
+            "a": 3,
+            "b": 80,
+            "c": 61,
+            "d": -3,
+            "e": 0,
+            "f": 103,
+            "construction": "F1: M-deform f=\u2113 mod 243"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": -9705355433693901050304,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 8,
+          "v2": 3,
+          "odd": 1,
+          "itin_len": 3,
+          "lattice": 61,
+          "bj": {
+            "alpha": -1525,
+            "beta": 6100,
+            "k": "-4",
+            "construction": "F1: LSW pure-even m=40 from 3^v2+(\u2113 mod 16)"
+          },
+          "bj_gal": {
+            "status": "HIT_A5",
+            "galois": "S5TransitiveSubgroups.A5",
+            "disc": 2215334560000000000,
+            "disc_square": true,
+            "irreducible": true
+          },
+          "template": {
+            "a": 3,
+            "b": 80,
+            "c": 61,
+            "d": -3,
+            "e": 0,
+            "f": 61,
+            "construction": "F1: M-deform f=\u2113 mod 243"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": -701226449187257540544,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 9,
+          "v2": 0,
+          "odd": 9,
+          "itin_len": 19,
+          "lattice": 9629662,
+          "bj": {
+            "alpha": -2900,
+            "beta": 11600,
+            "k": "-4",
+            "construction": "F1: LSW pure-even m=15 from 3^v2+(\u2113 mod 16)"
+          },
+          "bj_gal": {
+            "status": "HIT_A5",
+            "galois": "S5TransitiveSubgroups.A5",
+            "disc": 4073938560000000000,
+            "disc_square": true,
+            "irreducible": true
+          },
+          "template": {
+            "a": 3,
+            "b": 80,
+            "c": 61,
+            "d": -3,
+            "e": 0,
+            "f": 58,
+            "construction": "F1: M-deform f=\u2113 mod 243"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": -543911026838858848704,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 10,
+          "v2": 1,
+          "odd": 5,
+          "itin_len": 6,
+          "lattice": 12,
+          "bj": {
+            "alpha": -2900,
+            "beta": 11600,
+            "k": "-4",
+            "construction": "F1: LSW pure-even m=15 from 3^v2+(\u2113 mod 16)"
+          },
+          "bj_gal": {
+            "status": "HIT_A5",
+            "galois": "S5TransitiveSubgroups.A5",
+            "disc": 4073938560000000000,
+            "disc_square": true,
+            "irreducible": true
+          },
+          "template": {
+            "a": 3,
+            "b": 80,
+            "c": 61,
+            "d": -3,
+            "e": 0,
+            "f": 12,
+            "construction": "F1: M-deform f=\u2113 mod 243"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 1724811702083571776,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 11,
+          "v2": 0,
+          "odd": 11,
+          "itin_len": 14,
+          "lattice": 39631,
+          "bj": {
+            "alpha": -2869,
+            "beta": 11476,
+            "k": "-4",
+            "construction": "F1: LSW pure-even m=16 from 3^v2+(\u2113 mod 16)"
+          },
+          "bj_gal": {
+            "status": "HIT_A5",
+            "galois": "S5TransitiveSubgroups.A5",
+            "disc": 4440195819629510656,
+            "disc_square": true,
+            "irreducible": true
+          },
+          "template": {
+            "a": 3,
+            "b": 80,
+            "c": 61,
+            "d": -3,
+            "e": 0,
+            "f": 22,
+            "construction": "F1: M-deform f=\u2113 mod 243"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": -1980248660625561024,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 12,
+          "v2": 2,
+          "odd": 3,
+          "itin_len": 9,
+          "lattice": 189,
+          "bj": {
+            "alpha": -2641,
+            "beta": 10564,
+            "k": "-4",
+            "construction": "F1: LSW pure-even m=22 from 3^v2+(\u2113 mod 16)"
+          },
+          "bj_gal": {
+            "status": "HIT_A5",
+            "galois": "S5TransitiveSubgroups.A5",
+            "disc": 6027801354919404544,
+            "disc_square": true,
+            "irreducible": true
+          },
+          "template": {
+            "a": 3,
+            "b": 80,
+            "c": 61,
+            "d": -3,
+            "e": 0,
+            "f": 189,
+            "construction": "F1: M-deform f=\u2113 mod 243"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": -202245937806566697525184,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 13,
+          "v2": 0,
+          "odd": 13,
+          "itin_len": 9,
+          "lattice": 166,
+          "bj": {
+            "alpha": -3076,
+            "beta": 12304,
+            "k": "-4",
+            "construction": "F1: LSW pure-even m=7 from 3^v2+(\u2113 mod 16)"
+          },
+          "bj_gal": {
+            "status": "HIT_A5",
+            "galois": "S5TransitiveSubgroups.A5",
+            "disc": 1123004172450463744,
+            "disc_square": true,
+            "irreducible": true
+          },
+          "template": {
+            "a": 3,
+            "b": 80,
+            "c": 61,
+            "d": -3,
+            "e": 0,
+            "f": 166,
+            "construction": "F1: M-deform f=\u2113 mod 243"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": -105691609970881729258944,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 14,
+          "v2": 1,
+          "odd": 7,
+          "itin_len": 17,
+          "lattice": 544872,
+          "bj": {
+            "alpha": -3004,
+            "beta": 12016,
+            "k": "-4",
+            "construction": "F1: LSW pure-even m=11 from 3^v2+(\u2113 mod 16)"
+          },
+          "bj_gal": {
+            "status": "HIT_A5",
+            "galois": "S5TransitiveSubgroups.A5",
+            "disc": 2522464419061497856,
+            "disc_square": true,
+            "irreducible": true
+          },
+          "template": {
+            "a": 3,
+            "b": 80,
+            "c": 61,
+            "d": -3,
+            "e": 0,
+            "f": 66,
+            "construction": "F1: M-deform f=\u2113 mod 243"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": -1042192325600134250944,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 15,
+          "v2": 0,
+          "odd": 15,
+          "itin_len": 17,
+          "lattice": 533002,
+          "bj": {
+            "alpha": -3004,
+            "beta": 12016,
+            "k": "-4",
+            "construction": "F1: LSW pure-even m=11 from 3^v2+(\u2113 mod 16)"
+          },
+          "bj_gal": {
+            "status": "HIT_A5",
+            "galois": "S5TransitiveSubgroups.A5",
+            "disc": 2522464419061497856,
+            "disc_square": true,
+            "irreducible": true
+          },
+          "template": {
+            "a": 3,
+            "b": 80,
+            "c": 61,
+            "d": -3,
+            "e": 0,
+            "f": 103,
+            "construction": "F1: M-deform f=\u2113 mod 243"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": -9705355433693901050304,
+            "disc_square": false,
+            "irreducible": true
+          }
+        }
+      ],
+      "all_rows_summary": [
+        {
+          "n": 1,
+          "lattice": 4,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 2,
+          "lattice": 9,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 3,
+          "lattice": 22,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 4,
+          "lattice": 18,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 5,
+          "lattice": 4,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 6,
+          "lattice": 66,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 7,
+          "lattice": 181624,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 8,
+          "lattice": 61,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 9,
+          "lattice": 9629662,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 10,
+          "lattice": 12,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 11,
+          "lattice": 39631,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 12,
+          "lattice": 189,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 13,
+          "lattice": 166,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 14,
+          "lattice": 544872,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 15,
+          "lattice": 533002,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 16,
+          "lattice": 80,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 17,
+          "lattice": 2245,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 18,
+          "lattice": 28888986,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 19,
+          "lattice": 28888834,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 20,
+          "lattice": 27,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 21,
+          "lattice": 4,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 22,
+          "lattice": 118893,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 23,
+          "lattice": 118201,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 24,
+          "lattice": 574,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 25,
+          "lattice": 397203241,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 26,
+          "lattice": 498,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 27,
+          "lattice": 557169668572802548,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 28,
+          "lattice": 1634607,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 29,
+          "lattice": 1634584,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 30,
+          "lattice": 1599006,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 31,
+          "lattice": 4154911122511513966,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 32,
+          "lattice": 243,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 33,
+          "lattice": 21059957857,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 34,
+          "lattice": 6735,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 35,
+          "lattice": 6583,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 36,
+          "lattice": 86666949,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 37,
+          "lattice": 86666926,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 38,
+          "lattice": 86666502,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 39,
+          "lattice": 70363361848999,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 40,
+          "lattice": 88,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 41,
+          "lattice": 1457783275956495574,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 42,
+          "lattice": 12,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 43,
+          "lattice": 289562550970,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 44,
+          "lattice": 356670,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 45,
+          "lattice": 356647,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 46,
+          "lattice": 354603,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 47,
+          "lattice": 4959122072932479208,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 48,
+          "lattice": 1619,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 49,
+          "lattice": 1191615439,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 50,
+          "lattice": 1191609723,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 51,
+          "lattice": 1191609571,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 52,
+          "lattice": 1485,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 53,
+          "lattice": 1462,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 54,
+          "lattice": 1671509005718407644,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 55,
+          "lattice": 1671509005718406952,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 56,
+          "lattice": 4903828,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 57,
+          "lattice": 15352785422104,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 58,
+          "lattice": 4903752,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 59,
+          "lattice": 15352709240110,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 60,
+          "lattice": 4797009,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 61,
+          "lattice": 4796986,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 62,
+          "lattice": 307067908477613097,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 63,
+          "lattice": 307067908476652069,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 64,
+          "lattice": 520,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 65,
+          "lattice": 63180186925,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 66,
+          "lattice": 63179873571,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 67,
+          "lattice": 63179873419,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 68,
+          "lattice": 20196,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 69,
+          "lattice": 20173,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 70,
+          "lattice": 19749,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 71,
+          "lattice": 5004418163844323020,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 72,
+          "lattice": 260000854,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 73,
+          "lattice": 5007113234332430152,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 74,
+          "lattice": 260000778,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 75,
+          "lattice": 265,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 76,
+          "lattice": 259999497,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 77,
+          "lattice": 259999474,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 78,
+          "lattice": 211090085546997,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 79,
+          "lattice": 211090085535127,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 128,
+          "lattice": 539,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 256,
+          "lattice": 4880,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 512,
+          "lattice": 3,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 1024,
+          "lattice": 9,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 81,
+          "lattice": 258499084,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 243,
+          "lattice": 2863672040285914729,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 80,
+          "lattice": 161,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 539,
+          "lattice": 961786684487710444,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 4880,
+          "lattice": 153885411648457982,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 100,
+          "lattice": 3574829160,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 200,
+          "lattice": 10724487487,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 300,
+          "lattice": 2376,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 97,
+          "lattice": 2763519263025785779,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        }
+      ]
+    },
+    "F2": {
+      "functor_id": "F2",
+      "n_seeds": 92,
+      "n_bj_images": 92,
+      "n_tmpl_images": 92,
+      "bj_disc_square_rate": 0.0,
+      "bj_A5_rate": 0.0,
+      "tmpl_disc_square_rate": 0.0,
+      "tmpl_A5_rate": 0.0,
+      "status_counts": {
+        "bj_odd_monodromy": 92,
+        "tmpl_odd_monodromy": 92
+      },
+      "sample_rows": [
+        {
+          "n": 1,
+          "v2": 0,
+          "odd": 1,
+          "itin_len": 0,
+          "lattice": 62,
+          "bj": {
+            "alpha": -263,
+            "beta": -4880,
+            "k": "4880/263",
+            "construction": "F2: BJ-embed chi coefficients"
+          },
+          "bj_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 1771945527245428992,
+            "disc_square": false,
+            "irreducible": true
+          },
+          "template": {
+            "a": -3,
+            "b": 80,
+            "c": 61,
+            "d": 0,
+            "e": 3,
+            "f": 1,
+            "construction": "F2: BJ-embed a=-ef,d=0 from v2"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 1771945527245428992,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 2,
+          "v2": 1,
+          "odd": 1,
+          "itin_len": 1,
+          "lattice": 64,
+          "bj": {
+            "alpha": -343,
+            "beta": -4880,
+            "k": "4880/343",
+            "construction": "F2: BJ-embed chi coefficients"
+          },
+          "bj_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 1771052272253454592,
+            "disc_square": false,
+            "irreducible": true
+          },
+          "template": {
+            "a": -6,
+            "b": 80,
+            "c": 61,
+            "d": 0,
+            "e": 3,
+            "f": 2,
+            "construction": "F2: BJ-embed a=-ef,d=0 from v2"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 1771052272253454592,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 3,
+          "v2": 0,
+          "odd": 3,
+          "itin_len": 7,
+          "lattice": 64,
+          "bj": {
+            "alpha": -263,
+            "beta": -4880,
+            "k": "4880/263",
+            "construction": "F2: BJ-embed chi coefficients"
+          },
+          "bj_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 1771945527245428992,
+            "disc_square": false,
+            "irreducible": true
+          },
+          "template": {
+            "a": -3,
+            "b": 80,
+            "c": 61,
+            "d": 0,
+            "e": 3,
+            "f": 1,
+            "construction": "F2: BJ-embed a=-ef,d=0 from v2"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 1771945527245428992,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 4,
+          "v2": 2,
+          "odd": 1,
+          "itin_len": 2,
+          "lattice": 70,
+          "bj": {
+            "alpha": -423,
+            "beta": -4880,
+            "k": "4880/423",
+            "construction": "F2: BJ-embed chi coefficients"
+          },
+          "bj_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 1768800744110504192,
+            "disc_square": false,
+            "irreducible": true
+          },
+          "template": {
+            "a": -9,
+            "b": 80,
+            "c": 61,
+            "d": 0,
+            "e": 3,
+            "f": 3,
+            "construction": "F2: BJ-embed a=-ef,d=0 from v2"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 1768800744110504192,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 5,
+          "v2": 0,
+          "odd": 5,
+          "itin_len": 5,
+          "lattice": 66,
+          "bj": {
+            "alpha": -263,
+            "beta": -4880,
+            "k": "4880/263",
+            "construction": "F2: BJ-embed chi coefficients"
+          },
+          "bj_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 1771945527245428992,
+            "disc_square": false,
+            "irreducible": true
+          },
+          "template": {
+            "a": -3,
+            "b": 80,
+            "c": 61,
+            "d": 0,
+            "e": 3,
+            "f": 1,
+            "construction": "F2: BJ-embed a=-ef,d=0 from v2"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 1771945527245428992,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 6,
+          "v2": 1,
+          "odd": 3,
+          "itin_len": 8,
+          "lattice": 70,
+          "bj": {
+            "alpha": -343,
+            "beta": -4880,
+            "k": "4880/343",
+            "construction": "F2: BJ-embed chi coefficients"
+          },
+          "bj_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 1771052272253454592,
+            "disc_square": false,
+            "irreducible": true
+          },
+          "template": {
+            "a": -6,
+            "b": 80,
+            "c": 61,
+            "d": 0,
+            "e": 3,
+            "f": 2,
+            "construction": "F2: BJ-embed a=-ef,d=0 from v2"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 1771052272253454592,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 7,
+          "v2": 0,
+          "odd": 7,
+          "itin_len": 16,
+          "lattice": 68,
+          "bj": {
+            "alpha": -263,
+            "beta": -4880,
+            "k": "4880/263",
+            "construction": "F2: BJ-embed chi coefficients"
+          },
+          "bj_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 1771945527245428992,
+            "disc_square": false,
+            "irreducible": true
+          },
+          "template": {
+            "a": -3,
+            "b": 80,
+            "c": 61,
+            "d": 0,
+            "e": 3,
+            "f": 1,
+            "construction": "F2: BJ-embed a=-ef,d=0 from v2"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 1771945527245428992,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 8,
+          "v2": 3,
+          "odd": 1,
+          "itin_len": 3,
+          "lattice": 88,
+          "bj": {
+            "alpha": -503,
+            "beta": -4880,
+            "k": "4880/503",
+            "construction": "F2: BJ-embed chi coefficients"
+          },
+          "bj_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 1764024750668097792,
+            "disc_square": false,
+            "irreducible": true
+          },
+          "template": {
+            "a": -12,
+            "b": 80,
+            "c": 61,
+            "d": 0,
+            "e": 3,
+            "f": 4,
+            "construction": "F2: BJ-embed a=-ef,d=0 from v2"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 1764024750668097792,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 9,
+          "v2": 0,
+          "odd": 9,
+          "itin_len": 19,
+          "lattice": 70,
+          "bj": {
+            "alpha": -263,
+            "beta": -4880,
+            "k": "4880/263",
+            "construction": "F2: BJ-embed chi coefficients"
+          },
+          "bj_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 1771945527245428992,
+            "disc_square": false,
+            "irreducible": true
+          },
+          "template": {
+            "a": -3,
+            "b": 80,
+            "c": 61,
+            "d": 0,
+            "e": 3,
+            "f": 1,
+            "construction": "F2: BJ-embed a=-ef,d=0 from v2"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 1771945527245428992,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 10,
+          "v2": 1,
+          "odd": 5,
+          "itin_len": 6,
+          "lattice": 76,
+          "bj": {
+            "alpha": -343,
+            "beta": -4880,
+            "k": "4880/343",
+            "construction": "F2: BJ-embed chi coefficients"
+          },
+          "bj_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 1771052272253454592,
+            "disc_square": false,
+            "irreducible": true
+          },
+          "template": {
+            "a": -6,
+            "b": 80,
+            "c": 61,
+            "d": 0,
+            "e": 3,
+            "f": 2,
+            "construction": "F2: BJ-embed a=-ef,d=0 from v2"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 1771052272253454592,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 11,
+          "v2": 0,
+          "odd": 11,
+          "itin_len": 14,
+          "lattice": 72,
+          "bj": {
+            "alpha": -263,
+            "beta": -4880,
+            "k": "4880/263",
+            "construction": "F2: BJ-embed chi coefficients"
+          },
+          "bj_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 1771945527245428992,
+            "disc_square": false,
+            "irreducible": true
+          },
+          "template": {
+            "a": -3,
+            "b": 80,
+            "c": 61,
+            "d": 0,
+            "e": 3,
+            "f": 1,
+            "construction": "F2: BJ-embed a=-ef,d=0 from v2"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 1771945527245428992,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 12,
+          "v2": 2,
+          "odd": 3,
+          "itin_len": 9,
+          "lattice": 88,
+          "bj": {
+            "alpha": -423,
+            "beta": -4880,
+            "k": "4880/423",
+            "construction": "F2: BJ-embed chi coefficients"
+          },
+          "bj_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 1768800744110504192,
+            "disc_square": false,
+            "irreducible": true
+          },
+          "template": {
+            "a": -9,
+            "b": 80,
+            "c": 61,
+            "d": 0,
+            "e": 3,
+            "f": 3,
+            "construction": "F2: BJ-embed a=-ef,d=0 from v2"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 1768800744110504192,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 13,
+          "v2": 0,
+          "odd": 13,
+          "itin_len": 9,
+          "lattice": 74,
+          "bj": {
+            "alpha": -263,
+            "beta": -4880,
+            "k": "4880/263",
+            "construction": "F2: BJ-embed chi coefficients"
+          },
+          "bj_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 1771945527245428992,
+            "disc_square": false,
+            "irreducible": true
+          },
+          "template": {
+            "a": -3,
+            "b": 80,
+            "c": 61,
+            "d": 0,
+            "e": 3,
+            "f": 1,
+            "construction": "F2: BJ-embed a=-ef,d=0 from v2"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 1771945527245428992,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 14,
+          "v2": 1,
+          "odd": 7,
+          "itin_len": 17,
+          "lattice": 82,
+          "bj": {
+            "alpha": -343,
+            "beta": -4880,
+            "k": "4880/343",
+            "construction": "F2: BJ-embed chi coefficients"
+          },
+          "bj_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 1771052272253454592,
+            "disc_square": false,
+            "irreducible": true
+          },
+          "template": {
+            "a": -6,
+            "b": 80,
+            "c": 61,
+            "d": 0,
+            "e": 3,
+            "f": 2,
+            "construction": "F2: BJ-embed a=-ef,d=0 from v2"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 1771052272253454592,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 15,
+          "v2": 0,
+          "odd": 15,
+          "itin_len": 17,
+          "lattice": 76,
+          "bj": {
+            "alpha": -263,
+            "beta": -4880,
+            "k": "4880/263",
+            "construction": "F2: BJ-embed chi coefficients"
+          },
+          "bj_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 1771945527245428992,
+            "disc_square": false,
+            "irreducible": true
+          },
+          "template": {
+            "a": -3,
+            "b": 80,
+            "c": 61,
+            "d": 0,
+            "e": 3,
+            "f": 1,
+            "construction": "F2: BJ-embed a=-ef,d=0 from v2"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 1771945527245428992,
+            "disc_square": false,
+            "irreducible": true
+          }
+        }
+      ],
+      "all_rows_summary": [
+        {
+          "n": 1,
+          "lattice": 62,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 2,
+          "lattice": 64,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 3,
+          "lattice": 64,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 4,
+          "lattice": 70,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 5,
+          "lattice": 66,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 6,
+          "lattice": 70,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 7,
+          "lattice": 68,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 8,
+          "lattice": 88,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 9,
+          "lattice": 70,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 10,
+          "lattice": 76,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 11,
+          "lattice": 72,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 12,
+          "lattice": 88,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 13,
+          "lattice": 74,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 14,
+          "lattice": 82,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 15,
+          "lattice": 76,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 16,
+          "lattice": 142,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 17,
+          "lattice": 78,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 18,
+          "lattice": 88,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 19,
+          "lattice": 80,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 20,
+          "lattice": 106,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 21,
+          "lattice": 82,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 22,
+          "lattice": 94,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 23,
+          "lattice": 84,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 24,
+          "lattice": 142,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 25,
+          "lattice": 86,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 26,
+          "lattice": 100,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 27,
+          "lattice": 88,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 28,
+          "lattice": 124,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 29,
+          "lattice": 90,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 30,
+          "lattice": 106,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 31,
+          "lattice": 92,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 32,
+          "lattice": 304,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 33,
+          "lattice": 94,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 34,
+          "lattice": 112,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 35,
+          "lattice": 96,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 36,
+          "lattice": 142,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 37,
+          "lattice": 98,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 38,
+          "lattice": 118,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 39,
+          "lattice": 100,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 40,
+          "lattice": 196,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 41,
+          "lattice": 102,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 42,
+          "lattice": 124,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 43,
+          "lattice": 104,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 44,
+          "lattice": 160,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 45,
+          "lattice": 106,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 46,
+          "lattice": 130,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 47,
+          "lattice": 108,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 48,
+          "lattice": 304,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 49,
+          "lattice": 110,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 50,
+          "lattice": 136,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 51,
+          "lattice": 112,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 52,
+          "lattice": 178,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 53,
+          "lattice": 114,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 54,
+          "lattice": 142,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 55,
+          "lattice": 116,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 56,
+          "lattice": 250,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 57,
+          "lattice": 118,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 58,
+          "lattice": 148,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 59,
+          "lattice": 120,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 60,
+          "lattice": 196,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 61,
+          "lattice": 122,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 62,
+          "lattice": 154,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 63,
+          "lattice": 124,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 64,
+          "lattice": 790,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 65,
+          "lattice": 126,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 66,
+          "lattice": 160,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 67,
+          "lattice": 128,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 68,
+          "lattice": 214,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 69,
+          "lattice": 130,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 70,
+          "lattice": 166,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 71,
+          "lattice": 132,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 72,
+          "lattice": 304,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 73,
+          "lattice": 134,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 74,
+          "lattice": 172,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 75,
+          "lattice": 136,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 76,
+          "lattice": 232,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 77,
+          "lattice": 138,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 78,
+          "lattice": 178,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 79,
+          "lattice": 140,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 128,
+          "lattice": 2248,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 256,
+          "lattice": 6622,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 512,
+          "lattice": 19744,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 1024,
+          "lattice": 59110,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 81,
+          "lattice": 142,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 243,
+          "lattice": 62,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 80,
+          "lattice": 466,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 539,
+          "lattice": 114,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 4880,
+          "lattice": 5083,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 100,
+          "lattice": 286,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 200,
+          "lattice": 736,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 300,
+          "lattice": 736,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 97,
+          "lattice": 158,
+          "bj_status": "odd_monodromy",
+          "bj_disc_sq": false,
+          "tmpl_status": "odd_monodromy"
+        }
+      ]
+    },
+    "F3": {
+      "functor_id": "F3",
+      "n_seeds": 92,
+      "n_bj_images": 92,
+      "n_tmpl_images": 92,
+      "bj_disc_square_rate": 1.0,
+      "bj_A5_rate": 1.0,
+      "tmpl_disc_square_rate": 0.0,
+      "tmpl_A5_rate": 0.0,
+      "status_counts": {
+        "bj_HIT_A5": 92,
+        "bj_disc_square": 92,
+        "bj_A5": 92,
+        "tmpl_odd_monodromy": 92
+      },
+      "sample_rows": [
+        {
+          "n": 1,
+          "v2": 0,
+          "odd": 1,
+          "itin_len": 0,
+          "lattice": 1,
+          "bj": {
+            "alpha": -3124,
+            "beta": -12496,
+            "k": "4",
+            "construction": "F3: pure-even catalogue k=4, m=1/16"
+          },
+          "bj_gal": {
+            "status": "HIT_A5",
+            "galois": "S5TransitiveSubgroups.A5",
+            "disc": 24382827496800256,
+            "disc_square": true,
+            "irreducible": true
+          },
+          "template": {
+            "a": 0,
+            "b": 3124,
+            "c": 12496,
+            "d": 0,
+            "e": 0,
+            "f": 1,
+            "construction": "F3: rough BJ-embed sketch b~-\u03b1,c~-\u03b2 (may not match chi exactly)"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 7257352010970610327289067496800256,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 2,
+          "v2": 1,
+          "odd": 1,
+          "itin_len": 1,
+          "lattice": 0,
+          "bj": {
+            "alpha": -3121,
+            "beta": 12484,
+            "k": "-4",
+            "construction": "F3: pure-even catalogue k=-4, m=1/8"
+          },
+          "bj_gal": {
+            "status": "HIT_A5",
+            "galois": "S5TransitiveSubgroups.A5",
+            "disc": 97157209181062144,
+            "disc_square": true,
+            "irreducible": true
+          },
+          "template": {
+            "a": 0,
+            "b": 3121,
+            "c": -12484,
+            "d": 0,
+            "e": 0,
+            "f": 1,
+            "construction": "F3: rough BJ-embed sketch b~-\u03b1,c~-\u03b2 (may not match chi exactly)"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 7201784741098454898330221405062144,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 3,
+          "v2": 0,
+          "odd": 3,
+          "itin_len": 7,
+          "lattice": 10,
+          "bj": {
+            "alpha": 5545,
+            "beta": -8872,
+            "k": "-8/5",
+            "construction": "F3: pure-even catalogue k=-8/5, m=75/16"
+          },
+          "bj_gal": {
+            "status": "HIT_A5",
+            "galois": "S5TransitiveSubgroups.A5",
+            "disc": 1361346546744900000000,
+            "disc_square": true,
+            "irreducible": true
+          },
+          "template": {
+            "a": 0,
+            "b": -5545,
+            "c": 8872,
+            "d": 0,
+            "e": 0,
+            "f": 1,
+            "construction": "F3: rough BJ-embed sketch b~-\u03b1,c~-\u03b2 (may not match chi exactly)"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 18303846126759506931205003639200000,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 4,
+          "v2": 2,
+          "odd": 1,
+          "itin_len": 2,
+          "lattice": 0,
+          "bj": {
+            "alpha": -3116,
+            "beta": 12464,
+            "k": "-4",
+            "construction": "F3: pure-even catalogue k=-4, m=3/16"
+          },
+          "bj_gal": {
+            "status": "HIT_A5",
+            "galois": "S5TransitiveSubgroups.A5",
+            "disc": 217206226519916544,
+            "disc_square": true,
+            "irreducible": true
+          },
+          "template": {
+            "a": 0,
+            "b": 3116,
+            "c": -12464,
+            "d": 0,
+            "e": 0,
+            "f": 1,
+            "construction": "F3: rough BJ-embed sketch b~-\u03b1,c~-\u03b2 (may not match chi exactly)"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 7109999644190779016994818647916544,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 5,
+          "v2": 0,
+          "odd": 5,
+          "itin_len": 5,
+          "lattice": 1,
+          "bj": {
+            "alpha": -3100,
+            "beta": -12400,
+            "k": "4",
+            "construction": "F3: pure-even catalogue k=4, m=5/16"
+          },
+          "bj_gal": {
+            "status": "HIT_A5",
+            "galois": "S5TransitiveSubgroups.A5",
+            "disc": 591053440000000000,
+            "disc_square": true,
+            "irreducible": true
+          },
+          "template": {
+            "a": 0,
+            "b": 3100,
+            "c": 12400,
+            "d": 0,
+            "e": 0,
+            "f": 1,
+            "construction": "F3: rough BJ-embed sketch b~-\u03b1,c~-\u03b2 (may not match chi exactly)"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 6823128299527926709373440000000000,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 6,
+          "v2": 1,
+          "odd": 3,
+          "itin_len": 8,
+          "lattice": 30,
+          "bj": {
+            "alpha": 9920,
+            "beta": -15872,
+            "k": "-8/5",
+            "construction": "F3: pure-even catalogue k=-8/5, m=25/4"
+          },
+          "bj_gal": {
+            "status": "HIT_A5",
+            "galois": "S5TransitiveSubgroups.A5",
+            "disc": 24790578076057600000000,
+            "disc_square": true,
+            "irreducible": true
+          },
+          "template": {
+            "a": 0,
+            "b": -9920,
+            "c": 15872,
+            "d": 0,
+            "e": 0,
+            "f": 1,
+            "construction": "F3: rough BJ-embed sketch b~-\u03b1,c~-\u03b2 (may not match chi exactly)"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 1920539879203486268410821817139200000,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 7,
+          "v2": 0,
+          "odd": 7,
+          "itin_len": 16,
+          "lattice": 179425,
+          "bj": {
+            "alpha": 620,
+            "beta": -496,
+            "k": "-4/5",
+            "construction": "F3: pure-even catalogue k=-4/5, m=25/16"
+          },
+          "bj_gal": {
+            "status": "HIT_A5",
+            "galois": "S5TransitiveSubgroups.A5",
+            "disc": 23642137600000000,
+            "disc_square": true,
+            "irreducible": true
+          },
+          "template": {
+            "a": 0,
+            "b": -620,
+            "c": 496,
+            "d": 0,
+            "e": 0,
+            "f": 1,
+            "construction": "F3: rough BJ-embed sketch b~-\u03b1,c~-\u03b2 (may not match chi exactly)"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 27947533538319688499200000,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 8,
+          "v2": 3,
+          "odd": 1,
+          "itin_len": 3,
+          "lattice": 0,
+          "bj": {
+            "alpha": -3109,
+            "beta": 12436,
+            "k": "-4",
+            "construction": "F3: pure-even catalogue k=-4, m=1/4"
+          },
+          "bj_gal": {
+            "status": "HIT_A5",
+            "galois": "S5TransitiveSubgroups.A5",
+            "disc": 382686230553235456,
+            "disc_square": true,
+            "irreducible": true
+          },
+          "template": {
+            "a": 0,
+            "b": 3109,
+            "c": -12436,
+            "d": 0,
+            "e": 0,
+            "f": 1,
+            "construction": "F3: rough BJ-embed sketch b~-\u03b1,c~-\u03b2 (may not match chi exactly)"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 6983220627548338068328991961235456,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 9,
+          "v2": 0,
+          "odd": 9,
+          "itin_len": 19,
+          "lattice": 4844476,
+          "bj": {
+            "alpha": 2095,
+            "beta": -5028,
+            "k": "-12/5",
+            "construction": "F3: pure-even catalogue k=-12/5, m=25/8"
+          },
+          "bj_gal": {
+            "status": "HIT_A5",
+            "galois": "S5TransitiveSubgroups.A5",
+            "disc": 12328665888400000000,
+            "disc_square": true,
+            "irreducible": true
+          },
+          "template": {
+            "a": 0,
+            "b": -2095,
+            "c": 5028,
+            "d": 0,
+            "e": 0,
+            "f": 1,
+            "construction": "F3: rough BJ-embed sketch b~-\u03b1,c~-\u03b2 (may not match chi exactly)"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 38473988155046639739574979200000,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 10,
+          "v2": 1,
+          "odd": 5,
+          "itin_len": 6,
+          "lattice": 3,
+          "bj": {
+            "alpha": -3089,
+            "beta": -12356,
+            "k": "4",
+            "construction": "F3: pure-even catalogue k=4, m=3/8"
+          },
+          "bj_gal": {
+            "status": "HIT_A5",
+            "galois": "S5TransitiveSubgroups.A5",
+            "disc": 839100730708141056,
+            "disc_square": true,
+            "irreducible": true
+          },
+          "template": {
+            "a": 0,
+            "b": 3089,
+            "c": 12356,
+            "d": 0,
+            "e": 0,
+            "f": 1,
+            "construction": "F3: rough BJ-embed sketch b~-\u03b1,c~-\u03b2 (may not match chi exactly)"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 6631827990448832669671952980141056,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 11,
+          "v2": 0,
+          "odd": 11,
+          "itin_len": 14,
+          "lattice": 19936,
+          "bj": {
+            "alpha": 9995,
+            "beta": 7996,
+            "k": "4/5",
+            "construction": "F3: pure-even catalogue k=4/5, m=25/4"
+          },
+          "bj_gal": {
+            "status": "HIT_A5",
+            "galois": "S5TransitiveSubgroups.A5",
+            "disc": 25548838387201600000000,
+            "disc_square": true,
+            "irreducible": true
+          },
+          "template": {
+            "a": 0,
+            "b": -9995,
+            "c": -7996,
+            "d": 0,
+            "e": 0,
+            "f": 1,
+            "construction": "F3: rough BJ-embed sketch b~-\u03b1,c~-\u03b2 (may not match chi exactly)"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 127488895104585312119960008499200000,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 12,
+          "v2": 2,
+          "odd": 3,
+          "itin_len": 9,
+          "lattice": 90,
+          "bj": {
+            "alpha": 15545,
+            "beta": -24872,
+            "k": "-8/5",
+            "construction": "F3: pure-even catalogue k=-8/5, m=125/16"
+          },
+          "bj_gal": {
+            "status": "HIT_A5",
+            "galois": "S5TransitiveSubgroups.A5",
+            "disc": 233573138765402500000000,
+            "disc_square": true,
+            "irreducible": true
+          },
+          "template": {
+            "a": 0,
+            "b": -15545,
+            "c": 24872,
+            "d": 0,
+            "e": 0,
+            "f": 1,
+            "construction": "F3: rough BJ-embed sketch b~-\u03b1,c~-\u03b2 (may not match chi exactly)"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 69832206275484356667715958291639200000,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 13,
+          "v2": 0,
+          "odd": 13,
+          "itin_len": 9,
+          "lattice": 82,
+          "bj": {
+            "alpha": 22420,
+            "beta": -35872,
+            "k": "-8/5",
+            "construction": "F3: pure-even catalogue k=-8/5, m=75/8"
+          },
+          "bj_gal": {
+            "status": "HIT_A5",
+            "galois": "S5TransitiveSubgroups.A5",
+            "disc": 1455341509215129600000000,
+            "disc_square": true,
+            "irreducible": true
+          },
+          "template": {
+            "a": 0,
+            "b": -22420,
+            "c": 35872,
+            "d": 0,
+            "e": 0,
+            "f": 1,
+            "construction": "F3: rough BJ-embed sketch b~-\u03b1,c~-\u03b2 (may not match chi exactly)"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 1307419079286773767719686037177139200000,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 14,
+          "v2": 1,
+          "odd": 7,
+          "itin_len": 17,
+          "lattice": 538275,
+          "bj": {
+            "alpha": 620,
+            "beta": -496,
+            "k": "-4/5",
+            "construction": "F3: pure-even catalogue k=-4/5, m=25/16"
+          },
+          "bj_gal": {
+            "status": "HIT_A5",
+            "galois": "S5TransitiveSubgroups.A5",
+            "disc": 23642137600000000,
+            "disc_square": true,
+            "irreducible": true
+          },
+          "template": {
+            "a": 0,
+            "b": -620,
+            "c": 496,
+            "d": 0,
+            "e": 0,
+            "f": 1,
+            "construction": "F3: rough BJ-embed sketch b~-\u03b1,c~-\u03b2 (may not match chi exactly)"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 27947533538319688499200000,
+            "disc_square": false,
+            "irreducible": true
+          }
+        },
+        {
+          "n": 15,
+          "v2": 0,
+          "odd": 15,
+          "itin_len": 17,
+          "lattice": 532261,
+          "bj": {
+            "alpha": 620,
+            "beta": -496,
+            "k": "-4/5",
+            "construction": "F3: pure-even catalogue k=-4/5, m=25/16"
+          },
+          "bj_gal": {
+            "status": "HIT_A5",
+            "galois": "S5TransitiveSubgroups.A5",
+            "disc": 23642137600000000,
+            "disc_square": true,
+            "irreducible": true
+          },
+          "template": {
+            "a": 0,
+            "b": -620,
+            "c": 496,
+            "d": 0,
+            "e": 0,
+            "f": 1,
+            "construction": "F3: rough BJ-embed sketch b~-\u03b1,c~-\u03b2 (may not match chi exactly)"
+          },
+          "tmpl_gal": {
+            "status": "odd_monodromy",
+            "galois": "S5TransitiveSubgroups.S5",
+            "disc": 27947533538319688499200000,
+            "disc_square": false,
+            "irreducible": true
+          }
+        }
+      ],
+      "all_rows_summary": [
+        {
+          "n": 1,
+          "lattice": 1,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 2,
+          "lattice": 0,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 3,
+          "lattice": 10,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 4,
+          "lattice": 0,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 5,
+          "lattice": 1,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 6,
+          "lattice": 30,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 7,
+          "lattice": 179425,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 8,
+          "lattice": 0,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 9,
+          "lattice": 4844476,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 10,
+          "lattice": 3,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 11,
+          "lattice": 19936,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 12,
+          "lattice": 90,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 13,
+          "lattice": 82,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 14,
+          "lattice": 538275,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 15,
+          "lattice": 532261,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 16,
+          "lattice": 0,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 17,
+          "lattice": 2215,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 18,
+          "lattice": 14533428,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 19,
+          "lattice": 14533354,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 20,
+          "lattice": 9,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 21,
+          "lattice": 1,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 22,
+          "lattice": 59808,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 23,
+          "lattice": 59140,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 24,
+          "lattice": 270,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 25,
+          "lattice": 392400559,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 26,
+          "lattice": 246,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 27,
+          "lattice": 506517897708111295,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 28,
+          "lattice": 1614825,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 29,
+          "lattice": 1614817,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 30,
+          "lattice": 1596783,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 31,
+          "lattice": 4104671133911013469,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 32,
+          "lattice": 0,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 33,
+          "lattice": 10594815094,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 34,
+          "lattice": 6645,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 35,
+          "lattice": 6571,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 36,
+          "lattice": 43600284,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 37,
+          "lattice": 43600276,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 38,
+          "lattice": 43600062,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 39,
+          "lattice": 69512581669987,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 40,
+          "lattice": 27,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 41,
+          "lattice": 1407131484085004455,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 42,
+          "lattice": 3,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 43,
+          "lattice": 286061411089,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 44,
+          "lattice": 179424,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 45,
+          "lattice": 179416,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 46,
+          "lattice": 177420,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 47,
+          "lattice": 4508629723453533319,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 48,
+          "lattice": 810,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 49,
+          "lattice": 1177207453,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 50,
+          "lattice": 1177201677,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 51,
+          "lattice": 1177201603,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 52,
+          "lattice": 738,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 53,
+          "lattice": 730,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 54,
+          "lattice": 1519553693124333885,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 55,
+          "lattice": 1519553693124333217,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 56,
+          "lattice": 4844475,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 57,
+          "lattice": 7723658099404,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 58,
+          "lattice": 4844451,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 59,
+          "lattice": 7723620185554,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 60,
+          "lattice": 4790349,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 61,
+          "lattice": 4790341,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 62,
+          "lattice": 156347942676111606,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 63,
+          "lattice": 156347942675624452,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 64,
+          "lattice": 0,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 65,
+          "lattice": 31784601232,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 66,
+          "lattice": 31784445282,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 67,
+          "lattice": 31784445208,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 68,
+          "lattice": 19935,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 69,
+          "lattice": 19927,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 70,
+          "lattice": 19713,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 71,
+          "lattice": 4553514011180479969,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 72,
+          "lattice": 130800852,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 73,
+          "lattice": 4554953337186210457,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 74,
+          "lattice": 130800828,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 75,
+          "lattice": 253,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 76,
+          "lattice": 130800186,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 77,
+          "lattice": 130800178,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 78,
+          "lattice": 208537745009961,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 79,
+          "lattice": 208537745003947,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 128,
+          "lattice": 0,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 256,
+          "lattice": 0,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 512,
+          "lattice": 0,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 1024,
+          "lattice": 0,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 81,
+          "lattice": 129339208,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 243,
+          "lattice": 1507192599898908118,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 80,
+          "lattice": 81,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 539,
+          "lattice": 505943435213021242,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 4880,
+          "lattice": 152024762370551517,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 100,
+          "lattice": 3531605031,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 200,
+          "lattice": 10594815093,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 300,
+          "lattice": 2277,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        },
+        {
+          "n": 97,
+          "lattice": 1407085513458394330,
+          "bj_status": "HIT_A5",
+          "bj_disc_sq": true,
+          "tmpl_status": "odd_monodromy"
+        }
+      ]
+    }
+  },
+  "random_control": {
+    "n_samples": 48,
+    "disc_square_rate": 0.0,
+    "A5_rate": 0.0,
+    "note": "Random monic BJ with |coeffs|\u2264H; not pure-even constrained"
+  },
+  "interpretation": {
+    "F1": "Design-faithful (itinerary mirror). BJ image uses pure-even LSW so disc\u25a1 rate=1.00 (by construction on LSW ray). Template M-deform disc\u25a1 rate=0.00 (not forced even \u2014 same obstruction as base M).",
+    "F2": "Valuation transport. BJ-embed image has disc\u25a1 only when (\u03b1,\u03b2) hit even locus; observed BJ disc\u25a1=0.00, A5=0.00. Template often non-BJ or odd.",
+    "F3": "Strongest even monodromy by design: pure-even catalogue k. BJ disc\u25a1 rate=1.00, A5=1.00. Evenness is pure-even theory, not a new force from the binary input.",
+    "preservation_vs_enrichment": "Binary Collatz data has no native Gal monodromy to 'preserve'. Tests are enrichment rates on F(image) vs random BJ control. F3 enriches disc\u25a1 to ~1 by invoking pure-even; that is not necessity from binary hypotheses alone \u2014 pure-even is inserted in the codomain construction.",
+    "necessity": "None of F1\u2013F3 proves that HQCC axioms force A_n. They make Candidate C checkable: explicit maps exist; even monodromy on the image is either imported (F1/F3 pure-even) or partial (F2)."
+  },
+  "seeds_n": 92
+}

@@ -1,0 +1,1 @@
+"""Resonant Galois shared library."""

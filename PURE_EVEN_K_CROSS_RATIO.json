@@ -1,0 +1,735 @@
+{
+  "elapsed_s": 13.98,
+  "partial_answer": {
+    "short": "Every k \u2208 R_n is pure-even over R_n (arithmetic). Every s \u2208 R_n\\{0,1} is a branch cross-ratio over R_n (trivial). Which pure-even k arise as BJ ratios of fibres of covers over R_n is open in general; known constraints and cases are listed below.",
+    "classification": {
+      "all_of_Rn_as_pure_even_params": {
+        "status": "yes",
+        "meaning": "k \u2208 R_n \u21d2 pure-even family over R_n exists"
+      },
+      "all_of_Rn_as_branch_cross_ratios_s": {
+        "status": "yes",
+        "meaning": "s \u2208 R_n\\{0,1} \u21d2 4-branch chart over R_n"
+      },
+      "catalogue_Q_k_inside_Rn": {
+        "status": "yes",
+        "meaning": "all multi-seed k \u2208 Q \u2282 R_n"
+      },
+      "cosine_k_as_geometric_BJ_ratio": {
+        "status": "open",
+        "meaning": "k=2cos(2\u03c0p/n) pure-even over R_n; geometric origin unknown"
+      },
+      "k_from_3A4_fibres_over_R5": {
+        "status": "open",
+        "meaning": "s=-1 over R_5 known; map fibre\u2192BJ k not closed-formed"
+      },
+      "k_equals_s_identification": {
+        "status": "not_forced",
+        "meaning": "Identifying pure-even k with the Hurwitz cross-ratio s is a coordinate choice, not a theorem. In general k = \u03ba(s) for some rational function / algebraic function \u03ba of the cover moduli."
+      }
+    }
+  },
+  "pure_even_identity": {
+    "identity": true,
+    "statement": "For every k \u2208 R_n (any n) and m \u2208 R_n \\ {0} with \u03b1(m,k)\u22600, the BJ fibre x\u2075+\u03b1x+\u03b2 over R_n is pure-even: disc is a square in R_n."
+  },
+  "necessary_conditions": [
+    "NEC1 (arithmetic): k \u2208 R_n is necessary and sufficient for the pure-even formulae to be defined over R_n with \u03b1,\u03b2 \u2208 R_n(m) when m \u2208 R_n.",
+    "NEC2 (branch locus): For a 4-point cover over R_n with R_n-rational branch locus, the cross-ratio s lies in P\u00b9(R_n). This constrains s, not k.",
+    "NEC3 (BJ link): A pure-even k arises geometrically only if some fibre of a cover over R_n is R_n-birational to a BJ quintic with \u03b2/\u03b1 = k (after coordinate change over R_n).",
+    "NEC4 (descent): If the cover is defined over R_n but the fibre field is a proper extension, k may lie in that extension, not in R_n.",
+    "NEC5 (cosine geometry): If branch points are constrained to cyclotomic real loci (cosine relations), then s (and possibly k) lie in a thin subset of R_n \u2014 typically multi-angle / Chebyshev values \u2014 not all of R_n."
+  ],
+  "known_geometric_cases": {
+    "rigid_phi_over_Q": {
+      "base_field": "Q",
+      "branch_cross_ratio": "classical {0,1,\u221e} \u2014 no free s (r=3)",
+      "pure_even_k": null,
+      "note": "Fibres odd over Q (disc=5\u00b7\u25a1); not pure-even source"
+    },
+    "3A4_s_minus_1": {
+      "base_field": "Q(\u221a5) = R_5",
+      "branch_cross_ratio_s": -1,
+      "s_in_R5": true,
+      "cover_params": {
+        "c": "-\u221a5",
+        "p2": -1,
+        "r1": "1/5",
+        "r2": "-1/5"
+      },
+      "closed_form_f_s": false,
+      "known_BJ_k_from_fibres": null,
+      "note": "s=-1 \u2208 Q \u2282 R_5 is a cross-ratio over R_5. Without f_s \u2208 R_5(s)[x] \u2192 BJ, no proven list of pure-even k from this cover. Numeric fibres gave even=0 over Q."
+    },
+    "arithmetic_envelope_over_Q": {
+      "base_field": "Q",
+      "pure_even_k": [
+        "-4",
+        "4",
+        "-8/5",
+        "8/5",
+        "4/5",
+        "-4/5",
+        "-12/5",
+        "12/5",
+        "-16/5",
+        "16/5"
+      ],
+      "geometric_cover": false,
+      "note": "All catalogue k arise arithmetically; not as Nielsen cross-ratios"
+    },
+    "R5_cosine_k": {
+      "k": "2cos(2\u03c0/5)=(-1+\u221a5)/2",
+      "in_R5": true,
+      "pure_even": true,
+      "is_cross_ratio_of_01inf_s": "Yes if we set s=k, branch points {0,1,\u221e,k} \u2014 trivial chart",
+      "is_BJ_ratio_from_known_cover": "unknown"
+    }
+  },
+  "by_n": {
+    "5": {
+      "degree": 2,
+      "catalogue_k": [
+        {
+          "k": "-4",
+          "in_Rn": true,
+          "reason": "Q \u2282 R_n for all n \u2265 1",
+          "minimal_field_over_Q": "Q",
+          "degree": 1
+        },
+        {
+          "k": "4",
+          "in_Rn": true,
+          "reason": "Q \u2282 R_n for all n \u2265 1",
+          "minimal_field_over_Q": "Q",
+          "degree": 1
+        },
+        {
+          "k": "-8/5",
+          "in_Rn": true,
+          "reason": "Q \u2282 R_n for all n \u2265 1",
+          "minimal_field_over_Q": "Q",
+          "degree": 1
+        },
+        {
+          "k": "8/5",
+          "in_Rn": true,
+          "reason": "Q \u2282 R_n for all n \u2265 1",
+          "minimal_field_over_Q": "Q",
+          "degree": 1
+        },
+        {
+          "k": "4/5",
+          "in_Rn": true,
+          "reason": "Q \u2282 R_n for all n \u2265 1",
+          "minimal_field_over_Q": "Q",
+          "degree": 1
+        },
+        {
+          "k": "-4/5",
+          "in_Rn": true,
+          "reason": "Q \u2282 R_n for all n \u2265 1",
+          "minimal_field_over_Q": "Q",
+          "degree": 1
+        },
+        {
+          "k": "-12/5",
+          "in_Rn": true,
+          "reason": "Q \u2282 R_n for all n \u2265 1",
+          "minimal_field_over_Q": "Q",
+          "degree": 1
+        },
+        {
+          "k": "12/5",
+          "in_Rn": true,
+          "reason": "Q \u2282 R_n for all n \u2265 1",
+          "minimal_field_over_Q": "Q",
+          "degree": 1
+        },
+        {
+          "k": "-16/5",
+          "in_Rn": true,
+          "reason": "Q \u2282 R_n for all n \u2265 1",
+          "minimal_field_over_Q": "Q",
+          "degree": 1
+        },
+        {
+          "k": "16/5",
+          "in_Rn": true,
+          "reason": "Q \u2282 R_n for all n \u2265 1",
+          "minimal_field_over_Q": "Q",
+          "degree": 1
+        }
+      ],
+      "cosine_candidates": [
+        {
+          "form": "2cos(2\u03c0\u00b71/5)",
+          "d": 5,
+          "p": 1,
+          "in_Rn": true,
+          "numeric": 0.6180339887498949,
+          "minpoly": "x**2 + x - 1",
+          "degree": 2,
+          "equals_catalogue_k": false
+        },
+        {
+          "form": "2cos(2\u03c0\u00b72/5)",
+          "d": 5,
+          "p": 2,
+          "in_Rn": true,
+          "numeric": -1.618033988749895,
+          "minpoly": "x**2 + x - 1",
+          "degree": 2,
+          "equals_catalogue_k": false
+        }
+      ],
+      "cross_ratios": {
+        "n": 5,
+        "status": "ok",
+        "theorem_s": "Every s \u2208 R_n \\ {0,1,\u221e} arises as the cross-ratio of the ordered 4-tuple (0,1,\u221e,s) of R_n-rational points of P\u00b9. Hence the Hurwitz coordinate of any 4-branch cover over R_n may be taken in R_n whenever the branch locus is R_n-rational.",
+        "standard_charts": [
+          {
+            "branch_chart": "{0,1,\u221e,s}",
+            "s_form": "xi",
+            "s_in_Rn": true,
+            "note": "By definition every s\u2208R_n\\{0,1} is a cross-ratio over R_n"
+          },
+          {
+            "branch_chart": "{0,1,\u221e,s}",
+            "s_form": "1-xi",
+            "s_in_Rn": true,
+            "note": "By definition every s\u2208R_n\\{0,1} is a cross-ratio over R_n"
+          },
+          {
+            "branch_chart": "{0,1,\u221e,s}",
+            "s_form": "-xi",
+            "s_in_Rn": true,
+            "note": "By definition every s\u2208R_n\\{0,1} is a cross-ratio over R_n"
+          },
+          {
+            "branch_chart": "{0,1,\u221e,s}",
+            "s_form": "xi/(xi-1)",
+            "s_in_Rn": true,
+            "note": "By definition every s\u2208R_n\\{0,1} is a cross-ratio over R_n"
+          }
+        ],
+        "cosine_4point_samples": [
+          {
+            "error": "Cannot convert complex to float"
+          }
+        ]
+      }
+    },
+    "7": {
+      "degree": 3,
+      "catalogue_k": [
+        {
+          "k": "-4",
+          "in_Rn": true,
+          "reason": "Q \u2282 R_n for all n \u2265 1",
+          "minimal_field_over_Q": "Q",
+          "degree": 1
+        },
+        {
+          "k": "4",
+          "in_Rn": true,
+          "reason": "Q \u2282 R_n for all n \u2265 1",
+          "minimal_field_over_Q": "Q",
+          "degree": 1
+        },
+        {
+          "k": "-8/5",
+          "in_Rn": true,
+          "reason": "Q \u2282 R_n for all n \u2265 1",
+          "minimal_field_over_Q": "Q",
+          "degree": 1
+        },
+        {
+          "k": "8/5",
+          "in_Rn": true,
+          "reason": "Q \u2282 R_n for all n \u2265 1",
+          "minimal_field_over_Q": "Q",
+          "degree": 1
+        },
+        {
+          "k": "4/5",
+          "in_Rn": true,
+          "reason": "Q \u2282 R_n for all n \u2265 1",
+          "minimal_field_over_Q": "Q",
+          "degree": 1
+        },
+        {
+          "k": "-4/5",
+          "in_Rn": true,
+          "reason": "Q \u2282 R_n for all n \u2265 1",
+          "minimal_field_over_Q": "Q",
+          "degree": 1
+        },
+        {
+          "k": "-12/5",
+          "in_Rn": true,
+          "reason": "Q \u2282 R_n for all n \u2265 1",
+          "minimal_field_over_Q": "Q",
+          "degree": 1
+        },
+        {
+          "k": "12/5",
+          "in_Rn": true,
+          "reason": "Q \u2282 R_n for all n \u2265 1",
+          "minimal_field_over_Q": "Q",
+          "degree": 1
+        },
+        {
+          "k": "-16/5",
+          "in_Rn": true,
+          "reason": "Q \u2282 R_n for all n \u2265 1",
+          "minimal_field_over_Q": "Q",
+          "degree": 1
+        },
+        {
+          "k": "16/5",
+          "in_Rn": true,
+          "reason": "Q \u2282 R_n for all n \u2265 1",
+          "minimal_field_over_Q": "Q",
+          "degree": 1
+        }
+      ],
+      "cosine_candidates": [
+        {
+          "form": "2cos(2\u03c0\u00b71/7)",
+          "d": 7,
+          "p": 1,
+          "in_Rn": true,
+          "numeric": 1.246979603717467,
+          "minpoly": "x**3 + x**2 - 2*x - 1",
+          "degree": 3,
+          "equals_catalogue_k": false
+        },
+        {
+          "form": "2cos(2\u03c0\u00b72/7)",
+          "d": 7,
+          "p": 2,
+          "in_Rn": true,
+          "numeric": -0.4450418679126288,
+          "minpoly": "x**3 + x**2 - 2*x - 1",
+          "degree": 3,
+          "equals_catalogue_k": false
+        },
+        {
+          "form": "2cos(2\u03c0\u00b73/7)",
+          "d": 7,
+          "p": 3,
+          "in_Rn": true,
+          "numeric": -1.8019377358048383,
+          "minpoly": "x**3 + x**2 - 2*x - 1",
+          "degree": 3,
+          "equals_catalogue_k": false
+        }
+      ],
+      "cross_ratios": {
+        "n": 7,
+        "status": "ok",
+        "theorem_s": "Every s \u2208 R_n \\ {0,1,\u221e} arises as the cross-ratio of the ordered 4-tuple (0,1,\u221e,s) of R_n-rational points of P\u00b9. Hence the Hurwitz coordinate of any 4-branch cover over R_n may be taken in R_n whenever the branch locus is R_n-rational.",
+        "standard_charts": [
+          {
+            "branch_chart": "{0,1,\u221e,s}",
+            "s_form": "xi",
+            "s_in_Rn": true,
+            "note": "By definition every s\u2208R_n\\{0,1} is a cross-ratio over R_n"
+          },
+          {
+            "branch_chart": "{0,1,\u221e,s}",
+            "s_form": "1-xi",
+            "s_in_Rn": true,
+            "note": "By definition every s\u2208R_n\\{0,1} is a cross-ratio over R_n"
+          },
+          {
+            "branch_chart": "{0,1,\u221e,s}",
+            "s_form": "-xi",
+            "s_in_Rn": true,
+            "note": "By definition every s\u2208R_n\\{0,1} is a cross-ratio over R_n"
+          },
+          {
+            "branch_chart": "{0,1,\u221e,s}",
+            "s_form": "xi/(xi-1)",
+            "s_in_Rn": true,
+            "note": "By definition every s\u2208R_n\\{0,1} is a cross-ratio over R_n"
+          }
+        ],
+        "cosine_4point_samples": [
+          {
+            "points": "four 2cos(2\u03c0 p/n) in orbit",
+            "cross_ratio": "1",
+            "numeric": 1.0,
+            "minpoly": "x - 1"
+          }
+        ]
+      }
+    },
+    "11": {
+      "degree": 5,
+      "catalogue_k": [
+        {
+          "k": "-4",
+          "in_Rn": true,
+          "reason": "Q \u2282 R_n for all n \u2265 1",
+          "minimal_field_over_Q": "Q",
+          "degree": 1
+        },
+        {
+          "k": "4",
+          "in_Rn": true,
+          "reason": "Q \u2282 R_n for all n \u2265 1",
+          "minimal_field_over_Q": "Q",
+          "degree": 1
+        },
+        {
+          "k": "-8/5",
+          "in_Rn": true,
+          "reason": "Q \u2282 R_n for all n \u2265 1",
+          "minimal_field_over_Q": "Q",
+          "degree": 1
+        },
+        {
+          "k": "8/5",
+          "in_Rn": true,
+          "reason": "Q \u2282 R_n for all n \u2265 1",
+          "minimal_field_over_Q": "Q",
+          "degree": 1
+        },
+        {
+          "k": "4/5",
+          "in_Rn": true,
+          "reason": "Q \u2282 R_n for all n \u2265 1",
+          "minimal_field_over_Q": "Q",
+          "degree": 1
+        },
+        {
+          "k": "-4/5",
+          "in_Rn": true,
+          "reason": "Q \u2282 R_n for all n \u2265 1",
+          "minimal_field_over_Q": "Q",
+          "degree": 1
+        },
+        {
+          "k": "-12/5",
+          "in_Rn": true,
+          "reason": "Q \u2282 R_n for all n \u2265 1",
+          "minimal_field_over_Q": "Q",
+          "degree": 1
+        },
+        {
+          "k": "12/5",
+          "in_Rn": true,
+          "reason": "Q \u2282 R_n for all n \u2265 1",
+          "minimal_field_over_Q": "Q",
+          "degree": 1
+        },
+        {
+          "k": "-16/5",
+          "in_Rn": true,
+          "reason": "Q \u2282 R_n for all n \u2265 1",
+          "minimal_field_over_Q": "Q",
+          "degree": 1
+        },
+        {
+          "k": "16/5",
+          "in_Rn": true,
+          "reason": "Q \u2282 R_n for all n \u2265 1",
+          "minimal_field_over_Q": "Q",
+          "degree": 1
+        }
+      ],
+      "cosine_candidates": [
+        {
+          "form": "2cos(2\u03c0\u00b71/11)",
+          "d": 11,
+          "p": 1,
+          "in_Rn": true,
+          "numeric": 1.6825070656623624,
+          "minpoly": "x**5 + x**4 - 4*x**3 - 3*x**2 + 3*x + 1",
+          "degree": 5,
+          "equals_catalogue_k": false
+        },
+        {
+          "form": "2cos(2\u03c0\u00b72/11)",
+          "d": 11,
+          "p": 2,
+          "in_Rn": true,
+          "numeric": 0.8308300260037729,
+          "minpoly": "x**5 + x**4 - 4*x**3 - 3*x**2 + 3*x + 1",
+          "degree": 5,
+          "equals_catalogue_k": false
+        },
+        {
+          "form": "2cos(2\u03c0\u00b73/11)",
+          "d": 11,
+          "p": 3,
+          "in_Rn": true,
+          "numeric": -0.2846296765465703,
+          "minpoly": "x**5 + x**4 - 4*x**3 - 3*x**2 + 3*x + 1",
+          "degree": 5,
+          "equals_catalogue_k": false
+        },
+        {
+          "form": "2cos(2\u03c0\u00b74/11)",
+          "d": 11,
+          "p": 4,
+          "in_Rn": true,
+          "numeric": -1.3097214678905702,
+          "minpoly": "x**5 + x**4 - 4*x**3 - 3*x**2 + 3*x + 1",
+          "degree": 5,
+          "equals_catalogue_k": false
+        },
+        {
+          "form": "2cos(2\u03c0\u00b75/11)",
+          "d": 11,
+          "p": 5,
+          "in_Rn": true,
+          "numeric": -1.9189859472289947,
+          "minpoly": "x**5 + x**4 - 4*x**3 - 3*x**2 + 3*x + 1",
+          "degree": 5,
+          "equals_catalogue_k": false
+        }
+      ],
+      "cross_ratios": {
+        "n": 11,
+        "status": "ok",
+        "theorem_s": "Every s \u2208 R_n \\ {0,1,\u221e} arises as the cross-ratio of the ordered 4-tuple (0,1,\u221e,s) of R_n-rational points of P\u00b9. Hence the Hurwitz coordinate of any 4-branch cover over R_n may be taken in R_n whenever the branch locus is R_n-rational.",
+        "standard_charts": [
+          {
+            "branch_chart": "{0,1,\u221e,s}",
+            "s_form": "xi",
+            "s_in_Rn": true,
+            "note": "By definition every s\u2208R_n\\{0,1} is a cross-ratio over R_n"
+          },
+          {
+            "branch_chart": "{0,1,\u221e,s}",
+            "s_form": "1-xi",
+            "s_in_Rn": true,
+            "note": "By definition every s\u2208R_n\\{0,1} is a cross-ratio over R_n"
+          },
+          {
+            "branch_chart": "{0,1,\u221e,s}",
+            "s_form": "-xi",
+            "s_in_Rn": true,
+            "note": "By definition every s\u2208R_n\\{0,1} is a cross-ratio over R_n"
+          },
+          {
+            "branch_chart": "{0,1,\u221e,s}",
+            "s_form": "xi/(xi-1)",
+            "s_in_Rn": true,
+            "note": "By definition every s\u2208R_n\\{0,1} is a cross-ratio over R_n"
+          }
+        ],
+        "cosine_4point_samples": [
+          {
+            "points": "four 2cos(2\u03c0 p/n) in orbit",
+            "cross_ratio": "(sin(pi/22) + cos(2*pi/11))*(cos(4*pi/11) + cos(3*pi/11))/((sin(pi/22) + cos(4*pi/11))*(cos(3*pi/11) + cos(2*pi/11)))",
+            "numeric": 1.2615706729106324,
+            "minpoly": "x**5 - 2*x**4 - 16*x**3 + 35*x**2 - 18*x + 1"
+          }
+        ]
+      }
+    },
+    "15": {
+      "degree": 4,
+      "catalogue_k": [
+        {
+          "k": "-4",
+          "in_Rn": true,
+          "reason": "Q \u2282 R_n for all n \u2265 1",
+          "minimal_field_over_Q": "Q",
+          "degree": 1
+        },
+        {
+          "k": "4",
+          "in_Rn": true,
+          "reason": "Q \u2282 R_n for all n \u2265 1",
+          "minimal_field_over_Q": "Q",
+          "degree": 1
+        },
+        {
+          "k": "-8/5",
+          "in_Rn": true,
+          "reason": "Q \u2282 R_n for all n \u2265 1",
+          "minimal_field_over_Q": "Q",
+          "degree": 1
+        },
+        {
+          "k": "8/5",
+          "in_Rn": true,
+          "reason": "Q \u2282 R_n for all n \u2265 1",
+          "minimal_field_over_Q": "Q",
+          "degree": 1
+        },
+        {
+          "k": "4/5",
+          "in_Rn": true,
+          "reason": "Q \u2282 R_n for all n \u2265 1",
+          "minimal_field_over_Q": "Q",
+          "degree": 1
+        },
+        {
+          "k": "-4/5",
+          "in_Rn": true,
+          "reason": "Q \u2282 R_n for all n \u2265 1",
+          "minimal_field_over_Q": "Q",
+          "degree": 1
+        },
+        {
+          "k": "-12/5",
+          "in_Rn": true,
+          "reason": "Q \u2282 R_n for all n \u2265 1",
+          "minimal_field_over_Q": "Q",
+          "degree": 1
+        },
+        {
+          "k": "12/5",
+          "in_Rn": true,
+          "reason": "Q \u2282 R_n for all n \u2265 1",
+          "minimal_field_over_Q": "Q",
+          "degree": 1
+        },
+        {
+          "k": "-16/5",
+          "in_Rn": true,
+          "reason": "Q \u2282 R_n for all n \u2265 1",
+          "minimal_field_over_Q": "Q",
+          "degree": 1
+        },
+        {
+          "k": "16/5",
+          "in_Rn": true,
+          "reason": "Q \u2282 R_n for all n \u2265 1",
+          "minimal_field_over_Q": "Q",
+          "degree": 1
+        }
+      ],
+      "cosine_candidates": [
+        {
+          "form": "2cos(2\u03c0\u00b71/3)",
+          "d": 3,
+          "p": 1,
+          "in_Rn": true,
+          "numeric": -1.0,
+          "minpoly": "x + 1",
+          "degree": 1,
+          "equals_catalogue_k": false
+        },
+        {
+          "form": "2cos(2\u03c0\u00b71/5)",
+          "d": 5,
+          "p": 1,
+          "in_Rn": true,
+          "numeric": 0.6180339887498949,
+          "minpoly": "x**2 + x - 1",
+          "degree": 2,
+          "equals_catalogue_k": false
+        },
+        {
+          "form": "2cos(2\u03c0\u00b72/5)",
+          "d": 5,
+          "p": 2,
+          "in_Rn": true,
+          "numeric": -1.618033988749895,
+          "minpoly": "x**2 + x - 1",
+          "degree": 2,
+          "equals_catalogue_k": false
+        },
+        {
+          "form": "2cos(2\u03c0\u00b71/15)",
+          "d": 15,
+          "p": 1,
+          "in_Rn": true,
+          "numeric": 1.8270909152852017,
+          "minpoly": "x**4 - x**3 - 4*x**2 + 4*x + 1",
+          "degree": 4,
+          "equals_catalogue_k": false
+        },
+        {
+          "form": "2cos(2\u03c0\u00b72/15)",
+          "d": 15,
+          "p": 2,
+          "in_Rn": true,
+          "numeric": 1.3382612127177165,
+          "minpoly": "x**4 - x**3 - 4*x**2 + 4*x + 1",
+          "degree": 4,
+          "equals_catalogue_k": false
+        },
+        {
+          "form": "2cos(2\u03c0\u00b74/15)",
+          "d": 15,
+          "p": 4,
+          "in_Rn": true,
+          "numeric": -0.20905692653530694,
+          "minpoly": "x**4 - x**3 - 4*x**2 + 4*x + 1",
+          "degree": 4,
+          "equals_catalogue_k": false
+        },
+        {
+          "form": "2cos(2\u03c0\u00b77/15)",
+          "d": 15,
+          "p": 7,
+          "in_Rn": true,
+          "numeric": -1.9562952014676114,
+          "minpoly": "x**4 - x**3 - 4*x**2 + 4*x + 1",
+          "degree": 4,
+          "equals_catalogue_k": false
+        }
+      ],
+      "cross_ratios": {
+        "n": 15,
+        "status": "ok",
+        "theorem_s": "Every s \u2208 R_n \\ {0,1,\u221e} arises as the cross-ratio of the ordered 4-tuple (0,1,\u221e,s) of R_n-rational points of P\u00b9. Hence the Hurwitz coordinate of any 4-branch cover over R_n may be taken in R_n whenever the branch locus is R_n-rational.",
+        "standard_charts": [
+          {
+            "branch_chart": "{0,1,\u221e,s}",
+            "s_form": "xi",
+            "s_in_Rn": true,
+            "note": "By definition every s\u2208R_n\\{0,1} is a cross-ratio over R_n"
+          },
+          {
+            "branch_chart": "{0,1,\u221e,s}",
+            "s_form": "1-xi",
+            "s_in_Rn": true,
+            "note": "By definition every s\u2208R_n\\{0,1} is a cross-ratio over R_n"
+          },
+          {
+            "branch_chart": "{0,1,\u221e,s}",
+            "s_form": "-xi",
+            "s_in_Rn": true,
+            "note": "By definition every s\u2208R_n\\{0,1} is a cross-ratio over R_n"
+          },
+          {
+            "branch_chart": "{0,1,\u221e,s}",
+            "s_form": "xi/(xi-1)",
+            "s_in_Rn": true,
+            "note": "By definition every s\u2208R_n\\{0,1} is a cross-ratio over R_n"
+          }
+        ],
+        "cosine_4point_samples": [
+          {
+            "points": "four 2cos(2\u03c0 p/n) in orbit",
+            "cross_ratio": "9/2 - 3*sqrt(5)/2",
+            "numeric": 1.1458980337503155,
+            "minpoly": "x**2 - 9*x + 9"
+          }
+        ]
+      }
+    }
+  },
+  "cosine_catalogue_hits": [],
+  "catalogue_k": [
+    "-4",
+    "4",
+    "-8/5",
+    "8/5",
+    "4/5",
+    "-4/5",
+    "-12/5",
+    "12/5",
+    "-16/5",
+    "16/5"
+  ]
+}

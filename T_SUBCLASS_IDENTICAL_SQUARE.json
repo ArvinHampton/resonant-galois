@@ -1,0 +1,245 @@
+{
+  "elapsed_s": 13.71,
+  "verdict": "Beyond BJ-embed, the largest *natural* subclass with disc identically square in free parameters is 1-parameter homogenisation of fixed even-disc seeds of shape x^5+p x^3+r x+s (realizable in T with a=e=0). It does not exceed pure-even envelope dimension; 3-cycles are not structurally forced; HQCC-axiom naming fails (homogenisation + a=e=0 are extra ans\u00e4tze). Criterion 2 necessity remains open.",
+  "cuts": [
+    {
+      "name": "unrestricted T",
+      "identically_square": false,
+      "info": "odd_factors=[('108*a**6*d - 108*a**5*b*c + 540*a**5*d*e*f + 27*a**4*b**2*f**2 - 486*a', 1)]",
+      "beyond_BJ_embed": true
+    },
+    {
+      "name": "BJ-embed d=0,a=-ef (raw free bcef)",
+      "identically_square": false,
+      "info": "odd_factors=[('256*b**5*f**5 - 3125*b**4*c**4 + 1280*b**4*c*e*f**4 + 2560*b**3*c**2*e', 1)]",
+      "beyond_BJ_embed": false
+    },
+    {
+      "name": "a=-ef only",
+      "identically_square": false,
+      "info": "odd_factors=[('256*b**5*f**5 - 3125*b**4*c**4 + 2000*b**4*c**2*d*f**2 + 1280*b**4*c*e', 1)]",
+      "beyond_BJ_embed": true
+    },
+    {
+      "name": "d=0 only",
+      "identically_square": false,
+      "info": "odd_factors=[('108*a**5*b*c - 27*a**4*b**2*f**2 + 486*a**4*b*c*e*f - 27*a**4*c**2*e**', 1)]",
+      "beyond_BJ_embed": true
+    },
+    {
+      "name": "e=f=0",
+      "identically_square": false,
+      "info": "odd_factors=[('a*d - b*c', 1), ('108*a**5 - 216*a**3*d**3 + 2700*a**2*b*c*d**2 - 5625*a*b**2*c**2*d + 1', 1)]",
+      "beyond_BJ_embed": true
+    },
+    {
+      "name": "b=e=0",
+      "identically_square": false,
+      "info": "odd_factors=[('d', 1)]",
+      "beyond_BJ_embed": true
+    },
+    {
+      "name": "c=f=0",
+      "identically_square": false,
+      "info": "odd_factors=[('d', 1)]",
+      "beyond_BJ_embed": true
+    },
+    {
+      "name": "b=c=0",
+      "identically_square": false,
+      "info": "odd_factors=[('a', 1), ('d', 1), ('108*a**5 + 540*a**4*e*f - 216*a**3*d**3 + 1080*a**3*e**2*f**2 + 2052*a', 1)]",
+      "beyond_BJ_embed": true
+    },
+    {
+      "name": "a=e=0",
+      "identically_square": false,
+      "info": "odd_factors=[('256*b**3*f**5 - 3125*b**2*c**4 + 2000*b**2*c**2*d*f**2 + 128*b**2*d**2', 1)]",
+      "beyond_BJ_embed": true
+    },
+    {
+      "name": "a=e=0,f free poly family later",
+      "identically_square": false,
+      "info": "odd_factors=[('256*b**3*f**5 - 3125*b**2*c**4 + 2000*b**2*c**2*d*f**2 + 128*b**2*d**2', 1)]",
+      "beyond_BJ_embed": true
+    },
+    {
+      "name": "LR only a=b=c=e=0",
+      "identically_square": true,
+      "info": "0",
+      "beyond_BJ_embed": true
+    },
+    {
+      "name": "UL only b=e=f=0",
+      "identically_square": false,
+      "info": "odd_factors=[('d', 1)]",
+      "beyond_BJ_embed": true
+    }
+  ],
+  "homogenisation_beyond_BJ": {
+    "name": "homogenised_no_x2_in_T",
+    "params": {
+      "a": "0",
+      "e": "0",
+      "d": "-p*t^2",
+      "b": "1",
+      "f": "-r*t^4",
+      "c": "-s*t^5"
+    },
+    "chi": "p*t**2*x**3 + r*t**4*x + s*t**5 + x**5",
+    "chi_matches_T": true,
+    "disc_identity": true,
+    "disc_formula": "t^{20} * disc(x^5 + p x^3 + r x + s)",
+    "beyond_BJ_embed": "when p\u22600 (equivalently d\u22600)",
+    "identically_square_in_t": "iff disc(seed) is a constant perfect square",
+    "free_params": "t (continuous); (p,r,s) discrete/seed with disc\u25a1",
+    "dimension_vs_BJ_pure_even_slice": "same: 1 free continuous parameter",
+    "dimension_vs_BJ_envelope": "strictly smaller than envelope (2 params m,k)"
+  },
+  "BJ_homogenisation_in_T": {
+    "name": "BJ_homogenisation_in_T",
+    "beyond_BJ_embed": false,
+    "chi_match": true,
+    "note": "Lives inside BJ-embed (d=0,a=-ef=0); classical pure-even applies when seed disc\u25a1"
+  },
+  "non_BJ_even_seeds": [
+    {
+      "p": 6,
+      "r": -7,
+      "s": -8,
+      "disc": 168792064,
+      "status": "HIT_A5",
+      "has_3cycle_census": true
+    },
+    {
+      "p": 6,
+      "r": -7,
+      "s": 8,
+      "disc": 168792064,
+      "status": "HIT_A5",
+      "has_3cycle_census": true
+    }
+  ],
+  "specialisations": [
+    {
+      "seed": {
+        "p": 6,
+        "r": -7,
+        "s": -8,
+        "disc": 168792064,
+        "status": "HIT_A5",
+        "has_3cycle_census": true
+      },
+      "specialisations": [
+        {
+          "t": 2,
+          "chi": "x**5 + 24*x**3 - 112*x - 256",
+          "disc": 176991307300864,
+          "disc_square": true,
+          "status": "HIT_A5",
+          "irreducible": true
+        },
+        {
+          "t": 3,
+          "chi": "x**5 + 54*x**3 - 567*x - 1944",
+          "disc": 588541535767793664,
+          "disc_square": true,
+          "status": "HIT_A5",
+          "irreducible": true
+        },
+        {
+          "t": 5,
+          "chi": "x**5 + 150*x**3 - 4375*x - 25000",
+          "disc": 16097265625000000000000,
+          "disc_square": true,
+          "status": "HIT_A5",
+          "irreducible": true
+        }
+      ]
+    },
+    {
+      "seed": {
+        "p": 6,
+        "r": -7,
+        "s": 8,
+        "disc": 168792064,
+        "status": "HIT_A5",
+        "has_3cycle_census": true
+      },
+      "specialisations": [
+        {
+          "t": 2,
+          "chi": "x**5 + 24*x**3 - 112*x + 256",
+          "disc": 176991307300864,
+          "disc_square": true,
+          "status": "HIT_A5",
+          "irreducible": true
+        },
+        {
+          "t": 3,
+          "chi": "x**5 + 54*x**3 - 567*x + 1944",
+          "disc": 588541535767793664,
+          "disc_square": true,
+          "status": "HIT_A5",
+          "irreducible": true
+        },
+        {
+          "t": 5,
+          "chi": "x**5 + 150*x**3 - 4375*x + 25000",
+          "disc": 16097265625000000000000,
+          "disc_square": true,
+          "status": "HIT_A5",
+          "irreducible": true
+        }
+      ]
+    }
+  ],
+  "naming": {
+    "BJ_embed_pure_even": {
+      "named_by": "classical BJ + pure-even (d=0, a=-ef, \u03b1,\u03b2 on k-slice)",
+      "HQCC_native": false,
+      "note": "Uses template shape but evenness from classical ansatz"
+    },
+    "homogenised_no_x2": {
+      "named_by": "T with a=e=0 (UL/LR block decoupling: no a,e ternary-flux mix); d scales as puncture-like weight t^2; b,f,c carry remaining coeffs",
+      "HQCC_native": "Partial / weak",
+      "note": "a=e=0 is a structural zeroing of two entries \u2014 can be called 'decoupled companion coupling' but is not forced by ternary/flux axioms alone (base M has a=3, e=0 actually \u2014 e=0 in M!). M has a=3\u22600. So a=0 is NOT the base HQCC matrix. f,c proportional to t-powers is homogenisation ansatz, not HQCC axiom.",
+      "forces_An_from_axioms": false
+    },
+    "conclusion": "No subclass found that is both (i) identically disc-square in free params beyond BJ-embed pure-even/envelope dimension, and (ii) named purely by HQCC axioms without an extra evenness/homogenisation ansatz."
+  },
+  "largest": {
+    "by_identical_square_free_params": [
+      {
+        "class": "pure-even envelope inside BJ-embed",
+        "free_params": 2,
+        "beyond_BJ_embed": false,
+        "disc_identical_square": true,
+        "forced_3_cycles": "not forced; operational A5 when irr+(3,1,1)",
+        "HQCC_axiom_native": false
+      },
+      {
+        "class": "pure-even k-slice inside BJ-embed",
+        "free_params": 1,
+        "beyond_BJ_embed": false,
+        "disc_identical_square": true,
+        "HQCC_axiom_native": false
+      },
+      {
+        "class": "homogenised no-x2 families in T (a=e=0)",
+        "free_params": 1,
+        "beyond_BJ_embed": true,
+        "when": "p\u22600 so d\u22600",
+        "disc_identical_square": "in t, iff seed disc is constant square",
+        "forced_3_cycles": "inherited from seed when Gal(seed)=A5 + Hilbert",
+        "HQCC_axiom_native": false
+      },
+      {
+        "class": "coordinate cuts of T (e=f=0, etc.)",
+        "free_params": "\u22644",
+        "beyond_BJ_embed": true,
+        "disc_identical_square": false
+      }
+    ],
+    "verdict": "Beyond BJ-embed, the largest *natural* subclass with disc identically square in free parameters is 1-parameter homogenisation of fixed even-disc seeds of shape x^5+p x^3+r x+s (realizable in T with a=e=0). It does not exceed pure-even envelope dimension; 3-cycles are not structurally forced; HQCC-axiom naming fails (homogenisation + a=e=0 are extra ans\u00e4tze). Criterion 2 necessity remains open."
+  }
+}

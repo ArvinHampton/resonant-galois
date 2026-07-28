@@ -1,0 +1,707 @@
+{
+  "verdict": "G1 Tschirnhaus cut (119.65s). T1 s=-1 exact/symbolic hits=0/10. T2 locus numeric hits=0/10. T3 covers_ok=13/16; BJ_trans=0, BJ_tsch=21; cat_trans=0, cat_tsch=0; multi_k=False; geometric_catalogue_hit=False.",
+  "elapsed_s": 119.65,
+  "T1": [
+    {
+      "tag": "flagship",
+      "k": "-8/5",
+      "alpha": -55,
+      "beta": 88,
+      "ok": false,
+      "fibre": "s=-1 fixed (p2,\u03c3,\u03c0)=(-1,0,-1/25)",
+      "attempts": [
+        {
+          "ansatz": "c1=1",
+          "ok": false,
+          "n_sols": 0,
+          "sample": []
+        },
+        {
+          "ansatz": "c2=0_c1=1",
+          "ok": false,
+          "n_sols": 0,
+          "sample": []
+        },
+        {
+          "ansatz": "full",
+          "ok": false,
+          "n_sols": 0,
+          "sample": []
+        }
+      ]
+    },
+    {
+      "tag": "flag_145",
+      "k": "-8/5",
+      "alpha": 145,
+      "beta": -232,
+      "ok": false,
+      "fibre": "s=-1 fixed (p2,\u03c3,\u03c0)=(-1,0,-1/25)",
+      "attempts": [
+        {
+          "ansatz": "c1=1",
+          "ok": false,
+          "n_sols": 0,
+          "sample": []
+        },
+        {
+          "ansatz": "c2=0_c1=1",
+          "ok": false,
+          "n_sols": 0,
+          "sample": []
+        },
+        {
+          "ansatz": "full",
+          "ok": false,
+          "n_sols": 0,
+          "sample": []
+        }
+      ]
+    },
+    {
+      "tag": "classical",
+      "k": "4/5",
+      "alpha": 20,
+      "beta": 16,
+      "ok": false,
+      "fibre": "s=-1 fixed (p2,\u03c3,\u03c0)=(-1,0,-1/25)",
+      "attempts": [
+        {
+          "ansatz": "c1=1",
+          "ok": false,
+          "n_sols": 0,
+          "sample": []
+        },
+        {
+          "ansatz": "c2=0_c1=1",
+          "ok": false,
+          "n_sols": 0,
+          "sample": []
+        },
+        {
+          "ansatz": "full",
+          "ok": false,
+          "n_sols": 0,
+          "sample": []
+        }
+      ]
+    },
+    {
+      "tag": "s95_76",
+      "k": "4/5",
+      "alpha": 95,
+      "beta": 76,
+      "ok": false,
+      "fibre": "s=-1 fixed (p2,\u03c3,\u03c0)=(-1,0,-1/25)",
+      "attempts": [
+        {
+          "ansatz": "c1=1",
+          "ok": false,
+          "n_sols": 0,
+          "sample": []
+        },
+        {
+          "ansatz": "c2=0_c1=1",
+          "ok": false,
+          "n_sols": 0,
+          "sample": []
+        },
+        {
+          "ansatz": "full",
+          "ok": false,
+          "n_sols": 0,
+          "sample": []
+        }
+      ]
+    },
+    {
+      "tag": "lsw_m100",
+      "k": "-4",
+      "alpha": -100,
+      "beta": 400,
+      "ok": false,
+      "fibre": "s=-1 fixed (p2,\u03c3,\u03c0)=(-1,0,-1/25)",
+      "attempts": [
+        {
+          "ansatz": "c1=1",
+          "ok": false,
+          "n_sols": 0,
+          "sample": []
+        },
+        {
+          "ansatz": "c2=0_c1=1",
+          "ok": false,
+          "n_sols": 0,
+          "sample": []
+        },
+        {
+          "ansatz": "full",
+          "ok": false,
+          "n_sols": 0,
+          "sample": []
+        }
+      ]
+    },
+    {
+      "tag": "lsw_124m",
+      "k": "-4",
+      "alpha": 124,
+      "beta": -496,
+      "ok": false,
+      "fibre": "s=-1 fixed (p2,\u03c3,\u03c0)=(-1,0,-1/25)",
+      "attempts": [
+        {
+          "ansatz": "c1=1",
+          "ok": false,
+          "n_sols": 0,
+          "sample": []
+        },
+        {
+          "ansatz": "c2=0_c1=1",
+          "ok": false,
+          "n_sols": 0,
+          "sample": []
+        },
+        {
+          "ansatz": "full",
+          "ok": false,
+          "n_sols": 0,
+          "sample": []
+        }
+      ]
+    },
+    {
+      "tag": "s180",
+      "k": "-12/5",
+      "alpha": -180,
+      "beta": 432,
+      "ok": false,
+      "fibre": "s=-1 fixed (p2,\u03c3,\u03c0)=(-1,0,-1/25)",
+      "attempts": [
+        {
+          "ansatz": "c1=1",
+          "ok": false,
+          "n_sols": 0,
+          "sample": []
+        },
+        {
+          "ansatz": "c2=0_c1=1",
+          "ok": false,
+          "n_sols": 0,
+          "sample": []
+        },
+        {
+          "ansatz": "full",
+          "ok": false,
+          "n_sols": 0,
+          "sample": []
+        }
+      ]
+    },
+    {
+      "tag": "s55_176",
+      "k": "-16/5",
+      "alpha": -55,
+      "beta": 176,
+      "ok": false,
+      "fibre": "s=-1 fixed (p2,\u03c3,\u03c0)=(-1,0,-1/25)",
+      "attempts": [
+        {
+          "ansatz": "c1=1",
+          "ok": false,
+          "n_sols": 0,
+          "sample": []
+        },
+        {
+          "ansatz": "c2=0_c1=1",
+          "ok": false,
+          "n_sols": 0,
+          "sample": []
+        },
+        {
+          "ansatz": "full",
+          "ok": false,
+          "n_sols": 0,
+          "sample": []
+        }
+      ]
+    },
+    {
+      "tag": "flagship_m",
+      "k": "8/5",
+      "alpha": -55,
+      "beta": -88,
+      "ok": false,
+      "fibre": "s=-1 fixed (p2,\u03c3,\u03c0)=(-1,0,-1/25)",
+      "attempts": [
+        {
+          "ansatz": "c1=1",
+          "ok": false,
+          "n_sols": 0,
+          "sample": []
+        },
+        {
+          "ansatz": "c2=0_c1=1",
+          "ok": false,
+          "n_sols": 0,
+          "sample": []
+        },
+        {
+          "ansatz": "full",
+          "ok": false,
+          "n_sols": 0,
+          "sample": []
+        }
+      ]
+    },
+    {
+      "tag": "classical_m",
+      "k": "-4/5",
+      "alpha": 20,
+      "beta": -16,
+      "ok": false,
+      "fibre": "s=-1 fixed (p2,\u03c3,\u03c0)=(-1,0,-1/25)",
+      "attempts": [
+        {
+          "ansatz": "c1=1",
+          "ok": false,
+          "n_sols": 0,
+          "sample": []
+        },
+        {
+          "ansatz": "c2=0_c1=1",
+          "ok": false,
+          "n_sols": 0,
+          "sample": []
+        },
+        {
+          "ansatz": "full",
+          "ok": false,
+          "n_sols": 0,
+          "sample": []
+        }
+      ]
+    }
+  ],
+  "T1b": [
+    {
+      "tag": "flagship",
+      "ok": false,
+      "n_hits": 0,
+      "hits": [],
+      "note": "numeric lam-scan on s=-1 + Tschirnhaus"
+    },
+    {
+      "tag": "flag_145",
+      "ok": false,
+      "n_hits": 0,
+      "hits": [],
+      "note": "numeric lam-scan on s=-1 + Tschirnhaus"
+    },
+    {
+      "tag": "classical",
+      "ok": false,
+      "n_hits": 0,
+      "hits": [],
+      "note": "numeric lam-scan on s=-1 + Tschirnhaus"
+    },
+    {
+      "tag": "s95_76",
+      "ok": false,
+      "n_hits": 0,
+      "hits": [],
+      "note": "numeric lam-scan on s=-1 + Tschirnhaus"
+    }
+  ],
+  "T2": [
+    {
+      "tag": "flagship",
+      "k": "-8/5",
+      "alpha": -55,
+      "beta": 88,
+      "ok": false,
+      "n_hits": 0,
+      "best_residual": 0.2442512982991469,
+      "hits": [],
+      "method": "numpy_LM"
+    },
+    {
+      "tag": "flag_145",
+      "k": "-8/5",
+      "alpha": 145,
+      "beta": -232,
+      "ok": false,
+      "n_hits": 0,
+      "best_residual": 4.220208478870365,
+      "hits": [],
+      "method": "numpy_LM"
+    },
+    {
+      "tag": "classical",
+      "k": "4/5",
+      "alpha": 20,
+      "beta": 16,
+      "ok": false,
+      "n_hits": 0,
+      "best_residual": 2.9176354739930215,
+      "hits": [],
+      "method": "numpy_LM"
+    },
+    {
+      "tag": "s95_76",
+      "k": "4/5",
+      "alpha": 95,
+      "beta": 76,
+      "ok": false,
+      "n_hits": 0,
+      "best_residual": 4.016582429439967,
+      "hits": [],
+      "method": "numpy_LM"
+    },
+    {
+      "tag": "lsw_m100",
+      "k": "-4",
+      "alpha": -100,
+      "beta": 400,
+      "ok": false,
+      "n_hits": 0,
+      "best_residual": 3.8754976318214043,
+      "hits": [],
+      "method": "numpy_LM"
+    },
+    {
+      "tag": "lsw_124m",
+      "k": "-4",
+      "alpha": 124,
+      "beta": -496,
+      "ok": false,
+      "n_hits": 0,
+      "best_residual": 2.73665166020393,
+      "hits": [],
+      "method": "numpy_LM"
+    },
+    {
+      "tag": "s180",
+      "k": "-12/5",
+      "alpha": -180,
+      "beta": 432,
+      "ok": false,
+      "n_hits": 0,
+      "best_residual": 3.5461140517046945,
+      "hits": [],
+      "method": "numpy_LM"
+    },
+    {
+      "tag": "s55_176",
+      "k": "-16/5",
+      "alpha": -55,
+      "beta": 176,
+      "ok": false,
+      "n_hits": 0,
+      "best_residual": 4.227492687749148,
+      "hits": [],
+      "method": "numpy_LM"
+    },
+    {
+      "tag": "flagship_m",
+      "k": "8/5",
+      "alpha": -55,
+      "beta": -88,
+      "ok": false,
+      "n_hits": 0,
+      "best_residual": 3.7205750104079836,
+      "hits": [],
+      "method": "numpy_LM"
+    },
+    {
+      "tag": "classical_m",
+      "k": "-4/5",
+      "alpha": 20,
+      "beta": -16,
+      "ok": false,
+      "n_hits": 0,
+      "best_residual": 2.344391201770638,
+      "hits": [],
+      "method": "numpy_LM"
+    }
+  ],
+  "T3": {
+    "covers_ok": 13,
+    "covers_attempted": 16,
+    "bj_translation": 0,
+    "bj_tschirnhaus": 21,
+    "cat_hits_translation": [],
+    "cat_hits_tschirnhaus": [],
+    "catalogue_k": [],
+    "multi_k": false,
+    "bj_trans_sample": [],
+    "bj_tsch_sample": [
+      {
+        "s": 0.333,
+        "t": -8,
+        "alpha": 0,
+        "beta": 0,
+        "tsch": {
+          "ok": true,
+          "residual": 9.551335512685208e-12,
+          "c0": -6.974315384672164e-05,
+          "c2": -0.9996979070164925,
+          "alpha": 0,
+          "beta": 0
+        }
+      },
+      {
+        "s": 0.333,
+        "t": -7,
+        "alpha": 0,
+        "beta": 0,
+        "tsch": {
+          "ok": true,
+          "residual": 7.88303174952474e-12,
+          "c0": -6.589716080264396e-05,
+          "c2": -0.9997171369816713,
+          "alpha": 0,
+          "beta": 0
+        }
+      },
+      {
+        "s": 0.333,
+        "t": -6,
+        "alpha": 0,
+        "beta": 0,
+        "tsch": {
+          "ok": true,
+          "residual": 6.318002203008402e-12,
+          "c0": -6.17569238067114e-05,
+          "c2": -0.9997378381666059,
+          "alpha": 0,
+          "beta": 0
+        }
+      },
+      {
+        "s": 0.333,
+        "t": -5,
+        "alpha": 0,
+        "beta": 0,
+        "tsch": {
+          "ok": true,
+          "residual": 4.8648386618689744e-12,
+          "c0": -5.7242353071441074e-05,
+          "c2": -0.999760411020233,
+          "alpha": 0,
+          "beta": 0
+        }
+      },
+      {
+        "s": 0.333,
+        "t": -4,
+        "alpha": 0,
+        "beta": 0,
+        "tsch": {
+          "ok": true,
+          "residual": 3.5347265726654357e-12,
+          "c0": -5.222870149284727e-05,
+          "c2": -0.999785479278072,
+          "alpha": 0,
+          "beta": 0
+        }
+      },
+      {
+        "s": 0.333,
+        "t": -3,
+        "alpha": 0,
+        "beta": 0,
+        "tsch": {
+          "ok": true,
+          "residual": 2.3431007034403488e-12,
+          "c0": -4.650123015195186e-05,
+          "c2": -0.9998141166347134,
+          "alpha": 0,
+          "beta": 0
+        }
+      },
+      {
+        "s": 0.333,
+        "t": -2,
+        "alpha": 0,
+        "beta": 0,
+        "tsch": {
+          "ok": true,
+          "residual": 1.3133388436080423e-12,
+          "c0": -3.962484774597431e-05,
+          "c2": -0.9998484985466689,
+          "alpha": 0,
+          "beta": 0
+        }
+      },
+      {
+        "s": 0.333,
+        "t": -1,
+        "alpha": 0,
+        "beta": 0,
+        "tsch": {
+          "ok": true,
+          "residual": 6.410864219419579e-13,
+          "c0": -3.0374718217992282e-05,
+          "c2": -0.9998947491942087,
+          "alpha": 0,
+          "beta": 0
+        }
+      },
+      {
+        "s": 0.333,
+        "t": 0,
+        "alpha": 0,
+        "beta": 0,
+        "tsch": {
+          "ok": true,
+          "residual": 8.175649710792622e-10,
+          "c0": -1.1162397437231706e-05,
+          "c2": -0.9999908107979018,
+          "alpha": 0,
+          "beta": 0
+        }
+      },
+      {
+        "s": 0.333,
+        "t": 1,
+        "alpha": 0,
+        "beta": 0,
+        "tsch": {
+          "ok": true,
+          "residual": 5.134255009804543e-09,
+          "c0": -1.1372819386579982e-05,
+          "c2": -0.9999897586881494,
+          "alpha": 0,
+          "beta": 0
+        }
+      },
+      {
+        "s": 0.333,
+        "t": 2,
+        "alpha": 0,
+        "beta": 0,
+        "tsch": {
+          "ok": true,
+          "residual": 9.452029895336196e-09,
+          "c0": -1.1498738254171373e-05,
+          "c2": -0.9999891290938027,
+          "alpha": 0,
+          "beta": 0
+        }
+      },
+      {
+        "s": 0.333,
+        "t": 3,
+        "alpha": 0,
+        "beta": 0,
+        "tsch": {
+          "ok": true,
+          "residual": 1.3770119599800185e-08,
+          "c0": -1.1652530238284028e-05,
+          "c2": -0.9999883601338772,
+          "alpha": 0,
+          "beta": 0
+        }
+      },
+      {
+        "s": 0.333,
+        "t": 4,
+        "alpha": 0,
+        "beta": 0,
+        "tsch": {
+          "ok": true,
+          "residual": 1.8088452365838203e-08,
+          "c0": -1.1632786056051189e-05,
+          "c2": -0.999988458854785,
+          "alpha": 0,
+          "beta": 0
+        }
+      },
+      {
+        "s": 0.333,
+        "t": 5,
+        "alpha": 0,
+        "beta": 0,
+        "tsch": {
+          "ok": true,
+          "residual": 2.2406778197842586e-08,
+          "c0": -1.16508430402673e-05,
+          "c2": -0.9999883685698503,
+          "alpha": 0,
+          "beta": 0
+        }
+      },
+      {
+        "s": 0.333,
+        "t": 6,
+        "alpha": 0,
+        "beta": 0,
+        "tsch": {
+          "ok": true,
+          "residual": 2.6725107606078905e-08,
+          "c0": -1.1645365601091906e-05,
+          "c2": -0.9999883959570397,
+          "alpha": 0,
+          "beta": 0
+        }
+      }
+    ]
+  },
+  "baseline_translation_reverse": [
+    {
+      "tag": "flagship",
+      "n_rev": 2,
+      "ok": true
+    },
+    {
+      "tag": "flag_145",
+      "n_rev": 2,
+      "ok": true
+    },
+    {
+      "tag": "classical",
+      "n_rev": 2,
+      "ok": true
+    },
+    {
+      "tag": "s95_76",
+      "n_rev": 2,
+      "ok": true
+    },
+    {
+      "tag": "lsw_m100",
+      "n_rev": 2,
+      "ok": true
+    },
+    {
+      "tag": "lsw_124m",
+      "n_rev": 2,
+      "ok": true
+    },
+    {
+      "tag": "s180",
+      "n_rev": 2,
+      "ok": true
+    },
+    {
+      "tag": "s55_176",
+      "n_rev": 2,
+      "ok": true
+    },
+    {
+      "tag": "flagship_m",
+      "n_rev": 2,
+      "ok": true
+    },
+    {
+      "tag": "classical_m",
+      "n_rev": 2,
+      "ok": true
+    }
+  ],
+  "t1_ok": 0,
+  "t2_ok": 0,
+  "geometric_hit": false,
+  "multi_k": false
+}

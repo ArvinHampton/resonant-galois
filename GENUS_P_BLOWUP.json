@@ -1,0 +1,81 @@
+{
+  "elapsed_s": 0.26,
+  "verdict": "Genus P blowup (0.26s). deg=6, pa=10. Affine (1,1): mult=3, ordinary=True, \u03b4=3. Infinity: mult[1:0:0]=3, mult[0:1:0]=3. Blowup (1,1): val=3, sing_on_E=0. g = 1 (exact under ordinary-singularity accounting at (1,1) and infinity). Confirms g>0 (not genus 0). Rational param still blocked.",
+  "degree": 6,
+  "pa": 10,
+  "affine": {
+    "groebner": [
+      "q**2 - 2*q - w**2 + 2*w",
+      "q*w - q + 5*w**2/4 - 7*w/2 + 9/4",
+      "w**3 - 3*w**2 + 3*w - 1"
+    ],
+    "point": [
+      1,
+      1
+    ],
+    "multiplicity": 3,
+    "lowest_form": "(loc_q + loc_w)*(loc_q**2 + loc_q*loc_w + loc_w**2)",
+    "n_tangents_est": 3,
+    "ordinary": true,
+    "delta_if_ordinary": 3,
+    "local_expand_deg": 6
+  },
+  "blowup": {
+    "val_s_chartA": 3,
+    "E_chartA": "(t + 1)*(t**2 + t + 1)",
+    "val_s_chartB": 3,
+    "E_chartB": "(t + 1)*(t**2 + t + 1)",
+    "singular_on_exceptional": [
+      {
+        "chart": "A",
+        "t": "-1",
+        "strict": "0",
+        "ds": "-1",
+        "dt": "1",
+        "singular": false
+      },
+      {
+        "chart": "A",
+        "t": "-1/2 - sqrt(3)*I/2",
+        "strict": "-sqrt(3)*I + (-1/2 - sqrt(3)*I/2)**3 + 2*(-1/2 - sqrt(3)*I/2)**2",
+        "ds": "-7/2 - 7*sqrt(3)*I/2 + 7*(-1/2 - sqrt(3)*I/2)**3 + 13*(-1/2 - sqrt(3)*I/2)**2",
+        "dt": "-2*sqrt(3)*I + 3*(-1/2 - sqrt(3)*I/2)**2",
+        "singular": false
+      },
+      {
+        "chart": "A",
+        "t": "-1/2 + sqrt(3)*I/2",
+        "strict": "2*(-1/2 + sqrt(3)*I/2)**2 + (-1/2 + sqrt(3)*I/2)**3 + sqrt(3)*I",
+        "ds": "-7/2 + 13*(-1/2 + sqrt(3)*I/2)**2 + 7*(-1/2 + sqrt(3)*I/2)**3 + 7*sqrt(3)*I/2",
+        "dt": "3*(-1/2 + sqrt(3)*I/2)**2 + 2*sqrt(3)*I",
+        "singular": false
+      }
+    ],
+    "n_sing_on_E": 0
+  },
+  "infinity": {
+    "[1:0:0]": {
+      "mult": 3,
+      "lowest": "(2*u - v)*(10*u**2 - 15*u*v + 6*v**2)",
+      "delta_if_ordinary": 3
+    },
+    "[0:1:0]": {
+      "mult": 3,
+      "lowest": "(2*u - v)*(10*u**2 - 15*u*v + 6*v**2)",
+      "delta_if_ordinary": 3
+    }
+  },
+  "F0": "20*q**3*w**3",
+  "delta_aff": 3,
+  "delta_inf": 6,
+  "genus_status": "exact_under_ordinary_inf",
+  "g_exact": 1,
+  "bounds": {
+    "g_if_only_affine_ordinary": 7,
+    "g_lower_bound": 1,
+    "g_upper_bound": 1,
+    "note": "Plane formula g=pa-\u03a3\u03b4 assumes projective plane model with listed sings only.",
+    "g_exact_if_ordinary_all": 1
+  },
+  "genus_statement": "g = 1 (exact under ordinary-singularity accounting at (1,1) and infinity)"
+}

@@ -1,0 +1,400 @@
+{
+  "D1_tables": {
+    "-4": {
+      "n_integer_ab": 840,
+      "n_irr": 840,
+      "n_reducible": 0,
+      "n_even_fail": 0,
+      "irr_rate": 1.0,
+      "n_A5_among_checked": 29,
+      "n_gal_checked": 30,
+      "density_profile_by_m_abs": {
+        "10": {
+          "n_int": 80,
+          "n_irr": 80,
+          "irr_rate": 1.0
+        },
+        "20": {
+          "n_int": 200,
+          "n_irr": 200,
+          "irr_rate": 1.0
+        },
+        "40": {
+          "n_int": 480,
+          "n_irr": 480,
+          "irr_rate": 1.0
+        },
+        "80": {
+          "n_int": 840,
+          "n_irr": 840,
+          "irr_rate": 1.0
+        }
+      }
+    },
+    "4": {
+      "n_integer_ab": 840,
+      "n_irr": 840,
+      "n_reducible": 0,
+      "n_even_fail": 0,
+      "irr_rate": 1.0,
+      "n_A5_among_checked": 29,
+      "n_gal_checked": 30,
+      "density_profile_by_m_abs": {
+        "10": {
+          "n_int": 80,
+          "n_irr": 80,
+          "irr_rate": 1.0
+        },
+        "20": {
+          "n_int": 200,
+          "n_irr": 200,
+          "irr_rate": 1.0
+        },
+        "40": {
+          "n_int": 480,
+          "n_irr": 480,
+          "irr_rate": 1.0
+        },
+        "80": {
+          "n_int": 840,
+          "n_irr": 840,
+          "irr_rate": 1.0
+        }
+      }
+    },
+    "-8/5": {
+      "n_integer_ab": 168,
+      "n_irr": 168,
+      "n_reducible": 0,
+      "n_even_fail": 0,
+      "irr_rate": 1.0,
+      "n_A5_among_checked": 30,
+      "n_gal_checked": 30,
+      "density_profile_by_m_abs": {
+        "10": {
+          "n_int": 16,
+          "n_irr": 16,
+          "irr_rate": 1.0
+        },
+        "20": {
+          "n_int": 40,
+          "n_irr": 40,
+          "irr_rate": 1.0
+        },
+        "40": {
+          "n_int": 96,
+          "n_irr": 96,
+          "irr_rate": 1.0
+        },
+        "80": {
+          "n_int": 168,
+          "n_irr": 168,
+          "irr_rate": 1.0
+        }
+      }
+    },
+    "8/5": {
+      "n_integer_ab": 168,
+      "n_irr": 168,
+      "n_reducible": 0,
+      "n_even_fail": 0,
+      "irr_rate": 1.0,
+      "n_A5_among_checked": 30,
+      "n_gal_checked": 30,
+      "density_profile_by_m_abs": {
+        "10": {
+          "n_int": 16,
+          "n_irr": 16,
+          "irr_rate": 1.0
+        },
+        "20": {
+          "n_int": 40,
+          "n_irr": 40,
+          "irr_rate": 1.0
+        },
+        "40": {
+          "n_int": 96,
+          "n_irr": 96,
+          "irr_rate": 1.0
+        },
+        "80": {
+          "n_int": 168,
+          "n_irr": 168,
+          "irr_rate": 1.0
+        }
+      }
+    },
+    "4/5": {
+      "n_integer_ab": 168,
+      "n_irr": 168,
+      "n_reducible": 0,
+      "n_even_fail": 0,
+      "irr_rate": 1.0,
+      "n_A5_among_checked": 30,
+      "n_gal_checked": 30,
+      "density_profile_by_m_abs": {
+        "10": {
+          "n_int": 16,
+          "n_irr": 16,
+          "irr_rate": 1.0
+        },
+        "20": {
+          "n_int": 40,
+          "n_irr": 40,
+          "irr_rate": 1.0
+        },
+        "40": {
+          "n_int": 96,
+          "n_irr": 96,
+          "irr_rate": 1.0
+        },
+        "80": {
+          "n_int": 168,
+          "n_irr": 168,
+          "irr_rate": 1.0
+        }
+      }
+    },
+    "-4/5": {
+      "n_integer_ab": 168,
+      "n_irr": 168,
+      "n_reducible": 0,
+      "n_even_fail": 0,
+      "irr_rate": 1.0,
+      "n_A5_among_checked": 30,
+      "n_gal_checked": 30,
+      "density_profile_by_m_abs": {
+        "10": {
+          "n_int": 16,
+          "n_irr": 16,
+          "irr_rate": 1.0
+        },
+        "20": {
+          "n_int": 40,
+          "n_irr": 40,
+          "irr_rate": 1.0
+        },
+        "40": {
+          "n_int": 96,
+          "n_irr": 96,
+          "irr_rate": 1.0
+        },
+        "80": {
+          "n_int": 168,
+          "n_irr": 168,
+          "irr_rate": 1.0
+        }
+      }
+    },
+    "-12/5": {
+      "n_integer_ab": 168,
+      "n_irr": 168,
+      "n_reducible": 0,
+      "n_even_fail": 0,
+      "irr_rate": 1.0,
+      "n_A5_among_checked": 28,
+      "n_gal_checked": 30,
+      "density_profile_by_m_abs": {
+        "10": {
+          "n_int": 16,
+          "n_irr": 16,
+          "irr_rate": 1.0
+        },
+        "20": {
+          "n_int": 40,
+          "n_irr": 40,
+          "irr_rate": 1.0
+        },
+        "40": {
+          "n_int": 96,
+          "n_irr": 96,
+          "irr_rate": 1.0
+        },
+        "80": {
+          "n_int": 168,
+          "n_irr": 168,
+          "irr_rate": 1.0
+        }
+      }
+    },
+    "12/5": {
+      "n_integer_ab": 168,
+      "n_irr": 168,
+      "n_reducible": 0,
+      "n_even_fail": 0,
+      "irr_rate": 1.0,
+      "n_A5_among_checked": 28,
+      "n_gal_checked": 30,
+      "density_profile_by_m_abs": {
+        "10": {
+          "n_int": 16,
+          "n_irr": 16,
+          "irr_rate": 1.0
+        },
+        "20": {
+          "n_int": 40,
+          "n_irr": 40,
+          "irr_rate": 1.0
+        },
+        "40": {
+          "n_int": 96,
+          "n_irr": 96,
+          "irr_rate": 1.0
+        },
+        "80": {
+          "n_int": 168,
+          "n_irr": 168,
+          "irr_rate": 1.0
+        }
+      }
+    },
+    "-16/5": {
+      "n_integer_ab": 168,
+      "n_irr": 168,
+      "n_reducible": 0,
+      "n_even_fail": 0,
+      "irr_rate": 1.0,
+      "n_A5_among_checked": 28,
+      "n_gal_checked": 30,
+      "density_profile_by_m_abs": {
+        "10": {
+          "n_int": 16,
+          "n_irr": 16,
+          "irr_rate": 1.0
+        },
+        "20": {
+          "n_int": 40,
+          "n_irr": 40,
+          "irr_rate": 1.0
+        },
+        "40": {
+          "n_int": 96,
+          "n_irr": 96,
+          "irr_rate": 1.0
+        },
+        "80": {
+          "n_int": 168,
+          "n_irr": 168,
+          "irr_rate": 1.0
+        }
+      }
+    },
+    "16/5": {
+      "n_integer_ab": 168,
+      "n_irr": 168,
+      "n_reducible": 0,
+      "n_even_fail": 0,
+      "irr_rate": 1.0,
+      "n_A5_among_checked": 28,
+      "n_gal_checked": 30,
+      "density_profile_by_m_abs": {
+        "10": {
+          "n_int": 16,
+          "n_irr": 16,
+          "irr_rate": 1.0
+        },
+        "20": {
+          "n_int": 40,
+          "n_irr": 40,
+          "irr_rate": 1.0
+        },
+        "40": {
+          "n_int": 96,
+          "n_irr": 96,
+          "irr_rate": 1.0
+        },
+        "80": {
+          "n_int": 168,
+          "n_irr": 168,
+          "irr_rate": 1.0
+        }
+      }
+    }
+  },
+  "D1_statement": "Conjecture D1 (irreducibility density on pure-even k-slices). For each fixed multi-seed ratio k=\u03b2/\u03b1 in the HQCC pure-even catalogue, let L_k be the set of rational m such that \u03b1(m)=256m\u00b2\u22123125k\u2074/256 and \u03b2(m)=k\u00b7\u03b1(m) lie in Z, with \u03b1(m)\u22600. Order L_k by height H(m)=max(|num|,den) in lowest terms (or by |m|). Then the natural density of m\u2208L_k for which f_m=x\u2075+\u03b1(m)x+\u03b2(m) is irreducible over Q is positive. Moreover, among those irreducible fibres, Gal=A5 for a positive-density subset (equivalently: Frobenius type (3,1,1) appears).",
+  "D1_status": "conjecture_with_evidence",
+  "D2_global_pattern_freq": {
+    "(5,)": {
+      "count": 1916,
+      "freq": 0.425778
+    },
+    "(1, 1, 3)": {
+      "count": 1376,
+      "freq": 0.305778
+    },
+    "(1, 2, 2)": {
+      "count": 1148,
+      "freq": 0.255111
+    },
+    "(1, 1, 1, 1, 1)": {
+      "count": 60,
+      "freq": 0.013333
+    }
+  },
+  "D2_a5_predicted": {
+    "(1,1,1,1,1)": 0.016666666666666666,
+    "(1,2,2)": 0.25,
+    "(1,1,3)": 0.3333333333333333,
+    "(5,)": 0.4
+  },
+  "D2_statement": "Conjecture D2 (Chebotarev along pure-even k-slices). Let f_m be an irreducible fibre on a multi-seed pure-even k-slice with Gal(f_m/Q)=A5. For unramified primes p, the Frobenius conjugacy class is equidistributed among conjugacy classes of A5 with natural densities equal to class sizes / |A5|. In particular, factorization type (3,1,1) occurs with density 20/60=1/3, type (5) with density 24/60=2/5, and type (2,2,1) with density 15/60=1/4.",
+  "D2_status": "empirical_chebotarev_proxy",
+  "D3_theorem": {
+    "theorem_id": "D3",
+    "status": "proved",
+    "statement": "Theorem D3 (disc height on pure-even k-slices). For k\u2208Q\\{0} and m\u2208Q\\{0} with \u03b1(m)=256m\u00b2\u22123125k\u2074/256 \u2260 0, the Bring\u2013Jerrard fibre f_m=x\u2075+\u03b1(m)x+\u03b2(m), \u03b2=k\u03b1, satisfies disc(f_m)=(256 \u03b1(m)\u00b2 m)\u00b2. Consequently log|disc(f_m)| = 2 log|256 \u03b1(m)\u00b2 m|. As |m|\u2192\u221e with k fixed, \u03b1(m)\u223c256 m\u00b2, hence \u221a|disc| \u223c 2^{24} |m|^5 and |disc| \u223c 2^{48} |m|^{10}, i.e. log|disc(f_m)| = 10 log|m| + 48 log 2 + o(1).",
+    "leading_sqrt_disc": "16777216*m**5",
+    "leading_disc_degree_in_m": 10,
+    "log_disc_coeff_log_m": 10,
+    "identity_from": "A1 pure-even k-slice (RESOLUTION_PATH / lib/lemmas)"
+  },
+  "D3_match_by_k": {
+    "-4": {
+      "n_samples": 20,
+      "n_match": 20,
+      "mean_residual_log": 14.8749
+    },
+    "4": {
+      "n_samples": 20,
+      "n_match": 20,
+      "mean_residual_log": 14.8749
+    },
+    "-8/5": {
+      "n_samples": 20,
+      "n_match": 20,
+      "mean_residual_log": -0.831584
+    },
+    "8/5": {
+      "n_samples": 20,
+      "n_match": 20,
+      "mean_residual_log": -0.831584
+    },
+    "4/5": {
+      "n_samples": 20,
+      "n_match": 20,
+      "mean_residual_log": -0.031554
+    },
+    "-4/5": {
+      "n_samples": 20,
+      "n_match": 20,
+      "mean_residual_log": -0.031554
+    },
+    "-12/5": {
+      "n_samples": 20,
+      "n_match": 20,
+      "mean_residual_log": -1.878777
+    },
+    "12/5": {
+      "n_samples": 20,
+      "n_match": 20,
+      "mean_residual_log": -1.878777
+    }
+  },
+  "scorecard": {
+    "D1": true,
+    "D2": true,
+    "D3": true
+  },
+  "stage_pass": true,
+  "elapsed_s": 67.5
+}

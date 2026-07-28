@@ -1,0 +1,81 @@
+{
+  "elapsed_s": 0.4,
+  "verdict": "Rigid fibre t=3 negative control (0.4s). monic_Q irr=True; disc=5\u00b7\u25a1 in Q (identity=True, match_t3=True); disc not square in Q (odd); Gal=S5 (proved_sympy). Negative control LOCKED=True.",
+  "lock_ok": true,
+  "TVAL": 3,
+  "raw": "6*y**5 - 15*y**4 + 10*y**3 - 3",
+  "content": 1,
+  "monic_Q": "(6*y**5 - 15*y**4 + 10*y**3 - 3)/6",
+  "monic_Z": "z**5 - 15*z**4 + 60*z**3 - 3888",
+  "monic_Z_coeffs": [
+    1,
+    -15,
+    60,
+    0,
+    0,
+    -3888
+  ],
+  "identity_5_square": true,
+  "disc_Q": "3125/36",
+  "disc_Q_pred": "3125/36",
+  "disc_match_t3": true,
+  "disc_Q_over_5_is_square_in_Q": true,
+  "disc_Q_is_square_in_Q": false,
+  "irreducible_monic_Q": true,
+  "irreducible_monic_Z": true,
+  "disc_Z": 317374864588800000,
+  "disc_Z_square": false,
+  "v5_disc_Z": 5,
+  "galois_sympy": "S5TransitiveSubgroups.S5",
+  "galois_alt": false,
+  "galois_error": null,
+  "galois_conclusion": "S5",
+  "galois_status": "proved_sympy",
+  "cycle_census": {
+    "primes_used": 59,
+    "patterns": {
+      "(5,)": 13,
+      "(1, 4)": 13,
+      "(2, 3)": 11,
+      "(1, 2, 2)": 8,
+      "(1, 1, 1, 2)": 7,
+      "(1, 1, 3)": 7
+    },
+    "has_3": true,
+    "has_type_3111": true,
+    "has_type_33": false,
+    "has_5": true
+  },
+  "odd_types": [
+    [
+      "(1, 4)",
+      13
+    ],
+    [
+      "(2, 3)",
+      11
+    ],
+    [
+      "(1, 1, 1, 2)",
+      7
+    ]
+  ],
+  "contrast": {
+    "rigid_t3": {
+      "poly_monic_Q": "(6*y**5 - 15*y**4 + 10*y**3 - 3)/6",
+      "poly_monic_Z": "z**5 - 15*z**4 + 60*z**3 - 3888",
+      "disc_form": "5 \u00b7 (square in Q)",
+      "disc_square_in_Q": false,
+      "irreducible": true,
+      "galois": "S5",
+      "monodromy_parity": "odd"
+    },
+    "flagship_even_seed": {
+      "poly": "x^5 - 55*x + 88",
+      "disc": 58564000000,
+      "disc_square": true,
+      "galois": "A5",
+      "monodromy_parity": "even"
+    }
+  }
+}

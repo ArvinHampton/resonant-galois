@@ -1,0 +1,165 @@
+# G2 — genus-0 Nielsen types \(2A\,3A^3\) and \(2A^2\,3A^2\)
+
+_Elapsed: 14700.39s_
+
+**Verdict:** G2 cut (14700.39s). Nielsen samples: 2A3A³ found=2, 2A²3A² found=2. Covers ok: 2A3A3=14/14, alt=14, 2A2_3A2=14. Catalogue hits total=0 k=[] multi_k=False. Envelope control multi_k=True.
+
+---
+
+## 0. Goal
+
+After G1 exhausted the pure-ternary class \(3A^4\), realise other **lookup genus-0**
+\(r=4\) Nielsen types and test Hilbert specialisations against the multi-seed
+pure-even catalogue.
+
+| type | prior orbits | orbit size | genus lookup |
+|------|-------------:|-----------:|:------------:|
+| \(2A,3A,3A,3A\) | 1 | 96 | 0 |
+| \(2A,2A,3A,3A\) | 1 | 108 | 0 |
+
+Source: `A5_HURWITZ_R4.md` / Magaard–Shpectorov–James style tables.
+
+---
+
+## 1. Combinatorial lock (Nielsen samples)
+
+### `2A,3A,3A,3A`
+
+- class sizes: [15, 20, 20, 20]
+- checked (g4-determined): 12
+- generating tuples found: **2**
+- prior orbit data: {'orbits': 1, 'orbit_size': 96, 'genus_lookup': 0}
+- sample cycle types: [(2, 2, 1), (3, 1, 1), (3, 1, 1), (3, 1, 1)]
+
+### `2A,2A,3A,3A`
+
+- class sizes: [15, 15, 20, 20]
+- checked (g4-determined): 11
+- generating tuples found: **2**
+- prior orbit data: {'orbits': 1, 'orbit_size': 108, 'genus_lookup': 0}
+- sample cycle types: [(2, 2, 1), (2, 2, 1), (3, 1, 1), (3, 1, 1)]
+
+---
+
+## 2. Cover ansätze
+
+### \(2A\,3A^3\) — placement A (3A@0, 2A@∞, 3A@1, 3A@s)
+
+$$N = c\, y^3(y-1)(y-a),\qquad D=(y-r_1)^2(y-r_2)^2$$
+
+Zeros of \(N\): mults \(3,1,1\) → type **3A** at branch 0.  
+Poles of \(D\) plus \(\infty\): mults \(2,2,1\) → type **2A** at \(\infty\).  
+Triple roots of \(N-D\) and \(N-sD\) impose **3A** at \(1\) and \(s\).
+
+### \(2A\,3A^3\) — placement B (2A@0, 3A@∞, 3A@1, 3A@s)
+
+$$N = c\, y^2(y-1)^2(y-a),\qquad D=(y-r_1)(y-r_2)$$
+
+Zeros: \(2,2,1\) → **2A** at 0. Poles \(1,1\) + \(\infty\) order 3 → **3A** at \(\infty\).
+
+### \(2A^2\,3A^2\) — placement (2A@0, 2A@∞, 3A@1, 3A@s)
+
+$$N = c\, y^2(y-1)^2(y-a),\qquad D=(y-r_1)^2(y-r_2)^2$$
+
+Zeros **2A** at 0; poles **2A** at \(\infty\); triple roots → **3A** at \(1,s\).
+
+Parameters \((c,a,r_1,r_2,q,w)\) solved by Newton at rational cross-ratios \(s\).
+Fibre: monic form of \(N - t D = 0\) in \(y\).
+
+---
+
+## 3. Hilbert specialisations vs multi-seed catalogue
+
+### 2A 3A³ — placement A
+
+| quantity | value |
+|----------|------:|
+| covers ok | 14/14 |
+| monic Z fibres | 242 |
+| irreducible | 61 |
+| disc □ | 0 |
+| A5 (sample) | 0 |
+| BJ | 0 |
+| **catalogue hits** | **0** |
+| catalogue k | [] |
+| multi-k | False |
+
+### 2A 3A³ — placement B (alt)
+
+| quantity | value |
+|----------|------:|
+| covers ok | 14/14 |
+| monic Z fibres | 308 |
+| irreducible | 294 |
+| disc □ | 0 |
+| A5 (sample) | 0 |
+| BJ | 0 |
+| **catalogue hits** | **0** |
+| catalogue k | [] |
+| multi-k | False |
+
+### 2A² 3A²
+
+| quantity | value |
+|----------|------:|
+| covers ok | 14/14 |
+| monic Z fibres | 308 |
+| irreducible | 208 |
+| disc □ | 0 |
+| A5 (sample) | 0 |
+| BJ | 0 |
+| **catalogue hits** | **0** |
+| catalogue k | [] |
+| multi-k | False |
+
+_No exact catalogue seeds recovered from these G2 ansätze/scans._
+
+---
+
+## 4. Arithmetic multi-k control
+
+- Envelope / catalogue control multi-k path: **True**
+- Path hits: [{'tag': 'flagship', 'k': '-8/5', 't': '0'}, {'tag': 'classical', 'k': '4/5', 't': '1'}, {'tag': 'classical_m', 'k': '-4/5', 't': '1/3'}]
+- Catalogue seeds disc□ (sample): **True**
+
+---
+
+## 5. Multi-k conclusion (G2)
+
+| test | result |
+|------|--------|
+| Nielsen tuples exist (2A3A³) | **True** |
+| Nielsen tuples exist (2A²3A²) | **True** |
+| Explicit covers realised (any ansatz) | **True** |
+| Catalogue Hilbert hit | **False** (0) |
+| Geometric multi-k (≥2 catalogue k) | **False** |
+| Arithmetic multi-k control | **True** |
+
+**Geometric multi-k via G2 shortlist ansätze: not achieved in this cut.**
+
+### What this cut established
+
+1. Combinatorial existence of Nielsen generators for both g=0 shortlist types.
+2. Explicit degree-5 cover ansätze matching the ramification profiles.
+3. Newton realisation at many rational \(s\) + fibre specialisation pipeline.
+4. Full multi-seed catalogue re-test (flagship / classical / LSW / ±12/5 / ±16/5).
+5. Arithmetic multi-k still available; geometric fusion still open if hits empty.
+
+### Next if empty
+
+1. Domain Möbius freedom inside each ansatz (move {0,1,∞} labels).
+2. Other g=0 types: \(2A\,3A^2\,5A\), \(3A^3\,5A\).
+3. G3: monodromy identification of the pure-even envelope.
+4. Literature resolvents (Malle–König / computational IG databases) for these classes.
+
+---
+
+## 6. Non-claims
+
+- Newton covers are numeric realisations of the ramification profile; full monodromy
+  certification that the Galois group is exactly the chosen Nielsen class for every
+  \(s\) is not claimed (would need certified monodromy / certified braid tracking).
+- Negative catalogue results are for these ansätze + scan bounds.
+- Does not reopen pure-even arithmetic, Canonical T3, or Necessity.
+
+_Generated by `g2_nielsen_g0.py`._

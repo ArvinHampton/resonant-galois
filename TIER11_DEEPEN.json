@@ -1,0 +1,549 @@
+{
+  "elapsed_s": 105.34,
+  "verdict": "Tier 1.1 deepen (105.34s). Disc not square unrestricted (deg 12; all structural cuts odd). Seed scan hits: 12 identical-square (incl. pure-even p=0, weighted fixed seeds, reducible s\u22610). Genuine non-quasihomog 2-param beyond BJ: **0**. Poly maps with identical square: 4 (expected: homog fixed even seed \u00b1 pure-even). Largest beyond BJ-embed: **dim 1** (`homogenised_no_x2_fixed_even_seed`). 3-cycles on homog A5 seeds: inherited (not forced by T). HQCC-axiom naming: **fails**. Necessity fragment: **not obtained**.",
+  "disc_structure": {
+    "total_degree": 12,
+    "already_square_unrestricted": false,
+    "info": "cuts_not_all_square",
+    "cut_square_tests": {
+      "unrestricted_sample_a": {
+        "identical_square": false,
+        "info": "content_neg:-4"
+      },
+      "a_e_0": {
+        "identical_square": false,
+        "info": "content_neg:-1"
+      },
+      "BJ_raw": {
+        "identical_square": false,
+        "info": "content_neg:-1"
+      },
+      "e_f_0": {
+        "identical_square": false,
+        "info": "content_neg:-1"
+      }
+    },
+    "n_factors": 2,
+    "factors": [
+      {
+        "expr": "b",
+        "mult": 2,
+        "deg": 1
+      },
+      {
+        "expr": "256*b**3*f**5 - 3125*b**2*c**4 + 2000*b**2*c**2*d*f**2 + 128*b**2*d**2*f**4 + 900*b*c**2*d**3*f + 16*b*d**4*f**3 + 108*c",
+        "mult": 1,
+        "deg": 8
+      }
+    ],
+    "content": "-1",
+    "has_square_free_part": true,
+    "factor_note": "factored on a=0,e=0 (no-x2 slice)"
+  },
+  "known_families": [
+    {
+      "name": "pure_even_envelope_BJ",
+      "beyond_BJ_embed": false,
+      "free_params": [
+        "m",
+        "k"
+      ],
+      "dim": 2,
+      "identical_square": true,
+      "note": "Largest known; classical; not HQCC-native necessity"
+    },
+    {
+      "name": "homogenised_no_x2_in_T",
+      "beyond_BJ_embed": true,
+      "when": "p\u22600",
+      "free_params": [
+        "t"
+      ],
+      "seed_params": [
+        "p",
+        "r",
+        "s"
+      ],
+      "dim_continuous": 1,
+      "identical_square_in_t": true,
+      "note": "Square in t iff disc(seed) constant square"
+    }
+  ],
+  "seed_families": [
+    {
+      "p": "6*u**2",
+      "r": "-7*u**4",
+      "s": "8*u**5",
+      "info": "square",
+      "family": "weighted_p_u2",
+      "disc_deg": 20,
+      "nonconst": true
+    },
+    {
+      "p": "6*u**2",
+      "r": "-7*u**4",
+      "s": "-8*u**5",
+      "info": "square",
+      "family": "weighted_p_u2",
+      "disc_deg": 20,
+      "nonconst": true
+    },
+    {
+      "p": "1",
+      "r": "u**2",
+      "s": "0",
+      "info": "square",
+      "family": "quad_sparse",
+      "disc_deg": 10,
+      "nonconst": true
+    },
+    {
+      "p": "2",
+      "r": "u**2",
+      "s": "0",
+      "info": "square",
+      "family": "quad_sparse",
+      "disc_deg": 10,
+      "nonconst": true
+    },
+    {
+      "p": "3",
+      "r": "u**2",
+      "s": "0",
+      "info": "square",
+      "family": "quad_sparse",
+      "disc_deg": 10,
+      "nonconst": true
+    },
+    {
+      "p": "6",
+      "r": "u**2",
+      "s": "0",
+      "info": "square",
+      "family": "quad_sparse",
+      "disc_deg": 10,
+      "nonconst": true
+    },
+    {
+      "p": "0",
+      "r": "256*u**2 - 3125",
+      "s": "4*(3125 - 256*u**2)",
+      "info": "square",
+      "family": "pure_even_BJ_seed_p0",
+      "disc_deg": 10,
+      "nonconst": true
+    },
+    {
+      "p": "0",
+      "r": "256*u**2 - 3125",
+      "s": "4*(256*u**2 - 3125)",
+      "info": "square",
+      "family": "pure_even_BJ_seed_p0",
+      "disc_deg": 10,
+      "nonconst": true
+    },
+    {
+      "p": "0",
+      "r": "16*(16*u**2 - 5)",
+      "s": "128 - 2048*u**2/5",
+      "info": "square",
+      "family": "pure_even_BJ_seed_p0",
+      "disc_deg": 10,
+      "nonconst": true
+    },
+    {
+      "p": "0",
+      "r": "256*u**2 - 5",
+      "s": "4*(256*u**2 - 5)/5",
+      "info": "square",
+      "family": "pure_even_BJ_seed_p0",
+      "disc_deg": 10,
+      "nonconst": true
+    },
+    {
+      "p": "6",
+      "r": "-7",
+      "s": "-8",
+      "info": "square",
+      "family": "constant_seed",
+      "disc_deg": 0,
+      "nonconst": false
+    },
+    {
+      "p": "6",
+      "r": "-7",
+      "s": "8",
+      "info": "square",
+      "family": "constant_seed",
+      "disc_deg": 0,
+      "nonconst": false
+    }
+  ],
+  "two_param_candidates": [],
+  "classification": {
+    "genuine_2param": [],
+    "weighted_fixed_seed": [
+      {
+        "p": "6*u**2",
+        "r": "-7*u**4",
+        "s": "8*u**5",
+        "info": "square",
+        "family": "weighted_p_u2",
+        "disc_deg": 20,
+        "nonconst": true,
+        "class": "weighted_fixed_seed_dim1"
+      },
+      {
+        "p": "6*u**2",
+        "r": "-7*u**4",
+        "s": "-8*u**5",
+        "info": "square",
+        "family": "weighted_p_u2",
+        "disc_deg": 20,
+        "nonconst": true,
+        "class": "weighted_fixed_seed_dim1"
+      }
+    ],
+    "reducible_s0": [
+      {
+        "p": "1",
+        "r": "u**2",
+        "s": "0",
+        "info": "square",
+        "family": "quad_sparse",
+        "disc_deg": 10,
+        "nonconst": true,
+        "class": "reducible_s0"
+      },
+      {
+        "p": "2",
+        "r": "u**2",
+        "s": "0",
+        "info": "square",
+        "family": "quad_sparse",
+        "disc_deg": 10,
+        "nonconst": true,
+        "class": "reducible_s0"
+      },
+      {
+        "p": "3",
+        "r": "u**2",
+        "s": "0",
+        "info": "square",
+        "family": "quad_sparse",
+        "disc_deg": 10,
+        "nonconst": true,
+        "class": "reducible_s0"
+      },
+      {
+        "p": "6",
+        "r": "u**2",
+        "s": "0",
+        "info": "square",
+        "family": "quad_sparse",
+        "disc_deg": 10,
+        "nonconst": true,
+        "class": "reducible_s0"
+      }
+    ],
+    "pure_even_seed_hits": [
+      {
+        "p": "0",
+        "r": "256*u**2 - 3125",
+        "s": "4*(3125 - 256*u**2)",
+        "info": "square",
+        "family": "pure_even_BJ_seed_p0",
+        "disc_deg": 10,
+        "nonconst": true
+      },
+      {
+        "p": "0",
+        "r": "256*u**2 - 3125",
+        "s": "4*(256*u**2 - 3125)",
+        "info": "square",
+        "family": "pure_even_BJ_seed_p0",
+        "disc_deg": 10,
+        "nonconst": true
+      },
+      {
+        "p": "0",
+        "r": "16*(16*u**2 - 5)",
+        "s": "128 - 2048*u**2/5",
+        "info": "square",
+        "family": "pure_even_BJ_seed_p0",
+        "disc_deg": 10,
+        "nonconst": true
+      },
+      {
+        "p": "0",
+        "r": "256*u**2 - 5",
+        "s": "4*(256*u**2 - 5)/5",
+        "info": "square",
+        "family": "pure_even_BJ_seed_p0",
+        "disc_deg": 10,
+        "nonconst": true
+      }
+    ]
+  },
+  "poly_maps": [
+    {
+      "name": "scale_M",
+      "params": {
+        "a": "3",
+        "b": "80",
+        "c": "61",
+        "d": "-3*u",
+        "e": "0",
+        "f": "u"
+      },
+      "identical_square": false,
+      "info": "content_neg:-4",
+      "beyond_BJ": true
+    },
+    {
+      "name": "scale_all_ternary",
+      "params": {
+        "a": "3*u",
+        "b": "0",
+        "c": "0",
+        "d": "-3*u",
+        "e": "u",
+        "f": "3"
+      },
+      "identical_square": false,
+      "info": "odd=[('u', 7), ('324*u**2 - 947*u + 1152', 1)]",
+      "beyond_BJ": true
+    },
+    {
+      "name": "homog_weights",
+      "params": {
+        "a": "0",
+        "b": "u**4",
+        "c": "u**5",
+        "d": "-u**2",
+        "e": "0",
+        "f": "-u**4"
+      },
+      "identical_square": false,
+      "info": "odd=[('256*u**12 + 4997*u**8 - 884*u**4 + 108', 1)]",
+      "beyond_BJ": true
+    },
+    {
+      "name": "LSW_embed_path",
+      "params": {
+        "a": "0",
+        "b": "3125 - 256*u**2",
+        "c": "-4",
+        "d": "0",
+        "e": "0",
+        "f": "1"
+      },
+      "identical_square": true,
+      "info": "square",
+      "beyond_BJ": false
+    },
+    {
+      "name": "flag_k_embed_cleared",
+      "params": {
+        "a": "0",
+        "d": "0",
+        "e": "0",
+        "f": "1",
+        "b": "80 - 256*u**2",
+        "c": "-8/5"
+      },
+      "identical_square": true,
+      "info": "square",
+      "beyond_BJ": false
+    },
+    {
+      "name": "homog_seed_6_7_8",
+      "params": {
+        "a": "0",
+        "b": "1",
+        "c": "8*u**5",
+        "d": "-6*u**2",
+        "e": "0",
+        "f": "7*u**4"
+      },
+      "identical_square": true,
+      "info": "square",
+      "beyond_BJ": true
+    },
+    {
+      "name": "M_deform_a_only",
+      "params": {
+        "a": "3*u",
+        "b": "80",
+        "c": "61",
+        "d": "-3",
+        "e": "0",
+        "f": "0"
+      },
+      "identical_square": false,
+      "info": "odd=[('9*u + 4880', 1), ('6561*u**5 + 39366*u**3 + 266814000*u**2 + 30140105', 1)]",
+      "beyond_BJ": true
+    },
+    {
+      "name": "envelope_LSW_flag_path",
+      "identical_square": false,
+      "info": "odd=[('u**2 - 3125', 5), ('3125*u**6*v**4 + 50000*u**6*v**3 + 300000*u**6*v**', 1)]",
+      "params": {
+        "a": "0",
+        "d": "0",
+        "e": "0",
+        "f": "1",
+        "b": "3125 - u**2",
+        "c": "(u**2 - 3125)*(v + 4)"
+      }
+    },
+    {
+      "name": "homog_two_seeds_blend",
+      "identical_square": false,
+      "info": "odd=[('432*v**5 - 343*v**4 + 25200*v**3 - 19208*v**2 + 39', 1)]",
+      "params": {
+        "a": "0",
+        "b": "1",
+        "c": "-8*u**5",
+        "d": "-u**2*v",
+        "e": "0",
+        "f": "7*u**4"
+      }
+    },
+    {
+      "name": "true_envelope_cleared",
+      "identical_square": false,
+      "info": "odd=[('256*u**2 - 3125*v**4', 5), ('52428800000*u**6*v**4 - 1920000000000*u**4*v**8 + ', 1)]",
+      "params": {
+        "a": "0",
+        "d": "0",
+        "e": "0",
+        "f": "1",
+        "b": "-256*u**2 + 3125*v**4",
+        "c": "-v*(256*u**2 - 3125*v**4)"
+      }
+    },
+    {
+      "name": "homog_two_param_blend_fixed_seeds",
+      "identical_square": false,
+      "info": "odd=[('50000*v**4 - 100000*v**3 + 249288*v**2 - 199288*v ', 1)]",
+      "params": {
+        "a": "0",
+        "b": "1",
+        "c": "u**5*(8 - 16*v)",
+        "d": "-6*u**2",
+        "e": "0",
+        "f": "7*u**4"
+      }
+    },
+    {
+      "name": "pure_even_envelope_symbolic_mk",
+      "identical_square": true,
+      "info": "square",
+      "beyond_BJ_embed": false,
+      "note": "Classical pure-even envelope dim 2; BJ identity"
+    }
+  ],
+  "univariate": {
+    "deg_in_a": 6,
+    "gcd_with_derivative_deg": 0,
+    "gcd_expr_preview": "1",
+    "note": "Nontrivial gcd(Disc, \u2202_a Disc) generates an ideal of singular locus in a, not the full even-monodromy locus (which is not cut out by polynomials alone)."
+  },
+  "cycles": [
+    {
+      "seed_s": -8,
+      "t": 1,
+      "disc_square": true,
+      "status": "HIT_A5",
+      "has_3": true
+    },
+    {
+      "seed_s": -8,
+      "t": 2,
+      "disc_square": true,
+      "status": "HIT_A5",
+      "has_3": true
+    },
+    {
+      "seed_s": -8,
+      "t": 3,
+      "disc_square": true,
+      "status": "HIT_A5",
+      "has_3": true
+    },
+    {
+      "seed_s": -8,
+      "t": 5,
+      "disc_square": true,
+      "status": "HIT_A5",
+      "has_3": true
+    },
+    {
+      "seed_s": 8,
+      "t": 1,
+      "disc_square": true,
+      "status": "HIT_A5",
+      "has_3": true
+    },
+    {
+      "seed_s": 8,
+      "t": 2,
+      "disc_square": true,
+      "status": "HIT_A5",
+      "has_3": true
+    },
+    {
+      "seed_s": 8,
+      "t": 3,
+      "disc_square": true,
+      "status": "HIT_A5",
+      "has_3": true
+    },
+    {
+      "seed_s": 8,
+      "t": 5,
+      "disc_square": true,
+      "status": "HIT_A5",
+      "has_3": true
+    }
+  ],
+  "largest_beyond_BJ": {
+    "name": "homogenised_no_x2_fixed_even_seed",
+    "dim": 1,
+    "beyond_BJ_embed": true,
+    "identical_square": true,
+    "genuine_2param_count": 0,
+    "weighted_fixed_seed_count": 2,
+    "reducible_s0_count": 4,
+    "pure_even_p0_seed_hits": 4,
+    "hqcc_name": null,
+    "naming_reason": "No HQCC axiom forces a=e=0 and even seed"
+  },
+  "largest_overall": {
+    "name": "pure_even_envelope_BJ_embed",
+    "dim": 2,
+    "beyond_BJ_embed": false,
+    "identical_square": true
+  },
+  "naming": [
+    {
+      "subclass": "pure-even envelope (BJ-embed)",
+      "dim": 2,
+      "HQCC_axiom_name": null,
+      "reason": "Classical BJ pure-even; not forced by ternary/flux axioms"
+    },
+    {
+      "subclass": "homogenised no-x2 (a=e=0)",
+      "dim": 1,
+      "HQCC_axiom_name": null,
+      "reason": "a=0 contradicts base M (a=3); t-weights are homogenisation ansatz"
+    },
+    {
+      "subclass": "homogenised_no_x2_fixed_even_seed",
+      "dim": 1,
+      "HQCC_axiom_name": null,
+      "reason": "No HQCC axiom forces a=e=0 and even seed"
+    }
+  ]
+}

@@ -1,0 +1,591 @@
+{
+  "verdict": "G3c explicit 5A^4 (4.8s). Nielsen lock: 600/600 lift+1, orbits=1 size=[10]. Explicit model: pure-even path_flag_classical over Q(t) (disc\u25a1 identity=True). Monodromy re-check 5A^4=True. Hilbert multi-k FC=True FL=True. Fusion (arithmetic path = geometric 5A^4 type): True.",
+  "elapsed_s": 4.8,
+  "nielsen": {
+    "n_nielsen_raw": 600,
+    "n_verified_lift1": 600,
+    "n_conjugacy_normalised": 10,
+    "n_braid_orbits": 1,
+    "orbit_sizes": [
+      10
+    ],
+    "locked_representative": {
+      "perms": [
+        [
+          1,
+          2,
+          3,
+          4,
+          0
+        ],
+        [
+          1,
+          3,
+          0,
+          4,
+          2
+        ],
+        [
+          1,
+          4,
+          3,
+          0,
+          2
+        ],
+        [
+          2,
+          4,
+          3,
+          1,
+          0
+        ]
+      ],
+      "cycles": [
+        "(0 1 2 3 4)",
+        "(0 1 3 4 2)",
+        "(0 1 4 2 3)",
+        "(0 2 3 1 4)"
+      ],
+      "verification": {
+        "labels": [
+          "5A",
+          "5A",
+          "5A",
+          "5A"
+        ],
+        "all_5A": true,
+        "product_id": true,
+        "generates_A5": true,
+        "lift_invariant": 1,
+        "lift_ok": true,
+        "cycles": [
+          "(0 1 2 3 4)",
+          "(0 1 3 4 2)",
+          "(0 1 4 2 3)",
+          "(0 2 3 1 4)"
+        ],
+        "perms": [
+          [
+            1,
+            2,
+            3,
+            4,
+            0
+          ],
+          [
+            1,
+            3,
+            0,
+            4,
+            2
+          ],
+          [
+            1,
+            4,
+            3,
+            0,
+            2
+          ],
+          [
+            2,
+            4,
+            3,
+            1,
+            0
+          ]
+        ],
+        "in_unique_orbit": true
+      },
+      "conjugacy_normalised": true
+    },
+    "example_tuples": [
+      {
+        "cycles": [
+          "(0 3 1 2 4)",
+          "(0 2 3 1 4)",
+          "(0 2 4 3 1)",
+          "(0 3 2 4 1)"
+        ],
+        "perms": [
+          [
+            3,
+            2,
+            4,
+            1,
+            0
+          ],
+          [
+            2,
+            4,
+            3,
+            1,
+            0
+          ],
+          [
+            2,
+            0,
+            4,
+            1,
+            3
+          ],
+          [
+            3,
+            0,
+            4,
+            2,
+            1
+          ]
+        ],
+        "labels": [
+          "5A",
+          "5A",
+          "5A",
+          "5A"
+        ]
+      },
+      {
+        "cycles": [
+          "(0 3 1 2 4)",
+          "(0 2 3 1 4)",
+          "(0 4 1 3 2)",
+          "(0 4 2 1 3)"
+        ],
+        "perms": [
+          [
+            3,
+            2,
+            4,
+            1,
+            0
+          ],
+          [
+            2,
+            4,
+            3,
+            1,
+            0
+          ],
+          [
+            4,
+            3,
+            0,
+            2,
+            1
+          ],
+          [
+            4,
+            3,
+            1,
+            0,
+            2
+          ]
+        ],
+        "labels": [
+          "5A",
+          "5A",
+          "5A",
+          "5A"
+        ]
+      },
+      {
+        "cycles": [
+          "(0 3 1 2 4)",
+          "(0 2 3 1 4)",
+          "(0 2 1 4 3)",
+          "(0 2 4 3 1)"
+        ],
+        "perms": [
+          [
+            3,
+            2,
+            4,
+            1,
+            0
+          ],
+          [
+            2,
+            4,
+            3,
+            1,
+            0
+          ],
+          [
+            2,
+            4,
+            1,
+            0,
+            3
+          ],
+          [
+            2,
+            0,
+            4,
+            1,
+            3
+          ]
+        ],
+        "labels": [
+          "5A",
+          "5A",
+          "5A",
+          "5A"
+        ]
+      },
+      {
+        "cycles": [
+          "(0 3 1 2 4)",
+          "(0 2 3 1 4)",
+          "(0 4 2 1 3)",
+          "(0 2 1 4 3)"
+        ],
+        "perms": [
+          [
+            3,
+            2,
+            4,
+            1,
+            0
+          ],
+          [
+            2,
+            4,
+            3,
+            1,
+            0
+          ],
+          [
+            4,
+            3,
+            1,
+            0,
+            2
+          ],
+          [
+            2,
+            4,
+            1,
+            0,
+            3
+          ]
+        ],
+        "labels": [
+          "5A",
+          "5A",
+          "5A",
+          "5A"
+        ]
+      },
+      {
+        "cycles": [
+          "(0 3 1 2 4)",
+          "(0 2 3 1 4)",
+          "(0 3 2 4 1)",
+          "(0 4 1 3 2)"
+        ],
+        "perms": [
+          [
+            3,
+            2,
+            4,
+            1,
+            0
+          ],
+          [
+            2,
+            4,
+            3,
+            1,
+            0
+          ],
+          [
+            3,
+            0,
+            4,
+            2,
+            1
+          ],
+          [
+            4,
+            3,
+            0,
+            2,
+            1
+          ]
+        ],
+        "labels": [
+          "5A",
+          "5A",
+          "5A",
+          "5A"
+        ]
+      }
+    ],
+    "user_supplied_checks": [
+      {
+        "cycles": [
+          "(0 1 4 2 3)",
+          "(0 4 3 2 1)",
+          "(0 1 2 3 4)",
+          "(0 3 2 4 1)"
+        ],
+        "labels": [
+          "5A",
+          "5A",
+          "5A",
+          "5A"
+        ],
+        "all_5A": true,
+        "product_id": true,
+        "generates_A5": true,
+        "lift_invariant": 1,
+        "in_unique_orbit": true
+      },
+      {
+        "cycles": [
+          "(0 4 2 1 3)",
+          "(0 4 3 2 1)",
+          "(0 3 1 2 4)",
+          "(0 2 4 3 1)"
+        ],
+        "labels": [
+          "5A",
+          "5A",
+          "5A",
+          "5A"
+        ],
+        "all_5A": true,
+        "product_id": true,
+        "generates_A5": true,
+        "lift_invariant": 1,
+        "in_unique_orbit": true
+      },
+      {
+        "cycles": [
+          "(0 1 4 2 3)",
+          "(0 3 2 4 1)",
+          "(0 1 2 3 4)",
+          "(0 4 3 2 1)"
+        ],
+        "labels": [
+          "5A",
+          "5A",
+          "5A",
+          "5A"
+        ],
+        "all_5A": true,
+        "product_id": true,
+        "generates_A5": true,
+        "lift_invariant": 1,
+        "in_unique_orbit": true
+      }
+    ],
+    "checked_enum": 1728
+  },
+  "model_flag_classical": {
+    "id": "path_flag_classical",
+    "m": "5/16",
+    "k(t)": "4*(3*t - 2)/5",
+    "alpha(t)": "-405*t**4 + 1080*t**3 - 1080*t**2 + 480*t - 55",
+    "beta(t)": "-972*t**5 + 3240*t**4 - 4320*t**3 + 2880*t**2 - 900*t + 88",
+    "poly_over_Qt": "x**5 + (-405*t**4 + 1080*t**3 - 1080*t**2 + 480*t - 55)*x + (-972*t**5 + 3240*t**4 - 4320*t**3 + 2880*t**2 - 900*t + 88)",
+    "disc_identical_square": true,
+    "disc_sqf_degree": 4,
+    "disc_sqf": "81*t**4 - 216*t**3 + 216*t**2 - 96*t + 11",
+    "sqf_factors": [
+      [
+        "81*t**4 - 216*t**3 + 216*t**2 - 96*t + 11",
+        4
+      ]
+    ],
+    "n_branch_points": 4,
+    "note": "Explicit pure-even multi-k path over Q(t). G3/G3b: geometric monodromy type 5A^4 = unique braid component of Ni(A5, 5A^4)."
+  },
+  "model_flag_lsw": {
+    "id": "path_flag_lsw",
+    "m(t)": "25*t/8 + 5/16",
+    "k(t)": "-12*t/5 - 8/5",
+    "alpha(t)": "-405*t**4 - 1080*t**3 + 1420*t**2 + 20*t - 55",
+    "beta(t)": "972*t**5 + 3240*t**4 - 1680*t**3 - 2320*t**2 + 100*t + 88",
+    "poly_over_Qt": "x**5 + (-405*t**4 - 1080*t**3 + 1420*t**2 + 20*t - 55)*x + (972*t**5 + 3240*t**4 - 1680*t**3 - 2320*t**2 + 100*t + 88)",
+    "disc_identical_square": true,
+    "sqf_factors": [
+      [
+        "10*t + 1",
+        2
+      ],
+      [
+        "81*t**4 + 216*t**3 - 284*t**2 - 4*t + 11",
+        4
+      ]
+    ],
+    "note": "Linear (m,k) path flagship\u2192LSW; monodromy 5A^4 (nontrivial)."
+  },
+  "envelope_2param": {
+    "id": "envelope_2param",
+    "alpha": "(-3125*k**4 + 65536*m**2)/256",
+    "beta": "k*(-3125*k**4 + 65536*m**2)/256",
+    "poly": "x**5 + alpha(m,k)*x + beta(m,k)",
+    "disc": "(256*alpha**2*m)**2",
+    "note": "Full pure-even surface; 1-param paths are slices of geometric type 5A^4."
+  },
+  "monodromy_recheck": {
+    "labels": [
+      "5A",
+      "5A",
+      "5A",
+      "5A"
+    ],
+    "nontrivial": [
+      "5A",
+      "5A",
+      "5A",
+      "5A"
+    ],
+    "multiset": {
+      "5A": 4
+    },
+    "is_5A4": true,
+    "details": [
+      {
+        "center": "(0.16821707292625981+0j)",
+        "label": "5A",
+        "err": 2.318213734067276e-15,
+        "ct": [
+          5
+        ]
+      },
+      {
+        "center": "(0.6666666666666666-0.49844959374040687j)",
+        "label": "5A",
+        "err": 5.687116766346677e-15,
+        "ct": [
+          5
+        ]
+      },
+      {
+        "center": "(0.6666666666666666+0.49844959374040687j)",
+        "label": "5A",
+        "err": 6.2803698347351005e-15,
+        "ct": [
+          5
+        ]
+      },
+      {
+        "center": "(1.1651162604070735+0j)",
+        "label": "5A",
+        "err": 6.528451240140649e-14,
+        "ct": [
+          5
+        ]
+      }
+    ],
+    "sqf_factors": [
+      [
+        "81*t**4 - 216*t**3 + 216*t**2 - 96*t + 11",
+        4
+      ]
+    ]
+  },
+  "hilbert_fc": {
+    "tested_Z": 15,
+    "irr": 14,
+    "even_disc": 15,
+    "a5_sample": 14,
+    "catalogue_hits": [
+      {
+        "tag": "flagship",
+        "k": "-8/5",
+        "t": "0",
+        "alpha": -55,
+        "beta": 88
+      },
+      {
+        "tag": "classical",
+        "k": "4/5",
+        "t": "1",
+        "alpha": 20,
+        "beta": 16
+      },
+      {
+        "tag": "classical_m",
+        "k": "-4/5",
+        "t": "1/3",
+        "alpha": 20,
+        "beta": -16
+      },
+      {
+        "tag": "flagship",
+        "k": "-8/5",
+        "t": "0",
+        "alpha": -55,
+        "beta": 88
+      },
+      {
+        "tag": "classical",
+        "k": "4/5",
+        "t": "1",
+        "alpha": 20,
+        "beta": 16
+      }
+    ],
+    "catalogue_k": [
+      "-4/5",
+      "-8/5",
+      "4/5"
+    ],
+    "multi_k": true
+  },
+  "hilbert_fl": {
+    "tested_Z": 13,
+    "irr": 13,
+    "even_disc": 13,
+    "a5_sample": 13,
+    "catalogue_hits": [
+      {
+        "tag": "flagship",
+        "k": "-8/5",
+        "t": "0",
+        "alpha": -55,
+        "beta": 88
+      },
+      {
+        "tag": "lsw_m100",
+        "k": "-4",
+        "t": "1",
+        "alpha": -100,
+        "beta": 400
+      },
+      {
+        "tag": "flagship",
+        "k": "-8/5",
+        "t": "0",
+        "alpha": -55,
+        "beta": 88
+      },
+      {
+        "tag": "lsw_m100",
+        "k": "-4",
+        "t": "1",
+        "alpha": -100,
+        "beta": 400
+      }
+    ],
+    "catalogue_k": [
+      "-4",
+      "-8/5"
+    ],
+    "multi_k": true
+  },
+  "genus": {
+    "r": 4,
+    "type": "5A^4",
+    "braid_orbits": 1,
+    "conjugacy_normalised_orbit_size": 10,
+    "lift_invariant": 1,
+    "dim_reduced": "r-3 = 1 (curve)",
+    "genus": null,
+    "genus_status": "Exact reduced genus requires cusp ramification of H^rd\u2192P1 (Bailey\u2013Fried / Modular Tower / James tables). Orbit size 10 + lift +1 uniquely identifies the component; genus lookup is secondary to the explicit pure-even model.",
+    "illustrative_RH": "If deg(H^rd\u2192P1)=10 and indices (ind0,ind1,indinf) known, 2g-2 = 10*(-2) + ind0+ind1+indinf."
+  },
+  "fusion_type_level_closed": true
+}

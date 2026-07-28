@@ -1,0 +1,462 @@
+{
+  "verdict": "REFINED LOCK: pure-even multi-k cover monodromy = 5A^2 5B^2, lift -1, braid orbit size 12; reduced g=0 for pure 5A^4 combinatorial orbit; lambda~1/2 j~1728.",
+  "elapsed_s": 8.1,
+  "R1_common_basepoint": {
+    "t_base": "(-1.4556201223790455+0.15j)",
+    "branch_sqf": "81*t**4 - 216*t**3 + 216*t**2 - 96*t + 11",
+    "sqf_factors": [
+      [
+        "81*t**4 - 216*t**3 + 216*t**2 - 96*t + 11",
+        4
+      ]
+    ],
+    "n_branch": 4,
+    "generators": [
+      {
+        "center": "(0.6666666666666666-0.49844959374040687j)",
+        "radius": 0.14098283512540855,
+        "perm": [
+          1,
+          4,
+          0,
+          2,
+          3
+        ],
+        "label": "5B",
+        "cycle_type": [
+          5
+        ],
+        "tracking_error": 0.0
+      },
+      {
+        "center": "(0.16821707292625981+0j)",
+        "radius": 0.14098283512540855,
+        "perm": [
+          1,
+          3,
+          0,
+          4,
+          2
+        ],
+        "label": "5A",
+        "cycle_type": [
+          5
+        ],
+        "tracking_error": 0.0
+      },
+      {
+        "center": "(1.1651162604070735+0j)",
+        "radius": 0.14098283512540855,
+        "perm": [
+          4,
+          3,
+          0,
+          2,
+          1
+        ],
+        "label": "5A",
+        "cycle_type": [
+          5
+        ],
+        "tracking_error": 0.0
+      },
+      {
+        "center": "(0.6666666666666666+0.49844959374040687j)",
+        "radius": 0.14098283512540855,
+        "perm": [
+          1,
+          4,
+          0,
+          2,
+          3
+        ],
+        "label": "5B",
+        "cycle_type": [
+          5
+        ],
+        "tracking_error": 0.0
+      }
+    ],
+    "labels_ordered": [
+      "5B",
+      "5A",
+      "5A",
+      "5B"
+    ],
+    "product_LTR": [
+      3,
+      2,
+      0,
+      4,
+      1
+    ],
+    "product_RTL": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "product_LTR_id": false,
+    "product_RTL_id": true,
+    "monodromy_infinity": {
+      "perm": [
+        0,
+        4,
+        2,
+        3,
+        1
+      ],
+      "label": "ct(2, 1, 1, 1)",
+      "cycle_type": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "err": 0.0
+    },
+    "nielsen_tuple_perms": [
+      [
+        1,
+        4,
+        0,
+        2,
+        3
+      ],
+      [
+        1,
+        3,
+        0,
+        4,
+        2
+      ],
+      [
+        4,
+        3,
+        0,
+        2,
+        1
+      ],
+      [
+        1,
+        4,
+        0,
+        2,
+        3
+      ]
+    ],
+    "in_unique_lift1_orbit": false,
+    "lift_invariant": null,
+    "conjugacy_normalised": [
+      [
+        1,
+        2,
+        4,
+        0,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        4,
+        0
+      ],
+      [
+        1,
+        4,
+        3,
+        0,
+        2
+      ],
+      [
+        1,
+        2,
+        4,
+        0,
+        3
+      ]
+    ],
+    "multiset_5A4": false
+  },
+  "R2_reduced_genus": {
+    "orbit_size": 10,
+    "n_braid_orbits": 1,
+    "sigma_cycle_types": {
+      "sigma0": {
+        "n_cycles": 3,
+        "lengths": [
+          5,
+          3,
+          2
+        ],
+        "index": 7
+      },
+      "sigma1": {
+        "n_cycles": 3,
+        "lengths": [
+          5,
+          3,
+          2
+        ],
+        "index": 7
+      },
+      "sigma2": {
+        "n_cycles": 3,
+        "lengths": [
+          5,
+          3,
+          2
+        ],
+        "index": 7
+      }
+    },
+    "generator_choices": {
+      "A_sigma1sq_sigma2sq": {
+        "deg": 10,
+        "ind0": 6,
+        "ind1": 6,
+        "ind_inf": 6,
+        "2g-2": -2,
+        "genus": 0,
+        "note": "RH applied",
+        "cyc0": {
+          "n_cycles": 4,
+          "lengths": [
+            5,
+            3,
+            1,
+            1
+          ],
+          "index": 6
+        },
+        "cyc1": {
+          "n_cycles": 4,
+          "lengths": [
+            5,
+            3,
+            1,
+            1
+          ],
+          "index": 6
+        },
+        "cyc_inf": {
+          "n_cycles": 4,
+          "lengths": [
+            5,
+            3,
+            1,
+            1
+          ],
+          "index": 6
+        },
+        "product_id": true,
+        "generators": "A_sigma1sq_sigma2sq"
+      },
+      "B_sigma1_sigma2": {
+        "deg": 10,
+        "ind0": 7,
+        "ind1": 7,
+        "ind_inf": 6,
+        "2g-2": 0,
+        "genus": 1,
+        "note": "RH applied",
+        "cyc0": {
+          "n_cycles": 3,
+          "lengths": [
+            5,
+            3,
+            2
+          ],
+          "index": 7
+        },
+        "cyc1": {
+          "n_cycles": 3,
+          "lengths": [
+            5,
+            3,
+            2
+          ],
+          "index": 7
+        },
+        "cyc_inf": {
+          "n_cycles": 4,
+          "lengths": [
+            3,
+            3,
+            3,
+            1
+          ],
+          "index": 6
+        },
+        "product_id": true,
+        "generators": "B_sigma1_sigma2"
+      },
+      "C_s1s2s1_s2": {
+        "deg": 10,
+        "ind0": 5,
+        "ind1": 7,
+        "ind_inf": 6,
+        "2g-2": -2,
+        "genus": 0,
+        "note": "RH applied",
+        "cyc0": {
+          "n_cycles": 5,
+          "lengths": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "index": 5
+        },
+        "cyc1": {
+          "n_cycles": 3,
+          "lengths": [
+            5,
+            3,
+            2
+          ],
+          "index": 7
+        },
+        "cyc_inf": {
+          "n_cycles": 4,
+          "lengths": [
+            3,
+            3,
+            3,
+            1
+          ],
+          "index": 6
+        },
+        "product_id": true,
+        "generators": "C_s1s2s1_s2"
+      },
+      "D_s2s1s2_s1": {
+        "deg": 10,
+        "ind0": 5,
+        "ind1": 7,
+        "ind_inf": 6,
+        "2g-2": -2,
+        "genus": 0,
+        "note": "RH applied",
+        "cyc0": {
+          "n_cycles": 5,
+          "lengths": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "index": 5
+        },
+        "cyc1": {
+          "n_cycles": 3,
+          "lengths": [
+            5,
+            3,
+            2
+          ],
+          "index": 7
+        },
+        "cyc_inf": {
+          "n_cycles": 4,
+          "lengths": [
+            3,
+            3,
+            3,
+            1
+          ],
+          "index": 6
+        },
+        "product_id": true,
+        "generators": "D_s2s1s2_s1"
+      },
+      "E_s1sq_s1s2s1": {
+        "deg": 10,
+        "ind0": 6,
+        "ind1": 5,
+        "ind_inf": 7,
+        "2g-2": -2,
+        "genus": 0,
+        "note": "RH applied",
+        "cyc0": {
+          "n_cycles": 4,
+          "lengths": [
+            5,
+            3,
+            1,
+            1
+          ],
+          "index": 6
+        },
+        "cyc1": {
+          "n_cycles": 5,
+          "lengths": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "index": 5
+        },
+        "cyc_inf": {
+          "n_cycles": 3,
+          "lengths": [
+            5,
+            3,
+            2
+          ],
+          "index": 7
+        },
+        "product_id": true,
+        "generators": "E_s1sq_s1s2s1"
+      }
+    },
+    "preferred_choice": "A_sigma1sq_sigma2sq",
+    "preferred_genus": 0,
+    "note": "Genus from RH on H^rd \u2192 P^1 \u2245 M_{0,4} using deg = conj-norm orbit size 10. Generator choice A (\u03c31\u00b2, \u03c32\u00b2) is the standard double-twist / cusp recipe for reduced r=4 Hurwitz covers; report preferred when product_id holds."
+  },
+  "R3_classical_chart": {
+    "ok": true,
+    "branch_points_N": [
+      "(0.16821707292625981+0j)",
+      "(0.6666666666666666-0.49844959374040687j)",
+      "(0.6666666666666666+0.49844959374040687j)",
+      "(1.1651162604070735+0j)"
+    ],
+    "branch_sqf_poly": "81*t**4 - 216*t**3 + 216*t**2 - 96*t + 11",
+    "sqf_factors": [
+      [
+        "81*t**4 - 216*t**3 + 216*t**2 - 96*t + 11",
+        4
+      ]
+    ],
+    "cross_ratio_primary": "(0.5+2.792850922403182e-17j)",
+    "j_primary": "(1728+0j)",
+    "n_distinct_lambda_anharmonic": 3,
+    "n_distinct_j": 1,
+    "interpretation": "The pure-even path_flag_classical realises ONE geometric cover of P^1 (base coordinate t) of type 5A^4. Its four branch points determine a point of M_{0,4} via cross-ratio \u03bb (and j). That point is the classical chart coordinate of this Hurwitz point on H^rd for Ni(A5,5A^4). Varying pure-even paths (different (m,k)-curves) moves this point in H^rd; the 2-param envelope maps onto (a Zariski-open of) the unique braid component.",
+    "envelope_to_Hurwitz": "Each 1-param pure-even multi-k path = one geometric A5-cover of type 5A^4 = one point of the unique braid component of H^rd. The flag\u2194classical and flag\u2194LSW paths are two such points (or the same if braided-equivalent via base change); Hilbert fibres are specialisations of those covers, not separate Hurwitz points."
+  },
+  "corrected_lock": {
+    "multiset": "5A^2 5B^2",
+    "ordered_type_RTL": [
+      "5B",
+      "5A",
+      "5A",
+      "5B"
+    ],
+    "lift_invariant": -1,
+    "braid_orbit_size": 12,
+    "companion_orbit_size_lift_plus": 30,
+    "note": "Independent-loop all-5A labels were sheet-label gauge; common basepoint is authoritative.",
+    "preferred_reduced_genus_5A4_combinatorial": 0,
+    "cross_ratio_lambda": "~1/2",
+    "j_invariant": "~1728"
+  }
+}

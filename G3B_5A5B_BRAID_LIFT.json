@@ -1,0 +1,396 @@
+{
+  "verdict": "LOCKED: envelope multi-k monodromy = 5A^4; braid orbits 1 x size 10; Schur lift inv = +1 on entire Nielsen class (600/600).",
+  "elapsed_s": 38.88,
+  "named_multiset": "5A^4",
+  "n_5A": 4,
+  "n_5B": 0,
+  "paths_consistent": false,
+  "monodromy": [
+    {
+      "id": "path_flag_classical",
+      "n_centers": 4,
+      "sqf_factors": [
+        [
+          "81*t**4 - 216*t**3 + 216*t**2 - 96*t + 11",
+          4
+        ]
+      ],
+      "generators": [
+        {
+          "center": "(0.16821707292625981+0j)",
+          "label": "5A",
+          "perm": [
+            1,
+            3,
+            0,
+            4,
+            2
+          ],
+          "cycle_type": [
+            5
+          ],
+          "tracking_error": 1.616509124176106e-15
+        },
+        {
+          "center": "(0.6666666666666666-0.49844959374040687j)",
+          "label": "5A",
+          "perm": [
+            2,
+            0,
+            4,
+            1,
+            3
+          ],
+          "cycle_type": [
+            5
+          ],
+          "tracking_error": 3.820199830714189e-15
+        },
+        {
+          "center": "(0.6666666666666666+0.49844959374040687j)",
+          "label": "5A",
+          "perm": [
+            1,
+            3,
+            0,
+            4,
+            2
+          ],
+          "cycle_type": [
+            5
+          ],
+          "tracking_error": 0.0
+        },
+        {
+          "center": "(1.1651162604070735+0j)",
+          "label": "5A",
+          "perm": [
+            1,
+            3,
+            0,
+            4,
+            2
+          ],
+          "cycle_type": [
+            5
+          ],
+          "tracking_error": 7.444291678311382e-15
+        }
+      ],
+      "labels_ordered": [
+        "5A",
+        "5A",
+        "5A",
+        "5A"
+      ],
+      "multiset": {
+        "5A": 4
+      },
+      "type_key_sorted": "5A,5A,5A,5A",
+      "type_key_ordered": "5A,5A,5A,5A",
+      "product_LTR": [
+        3,
+        4,
+        1,
+        2,
+        0
+      ],
+      "product_RTL": [
+        3,
+        4,
+        1,
+        2,
+        0
+      ],
+      "product_LTR_id": false,
+      "product_RTL_id": false,
+      "all_5cycles": true,
+      "n_5A": 4,
+      "n_5B": 0
+    },
+    {
+      "id": "path_flag_lsw",
+      "n_centers": 5,
+      "sqf_factors": [
+        [
+          "10*t + 1",
+          2
+        ],
+        [
+          "81*t**4 + 216*t**3 - 284*t**2 - 4*t + 11",
+          4
+        ]
+      ],
+      "generators": [
+        {
+          "center": "(-3.6268045686421617+0j)",
+          "label": "5A",
+          "perm": [
+            2,
+            0,
+            4,
+            1,
+            3
+          ],
+          "cycle_type": [
+            5
+          ],
+          "tracking_error": 8.881784197001252e-15
+        },
+        {
+          "center": "(-0.19104873969093802+0j)",
+          "label": "5A",
+          "perm": [
+            1,
+            3,
+            0,
+            4,
+            2
+          ],
+          "cycle_type": [
+            5
+          ],
+          "tracking_error": 9.155133597044475e-16
+        },
+        {
+          "center": "(-0.1+0j)",
+          "label": "1",
+          "perm": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "cycle_type": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "tracking_error": 4.905125646631375e-15
+        },
+        {
+          "center": "(0.20774114394235957+0j)",
+          "label": "5A",
+          "perm": [
+            1,
+            3,
+            0,
+            4,
+            2
+          ],
+          "cycle_type": [
+            5
+          ],
+          "tracking_error": 2.886579864025407e-15
+        },
+        {
+          "center": "(0.9434454977240734+0j)",
+          "label": "5A",
+          "perm": [
+            2,
+            0,
+            4,
+            1,
+            3
+          ],
+          "cycle_type": [
+            5
+          ],
+          "tracking_error": 6.866350197783356e-15
+        }
+      ],
+      "labels_ordered": [
+        "5A",
+        "5A",
+        "1",
+        "5A",
+        "5A"
+      ],
+      "multiset": {
+        "5A": 4,
+        "1": 1
+      },
+      "type_key_sorted": "1,5A,5A,5A,5A",
+      "type_key_ordered": "5A,5A,1,5A,5A",
+      "product_LTR": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "product_RTL": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "product_LTR_id": true,
+      "product_RTL_id": true,
+      "all_5cycles": false,
+      "n_5A": 4,
+      "n_5B": 0
+    }
+  ],
+  "braid": [
+    {
+      "ordered_type": [
+        "5A",
+        "5A",
+        "5A",
+        "5A"
+      ],
+      "n_nielsen": 600,
+      "n_normalised": 10,
+      "checked": 1728,
+      "n_orbits": 1,
+      "orbit_sizes": [
+        10
+      ]
+    }
+  ],
+  "best_braid": {
+    "ordered_type": [
+      "5A",
+      "5A",
+      "5A",
+      "5A"
+    ],
+    "n_nielsen": 600,
+    "n_normalised": 10,
+    "checked": 1728,
+    "n_orbits": 1,
+    "orbit_sizes": [
+      10
+    ]
+  },
+  "lift_combinatorial": {
+    "n_5A": 4,
+    "n_5B": 0,
+    "lift_proxy_(-1)^n5B": 1,
+    "vandermonde_signs": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "lift_proxy_vandermonde_product": 1,
+    "type_multiset": "5A^4.5B^0"
+  },
+  "lift_sl2": {
+    "ok": true,
+    "iso_ok": true,
+    "lift_meta": [
+      "ord5_sl5",
+      "ord5_sl5",
+      "ord5_sl5",
+      "ord5_sl5"
+    ],
+    "product_matrix": [
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "lift_invariant": "not_pmI:((3, 2), (3, 4))",
+    "note": "Rigid A5\u2245PSL(2,5) iso via generators (5A, 2A); canonical SL lifts (order-5 preferred for 5-cycles); inv = product in {\u00b1I}."
+  },
+  "sample_nielsen_lift": {
+    "ordered_type": [
+      "5A",
+      "5A",
+      "5A",
+      "5A"
+    ],
+    "combinatorial": {
+      "n_5A": 4,
+      "n_5B": 0,
+      "lift_proxy_(-1)^n5B": 1,
+      "vandermonde_signs": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "lift_proxy_vandermonde_product": 1,
+      "type_multiset": "5A^4.5B^0"
+    },
+    "sl2": {
+      "ok": true,
+      "iso_ok": true,
+      "lift_meta": [
+        "ord5_sl5",
+        "ord5_sl5",
+        "ord5_sl5",
+        "ord5_sl5"
+      ],
+      "product_matrix": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "lift_invariant": 1,
+      "note": "Rigid A5\u2245PSL(2,5) iso via generators (5A, 2A); canonical SL lifts (order-5 preferred for 5-cycles); inv = product in {\u00b1I}."
+    }
+  },
+  "genus_lock": {
+    "type": "5A,5A,5A,5A",
+    "programme_filter": "excluded historically (no 3A) \u2014 now primary for envelope",
+    "genus_lookup": "see Magaard\u2013Shpectorov / Modular Tower; r=4 reduced curve",
+    "note": "Four 5A classes; lift invariant selects components"
+  },
+  "psl_info": {
+    "n_psl": 60,
+    "note": "PSL2(F5) generated; full A5\u2194PSL iso optional for lift",
+    "S": [
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "T": [
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ]
+  },
+  "lift_orbit_lock": {
+    "n_nielsen": 600,
+    "n_normed": 10,
+    "n_orbits": 1,
+    "orbit_size": 10,
+    "lift_invariant": 1,
+    "lift_invariant_all_600": true,
+    "lift_invariant_all_normed_10": true
+  },
+  "named_type": "Ni(A5, 5A^4)",
+  "braid_orbits": 1,
+  "braid_orbit_size": 10,
+  "n_nielsen": 600,
+  "n_conjugacy_normalised": 10,
+  "lift_invariant": 1,
+  "lift_invariant_all_600": true,
+  "lift_invariant_all_normed_10": true
+}

@@ -1,0 +1,408 @@
+{
+  "elapsed_s": 3.08,
+  "verdict": "Criterion 3 deepen (3.08s). irr=1046, disc\u25a1=3, baseline P(\u25a1)=0.0029. Best bucket: {'character': 'sf_kernel_sign', 'value': '1', 'n': 413, 'P_sq': 0.007263922518159807, 'lift_over_baseline': 0.004395853684507799}. Rate-1 buckets (n\u226510): 0. Pure-even control disc\u25a1=40/40. Base M disc\u25a1=False. No ternary/HQCC character forces disc\u25a1 at rate 1 on unrestricted T. Crit-3 necessity fragment: not obtained.",
+  "analysis": {
+    "n_irr": 1046,
+    "n_sq": 3,
+    "baseline_P_sq": 0.0028680688336520078,
+    "characters": {
+      "leg_det_3": {
+        "conditional": {
+          "-1": {
+            "n": 233,
+            "P_sq": 0.004291845493562232,
+            "lift_over_baseline": 0.001423776659910224
+          },
+          "0": {
+            "n": 581,
+            "P_sq": 0.0034423407917383822,
+            "lift_over_baseline": 0.0005742719580863745
+          },
+          "1": {
+            "n": 232,
+            "P_sq": 0.0,
+            "lift_over_baseline": -0.0028680688336520078
+          }
+        },
+        "best_bucket_n>=20": {
+          "value": "-1",
+          "n": 233,
+          "P_sq": 0.004291845493562232,
+          "lift_over_baseline": 0.001423776659910224
+        },
+        "rate1_buckets_n>=10": []
+      },
+      "leg_det_5": {
+        "conditional": {
+          "-1": {
+            "n": 494,
+            "P_sq": 0.004048582995951417,
+            "lift_over_baseline": 0.0011805141622994093
+          },
+          "1": {
+            "n": 552,
+            "P_sq": 0.0018115942028985507,
+            "lift_over_baseline": -0.001056474630753457
+          }
+        },
+        "best_bucket_n>=20": {
+          "value": "-1",
+          "n": 494,
+          "P_sq": 0.004048582995951417,
+          "lift_over_baseline": 0.0011805141622994093
+        },
+        "rate1_buckets_n>=10": []
+      },
+      "leg_det_61": {
+        "conditional": {
+          "1": {
+            "n": 1046,
+            "P_sq": 0.0028680688336520078,
+            "lift_over_baseline": 0.0
+          }
+        },
+        "best_bucket_n>=20": {
+          "value": "1",
+          "n": 1046,
+          "P_sq": 0.0028680688336520078,
+          "lift_over_baseline": 0.0
+        },
+        "rate1_buckets_n>=10": []
+      },
+      "leg_prod_3": {
+        "conditional": {
+          "-1": {
+            "n": 37,
+            "P_sq": 0.0,
+            "lift_over_baseline": -0.0028680688336520078
+          },
+          "0": {
+            "n": 966,
+            "P_sq": 0.003105590062111801,
+            "lift_over_baseline": 0.00023752122845979327
+          },
+          "1": {
+            "n": 43,
+            "P_sq": 0.0,
+            "lift_over_baseline": -0.0028680688336520078
+          }
+        },
+        "best_bucket_n>=20": {
+          "value": "0",
+          "n": 966,
+          "P_sq": 0.003105590062111801,
+          "lift_over_baseline": 0.00023752122845979327
+        },
+        "rate1_buckets_n>=10": []
+      },
+      "leg_prod_5": {
+        "conditional": {
+          "-1": {
+            "n": 474,
+            "P_sq": 0.002109704641350211,
+            "lift_over_baseline": -0.000758364192301797
+          },
+          "0": {
+            "n": 100,
+            "P_sq": 0.0,
+            "lift_over_baseline": -0.0028680688336520078
+          },
+          "1": {
+            "n": 472,
+            "P_sq": 0.00423728813559322,
+            "lift_over_baseline": 0.0013692193019412126
+          }
+        },
+        "best_bucket_n>=20": {
+          "value": "1",
+          "n": 472,
+          "P_sq": 0.00423728813559322,
+          "lift_over_baseline": 0.0013692193019412126
+        },
+        "rate1_buckets_n>=10": []
+      },
+      "leg_const_3": {
+        "conditional": {
+          "-1": {
+            "n": 232,
+            "P_sq": 0.0,
+            "lift_over_baseline": -0.0028680688336520078
+          },
+          "0": {
+            "n": 581,
+            "P_sq": 0.0034423407917383822,
+            "lift_over_baseline": 0.0005742719580863745
+          },
+          "1": {
+            "n": 233,
+            "P_sq": 0.004291845493562232,
+            "lift_over_baseline": 0.001423776659910224
+          }
+        },
+        "best_bucket_n>=20": {
+          "value": "1",
+          "n": 233,
+          "P_sq": 0.004291845493562232,
+          "lift_over_baseline": 0.001423776659910224
+        },
+        "rate1_buckets_n>=10": []
+      },
+      "leg_const_5": {
+        "conditional": {
+          "-1": {
+            "n": 494,
+            "P_sq": 0.004048582995951417,
+            "lift_over_baseline": 0.0011805141622994093
+          },
+          "1": {
+            "n": 552,
+            "P_sq": 0.0018115942028985507,
+            "lift_over_baseline": -0.001056474630753457
+          }
+        },
+        "best_bucket_n>=20": {
+          "value": "-1",
+          "n": 494,
+          "P_sq": 0.004048582995951417,
+          "lift_over_baseline": 0.0011805141622994093
+        },
+        "rate1_buckets_n>=10": []
+      },
+      "leg_x2_3": {
+        "conditional": {
+          "-1": {
+            "n": 76,
+            "P_sq": 0.0,
+            "lift_over_baseline": -0.0028680688336520078
+          },
+          "0": {
+            "n": 894,
+            "P_sq": 0.003355704697986577,
+            "lift_over_baseline": 0.00048763586433456935
+          },
+          "1": {
+            "n": 76,
+            "P_sq": 0.0,
+            "lift_over_baseline": -0.0028680688336520078
+          }
+        },
+        "best_bucket_n>=20": {
+          "value": "0",
+          "n": 894,
+          "P_sq": 0.003355704697986577,
+          "lift_over_baseline": 0.00048763586433456935
+        },
+        "rate1_buckets_n>=10": []
+      },
+      "sf_kernel_sign": {
+        "conditional": {
+          "-1": {
+            "n": 633,
+            "P_sq": 0.0,
+            "lift_over_baseline": -0.0028680688336520078
+          },
+          "1": {
+            "n": 413,
+            "P_sq": 0.007263922518159807,
+            "lift_over_baseline": 0.004395853684507799
+          }
+        },
+        "best_bucket_n>=20": {
+          "value": "1",
+          "n": 413,
+          "P_sq": 0.007263922518159807,
+          "lift_over_baseline": 0.004395853684507799
+        },
+        "rate1_buckets_n>=10": []
+      },
+      "v3_prod_parity": {
+        "conditional": {
+          "0": {
+            "n": 522,
+            "P_sq": 0.0038314176245210726,
+            "lift_over_baseline": 0.0009633487908690648
+          },
+          "1": {
+            "n": 524,
+            "P_sq": 0.0019083969465648854,
+            "lift_over_baseline": -0.0009596718870871223
+          }
+        },
+        "best_bucket_n>=20": {
+          "value": "0",
+          "n": 522,
+          "P_sq": 0.0038314176245210726,
+          "lift_over_baseline": 0.0009633487908690648
+        },
+        "rate1_buckets_n>=10": []
+      },
+      "det_sign": {
+        "conditional": {
+          "-1": {
+            "n": 481,
+            "P_sq": 0.004158004158004158,
+            "lift_over_baseline": 0.0012899353243521505
+          },
+          "1": {
+            "n": 565,
+            "P_sq": 0.0017699115044247787,
+            "lift_over_baseline": -0.001098157329227229
+          }
+        },
+        "best_bucket_n>=20": {
+          "value": "-1",
+          "n": 481,
+          "P_sq": 0.004158004158004158,
+          "lift_over_baseline": 0.0012899353243521505
+        },
+        "rate1_buckets_n>=10": []
+      },
+      "ternary_weight_mod2": {
+        "conditional": {
+          "0": {
+            "n": 517,
+            "P_sq": 0.0038684719535783366,
+            "lift_over_baseline": 0.0010004031199263288
+          },
+          "1": {
+            "n": 529,
+            "P_sq": 0.001890359168241966,
+            "lift_over_baseline": -0.0009777096654100417
+          }
+        },
+        "best_bucket_n>=20": {
+          "value": "0",
+          "n": 517,
+          "P_sq": 0.0038684719535783366,
+          "lift_over_baseline": 0.0010004031199263288
+        },
+        "rate1_buckets_n>=10": []
+      },
+      "a_mod3": {
+        "conditional": {
+          "0": {
+            "n": 1046,
+            "P_sq": 0.0028680688336520078,
+            "lift_over_baseline": 0.0
+          }
+        },
+        "best_bucket_n>=20": {
+          "value": "0",
+          "n": 1046,
+          "P_sq": 0.0028680688336520078,
+          "lift_over_baseline": 0.0
+        },
+        "rate1_buckets_n>=10": []
+      },
+      "has_model_61": {
+        "conditional": {
+          "0": {
+            "n": 847,
+            "P_sq": 0.0035419126328217238,
+            "lift_over_baseline": 0.000673843799169716
+          },
+          "1": {
+            "n": 199,
+            "P_sq": 0.0,
+            "lift_over_baseline": -0.0028680688336520078
+          }
+        },
+        "best_bucket_n>=20": {
+          "value": "0",
+          "n": 847,
+          "P_sq": 0.0035419126328217238,
+          "lift_over_baseline": 0.000673843799169716
+        },
+        "rate1_buckets_n>=10": []
+      },
+      "has_model_80": {
+        "conditional": {
+          "0": {
+            "n": 946,
+            "P_sq": 0.003171247357293869,
+            "lift_over_baseline": 0.0003031785236418611
+          },
+          "1": {
+            "n": 100,
+            "P_sq": 0.0,
+            "lift_over_baseline": -0.0028680688336520078
+          }
+        },
+        "best_bucket_n>=20": {
+          "value": "0",
+          "n": 946,
+          "P_sq": 0.003171247357293869,
+          "lift_over_baseline": 0.0003031785236418611
+        },
+        "rate1_buckets_n>=10": []
+      },
+      "chi_flux": {
+        "conditional": {
+          "-1": {
+            "n": 233,
+            "P_sq": 0.004291845493562232,
+            "lift_over_baseline": 0.001423776659910224
+          },
+          "0": {
+            "n": 581,
+            "P_sq": 0.0034423407917383822,
+            "lift_over_baseline": 0.0005742719580863745
+          },
+          "1": {
+            "n": 232,
+            "P_sq": 0.0,
+            "lift_over_baseline": -0.0028680688336520078
+          }
+        },
+        "best_bucket_n>=20": {
+          "value": "-1",
+          "n": 233,
+          "P_sq": 0.004291845493562232,
+          "lift_over_baseline": 0.001423776659910224
+        },
+        "rate1_buckets_n>=10": []
+      },
+      "chi_ternary_det": {
+        "conditional": {
+          "-1": {
+            "n": 522,
+            "P_sq": 0.0019157088122605363,
+            "lift_over_baseline": -0.0009523600213914715
+          },
+          "1": {
+            "n": 524,
+            "P_sq": 0.003816793893129771,
+            "lift_over_baseline": 0.0009487250594777631
+          }
+        },
+        "best_bucket_n>=20": {
+          "value": "1",
+          "n": 524,
+          "P_sq": 0.003816793893129771,
+          "lift_over_baseline": 0.0009487250594777631
+        },
+        "rate1_buckets_n>=10": []
+      }
+    },
+    "combo_flux1_tw0": {
+      "n": 113,
+      "P_sq": 0.0
+    }
+  },
+  "best_overall": {
+    "character": "sf_kernel_sign",
+    "value": "1",
+    "n": 413,
+    "P_sq": 0.007263922518159807,
+    "lift_over_baseline": 0.004395853684507799
+  },
+  "rate1_count": 0,
+  "pure_even_control_ok": 40,
+  "pure_even_control_n": 40,
+  "base_M": {
+    "name": "base_M",
+    "disc": 1781436218361244736,
+    "disc_square": false,
+    "note": "ternary + flux present; sign nontrivial"
+  }
+}

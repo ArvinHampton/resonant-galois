@@ -1,0 +1,759 @@
+{
+  "elapsed_s": 1.88,
+  "answer": "YES as a type-dictionary after monodromy identification; NO as a literal equality Nielsen class = Frob class without geometry.",
+  "scope": {
+    "YES_means": [
+      "Nielsen labels are conjugacy classes in G_geom.",
+      "After specialising a cover over R_n to f \u2208 R_n[x], G_geom \u2264 Gal(f/R_n).",
+      "Both Nielsen classes and Frob classes are then conjugacy classes in (a group identified with a subgroup of) Gal(f/R_n).",
+      "Split primes p in R_n give a Chebotarev dictionary: Frob cycle types on f are readable by factoring over F_p, labelling classes in Gal(f/R_n).",
+      "Thus Nielsen and split-Frob share a common value space: conjugacy classes / cycle types in that monodromy group \u2014 a legitimate dictionary of types."
+    ],
+    "NO_means": [
+      "Nielsen labels are not defined as Frob classes; they come from \u03c0_1 of the punctured base, not from Spec O_K.",
+      "Without a cover and specialisation, Gal(f/R_n) alone has no Nielsen data.",
+      "Split Frob does not invent branch cycle types; it samples arithmetic classes.",
+      "For f \u2208 Q[x], Gal(f/R_n) may be smaller than Gal(f/Q) if R_n meets the splitting field \u2014 dictionary must track base change carefully.",
+      "Cannot assign Nielsen class C_3^4 to an arbitrary BJ seed just from split-Frob histograms without geometric construction."
+    ],
+    "one_line": "YES as a type-dictionary after monodromy identification; NO as a literal equality Nielsen class = Frob class without geometry."
+  },
+  "framework": {
+    "nielsen_label": {
+      "definition": "An r-tuple C=(C_1,...,C_r) of conjugacy classes in a finite group G \u2264 S_d (or abstract G with a permutation representation), such that there exist g_i \u2208 C_i with g_1...g_r=1 generating G (Nielsen / Hurwitz).",
+      "nature": "geometric \u2014 monodromy of a cover of P\u00b9\\{branch points}",
+      "values_in": "conjugacy classes of G_geom (geometric monodromy group)"
+    },
+    "gal_f_Rn": {
+      "definition": "For monic separable f \u2208 R_n[x], Gal(f/R_n) is Gal(K/R_n) where K is the splitting field of f over R_n, as a permutation group on the roots.",
+      "nature": "arithmetic \u2014 Aut of a Galois extension of number fields",
+      "values_in": "conjugacy classes of G_arith = Gal(f/R_n) \u2264 S_deg"
+    },
+    "split_frobenius": {
+      "definition": "A rational prime p that splits completely in R_n/Q, unramified in K/Q (or K/R_n). Then O_{R_n}/P \u2245 F_p for P|p, and Frob_P \u2208 Gal(K/R_n) is well-defined up to conjugacy; its cycle type on roots equals the factorisation type of f mod P \u2245 f mod p (after reducing a Z-model of f).",
+      "role": "Chebotarev dictionary over R_n, computable via F_p factorisation when p splits in R_n and f has a model reducing well."
+    },
+    "comparison_map": {
+      "geometric_to_arithmetic": "For a cover \u03c6: X\u2192P\u00b9 defined over R_n with geometric monodromy G_geom, and a fibre f = fibre polynomial at a non-branch R_n-point, G_geom \u21aa G_arith = Gal(f/R_n) \u2286 S_d (after identifying sheets with roots). Often equality after Hilbert specialisation (arithmetic monodromy = geometric).",
+      "nielsen_to_frob": "Nielsen classes label branch monodromy generators (loops around branch points). Frob classes label arithmetic primes. They are NOT the same loops: the dictionary identifies both as conjugacy classes in a common group G after specialisation, with cycle type as the coarse invariant.",
+      "cycle_type_bridge": "Coarse dictionary: conjugacy class \u21a6 cycle type in S_d. Nielsen C_i has cycle type \u03c4_i; Frob_p has cycle type = factorisation type of f mod p. Same G \u21d2 same possible types; Chebotarev predicts densities of Frob types from class sizes in G_arith."
+    }
+  },
+  "fine_vs_coarse": {
+    "coarse": {
+      "invariant": "cycle type in S_d",
+      "Nielsen": "class map C \u21a6 cycle type",
+      "Frob": "factorisation type of f mod p",
+      "match": "YES \u2014 standard, computable, used throughout the programme"
+    },
+    "fine": {
+      "invariant": "conjugacy class in G (e.g. 5A vs 5B in A5)",
+      "Nielsen": "full class in G_geom",
+      "Frob": "Artin symbol in Gal(K/R_n), not just cycle type",
+      "match": "POSSIBLE in principle via class field / resolvents, but split Frob cycle type alone does not separate same-cycle-type classes. Extra structure (e.g. action on resolvent rings, or Frobenius in extensions containing R_n) needed."
+    },
+    "5A_5B": "A5 has two classes of 5-cycles, fused in S5. Cycle type (5) is shared. Nielsen labels for (3A,3A,5A) vs (3A,3A,5B) require the fine distinction. Split-Frob factorisation type cannot choose 5A vs 5B by itself."
+  },
+  "base_change_caution": {
+    "flagship_over_Q": {
+      "f": "x^5 - 55x + 88",
+      "Gal_f_Q": "A5",
+      "note": "For f \u2208 Q[x] with Gal(f/Q)=A5, if the splitting field K is linearly disjoint from R_n over Q, then Gal(f/R_n) \u2245 Gal(f/Q) \u2245 A5. If K \u2229 R_n \u2260 Q, Gal(f/R_n) is a proper quotient / subgroup situation (actually [K R_n : R_n] = [K:K\u2229R_n], so Gal(f/R_n) \u2245 Gal(K/K\u2229R_n) may be smaller than A5)."
+    },
+    "disjointness_generic": "For typical A5 fields (disc not divisible by special primes of R_n only), K \u2229 R_n = Q for small n, so Gal(f/R_n)=A5 still. Always check compositum.",
+    "f_in_Rn_not_Q": "If f \u2208 R_n[x] \\ Q[x], Gal(f/R_n) is the native group; split Frob still labels its conjugacy classes via reductions. Nielsen labels require a cover over R_n whose fibre is f."
+  },
+  "demos": {
+    "5": {
+      "n": 5,
+      "f": "x^5 - 55x + 88",
+      "Gal_expected_Q": "A5",
+      "n_split_primes": 20,
+      "split_sample": [
+        11,
+        19,
+        29,
+        31,
+        41,
+        59,
+        61,
+        71,
+        79,
+        89,
+        101,
+        109,
+        131,
+        139,
+        149
+      ],
+      "frob_at_split": {
+        "primes_used": 19,
+        "patterns": {
+          "(5,)": 9,
+          "(1, 1, 3)": 6,
+          "(1, 2, 2)": 4
+        },
+        "examples": [
+          {
+            "p": 19,
+            "type": [
+              5
+            ]
+          },
+          {
+            "p": 29,
+            "type": [
+              5
+            ]
+          },
+          {
+            "p": 31,
+            "type": [
+              1,
+              1,
+              3
+            ]
+          },
+          {
+            "p": 41,
+            "type": [
+              1,
+              1,
+              3
+            ]
+          },
+          {
+            "p": 59,
+            "type": [
+              5
+            ]
+          },
+          {
+            "p": 61,
+            "type": [
+              5
+            ]
+          }
+        ]
+      },
+      "frob_at_control": {
+        "primes_used": 24,
+        "patterns": {
+          "(5,)": 10,
+          "(1, 1, 3)": 9,
+          "(1, 2, 2)": 4,
+          "(1, 1, 1, 1, 1)": 1
+        },
+        "examples": [
+          {
+            "p": 3,
+            "type": [
+              5
+            ]
+          },
+          {
+            "p": 7,
+            "type": [
+              5
+            ]
+          },
+          {
+            "p": 13,
+            "type": [
+              1,
+              1,
+              3
+            ]
+          },
+          {
+            "p": 17,
+            "type": [
+              1,
+              2,
+              2
+            ]
+          },
+          {
+            "p": 23,
+            "type": [
+              1,
+              2,
+              2
+            ]
+          },
+          {
+            "p": 37,
+            "type": [
+              1,
+              1,
+              3
+            ]
+          }
+        ]
+      },
+      "a5_nielsen_cycle_dictionary": {
+        "(1,1,1,1,1)": {
+          "A5_class": "id",
+          "Nielsen_role": "not a branch class (trivial)",
+          "class_size": 1
+        },
+        "(1,2,2)": {
+          "A5_class": "2A (double transposition)",
+          "Nielsen_role": "possible branch class (e.g. in (2A,3A,5A))",
+          "class_size": 15
+        },
+        "(1,1,3)": {
+          "A5_class": "3A (3-cycle)",
+          "Nielsen_role": "ternary branch class C_3 / 3A \u2014 central to 3A^4, (3A,3A,5A)",
+          "class_size": 20
+        },
+        "(5,)": {
+          "A5_class": "5A/5B (5-cycles; two classes, same cycle type)",
+          "Nielsen_role": "period / 5-cycle branch class; 5A vs 5B not split by cycle type",
+          "class_size": "12+12=24"
+        }
+      },
+      "observed_split_Frob_as_Nielsen_types": {
+        "(5,)": {
+          "count": 9,
+          "A5_class": "5A/5B (5-cycles; two classes, same cycle type)",
+          "Nielsen_role": "period / 5-cycle branch class; 5A vs 5B not split by cycle type",
+          "class_size": "12+12=24"
+        },
+        "(1, 1, 3)": {
+          "count": 6,
+          "A5_class": "3A (3-cycle)",
+          "Nielsen_role": "ternary branch class C_3 / 3A \u2014 central to 3A^4, (3A,3A,5A)",
+          "class_size": 20
+        },
+        "(1, 2, 2)": {
+          "count": 4,
+          "A5_class": "2A (double transposition)",
+          "Nielsen_role": "possible branch class (e.g. in (2A,3A,5A))",
+          "class_size": 15
+        }
+      },
+      "dictionary_works_coarsely": true,
+      "note": "Cycle types of split Frob on the flagship match A5 class cycle types (3,1,1), (5), (2,2,1), id \u2014 the same types that index Nielsen classes for A5 covers. Fine Nielsen labels (5A vs 5B) are NOT determined by cycle type alone; need roots of unity / class field refinements."
+    },
+    "7": {
+      "n": 7,
+      "f": "x^5 - 55x + 88",
+      "Gal_expected_Q": "A5",
+      "n_split_primes": 13,
+      "split_sample": [
+        13,
+        29,
+        41,
+        43,
+        71,
+        83,
+        97,
+        113,
+        127,
+        139,
+        167,
+        181,
+        197
+      ],
+      "frob_at_split": {
+        "primes_used": 13,
+        "patterns": {
+          "(1, 1, 3)": 5,
+          "(5,)": 5,
+          "(1, 2, 2)": 2,
+          "(1, 1, 1, 1, 1)": 1
+        },
+        "examples": [
+          {
+            "p": 13,
+            "type": [
+              1,
+              1,
+              3
+            ]
+          },
+          {
+            "p": 29,
+            "type": [
+              5
+            ]
+          },
+          {
+            "p": 41,
+            "type": [
+              1,
+              1,
+              3
+            ]
+          },
+          {
+            "p": 43,
+            "type": [
+              5
+            ]
+          },
+          {
+            "p": 71,
+            "type": [
+              1,
+              2,
+              2
+            ]
+          },
+          {
+            "p": 83,
+            "type": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      "frob_at_control": {
+        "primes_used": 30,
+        "patterns": {
+          "(5,)": 14,
+          "(1, 1, 3)": 10,
+          "(1, 2, 2)": 6
+        },
+        "examples": [
+          {
+            "p": 3,
+            "type": [
+              5
+            ]
+          },
+          {
+            "p": 7,
+            "type": [
+              5
+            ]
+          },
+          {
+            "p": 17,
+            "type": [
+              1,
+              2,
+              2
+            ]
+          },
+          {
+            "p": 19,
+            "type": [
+              5
+            ]
+          },
+          {
+            "p": 23,
+            "type": [
+              1,
+              2,
+              2
+            ]
+          },
+          {
+            "p": 31,
+            "type": [
+              1,
+              1,
+              3
+            ]
+          }
+        ]
+      },
+      "a5_nielsen_cycle_dictionary": {
+        "(1,1,1,1,1)": {
+          "A5_class": "id",
+          "Nielsen_role": "not a branch class (trivial)",
+          "class_size": 1
+        },
+        "(1,2,2)": {
+          "A5_class": "2A (double transposition)",
+          "Nielsen_role": "possible branch class (e.g. in (2A,3A,5A))",
+          "class_size": 15
+        },
+        "(1,1,3)": {
+          "A5_class": "3A (3-cycle)",
+          "Nielsen_role": "ternary branch class C_3 / 3A \u2014 central to 3A^4, (3A,3A,5A)",
+          "class_size": 20
+        },
+        "(5,)": {
+          "A5_class": "5A/5B (5-cycles; two classes, same cycle type)",
+          "Nielsen_role": "period / 5-cycle branch class; 5A vs 5B not split by cycle type",
+          "class_size": "12+12=24"
+        }
+      },
+      "observed_split_Frob_as_Nielsen_types": {
+        "(1, 1, 3)": {
+          "count": 5,
+          "A5_class": "3A (3-cycle)",
+          "Nielsen_role": "ternary branch class C_3 / 3A \u2014 central to 3A^4, (3A,3A,5A)",
+          "class_size": 20
+        },
+        "(5,)": {
+          "count": 5,
+          "A5_class": "5A/5B (5-cycles; two classes, same cycle type)",
+          "Nielsen_role": "period / 5-cycle branch class; 5A vs 5B not split by cycle type",
+          "class_size": "12+12=24"
+        },
+        "(1, 2, 2)": {
+          "count": 2,
+          "A5_class": "2A (double transposition)",
+          "Nielsen_role": "possible branch class (e.g. in (2A,3A,5A))",
+          "class_size": 15
+        },
+        "(1, 1, 1, 1, 1)": {
+          "count": 1,
+          "A5_class": "id",
+          "Nielsen_role": "not a branch class (trivial)",
+          "class_size": 1
+        }
+      },
+      "dictionary_works_coarsely": true,
+      "note": "Cycle types of split Frob on the flagship match A5 class cycle types (3,1,1), (5), (2,2,1), id \u2014 the same types that index Nielsen classes for A5 covers. Fine Nielsen labels (5A vs 5B) are NOT determined by cycle type alone; need roots of unity / class field refinements."
+    },
+    "11": {
+      "n": 11,
+      "f": "x^5 - 55x + 88",
+      "Gal_expected_Q": "A5",
+      "n_split_primes": 8,
+      "split_sample": [
+        23,
+        43,
+        67,
+        89,
+        109,
+        131,
+        197,
+        199
+      ],
+      "frob_at_split": {
+        "primes_used": 8,
+        "patterns": {
+          "(1, 2, 2)": 3,
+          "(1, 1, 3)": 3,
+          "(5,)": 2
+        },
+        "examples": [
+          {
+            "p": 23,
+            "type": [
+              1,
+              2,
+              2
+            ]
+          },
+          {
+            "p": 43,
+            "type": [
+              5
+            ]
+          },
+          {
+            "p": 67,
+            "type": [
+              1,
+              2,
+              2
+            ]
+          },
+          {
+            "p": 89,
+            "type": [
+              1,
+              1,
+              3
+            ]
+          },
+          {
+            "p": 109,
+            "type": [
+              1,
+              1,
+              3
+            ]
+          },
+          {
+            "p": 131,
+            "type": [
+              1,
+              2,
+              2
+            ]
+          }
+        ]
+      },
+      "frob_at_control": {
+        "primes_used": 30,
+        "patterns": {
+          "(5,)": 15,
+          "(1, 1, 3)": 10,
+          "(1, 2, 2)": 4,
+          "(1, 1, 1, 1, 1)": 1
+        },
+        "examples": [
+          {
+            "p": 3,
+            "type": [
+              5
+            ]
+          },
+          {
+            "p": 7,
+            "type": [
+              5
+            ]
+          },
+          {
+            "p": 13,
+            "type": [
+              1,
+              1,
+              3
+            ]
+          },
+          {
+            "p": 17,
+            "type": [
+              1,
+              2,
+              2
+            ]
+          },
+          {
+            "p": 19,
+            "type": [
+              5
+            ]
+          },
+          {
+            "p": 29,
+            "type": [
+              5
+            ]
+          }
+        ]
+      },
+      "a5_nielsen_cycle_dictionary": {
+        "(1,1,1,1,1)": {
+          "A5_class": "id",
+          "Nielsen_role": "not a branch class (trivial)",
+          "class_size": 1
+        },
+        "(1,2,2)": {
+          "A5_class": "2A (double transposition)",
+          "Nielsen_role": "possible branch class (e.g. in (2A,3A,5A))",
+          "class_size": 15
+        },
+        "(1,1,3)": {
+          "A5_class": "3A (3-cycle)",
+          "Nielsen_role": "ternary branch class C_3 / 3A \u2014 central to 3A^4, (3A,3A,5A)",
+          "class_size": 20
+        },
+        "(5,)": {
+          "A5_class": "5A/5B (5-cycles; two classes, same cycle type)",
+          "Nielsen_role": "period / 5-cycle branch class; 5A vs 5B not split by cycle type",
+          "class_size": "12+12=24"
+        }
+      },
+      "observed_split_Frob_as_Nielsen_types": {
+        "(1, 2, 2)": {
+          "count": 3,
+          "A5_class": "2A (double transposition)",
+          "Nielsen_role": "possible branch class (e.g. in (2A,3A,5A))",
+          "class_size": 15
+        },
+        "(1, 1, 3)": {
+          "count": 3,
+          "A5_class": "3A (3-cycle)",
+          "Nielsen_role": "ternary branch class C_3 / 3A \u2014 central to 3A^4, (3A,3A,5A)",
+          "class_size": 20
+        },
+        "(5,)": {
+          "count": 2,
+          "A5_class": "5A/5B (5-cycles; two classes, same cycle type)",
+          "Nielsen_role": "period / 5-cycle branch class; 5A vs 5B not split by cycle type",
+          "class_size": "12+12=24"
+        }
+      },
+      "dictionary_works_coarsely": true,
+      "note": "Cycle types of split Frob on the flagship match A5 class cycle types (3,1,1), (5), (2,2,1), id \u2014 the same types that index Nielsen classes for A5 covers. Fine Nielsen labels (5A vs 5B) are NOT determined by cycle type alone; need roots of unity / class field refinements."
+    },
+    "15": {
+      "n": 15,
+      "f": "x^5 - 55x + 88",
+      "Gal_expected_Q": "A5",
+      "n_split_primes": 9,
+      "split_sample": [
+        29,
+        31,
+        59,
+        61,
+        89,
+        149,
+        151,
+        179,
+        181
+      ],
+      "frob_at_split": {
+        "primes_used": 9,
+        "patterns": {
+          "(5,)": 5,
+          "(1, 1, 3)": 3,
+          "(1, 2, 2)": 1
+        },
+        "examples": [
+          {
+            "p": 29,
+            "type": [
+              5
+            ]
+          },
+          {
+            "p": 31,
+            "type": [
+              1,
+              1,
+              3
+            ]
+          },
+          {
+            "p": 59,
+            "type": [
+              5
+            ]
+          },
+          {
+            "p": 61,
+            "type": [
+              5
+            ]
+          },
+          {
+            "p": 89,
+            "type": [
+              1,
+              1,
+              3
+            ]
+          },
+          {
+            "p": 149,
+            "type": [
+              1,
+              1,
+              3
+            ]
+          }
+        ]
+      },
+      "frob_at_control": {
+        "primes_used": 30,
+        "patterns": {
+          "(5,)": 13,
+          "(1, 1, 3)": 9,
+          "(1, 2, 2)": 7,
+          "(1, 1, 1, 1, 1)": 1
+        },
+        "examples": [
+          {
+            "p": 3,
+            "type": [
+              5
+            ]
+          },
+          {
+            "p": 7,
+            "type": [
+              5
+            ]
+          },
+          {
+            "p": 13,
+            "type": [
+              1,
+              1,
+              3
+            ]
+          },
+          {
+            "p": 17,
+            "type": [
+              1,
+              2,
+              2
+            ]
+          },
+          {
+            "p": 19,
+            "type": [
+              5
+            ]
+          },
+          {
+            "p": 23,
+            "type": [
+              1,
+              2,
+              2
+            ]
+          }
+        ]
+      },
+      "a5_nielsen_cycle_dictionary": {
+        "(1,1,1,1,1)": {
+          "A5_class": "id",
+          "Nielsen_role": "not a branch class (trivial)",
+          "class_size": 1
+        },
+        "(1,2,2)": {
+          "A5_class": "2A (double transposition)",
+          "Nielsen_role": "possible branch class (e.g. in (2A,3A,5A))",
+          "class_size": 15
+        },
+        "(1,1,3)": {
+          "A5_class": "3A (3-cycle)",
+          "Nielsen_role": "ternary branch class C_3 / 3A \u2014 central to 3A^4, (3A,3A,5A)",
+          "class_size": 20
+        },
+        "(5,)": {
+          "A5_class": "5A/5B (5-cycles; two classes, same cycle type)",
+          "Nielsen_role": "period / 5-cycle branch class; 5A vs 5B not split by cycle type",
+          "class_size": "12+12=24"
+        }
+      },
+      "observed_split_Frob_as_Nielsen_types": {
+        "(5,)": {
+          "count": 5,
+          "A5_class": "5A/5B (5-cycles; two classes, same cycle type)",
+          "Nielsen_role": "period / 5-cycle branch class; 5A vs 5B not split by cycle type",
+          "class_size": "12+12=24"
+        },
+        "(1, 1, 3)": {
+          "count": 3,
+          "A5_class": "3A (3-cycle)",
+          "Nielsen_role": "ternary branch class C_3 / 3A \u2014 central to 3A^4, (3A,3A,5A)",
+          "class_size": 20
+        },
+        "(1, 2, 2)": {
+          "count": 1,
+          "A5_class": "2A (double transposition)",
+          "Nielsen_role": "possible branch class (e.g. in (2A,3A,5A))",
+          "class_size": 15
+        }
+      },
+      "dictionary_works_coarsely": true,
+      "note": "Cycle types of split Frob on the flagship match A5 class cycle types (3,1,1), (5), (2,2,1), id \u2014 the same types that index Nielsen classes for A5 covers. Fine Nielsen labels (5A vs 5B) are NOT determined by cycle type alone; need roots of unity / class field refinements."
+    }
+  },
+  "types_seen_at_split": [
+    "(1, 1, 1, 1, 1)",
+    "(1, 1, 3)",
+    "(1, 2, 2)",
+    "(5,)"
+  ]
+}

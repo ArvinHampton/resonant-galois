@@ -1,30 +1,111 @@
-# Resolution Status
+# RESOLUTION BUILD — closing the gap
 
-## Generative Experiment
-Finished. Explicit A₅ and A₆ polynomials obtained from ternary-matrix templates + square-discriminant filter. Pure-even multi-k arithmetic theory completed.
+## Programme position (locked)
 
-## Conceptual Gap
-We possess a reliable empirical generator and a finished arithmetic organisation of pure-even A₅ families. We do not yet possess a theorem that the ternary / HQCC structure forces alternating monodromy.
+> The **arithmetic** side of the resolution criteria now rests on **proved identities**
+> for an infinite family whose coefficients are visibly **HQCC-lattice**.
+> The **geometric cover** remains the **principal open problem**.
 
-## Three Criteria for Resolution
+Ledger: **`THEOREMS.md`**. HQCC seed definition: **`HQCC_SEED.md`**.
 
-1. **Canonical algebraic/geometric object**  
-   A cover, representation, or family canonically attached to HQCC / resonant data whose monodromy is proved to be alternating.
+## What a full resolution still requires (geometry)
 
-2. **Axioms on structural matrices**  
-   A short list of axioms extracted from the ternary structure that *prove* (rather than select for) square discriminant + presence of 3-cycles.
+1. **Canonical cover** (or moduli family) from HQCC/resonant *branch* data
+   with **proved** alternating geometric monodromy — not only arithmetic specialisations.
+2. (Optional strengthening) axioms on full structural \(T_n\) forcing disc² outside BJ embed.
+3. (Optional) sign character for unrestricted monodromy representations.
 
-3. **Sign-character theorem**  
-   A ternary/HQCC invariant that forces the sign character of the monodromy to be trivial (or equal to a fixed model character).
+Experiment (catalogues of \(A_5/A_6\)) remains necessary evidence and regression.
+Arithmetic theorems: **`THEOREMS.md`**, `THEOREM_ATTACK.md`, `HQCC_STRICT.md`.
 
-All three remain open. The experimental and arithmetic pipelines sit strictly below them.
+## Build status
 
-## Evenness Obstruction (documented)
-Base structural matrices already satisfy the ternary / companion shape yet have non-square discriminant:
-- Base M (degree 5): Gal = S₅
-- Base T₆ (degree 6): Gal ≈ S₄ × C₂
+| Step | Role |
+|------|------|
+| catalogue | Frozen A5/A6/D5 lists |
+| criterion1–3 | Exploratory scaffolds + rates |
+| **theorem_attack** | Thin-class lemmas + 1-param families + sign theorems |
 
-Any future axiom list must kill these counter-examples.
+Rebuild: `python build_all.py` or `python theorem_attack.py`.
 
-## Arithmetic progress toward Criterion 2/3
-The pure-even fixed-k construction and the homogenisation lemma supply infinite families on which evenness is an identity, not a filter. This is progress on the arithmetic side; it is not yet a structural necessity theorem for the full template class.
+## Experimental catalogues (engine room)
+
+- Unique **A5:** 36
+- Unique **A6:** 4
+- D5 near-misses (sample set): 7
+
+Details: `build/CATALOGUE.md`, `a5_brute_results/A6_T6.md`, `DEFORM_M.md`.
+
+## Criterion 1 — Canonical HQCC object
+
+Scaffold: Möbius/HQCC blocks, cubic resultants, BJ/near-rigid families.
+See `build/CRITERION1_HQCC.md`, **`THEOREM_ATTACK.md`**, **`HQCC_NATIVE.md`**, **`HQCC_STRICT.md`**.
+
+**Classical theorem class:** \(f_t=x^5+20t^4 x+16t^5\) — proved even; all tested
+specialisations Gal \(=A_5\) (seed not HQCC-primary).
+
+**HQCC-native theorem class (new):** strict HQCC lattice search found
+**12 non-classical** BJ seeds with Gal \(A_5\), e.g.
+
+- \(x^5 - 55x \pm 88\) (near punctures/ternary: \(88=61+27\))
+- \(x^5 + 95x \pm 76\), \(x^5 + 95x \pm 532\) (\(532=539-7\), period-adjacent)
+- \(x^5 - 100x \pm 400\), \(x^5 + 124x \pm 496\)
+
+Each admits the **same homogenised theorem**:
+\(\operatorname{disc}(x^5+\alpha t^4 x+\beta t^5)=t^{20}\operatorname{disc}(\mathrm{seed})\) square
+for all \(t\neq 0\). Homogenised families: **10/10 A5** on tested \(t\) (see `HQCC_STRICT.md`).
+
+**Arithmetic Crit 1:** settled at theorem grade for HQCC-lattice homogenised families.
+
+**Principal open (geometry):** monodromy of a cover built from HQCC *branch cycle types*
+(resultant cubics still prefer \(A_3\); BJ families are arithmetic, not geometric covers).
+
+## Criterion 2 — Axioms ⇒ disc² + 3-cycles
+
+Evenness obstruction documented (base \(M\), base \(T_6\)).
+Subclass rates: `build/CRITERION2_AXIOMS.md`. Thin-class theorems:
+`THEOREM_ATTACK.md`.
+
+**Partial advance (lemma):** on the BJ class \(x^5+ax+b\),
+disc \(=256a^5+3125b^4\); evenness ⇔ that integer is a square.
+Homogenised A5 seed is a 1-param **theorem class**.
+Self-adjoint / det±1 / ω-norm thin classes still have disc² rate \(\sim 1\%\) or all-reducible.
+
+**Gap remaining:** no axiom list proved to force disc² for all structural \(T_n\) matrices.
+
+## Criterion 3 — Sign character
+
+Correlations: det(M), ternary weight vs disc² — `build/CRITERION3_SIGN.md`.
+
+**Partial advance:** Crit 3 **solved on BJ thin class** and on the homogenised
+A5 family (closed-form / proved square disc). Full T5 lattice still open
+(best empirical invariants rate ≪ 1).
+
+**Gap remaining:** no ternary invariant implying trivial sign for *all* HQCC monodromy.
+
+## Pipeline (unchanged)
+
+```
+template → χ → irr / disc² / cycles → Gal ID on survivors
+```
+
+## Next mathematical moves (priority)
+
+1. ~~HQCC-native analogue of homogenised A5~~ — **done** (lattice BJ seeds + lemma 5–6; see `THEOREMS.md`).
+2. ~~T5 disc structure~~ — **partial**: BJ embed subclass of \(T_5\) contains all proved-even families; full \(D\) factored (~99 terms). See `T5_DISC_IDEAL.md`.
+3. Geometric HQCC branch-cycle cover (true Crit 1 geometry) — still open.
+4. Non-BJ thin class with \(D\equiv S^2\) identically — still open.
+5. Keep catalogues as **regression tests**.
+
+## Paths
+
+| Path | Content |
+|------|---------|
+| `resonant_galois/THEOREM_ATTACK.md` | Theorem-promotion results |
+| `resonant_galois/IMPLICATIONS.md` | Claims / non-claims map |
+| `resonant_galois/build/` | Regenerable criterion reports |
+| `a5_brute_results/` | Prior scan archives |
+| `resonant_galois/build_all.py` | Full rebuild entrypoint |
+| `resonant_galois/theorem_attack.py` | Criteria 1–3 theorem pass |
+
+Full implications map: **`IMPLICATIONS.md`**.

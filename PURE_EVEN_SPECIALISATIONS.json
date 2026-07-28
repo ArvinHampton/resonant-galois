@@ -1,0 +1,1980 @@
+{
+  "elapsed_s": 86.85,
+  "verdict": "Pure-even specialisations (86.85s). Z-pts=1728, irr=1728, even_fail=0, A5_checked=152; paths multi-k id=True; homogenisation all_even=True; contrast locked. PASS.",
+  "pass": true,
+  "totals": {
+    "n_integer_ab": 1728,
+    "n_irr": 1728,
+    "n_even_fail": 0,
+    "n_A5_checked": 152
+  },
+  "slices": {
+    "-4": {
+      "k": "-4",
+      "name": "LSW",
+      "n_integer_ab": 540,
+      "n_even_fail": 0,
+      "n_reducible": 0,
+      "n_irr": 540,
+      "n_gal_checked": 20,
+      "n_A5": 20,
+      "irr_rate": 1.0,
+      "a5_rate_checked": 1.0,
+      "A5_hits": [
+        {
+          "m": "-1/8",
+          "a": -3121,
+          "b": 12484,
+          "k": "-4",
+          "disc": 97157209181062144,
+          "status": "HIT_A5",
+          "poly": "x^5 + (-3121)x + (12484)"
+        },
+        {
+          "m": "1/8",
+          "a": -3121,
+          "b": 12484,
+          "k": "-4",
+          "disc": 97157209181062144,
+          "status": "HIT_A5",
+          "poly": "x^5 + (-3121)x + (12484)"
+        },
+        {
+          "m": "-1/4",
+          "a": -3109,
+          "b": 12436,
+          "k": "-4",
+          "disc": 382686230553235456,
+          "status": "HIT_A5",
+          "poly": "x^5 + (-3109)x + (12436)"
+        },
+        {
+          "m": "1/4",
+          "a": -3109,
+          "b": 12436,
+          "k": "-4",
+          "disc": 382686230553235456,
+          "status": "HIT_A5",
+          "poly": "x^5 + (-3109)x + (12436)"
+        },
+        {
+          "m": "-3/8",
+          "a": -3089,
+          "b": 12356,
+          "k": "-4",
+          "disc": 839100730708141056,
+          "status": "HIT_A5",
+          "poly": "x^5 + (-3089)x + (12356)"
+        },
+        {
+          "m": "3/8",
+          "a": -3089,
+          "b": 12356,
+          "k": "-4",
+          "disc": 839100730708141056,
+          "status": "HIT_A5",
+          "poly": "x^5 + (-3089)x + (12356)"
+        },
+        {
+          "m": "-1/2",
+          "a": -3061,
+          "b": 12244,
+          "k": "-4",
+          "disc": 1438378747786706944,
+          "status": "HIT_A5",
+          "poly": "x^5 + (-3061)x + (12244)"
+        },
+        {
+          "m": "1/2",
+          "a": -3061,
+          "b": 12244,
+          "k": "-4",
+          "disc": 1438378747786706944,
+          "status": "HIT_A5",
+          "poly": "x^5 + (-3061)x + (12244)"
+        },
+        {
+          "m": "-5/8",
+          "a": -3025,
+          "b": 12100,
+          "k": "-4",
+          "disc": 2143588810000000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (-3025)x + (12100)"
+        },
+        {
+          "m": "5/8",
+          "a": -3025,
+          "b": 12100,
+          "k": "-4",
+          "disc": 2143588810000000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (-3025)x + (12100)"
+        },
+        {
+          "m": "-3/4",
+          "a": -2981,
+          "b": 11924,
+          "k": "-4",
+          "disc": 2911054669418041344,
+          "status": "HIT_A5",
+          "poly": "x^5 + (-2981)x + (11924)"
+        },
+        {
+          "m": "3/4",
+          "a": -2981,
+          "b": 11924,
+          "k": "-4",
+          "disc": 2911054669418041344,
+          "status": "HIT_A5",
+          "poly": "x^5 + (-2981)x + (11924)"
+        }
+      ],
+      "catalogue_seeds": [
+        [
+          -100,
+          400
+        ],
+        [
+          124,
+          -496
+        ],
+        [
+          -209,
+          836
+        ]
+      ]
+    },
+    "4": {
+      "k": "4",
+      "name": "LSW_flip",
+      "n_integer_ab": 540,
+      "n_even_fail": 0,
+      "n_reducible": 0,
+      "n_irr": 540,
+      "n_gal_checked": 20,
+      "n_A5": 20,
+      "irr_rate": 1.0,
+      "a5_rate_checked": 1.0,
+      "A5_hits": [
+        {
+          "m": "-1/8",
+          "a": -3121,
+          "b": -12484,
+          "k": "4",
+          "disc": 97157209181062144,
+          "status": "HIT_A5",
+          "poly": "x^5 + (-3121)x + (-12484)"
+        },
+        {
+          "m": "1/8",
+          "a": -3121,
+          "b": -12484,
+          "k": "4",
+          "disc": 97157209181062144,
+          "status": "HIT_A5",
+          "poly": "x^5 + (-3121)x + (-12484)"
+        },
+        {
+          "m": "-1/4",
+          "a": -3109,
+          "b": -12436,
+          "k": "4",
+          "disc": 382686230553235456,
+          "status": "HIT_A5",
+          "poly": "x^5 + (-3109)x + (-12436)"
+        },
+        {
+          "m": "1/4",
+          "a": -3109,
+          "b": -12436,
+          "k": "4",
+          "disc": 382686230553235456,
+          "status": "HIT_A5",
+          "poly": "x^5 + (-3109)x + (-12436)"
+        },
+        {
+          "m": "-3/8",
+          "a": -3089,
+          "b": -12356,
+          "k": "4",
+          "disc": 839100730708141056,
+          "status": "HIT_A5",
+          "poly": "x^5 + (-3089)x + (-12356)"
+        },
+        {
+          "m": "3/8",
+          "a": -3089,
+          "b": -12356,
+          "k": "4",
+          "disc": 839100730708141056,
+          "status": "HIT_A5",
+          "poly": "x^5 + (-3089)x + (-12356)"
+        },
+        {
+          "m": "-1/2",
+          "a": -3061,
+          "b": -12244,
+          "k": "4",
+          "disc": 1438378747786706944,
+          "status": "HIT_A5",
+          "poly": "x^5 + (-3061)x + (-12244)"
+        },
+        {
+          "m": "1/2",
+          "a": -3061,
+          "b": -12244,
+          "k": "4",
+          "disc": 1438378747786706944,
+          "status": "HIT_A5",
+          "poly": "x^5 + (-3061)x + (-12244)"
+        },
+        {
+          "m": "-5/8",
+          "a": -3025,
+          "b": -12100,
+          "k": "4",
+          "disc": 2143588810000000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (-3025)x + (-12100)"
+        },
+        {
+          "m": "5/8",
+          "a": -3025,
+          "b": -12100,
+          "k": "4",
+          "disc": 2143588810000000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (-3025)x + (-12100)"
+        },
+        {
+          "m": "-3/4",
+          "a": -2981,
+          "b": -11924,
+          "k": "4",
+          "disc": 2911054669418041344,
+          "status": "HIT_A5",
+          "poly": "x^5 + (-2981)x + (-11924)"
+        },
+        {
+          "m": "3/4",
+          "a": -2981,
+          "b": -11924,
+          "k": "4",
+          "disc": 2911054669418041344,
+          "status": "HIT_A5",
+          "poly": "x^5 + (-2981)x + (-11924)"
+        }
+      ],
+      "catalogue_seeds": [
+        [
+          -100,
+          -400
+        ],
+        [
+          124,
+          496
+        ]
+      ]
+    },
+    "-8/5": {
+      "k": "-8/5",
+      "name": "flagship",
+      "n_integer_ab": 108,
+      "n_even_fail": 0,
+      "n_reducible": 0,
+      "n_irr": 108,
+      "n_gal_checked": 20,
+      "n_A5": 18,
+      "irr_rate": 1.0,
+      "a5_rate_checked": 0.9,
+      "A5_hits": [
+        {
+          "m": "-5/4",
+          "a": 320,
+          "b": -512,
+          "k": "-8/5",
+          "disc": 1073741824000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (320)x + (-512)"
+        },
+        {
+          "m": "5/4",
+          "a": 320,
+          "b": -512,
+          "k": "-8/5",
+          "disc": 1073741824000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (320)x + (-512)"
+        },
+        {
+          "m": "-15/8",
+          "a": 820,
+          "b": -1312,
+          "k": "-8/5",
+          "disc": 104168853504000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (820)x + (-1312)"
+        },
+        {
+          "m": "15/8",
+          "a": 820,
+          "b": -1312,
+          "k": "-8/5",
+          "disc": 104168853504000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (820)x + (-1312)"
+        },
+        {
+          "m": "-5/2",
+          "a": 1520,
+          "b": -2432,
+          "k": "-8/5",
+          "disc": 2186423566336000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (1520)x + (-2432)"
+        },
+        {
+          "m": "5/2",
+          "a": 1520,
+          "b": -2432,
+          "k": "-8/5",
+          "disc": 2186423566336000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (1520)x + (-2432)"
+        },
+        {
+          "m": "-25/8",
+          "a": 2420,
+          "b": -3872,
+          "k": "-8/5",
+          "disc": 21950349414400000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (2420)x + (-3872)"
+        },
+        {
+          "m": "25/8",
+          "a": 2420,
+          "b": -3872,
+          "k": "-8/5",
+          "disc": 21950349414400000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (2420)x + (-3872)"
+        },
+        {
+          "m": "-15/4",
+          "a": 3520,
+          "b": -5632,
+          "k": "-8/5",
+          "disc": 141485886406656000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (3520)x + (-5632)"
+        },
+        {
+          "m": "15/4",
+          "a": 3520,
+          "b": -5632,
+          "k": "-8/5",
+          "disc": 141485886406656000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (3520)x + (-5632)"
+        },
+        {
+          "m": "-35/8",
+          "a": 4820,
+          "b": -7712,
+          "k": "-8/5",
+          "disc": 677055387602944000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (4820)x + (-7712)"
+        },
+        {
+          "m": "35/8",
+          "a": 4820,
+          "b": -7712,
+          "k": "-8/5",
+          "disc": 677055387602944000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (4820)x + (-7712)"
+        }
+      ],
+      "catalogue_seeds": [
+        [
+          -55,
+          88
+        ],
+        [
+          145,
+          -232
+        ],
+        [
+          320,
+          -512
+        ],
+        [
+          1145,
+          -1832
+        ]
+      ]
+    },
+    "8/5": {
+      "k": "8/5",
+      "name": "flagship_flip",
+      "n_integer_ab": 108,
+      "n_even_fail": 0,
+      "n_reducible": 0,
+      "n_irr": 108,
+      "n_gal_checked": 20,
+      "n_A5": 18,
+      "irr_rate": 1.0,
+      "a5_rate_checked": 0.9,
+      "A5_hits": [
+        {
+          "m": "-5/4",
+          "a": 320,
+          "b": 512,
+          "k": "8/5",
+          "disc": 1073741824000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (320)x + (512)"
+        },
+        {
+          "m": "5/4",
+          "a": 320,
+          "b": 512,
+          "k": "8/5",
+          "disc": 1073741824000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (320)x + (512)"
+        },
+        {
+          "m": "-15/8",
+          "a": 820,
+          "b": 1312,
+          "k": "8/5",
+          "disc": 104168853504000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (820)x + (1312)"
+        },
+        {
+          "m": "15/8",
+          "a": 820,
+          "b": 1312,
+          "k": "8/5",
+          "disc": 104168853504000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (820)x + (1312)"
+        },
+        {
+          "m": "-5/2",
+          "a": 1520,
+          "b": 2432,
+          "k": "8/5",
+          "disc": 2186423566336000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (1520)x + (2432)"
+        },
+        {
+          "m": "5/2",
+          "a": 1520,
+          "b": 2432,
+          "k": "8/5",
+          "disc": 2186423566336000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (1520)x + (2432)"
+        },
+        {
+          "m": "-25/8",
+          "a": 2420,
+          "b": 3872,
+          "k": "8/5",
+          "disc": 21950349414400000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (2420)x + (3872)"
+        },
+        {
+          "m": "25/8",
+          "a": 2420,
+          "b": 3872,
+          "k": "8/5",
+          "disc": 21950349414400000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (2420)x + (3872)"
+        },
+        {
+          "m": "-15/4",
+          "a": 3520,
+          "b": 5632,
+          "k": "8/5",
+          "disc": 141485886406656000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (3520)x + (5632)"
+        },
+        {
+          "m": "15/4",
+          "a": 3520,
+          "b": 5632,
+          "k": "8/5",
+          "disc": 141485886406656000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (3520)x + (5632)"
+        },
+        {
+          "m": "-35/8",
+          "a": 4820,
+          "b": 7712,
+          "k": "8/5",
+          "disc": 677055387602944000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (4820)x + (7712)"
+        },
+        {
+          "m": "35/8",
+          "a": 4820,
+          "b": 7712,
+          "k": "8/5",
+          "disc": 677055387602944000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (4820)x + (7712)"
+        }
+      ],
+      "catalogue_seeds": [
+        [
+          -55,
+          -88
+        ],
+        [
+          145,
+          232
+        ]
+      ]
+    },
+    "4/5": {
+      "k": "4/5",
+      "name": "classical",
+      "n_integer_ab": 108,
+      "n_even_fail": 0,
+      "n_reducible": 0,
+      "n_irr": 108,
+      "n_gal_checked": 20,
+      "n_A5": 20,
+      "irr_rate": 1.0,
+      "a5_rate_checked": 1.0,
+      "A5_hits": [
+        {
+          "m": "-5/8",
+          "a": 95,
+          "b": 76,
+          "k": "4/5",
+          "disc": 2085136000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (95)x + (76)"
+        },
+        {
+          "m": "5/8",
+          "a": 95,
+          "b": 76,
+          "k": "4/5",
+          "disc": 2085136000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (95)x + (76)"
+        },
+        {
+          "m": "-5/4",
+          "a": 395,
+          "b": 316,
+          "k": "4/5",
+          "disc": 2492805184000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (395)x + (316)"
+        },
+        {
+          "m": "5/4",
+          "a": 395,
+          "b": 316,
+          "k": "4/5",
+          "disc": 2492805184000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (395)x + (316)"
+        },
+        {
+          "m": "-15/8",
+          "a": 895,
+          "b": 716,
+          "k": "4/5",
+          "disc": 147834098064000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (895)x + (716)"
+        },
+        {
+          "m": "15/8",
+          "a": 895,
+          "b": 716,
+          "k": "4/5",
+          "disc": 147834098064000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (895)x + (716)"
+        },
+        {
+          "m": "-5/2",
+          "a": 1595,
+          "b": 1276,
+          "k": "4/5",
+          "disc": 2650957086976000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (1595)x + (1276)"
+        },
+        {
+          "m": "5/2",
+          "a": 1595,
+          "b": 1276,
+          "k": "4/5",
+          "disc": 2650957086976000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (1595)x + (1276)"
+        },
+        {
+          "m": "-25/8",
+          "a": 2495,
+          "b": 1996,
+          "k": "4/5",
+          "disc": 24800599200400000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (2495)x + (1996)"
+        },
+        {
+          "m": "25/8",
+          "a": 2495,
+          "b": 1996,
+          "k": "4/5",
+          "disc": 24800599200400000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (2495)x + (1996)"
+        },
+        {
+          "m": "-15/4",
+          "a": 3595,
+          "b": 2876,
+          "k": "4/5",
+          "disc": 153935237100096000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (3595)x + (2876)"
+        },
+        {
+          "m": "15/4",
+          "a": 3595,
+          "b": 2876,
+          "k": "4/5",
+          "disc": 153935237100096000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (3595)x + (2876)"
+        }
+      ],
+      "catalogue_seeds": [
+        [
+          20,
+          16
+        ],
+        [
+          95,
+          76
+        ],
+        [
+          220,
+          176
+        ]
+      ]
+    },
+    "-4/5": {
+      "k": "-4/5",
+      "name": "classical_flip",
+      "n_integer_ab": 108,
+      "n_even_fail": 0,
+      "n_reducible": 0,
+      "n_irr": 108,
+      "n_gal_checked": 20,
+      "n_A5": 20,
+      "irr_rate": 1.0,
+      "a5_rate_checked": 1.0,
+      "A5_hits": [
+        {
+          "m": "-5/8",
+          "a": 95,
+          "b": -76,
+          "k": "-4/5",
+          "disc": 2085136000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (95)x + (-76)"
+        },
+        {
+          "m": "5/8",
+          "a": 95,
+          "b": -76,
+          "k": "-4/5",
+          "disc": 2085136000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (95)x + (-76)"
+        },
+        {
+          "m": "-5/4",
+          "a": 395,
+          "b": -316,
+          "k": "-4/5",
+          "disc": 2492805184000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (395)x + (-316)"
+        },
+        {
+          "m": "5/4",
+          "a": 395,
+          "b": -316,
+          "k": "-4/5",
+          "disc": 2492805184000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (395)x + (-316)"
+        },
+        {
+          "m": "-15/8",
+          "a": 895,
+          "b": -716,
+          "k": "-4/5",
+          "disc": 147834098064000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (895)x + (-716)"
+        },
+        {
+          "m": "15/8",
+          "a": 895,
+          "b": -716,
+          "k": "-4/5",
+          "disc": 147834098064000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (895)x + (-716)"
+        },
+        {
+          "m": "-5/2",
+          "a": 1595,
+          "b": -1276,
+          "k": "-4/5",
+          "disc": 2650957086976000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (1595)x + (-1276)"
+        },
+        {
+          "m": "5/2",
+          "a": 1595,
+          "b": -1276,
+          "k": "-4/5",
+          "disc": 2650957086976000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (1595)x + (-1276)"
+        },
+        {
+          "m": "-25/8",
+          "a": 2495,
+          "b": -1996,
+          "k": "-4/5",
+          "disc": 24800599200400000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (2495)x + (-1996)"
+        },
+        {
+          "m": "25/8",
+          "a": 2495,
+          "b": -1996,
+          "k": "-4/5",
+          "disc": 24800599200400000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (2495)x + (-1996)"
+        },
+        {
+          "m": "-15/4",
+          "a": 3595,
+          "b": -2876,
+          "k": "-4/5",
+          "disc": 153935237100096000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (3595)x + (-2876)"
+        },
+        {
+          "m": "15/4",
+          "a": 3595,
+          "b": -2876,
+          "k": "-4/5",
+          "disc": 153935237100096000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (3595)x + (-2876)"
+        }
+      ],
+      "catalogue_seeds": [
+        [
+          20,
+          -16
+        ],
+        [
+          95,
+          -76
+        ]
+      ]
+    },
+    "-12/5": {
+      "k": "-12/5",
+      "name": "s12",
+      "n_integer_ab": 108,
+      "n_even_fail": 0,
+      "n_reducible": 0,
+      "n_irr": 108,
+      "n_gal_checked": 20,
+      "n_A5": 18,
+      "irr_rate": 1.0,
+      "a5_rate_checked": 0.9,
+      "A5_hits": [
+        {
+          "m": "-5/8",
+          "a": -305,
+          "b": 732,
+          "k": "-12/5",
+          "disc": 221533456000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (-305)x + (732)"
+        },
+        {
+          "m": "5/8",
+          "a": -305,
+          "b": 732,
+          "k": "-12/5",
+          "disc": 221533456000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (-305)x + (732)"
+        },
+        {
+          "m": "-15/8",
+          "a": 495,
+          "b": -1188,
+          "k": "-12/5",
+          "disc": 13832582544000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (495)x + (-1188)"
+        },
+        {
+          "m": "15/8",
+          "a": 495,
+          "b": -1188,
+          "k": "-12/5",
+          "disc": 13832582544000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (495)x + (-1188)"
+        },
+        {
+          "m": "-5/2",
+          "a": 1195,
+          "b": -2868,
+          "k": "-12/5",
+          "disc": 835279012096000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (1195)x + (-2868)"
+        },
+        {
+          "m": "5/2",
+          "a": 1195,
+          "b": -2868,
+          "k": "-12/5",
+          "disc": 835279012096000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (1195)x + (-2868)"
+        },
+        {
+          "m": "-25/8",
+          "a": 2095,
+          "b": -5028,
+          "k": "-12/5",
+          "disc": 12328665888400000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (2095)x + (-5028)"
+        },
+        {
+          "m": "25/8",
+          "a": 2095,
+          "b": -5028,
+          "k": "-12/5",
+          "disc": 12328665888400000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (2095)x + (-5028)"
+        },
+        {
+          "m": "-15/4",
+          "a": 3195,
+          "b": -7668,
+          "k": "-12/5",
+          "disc": 96034198487616000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (3195)x + (-7668)"
+        },
+        {
+          "m": "15/4",
+          "a": 3195,
+          "b": -7668,
+          "k": "-12/5",
+          "disc": 96034198487616000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (3195)x + (-7668)"
+        },
+        {
+          "m": "-35/8",
+          "a": 4495,
+          "b": -10788,
+          "k": "-12/5",
+          "disc": 512100063418384000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (4495)x + (-10788)"
+        },
+        {
+          "m": "35/8",
+          "a": 4495,
+          "b": -10788,
+          "k": "-12/5",
+          "disc": 512100063418384000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (4495)x + (-10788)"
+        }
+      ],
+      "catalogue_seeds": [
+        [
+          -180,
+          432
+        ],
+        [
+          220,
+          -528
+        ]
+      ]
+    },
+    "12/5": {
+      "k": "12/5",
+      "name": "s12_flip",
+      "n_integer_ab": 108,
+      "n_even_fail": 0,
+      "n_reducible": 0,
+      "n_irr": 108,
+      "n_gal_checked": 20,
+      "n_A5": 18,
+      "irr_rate": 1.0,
+      "a5_rate_checked": 0.9,
+      "A5_hits": [
+        {
+          "m": "-5/8",
+          "a": -305,
+          "b": -732,
+          "k": "12/5",
+          "disc": 221533456000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (-305)x + (-732)"
+        },
+        {
+          "m": "5/8",
+          "a": -305,
+          "b": -732,
+          "k": "12/5",
+          "disc": 221533456000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (-305)x + (-732)"
+        },
+        {
+          "m": "-15/8",
+          "a": 495,
+          "b": 1188,
+          "k": "12/5",
+          "disc": 13832582544000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (495)x + (1188)"
+        },
+        {
+          "m": "15/8",
+          "a": 495,
+          "b": 1188,
+          "k": "12/5",
+          "disc": 13832582544000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (495)x + (1188)"
+        },
+        {
+          "m": "-5/2",
+          "a": 1195,
+          "b": 2868,
+          "k": "12/5",
+          "disc": 835279012096000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (1195)x + (2868)"
+        },
+        {
+          "m": "5/2",
+          "a": 1195,
+          "b": 2868,
+          "k": "12/5",
+          "disc": 835279012096000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (1195)x + (2868)"
+        },
+        {
+          "m": "-25/8",
+          "a": 2095,
+          "b": 5028,
+          "k": "12/5",
+          "disc": 12328665888400000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (2095)x + (5028)"
+        },
+        {
+          "m": "25/8",
+          "a": 2095,
+          "b": 5028,
+          "k": "12/5",
+          "disc": 12328665888400000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (2095)x + (5028)"
+        },
+        {
+          "m": "-15/4",
+          "a": 3195,
+          "b": 7668,
+          "k": "12/5",
+          "disc": 96034198487616000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (3195)x + (7668)"
+        },
+        {
+          "m": "15/4",
+          "a": 3195,
+          "b": 7668,
+          "k": "12/5",
+          "disc": 96034198487616000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (3195)x + (7668)"
+        },
+        {
+          "m": "-35/8",
+          "a": 4495,
+          "b": 10788,
+          "k": "12/5",
+          "disc": 512100063418384000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (4495)x + (10788)"
+        },
+        {
+          "m": "35/8",
+          "a": 4495,
+          "b": 10788,
+          "k": "12/5",
+          "disc": 512100063418384000000,
+          "status": "HIT_A5",
+          "poly": "x^5 + (4495)x + (10788)"
+        }
+      ],
+      "catalogue_seeds": [
+        [
+          -180,
+          -432
+        ],
+        [
+          220,
+          528
+        ]
+      ]
+    }
+  },
+  "paths": {
+    "flag_classical": {
+      "disc_identity": true,
+      "hist": {
+        "even_Z": 4,
+        "irr": 3,
+        "HIT_A5": 3,
+        "non_Z": 27,
+        "reducible": 1
+      },
+      "catalogue_k_hit": [
+        "-8/5",
+        "-4/5",
+        "4/5"
+      ],
+      "multi_catalogue_k": true,
+      "A5_hits": [
+        {
+          "u": "0",
+          "m": "5/16",
+          "k": "-8/5",
+          "a": -55,
+          "b": 88,
+          "status": "HIT_A5"
+        },
+        {
+          "u": "1/3",
+          "m": "5/16",
+          "k": "-4/5",
+          "a": 20,
+          "b": -16,
+          "status": "HIT_A5"
+        },
+        {
+          "u": "1",
+          "m": "5/16",
+          "k": "4/5",
+          "a": 20,
+          "b": 16,
+          "status": "HIT_A5"
+        }
+      ]
+    },
+    "flag_lsw": {
+      "disc_identity": true,
+      "hist": {
+        "even_Z": 2,
+        "irr": 2,
+        "HIT_A5": 2,
+        "non_Z": 29
+      },
+      "catalogue_k_hit": [
+        "-4",
+        "-8/5"
+      ],
+      "multi_catalogue_k": true,
+      "A5_hits": [
+        {
+          "u": "0",
+          "m": "5/16",
+          "k": "-8/5",
+          "a": -55,
+          "b": 88,
+          "status": "HIT_A5"
+        },
+        {
+          "u": "1",
+          "m": "55/16",
+          "k": "-4",
+          "a": -100,
+          "b": 400,
+          "status": "HIT_A5"
+        }
+      ]
+    },
+    "classical_lsw": {
+      "disc_identity": true,
+      "hist": {
+        "even_Z": 3,
+        "irr": 3,
+        "HIT_A5": 3,
+        "non_Z": 28
+      },
+      "catalogue_k_hit": [
+        "-4",
+        "-8/5",
+        "4/5"
+      ],
+      "multi_catalogue_k": true,
+      "A5_hits": [
+        {
+          "u": "0",
+          "m": "5/16",
+          "k": "4/5",
+          "a": 20,
+          "b": 16,
+          "status": "HIT_A5"
+        },
+        {
+          "u": "1/2",
+          "m": "15/8",
+          "k": "-8/5",
+          "a": 820,
+          "b": -1312,
+          "status": "HIT_A5"
+        },
+        {
+          "u": "1",
+          "m": "55/16",
+          "k": "-4",
+          "a": -100,
+          "b": 400,
+          "status": "HIT_A5"
+        }
+      ]
+    }
+  },
+  "homogenisation": {
+    "lemma_proved": true,
+    "n_families": 16,
+    "all_sample_even": true,
+    "families": [
+      {
+        "seed": [
+          -100,
+          400
+        ],
+        "k": "-4",
+        "name": "LSW",
+        "seed_disc_square": true,
+        "family": "x^5 + (-100) t^4 x + (400) t^5",
+        "specialisations": [
+          {
+            "t": 2,
+            "a": -1600,
+            "b": 12800,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 3,
+            "a": -8100,
+            "b": 97200,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 5,
+            "a": -62500,
+            "b": 1250000,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 9,
+            "a": -656100,
+            "b": 23619600,
+            "disc_square": true,
+            "disc_eq_t20_seed": true
+          }
+        ],
+        "all_sample_even": true
+      },
+      {
+        "seed": [
+          124,
+          -496
+        ],
+        "k": "-4",
+        "name": "LSW",
+        "seed_disc_square": true,
+        "family": "x^5 + (124) t^4 x + (-496) t^5",
+        "specialisations": [
+          {
+            "t": 2,
+            "a": 1984,
+            "b": -15872,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 3,
+            "a": 10044,
+            "b": -120528,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 5,
+            "a": 77500,
+            "b": -1550000,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 9,
+            "a": 813564,
+            "b": -29288304,
+            "disc_square": true,
+            "disc_eq_t20_seed": true
+          }
+        ],
+        "all_sample_even": true
+      },
+      {
+        "seed": [
+          -100,
+          -400
+        ],
+        "k": "4",
+        "name": "LSW_flip",
+        "seed_disc_square": true,
+        "family": "x^5 + (-100) t^4 x + (-400) t^5",
+        "specialisations": [
+          {
+            "t": 2,
+            "a": -1600,
+            "b": -12800,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 3,
+            "a": -8100,
+            "b": -97200,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 5,
+            "a": -62500,
+            "b": -1250000,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 9,
+            "a": -656100,
+            "b": -23619600,
+            "disc_square": true,
+            "disc_eq_t20_seed": true
+          }
+        ],
+        "all_sample_even": true
+      },
+      {
+        "seed": [
+          124,
+          496
+        ],
+        "k": "4",
+        "name": "LSW_flip",
+        "seed_disc_square": true,
+        "family": "x^5 + (124) t^4 x + (496) t^5",
+        "specialisations": [
+          {
+            "t": 2,
+            "a": 1984,
+            "b": 15872,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 3,
+            "a": 10044,
+            "b": 120528,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 5,
+            "a": 77500,
+            "b": 1550000,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 9,
+            "a": 813564,
+            "b": 29288304,
+            "disc_square": true,
+            "disc_eq_t20_seed": true
+          }
+        ],
+        "all_sample_even": true
+      },
+      {
+        "seed": [
+          -55,
+          88
+        ],
+        "k": "-8/5",
+        "name": "flagship",
+        "seed_disc_square": true,
+        "family": "x^5 + (-55) t^4 x + (88) t^5",
+        "specialisations": [
+          {
+            "t": 2,
+            "a": -880,
+            "b": 2816,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 3,
+            "a": -4455,
+            "b": 21384,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 5,
+            "a": -34375,
+            "b": 275000,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 9,
+            "a": -360855,
+            "b": 5196312,
+            "disc_square": true,
+            "disc_eq_t20_seed": true
+          }
+        ],
+        "all_sample_even": true
+      },
+      {
+        "seed": [
+          145,
+          -232
+        ],
+        "k": "-8/5",
+        "name": "flagship",
+        "seed_disc_square": true,
+        "family": "x^5 + (145) t^4 x + (-232) t^5",
+        "specialisations": [
+          {
+            "t": 2,
+            "a": 2320,
+            "b": -7424,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 3,
+            "a": 11745,
+            "b": -56376,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 5,
+            "a": 90625,
+            "b": -725000,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 9,
+            "a": 951345,
+            "b": -13699368,
+            "disc_square": true,
+            "disc_eq_t20_seed": true
+          }
+        ],
+        "all_sample_even": true
+      },
+      {
+        "seed": [
+          -55,
+          -88
+        ],
+        "k": "8/5",
+        "name": "flagship_flip",
+        "seed_disc_square": true,
+        "family": "x^5 + (-55) t^4 x + (-88) t^5",
+        "specialisations": [
+          {
+            "t": 2,
+            "a": -880,
+            "b": -2816,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 3,
+            "a": -4455,
+            "b": -21384,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 5,
+            "a": -34375,
+            "b": -275000,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 9,
+            "a": -360855,
+            "b": -5196312,
+            "disc_square": true,
+            "disc_eq_t20_seed": true
+          }
+        ],
+        "all_sample_even": true
+      },
+      {
+        "seed": [
+          145,
+          232
+        ],
+        "k": "8/5",
+        "name": "flagship_flip",
+        "seed_disc_square": true,
+        "family": "x^5 + (145) t^4 x + (232) t^5",
+        "specialisations": [
+          {
+            "t": 2,
+            "a": 2320,
+            "b": 7424,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 3,
+            "a": 11745,
+            "b": 56376,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 5,
+            "a": 90625,
+            "b": 725000,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 9,
+            "a": 951345,
+            "b": 13699368,
+            "disc_square": true,
+            "disc_eq_t20_seed": true
+          }
+        ],
+        "all_sample_even": true
+      },
+      {
+        "seed": [
+          20,
+          16
+        ],
+        "k": "4/5",
+        "name": "classical",
+        "seed_disc_square": true,
+        "family": "x^5 + (20) t^4 x + (16) t^5",
+        "specialisations": [
+          {
+            "t": 2,
+            "a": 320,
+            "b": 512,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 3,
+            "a": 1620,
+            "b": 3888,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 5,
+            "a": 12500,
+            "b": 50000,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 9,
+            "a": 131220,
+            "b": 944784,
+            "disc_square": true,
+            "disc_eq_t20_seed": true
+          }
+        ],
+        "all_sample_even": true
+      },
+      {
+        "seed": [
+          95,
+          76
+        ],
+        "k": "4/5",
+        "name": "classical",
+        "seed_disc_square": true,
+        "family": "x^5 + (95) t^4 x + (76) t^5",
+        "specialisations": [
+          {
+            "t": 2,
+            "a": 1520,
+            "b": 2432,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 3,
+            "a": 7695,
+            "b": 18468,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 5,
+            "a": 59375,
+            "b": 237500,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 9,
+            "a": 623295,
+            "b": 4487724,
+            "disc_square": true,
+            "disc_eq_t20_seed": true
+          }
+        ],
+        "all_sample_even": true
+      },
+      {
+        "seed": [
+          20,
+          -16
+        ],
+        "k": "-4/5",
+        "name": "classical_flip",
+        "seed_disc_square": true,
+        "family": "x^5 + (20) t^4 x + (-16) t^5",
+        "specialisations": [
+          {
+            "t": 2,
+            "a": 320,
+            "b": -512,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 3,
+            "a": 1620,
+            "b": -3888,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 5,
+            "a": 12500,
+            "b": -50000,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 9,
+            "a": 131220,
+            "b": -944784,
+            "disc_square": true,
+            "disc_eq_t20_seed": true
+          }
+        ],
+        "all_sample_even": true
+      },
+      {
+        "seed": [
+          95,
+          -76
+        ],
+        "k": "-4/5",
+        "name": "classical_flip",
+        "seed_disc_square": true,
+        "family": "x^5 + (95) t^4 x + (-76) t^5",
+        "specialisations": [
+          {
+            "t": 2,
+            "a": 1520,
+            "b": -2432,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 3,
+            "a": 7695,
+            "b": -18468,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 5,
+            "a": 59375,
+            "b": -237500,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 9,
+            "a": 623295,
+            "b": -4487724,
+            "disc_square": true,
+            "disc_eq_t20_seed": true
+          }
+        ],
+        "all_sample_even": true
+      },
+      {
+        "seed": [
+          -180,
+          432
+        ],
+        "k": "-12/5",
+        "name": "s12",
+        "seed_disc_square": true,
+        "family": "x^5 + (-180) t^4 x + (432) t^5",
+        "specialisations": [
+          {
+            "t": 2,
+            "a": -2880,
+            "b": 13824,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 3,
+            "a": -14580,
+            "b": 104976,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 5,
+            "a": -112500,
+            "b": 1350000,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 9,
+            "a": -1180980,
+            "b": 25509168,
+            "disc_square": true,
+            "disc_eq_t20_seed": true
+          }
+        ],
+        "all_sample_even": true
+      },
+      {
+        "seed": [
+          220,
+          -528
+        ],
+        "k": "-12/5",
+        "name": "s12",
+        "seed_disc_square": true,
+        "family": "x^5 + (220) t^4 x + (-528) t^5",
+        "specialisations": [
+          {
+            "t": 2,
+            "a": 3520,
+            "b": -16896,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 3,
+            "a": 17820,
+            "b": -128304,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 5,
+            "a": 137500,
+            "b": -1650000,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 9,
+            "a": 1443420,
+            "b": -31177872,
+            "disc_square": true,
+            "disc_eq_t20_seed": true
+          }
+        ],
+        "all_sample_even": true
+      },
+      {
+        "seed": [
+          -180,
+          -432
+        ],
+        "k": "12/5",
+        "name": "s12_flip",
+        "seed_disc_square": true,
+        "family": "x^5 + (-180) t^4 x + (-432) t^5",
+        "specialisations": [
+          {
+            "t": 2,
+            "a": -2880,
+            "b": -13824,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 3,
+            "a": -14580,
+            "b": -104976,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 5,
+            "a": -112500,
+            "b": -1350000,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 9,
+            "a": -1180980,
+            "b": -25509168,
+            "disc_square": true,
+            "disc_eq_t20_seed": true
+          }
+        ],
+        "all_sample_even": true
+      },
+      {
+        "seed": [
+          220,
+          528
+        ],
+        "k": "12/5",
+        "name": "s12_flip",
+        "seed_disc_square": true,
+        "family": "x^5 + (220) t^4 x + (528) t^5",
+        "specialisations": [
+          {
+            "t": 2,
+            "a": 3520,
+            "b": 16896,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 3,
+            "a": 17820,
+            "b": 128304,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 5,
+            "a": 137500,
+            "b": 1650000,
+            "disc_square": true,
+            "disc_eq_t20_seed": true,
+            "status": "HIT_A5",
+            "irreducible": true
+          },
+          {
+            "t": 9,
+            "a": 1443420,
+            "b": 31177872,
+            "disc_square": true,
+            "disc_eq_t20_seed": true
+          }
+        ],
+        "all_sample_even": true
+      }
+    ]
+  },
+  "contrast": {
+    "pure_even_flagship": {
+      "poly": "x^5 - 55*x + 88",
+      "disc": 58564000000,
+      "disc_square": true,
+      "parity": "even",
+      "galois": "A5"
+    },
+    "rigid_t3": {
+      "poly": "monic(\u03c6-3) = y^5 - (5/2)y^4 + (5/3)y^3 - 1/2",
+      "disc": "3125/36",
+      "disc_pred_5_square": "3125/36",
+      "disc_square_in_Q": false,
+      "parity": "odd",
+      "galois": "S5",
+      "doc": "RIGID_FIBRE_T3.md"
+    },
+    "distinction": "pure-even resonant slices (disc identically square, Gal\u2264A5 / A5) \u2194 rigid \u03c6 fibres (disc=5\u00b7\u25a1, odd, typically S5)"
+  }
+}

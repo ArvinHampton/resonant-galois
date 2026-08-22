@@ -1,28 +1,20 @@
 # Resonant Galois Programme
 
 Structural constructions linking 9 Maths / HQCC ternary–flux arithmetic
-to explicit polynomials with Galois groups \(A_5\), \(A_6\), and a finished
-**pure-even multi-\(k\)** arithmetic centre.
+to explicit polynomials with Galois groups A₅, A₆, and a finished
+**pure-even multi-k** arithmetic centre.
 
 ## Citable centre (start here)
 
 | Doc | Role |
 |-----|------|
-| **`PURE_EVEN_MULTI_K.md`** | Theorem-grade pure-even multi-\(k\) core (HQCC as lattice only) |
+| **`PURE_EVEN_MULTI_K.md`** | Theorem-grade pure-even multi-k core (HQCC as lattice only) |
 | **`TERNARY_ORGANIZING_PRINCIPLE.md`** | Four-face structural reading of generative success |
 | **`THEOREMS.md`** | Full theorem ledger |
-| **`GEOMETRIC_MULTI_K_FUSION.md`** | **Principal open problem** — Nielsen \(A_5\) family + lattice Hilbert recovery |
-| **`G1_3A4_TRIPLE_ROOT.md`** | G1 first cut: 3A⁴ triple-root elim + multi-seed Hilbert (no geometric multi-\(k\) yet) |
-| **`G1_SEED_TSCHIRNHAUS.md`** | G1 seed-first + quadratic Tschirnhaus (still no catalogue locus hits) |
-| **`G1_PARAM_FIELD_RESOLVENT.md`** | G1 param-field resolvent: \(f\in K(s)[x]\), Norm, multi-sheet Hilbert re-test |
-| **`G2_NIELSEN_G0.md`** | G2: \(2A\,3A^3\) / \(2A^2\,3A^2\) covers + multi-seed Hilbert (no cat hits) |
-| **`G3_ENVELOPE_MONODROMY.md`** | G3: pure-even envelope monodromy = 5-cycle type on multi-k paths |
-| **`G3B_5A5B_BRAID_LIFT.md`** | G3b: **5A⁴** lock; braid orbit 1×10; lift inv +1 |
-| **`EXPLICIT_5A4_EQUATION.md`** | Explicit \(\mathbb{Q}(t)\) pure-even model + catalogue Hilbert |
-| **`EXPLICIT_5A4_REFINEMENTS.md`** | Common-base monodromy **5A²5B²** lift−1; genus; λ/j chart |
-| **`NECESSITY_THEOREM.md`** | Forced \(A_n\) from axioms — **open / paused** |
+| **`ARTIN_CONDUCTOR_RAMIFICATION.md`** | Disc factorisations, Frob types, persistent vs moving ramification |
+| **`NECESSITY_THEOREM.md`** | Forced Aₙ from axioms — **open / paused** |
 | **`REPORT.md`** | Status report |
-| **`RESEARCH_ROADMAP.md`** | Priorities after publish (Tier G first) |
+| **`RESEARCH_ROADMAP.md`** | Priorities |
 
 ## Review package (generative extensions)
 
@@ -50,6 +42,18 @@ python build_all.py
 
 Outputs land in `build/` (and optional mirror `../a5_brute_results/`).
 
+## Artin conductors and ramification (2026-08-22)
+
+Doc: **`ARTIN_CONDUCTOR_RAMIFICATION.md`**
+
+- All census fibres: disc perfect square (even image)
+- Flagship / PE persistent support: {2,5,11}
+- B-avatar persistent: {2,3}; moving primes from A and A²+84375
+- Mestre P_t: persistent {2,5,11}; moving from Q(t)
+- Frobenius samples: only even types (5), (3,1,1), (2,2,1), id — consistent with A₅
+- Full Swan/Artin exponents: not computed (support + Chebotarev proxy only)
+- Monoid M₀ organises parameters, not full conductor support
+
 ## Necessity criteria (open research — not the finished centre)
 
 | # | Criterion | Module | Doc |
@@ -61,7 +65,7 @@ Outputs land in `build/` (and optional mirror `../a5_brute_results/`).
 Master synthesis: **`RESOLUTION.md`**.  
 Theorem ledger: **`THEOREMS.md`**.  
 HQCC seed definition: **`HQCC_SEED.md`**.  
-Geometric: **`GEOMETRIC_COVER.md`**, genus of \(P\): **`GENUS_P_BLOWUP.md`**.  
+Geometric: **`GEOMETRIC_COVER.md`**, genus of P: **`GENUS_P_BLOWUP.md`**.  
 Arboreal probe: **`ARBOREAL_T3.md`**.
 
 ## Experimental engine (already validated)
@@ -87,3 +91,7 @@ resonant_galois/
 ```
 
 Prior heavy scans remain in `../a5_brute_results/` (DEFORM_M, A6_T6, fingerprints, …).
+
+## License
+
+MIT
